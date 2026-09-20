@@ -1,0 +1,36 @@
+name: dRep
+slug: drep
+version_used: null
+edam_topics: []
+evidence_spans:
+- we recommend using a tool like dRep (https://github.com/MrOlm/drep) to create the species-level clusters
+- 'All medium and high-quality
+
+  MAGs were dereplicated (at 95% ANI)
+
+  within their source category to select a single best representative
+
+  for a species-cluster using dRep'
+- All medium and high-quality MAGs were dereplicated (at 95% ANI) within their source category ... using dRep
+- Genome-wide clustering of prokaryotic genomes at 95% nucleotide similarity to define 786 species-level genome bins
+derived_from:
+- doi: 10.1038/s41467-024-49958-8
+  title: MAGinator enables accurate profiling of de novo MAGs with strain-level phylogenies
+- doi: 10.1038/s41587-020-00797-0
+  title: inStrain profiles population microdiversity from metagenomic data and sensitively detects shared microbial strains
+- doi: 10.1021/acs.est.5c03603
+  title: 'SourceApp: A Novel Metagenomic Source Tracking Tool that can Distinguish between Fecal Microbiomes Using Genome-To-Source Associations Benchmarked Against Mixed Input Spike-In Mesocosms'
+- doi: 10.1038/s41564-024-01751-5
+  title: A multi-kingdom collection of 33,804 reference genomes for the human vaginal microbiome
+source_repos:
+- https://github.com/MrOlm/drep
+- https://github.com/Russel88/MAGinator
+- https://github.com/MrOlm/instrain
+- https://github.com/bglindner/SourceApp
+- https://github.com/RChGO/VMGC
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/MrOlm/drep

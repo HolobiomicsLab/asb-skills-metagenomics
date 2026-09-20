@@ -1,0 +1,21 @@
+name: StrainPhlAn
+slug: strainphlan
+version_used: null
+edam_topics: []
+evidence_spans:
+- With StrainPhlAn, we are able to identify 2 mutually exclusive clusters, each representing a subspecies.
+- SynTracker outperformed MIDAS35 and StrainPhlAn36 and achieved a slightly better performance score than InStrain28 in terms of accuracy
+derived_from:
+- doi: 10.1038/s41467-024-49958-8
+  title: MAGinator enables accurate profiling of de novo MAGs with strain-level phylogenies
+- doi: 10.1038/s41587-024-02276-2
+  title: Strain tracking in complex microbiomes using synteny analysis reveals per-species modes of evolution
+source_repos:
+- https://github.com/Russel88/MAGinator
+- https://github.com/leylabmpi/SynTracker
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Russel88/MAGinator

@@ -1,0 +1,22 @@
+name: limma
+slug: limma
+version_used: null
+edam_topics: []
+evidence_spans:
+- BiocManager::install(c("limma", "fgsea", "clusterProfiler", "enrichplot", "DOSE", "pathview"))
+- limma voom (Ritchie et al. 2015)
+- Packages for bulk RNA-seq analysis include DESeq2, edgeR [23], and limma [24]
+derived_from:
+- doi: 10.1093/bioinformatics/btad470
+  title: 'ggpicrust2: an R package for PICRUSt2 predicted functional profile analysis and visualization'
+- doi: 10.1186/s12859-020-03577-4
+  title: 'NASQAR: a web-based platform for high-throughput sequencing data analysis and visualization'
+source_repos:
+- https://github.com/cafferychen777/ggpicrust2
+- https://github.com/nasqar/NASQAR
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/cafferychen777/ggpicrust2

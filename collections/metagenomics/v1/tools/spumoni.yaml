@@ -1,0 +1,21 @@
+name: SPUMONI
+slug: spumoni
+version_used: null
+edam_topics: []
+evidence_spans:
+- We present a novel method called SPUMONI, which enables rapid and accurate targeted sequencing using efficient pan-genome indexes.
+- Both sets of commands above will download the containers and run `spumoni` to print out the sub-commands
+- docker pull oma219/spumoni:latest
+- we developed SPUMONI
+- ./spumoni build -r human_genome.fa -M -P -m -o /path/to/index
+derived_from:
+- doi: 10.1016/j.isci.2021.102696
+  title: Pan-genomic matching statistics for targeted nanopore sequencing
+source_repos:
+- https://github.com/oma219/spumoni
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/oma219/spumoni

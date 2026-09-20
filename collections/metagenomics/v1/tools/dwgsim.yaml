@@ -1,0 +1,17 @@
+name: DWGSIM
+slug: dwgsim
+version_used: null
+edam_topics: []
+evidence_spans:
+- 140 complete mycobacterial assemblies
+derived_from:
+- doi: 10.1093/bioinformatics/btad728
+  title: 'Hostile: accurate decontamination of microbial host sequences'
+source_repos:
+- https://github.com/bede/hostile
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/bede/hostile

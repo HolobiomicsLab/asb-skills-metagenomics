@@ -1,0 +1,18 @@
+name: ARGextender
+slug: argextender
+version_used: null
+edam_topics: []
+evidence_spans:
+- we developed ARGextender to perform de novo assemblies around target sequences of interest
+- we created ARGextender to build genomic flanking regions around identified ARGs
+derived_from:
+- doi: 10.1093/bioinformatics/btae086
+  title: ARGprofiler—a pipeline for large-scale analysis of antimicrobial resistance genes and their flanking regions in metagenomic datasets
+source_repos:
+- https://github.com/genomicepidemiology/ARGprofiler
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/genomicepidemiology/ARGprofiler

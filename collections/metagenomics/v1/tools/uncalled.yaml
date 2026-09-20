@@ -1,0 +1,20 @@
+name: UNCALLED
+slug: uncalled
+version_used: null
+edam_topics: []
+evidence_spans:
+- We follow the similar PAF template used in [UNCALLED](https://github.com/skovaka/UNCALLED)
+- When compared to the state-of-the-art techniques, UNCALLED and Sigmap
+- We follow the similar PAF template used in [UNCALLED](https://github.com/skovaka/UNCALLED) and [Sigmap](https://github.com/haowenz/sigmap) to report the mapping information.
+derived_from:
+- doi: 10.1093/bioinformatics/btad272
+  title: 'RawHash: enabling fast and accurate real-time analysis of raw nanopore signals for large genomes'
+source_repos:
+- https://github.com/skovaka/UNCALLED
+- https://github.com/CMU-SAFARI/RawHash
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/skovaka/UNCALLED

@@ -1,0 +1,25 @@
+name: Biopython
+slug: biopython
+version_used: '1.80'
+edam_topics: []
+evidence_spans:
+- MOVIS is built using Python and additional libraries like Pandas [13], Numpy [14], Scikit-learn [15], Biopython [16], Gensim [17], Altair [18], and Streamlit.
+- MOVIS is built using Python and additional libraries like Pandas [13], Numpy [14], Scikit-learn [15], Biopython [16], Gensim [17]
+- calculate neighbor-joining (NJ) distances using the Python module Biopython (Cock et al. 2009) (v 1.80)
+derived_from:
+- doi: 10.1016/j.csbj.2022.02.012
+  title: 'MOVIS: A multi-omics software solution for multi-modal time-series clustering, embedding, and visualizing tasks'
+- doi: 10.1093/nar/gkx1321
+  title: 'PlasFlow: predicting plasmid sequences in metagenomic data using genome signatures'
+- doi: 10.1093/molbev/msae057
+  title: 'scalepopgen: Bioinformatic Workflow Resources Implemented in Nextflow for Comprehensive Population Genomic Analyses'
+source_repos:
+- https://github.com/AAnzel/MOVIS
+- https://github.com/smaegol/PlasFlow
+- https://github.com/Popgen48/scalepopgen
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/AAnzel/MOVIS

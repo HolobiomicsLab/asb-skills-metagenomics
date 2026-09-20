@@ -1,0 +1,17 @@
+name: PSICOV
+slug: psicov
+version_used: null
+edam_topics: []
+evidence_spans:
+- A well-known program that applies Graphical Lasso to contact prediction problems is PSICOV [4].
+derived_from:
+- doi: 10.1186/s12859-019-3190-x
+  title: 'DeepECA: an end-to-end learning framework for protein contact prediction from a multiple sequence alignment'
+source_repos:
+- https://github.com/tomiilab/DeepECA
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/tomiilab/DeepECA

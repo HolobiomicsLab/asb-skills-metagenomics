@@ -1,0 +1,2113 @@
+schema: asb-corpus/1.0
+collection: metagenomics
+version: 1
+summary:
+  total: 117
+  included: 117
+  hold: 0
+papers:
+- name: asbb_wave250_2026-09-01__coll_mmeta_cq
+  doi: 10.1002/sim.8940
+  title: 'Meta‐analysis methods for multiple related markers: Applications to microbiome studies with the results on multiple α‐diversity indices'
+  category: metagenomics
+  repo_url: https://github.com/hk1785/mMeta
+  status: included
+  wave: asbb_wave250_2026-09-01
+  access:
+    type: green-oa
+    license: null
+    is_oa: true
+    oa_status_raw: green
+    verified_on: '2026-08-25'
+    source_reuse: none
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: unknown
+  license_detection: unpaywall
+- name: asbb_wave250_2026-09-01__coll_flashweave_cq
+  doi: 10.1016/j.cels.2019.08.002
+  title: Rapid Inference of Direct Interactions in Large-Scale Ecological Networks from Heterogeneous Microbial Sequencing Data
+  category: metagenomics
+  repo_url: https://github.com/meringlab/FlashWeave.jl
+  status: included
+  wave: asbb_wave250_2026-09-01
+  access:
+    type: open-access
+    license: CC-BY-NC-ND-4.0
+    is_oa: true
+    oa_status_raw: hybrid
+    verified_on: '2026-08-25'
+    source_reuse: restricted
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: noncommercial
+  license_detection: unpaywall
+- name: asbb_wave250_2026-09-01__coll_metaminer_cq
+  doi: 10.1016/j.cels.2019.09.004
+  title: 'MetaMiner: A Scalable Peptidogenomics Approach for Discovery of Ribosomal Peptide Natural Products with Blind Modifications from Microbial Communities'
+  category: metagenomics
+  repo_url: https://github.com/mohimanilab/MetaMiner
+  status: included
+  wave: asbb_wave250_2026-09-01
+  access:
+    type: link-only
+    license: null
+    is_oa: true
+    oa_status_raw: bronze
+    verified_on: '2026-08-25'
+    source_reuse: none
+  license_subject: paper
+  license_tier: unknown
+  license_detection: unpaywall
+- name: asbb_wave250_2026-09-01__coll_luminate_cq
+  doi: 10.1016/j.cels.2020.05.006
+  title: Efficient and Accurate Inference of Mixed Microbial Population Trajectories from Longitudinal Count Data
+  category: metagenomics
+  repo_url: https://github.com/tyjo/luminate
+  status: included
+  wave: asbb_wave250_2026-09-01
+  access:
+    type: open-access
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: hybrid
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_wave250_2026-09-01__coll_ch_bin_cq
+  doi: 10.1016/j.compbiolchem.2022.107734
+  title: 'CH-Bin: A convex hull based approach for binning metagenomic contigs'
+  category: metagenomics
+  repo_url: https://github.com/kdsuneraavinash/CH-Bin
+  status: included
+  wave: asbb_wave250_2026-09-01
+  access:
+    type: open-access
+    license: CC-BY-NC-ND-4.0
+    is_oa: true
+    oa_status_raw: hybrid
+    verified_on: '2026-08-25'
+    source_reuse: restricted
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: noncommercial
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_hubdesign_cq
+  doi: 10.1016/j.crmeth.2021.100069
+  title: Probe design for simultaneous, targeted capture of diverse metagenomic targets
+  category: metagenomics
+  repo_url: https://github.com/zacherydickson/HUBDesign
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: open-access
+    license: CC-BY-NC-ND-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: restricted
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: noncommercial
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_movis_cq
+  doi: 10.1016/j.csbj.2022.02.012
+  title: 'MOVIS: A multi-omics software solution for multi-modal time-series clustering, embedding, and visualizing tasks'
+  category: metagenomics
+  repo_url: https://github.com/AAnzel/MOVIS
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_kemet_cq
+  doi: 10.1016/j.csbj.2022.03.015
+  title: KEMET – A python tool for KEGG Module evaluation and microbial genome annotation expansion
+  category: metagenomics
+  repo_url: https://github.com/Matteopaluh/KEMET
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: open-access
+    license: CC-BY-NC-ND-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: restricted
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: noncommercial
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_funomic_cq
+  doi: 10.1016/j.csbj.2022.07.010
+  title: 'FunOMIC: Pipeline with built-in fungal taxonomic and functional databases for human mycobiome profiling'
+  category: metagenomics
+  repo_url: https://github.com/ManichanhLab/FunOMIC
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: open-access
+    license: CC-BY-NC-ND-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: restricted
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: noncommercial
+  license_detection: unpaywall
+- name: asbb_wave250_2026-09-01__coll_spumoni_cq
+  doi: 10.1016/j.isci.2021.102696
+  title: Pan-genomic matching statistics for targeted nanopore sequencing
+  category: metagenomics
+  repo_url: https://github.com/oma219/spumoni
+  status: included
+  wave: asbb_wave250_2026-09-01
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_nf_rnaseqmetagen_cq
+  doi: 10.1016/j.medmic.2020.100011
+  title: 'nf-rnaSeqMetagen: A nextflow metagenomics pipeline for identifying and characterizing microbial sequences from RNA-seq data'
+  category: metagenomics
+  repo_url: https://github.com/phelelani/nf-rnaSeqMetagen
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: open-access
+    license: CC-BY-NC-ND-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: restricted
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: noncommercial
+  license_detection: unpaywall
+- name: asbb_wave250_2026-09-01__coll_vtwins_cq
+  doi: 10.1016/j.scib.2023.10.024
+  title: 'VTwins: inferring causative microbial features from metagenomic data of limited samples'
+  category: metagenomics
+  repo_url: https://github.com/mengqingren/VTwins
+  status: included
+  wave: asbb_wave250_2026-09-01
+  access:
+    type: open-access
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: hybrid
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_wave250_2026-09-01__coll_sourceapp_cq
+  doi: 10.1021/acs.est.5c03603
+  title: 'SourceApp: A Novel Metagenomic Source Tracking Tool that can Distinguish between Fecal Microbiomes Using Genome-To-Source Associations Benchmarked Against Mixed Input Spike-In Mesocosms'
+  category: metagenomics
+  repo_url: https://github.com/bglindner/SourceApp
+  status: included
+  wave: asbb_wave250_2026-09-01
+  access:
+    type: open-access
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: hybrid
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_wave250_2026-09-01__coll_abawaca_cq
+  doi: 10.1038/nature14486
+  title: Unusual biology across a group comprising more than 15% of domain Bacteria
+  category: metagenomics
+  repo_url: https://github.com/CK7/abawaca
+  status: included
+  wave: asbb_wave250_2026-09-01
+  access:
+    type: green-oa
+    license: null
+    is_oa: true
+    oa_status_raw: green
+    verified_on: '2026-08-25'
+    source_reuse: none
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: unknown
+  license_detection: unpaywall
+- name: asbb_wave250_2026-09-01__coll_picrust_cq
+  doi: 10.1038/nbt.2676
+  title: Predictive functional profiling of microbial communities using 16S rRNA marker gene sequences
+  category: metagenomics
+  repo_url: https://github.com/picrust/picrust
+  status: included
+  wave: asbb_wave250_2026-09-01
+  access:
+    type: green-oa
+    license: null
+    is_oa: true
+    oa_status_raw: green
+    verified_on: '2026-08-25'
+    source_reuse: none
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: unknown
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_mykrobe_parser_cq
+  doi: 10.1038/ncomms10063
+  title: Rapid antibiotic-resistance predictions from genome sequence data for Staphylococcus aureus and Mycobacterium tuberculosis
+  category: metagenomics
+  repo_url: https://github.com/phac-nml/mykrobe-parser
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_kaiju_cq
+  doi: 10.1038/ncomms11257
+  title: Fast and sensitive taxonomic classification for metagenomics with Kaiju
+  category: metagenomics
+  repo_url: https://github.com/bioinformatics-centre/kaiju
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_wave250_2026-09-01__coll_metagenomeseq_cq
+  doi: 10.1038/nmeth.2658
+  title: Differential abundance analysis for microbial marker-gene surveys
+  category: metagenomics
+  repo_url: https://github.com/HCBravoLab/metagenomeSeq
+  status: included
+  wave: asbb_wave250_2026-09-01
+  access:
+    type: green-oa
+    license: null
+    is_oa: true
+    oa_status_raw: green
+    verified_on: '2026-08-25'
+    source_reuse: none
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: unknown
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_linclust_cq
+  doi: 10.1038/s41467-018-04964-5
+  title: Clustering huge protein sequence sets in linear time
+  category: metagenomics
+  repo_url: https://github.com/soedinglab/mmseqs2
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_wave250_2026-09-01__coll_virmap_cq
+  doi: 10.1038/s41467-018-05658-8
+  title: Maximal viral information recovery from sequence data using VirMAP
+  category: metagenomics
+  repo_url: https://github.com/cmmr/VirMAP
+  status: included
+  wave: asbb_wave250_2026-09-01
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_wave250_2026-09-01__coll_sentinel_1_cq
+  doi: 10.1038/s41467-019-12737-x
+  title: Radar vision in the mapping of forest biodiversity from space
+  category: metagenomics
+  repo_url: https://github.com/So-YeonBae/Sentinel1-Biodiversity
+  status: included
+  wave: asbb_wave250_2026-09-01
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_wave250_2026-09-01__coll_virgo_cq
+  doi: 10.1038/s41467-020-14677-3
+  title: A comprehensive non-redundant gene catalog reveals extensive within-community intraspecies diversity in the human vagina
+  category: metagenomics
+  repo_url: https://github.com/ravel-lab/VIRGO
+  status: included
+  wave: asbb_wave250_2026-09-01
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_strainberry_cq
+  doi: 10.1038/s41467-021-24515-9
+  title: 'Strainberry: automated strain separation in low-complexity metagenomes using long reads'
+  category: metagenomics
+  repo_url: https://github.com/rvicedomini/strainberry
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_viralcc_cq
+  doi: 10.1038/s41467-023-35945-y
+  title: ViralCC retrieves complete viral genomes and virus-host pairs from metagenomic Hi-C data
+  category: metagenomics
+  repo_url: https://github.com/dyxstat/ViralCC
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave_2026-08-31__coll_maginator_cq
+  doi: 10.1038/s41467-024-49958-8
+  title: MAGinator enables accurate profiling of de novo MAGs with strain-level phylogenies
+  category: metagenomics
+  repo_url: https://github.com/Russel88/MAGinator
+  status: included
+  wave: asbb_subwave_2026-08-31
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_wave250_2026-09-01__coll_vaginal_microbial_genome_collection_vmgc_cq
+  doi: 10.1038/s41564-024-01751-5
+  title: A multi-kingdom collection of 33,804 reference genomes for the human vaginal microbiome
+  category: metagenomics
+  repo_url: https://github.com/RChGO/VMGC
+  status: included
+  wave: asbb_wave250_2026-09-01
+  access:
+    type: open-access
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: hybrid
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_wave250_2026-09-01__coll_instrain_cq
+  doi: 10.1038/s41587-020-00797-0
+  title: inStrain profiles population microdiversity from metagenomic data and sensitively detects shared microbial strains
+  category: metagenomics
+  repo_url: https://github.com/MrOlm/instrain
+  status: included
+  wave: asbb_wave250_2026-09-01
+  access:
+    type: green-oa
+    license: null
+    is_oa: true
+    oa_status_raw: green
+    verified_on: '2026-08-25'
+    source_reuse: none
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: unknown
+  license_detection: unpaywall
+- name: asbb_wave250_2026-09-01__coll_picrust2_cq
+  doi: 10.1038/s41587-020-0548-6
+  title: PICRUSt2 for prediction of metagenome functions
+  category: metagenomics
+  repo_url: https://github.com/picrust/picrust2
+  status: included
+  wave: asbb_wave250_2026-09-01
+  access:
+    type: green-oa
+    license: null
+    is_oa: true
+    oa_status_raw: green
+    verified_on: '2026-08-25'
+    source_reuse: none
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: unknown
+  license_detection: unpaywall
+- name: asbb_wave250_2026-09-01__coll_syntracker_cq
+  doi: 10.1038/s41587-024-02276-2
+  title: Strain tracking in complex microbiomes using synteny analysis reveals per-species modes of evolution
+  category: metagenomics
+  repo_url: https://github.com/leylabmpi/SynTracker
+  status: included
+  wave: asbb_wave250_2026-09-01
+  access:
+    type: open-access
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: hybrid
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_wave250_2026-09-01__coll_plass_cq
+  doi: 10.1038/s41592-019-0437-4
+  title: Protein-level assembly increases protein sequence recovery from metagenomic samples manyfold
+  category: metagenomics
+  repo_url: https://github.com/soedinglab/plass
+  status: included
+  wave: asbb_wave250_2026-09-01
+  access:
+    type: open-access
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: hybrid
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_lineagespot_cq
+  doi: 10.1038/s41598-022-06625-6
+  title: Detecting SARS-CoV-2 lineages and mutational load in municipal wastewater and a use-case in the metropolitan area of Thessaloniki, Greece
+  category: metagenomics
+  repo_url: https://github.com/BiodataAnalysisGroup/lineagespot
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_mixs_sa_cq
+  doi: 10.1038/s43705-022-00092-w
+  title: 'MIxS-SA: a MIxS extension defining the minimum information standard for sequence data from symbiont-associated micro-organisms'
+  category: metagenomics
+  repo_url: https://github.com/GenomicsStandardsConsortium/mixs
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_micca_cq
+  doi: 10.1038/srep09743
+  title: 'MICCA: a complete and accurate software for taxonomic profiling of metagenomic data'
+  category: metagenomics
+  repo_url: https://github.com/compmetagen/micca
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_viroprofiler_cq
+  doi: 10.1080/19490976.2023.2192522
+  title: 'ViroProfiler: a containerized bioinformatics pipeline for viral metagenomic data analysis'
+  category: metagenomics
+  repo_url: https://github.com/deng-lab/viroprofiler
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: open-access
+    license: CC-BY-NC-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: restricted
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: noncommercial
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_kmetashot_cq
+  doi: 10.1093/bib/bbae680
+  title: 'kMetaShot: a fast and reliable taxonomy classifier for metagenome-assembled genomes'
+  category: metagenomics
+  repo_url: https://github.com/gdefazio/kMetaShot
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave_2026-08-31__coll_cathai_cq
+  doi: 10.1093/bioadv/vbac040
+  title: 'CATHAI: cluster analysis tool for healthcare-associated infections'
+  category: metagenomics
+  repo_url: https://github.com/FordeGenomics/cathai
+  status: included
+  wave: asbb_subwave_2026-08-31
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_snekmer_cq
+  doi: 10.1093/bioadv/vbad005
+  title: 'Snekmer: a scalable pipeline for protein sequence fingerprinting based on amino acid recoding'
+  category: metagenomics
+  repo_url: https://github.com/PNNL-CompBio/Snekmer
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_baseless_cq
+  doi: 10.1093/bioadv/vbad017
+  title: 'baseLess: lightweight detection of sequences in raw MinION data'
+  category: metagenomics
+  repo_url: https://github.com/cvdelannoy/baseLess
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_longdat_cq
+  doi: 10.1093/bioadv/vbad063
+  title: 'LongDat: an R package for covariate-sensitive longitudinal analysis of high-dimensional data'
+  category: metagenomics
+  repo_url: https://github.com/CCY-dev/LongDat
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_pm_cnn_cq
+  doi: 10.1093/bioadv/vbae013
+  title: 'PM-CNN: microbiome status recognition and disease detection model based on phylogeny and multi-path neural network'
+  category: metagenomics
+  repo_url: https://github.com/qdu-bioinfo/PM_CNN
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_metaquad_cq
+  doi: 10.1093/bioadv/vbae030
+  title: 'MetaQuad: shared informative variants discovery in metagenomic samples'
+  category: metagenomics
+  repo_url: https://github.com/holab-hku/MetaQuad
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave_2026-08-31__coll_vuegen_cq
+  doi: 10.1093/bioadv/vbaf149
+  title: 'VueGen: automating the generation of scientific reports'
+  category: metagenomics
+  repo_url: https://github.com/Multiomics-Analytics-Group/vuegen
+  status: included
+  wave: asbb_subwave_2026-08-31
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_deeptaxa_cq
+  doi: 10.1093/bioadv/vbag166
+  title: 'DeepTaxa: a hybrid CNN-BERT framework for 16S rRNA taxonomic classification'
+  category: metagenomics
+  repo_url: https://github.com/systems-genomics-lab/deeptaxa
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_metacortex_cq
+  doi: 10.1093/bioinformatics/btad020
+  title: Capturing variation in metagenomic assembly graphs with MetaCortex
+  category: metagenomics
+  repo_url: https://github.com/SR-Martin/metacortex
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_rawhash_cq
+  doi: 10.1093/bioinformatics/btad272
+  title: 'RawHash: enabling fast and accurate real-time analysis of raw nanopore signals for large genomes'
+  category: metagenomics
+  repo_url: https://github.com/CMU-SAFARI/RawHash
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_stemsim_cq
+  doi: 10.1093/bioinformatics/btad302
+  title: 'STEMSIM: a simulator of within-strain short-term evolutionary mutations for longitudinal metagenomic data'
+  category: metagenomics
+  repo_url: https://github.com/BoyanZhou/STEMSim
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_fimpera_cq
+  doi: 10.1093/bioinformatics/btad305
+  title: 'fimpera: drastic improvement of Approximate Membership Query data-structures with counts'
+  category: metagenomics
+  repo_url: https://github.com/lrobidou/fimpera
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_plassembler_cq
+  doi: 10.1093/bioinformatics/btad409
+  title: 'Plassembler: an automated bacterial plasmid assembly tool'
+  category: metagenomics
+  repo_url: https://github.com/gbouras13/plassembler
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_ggpicrust2_cq
+  doi: 10.1093/bioinformatics/btad470
+  title: 'ggpicrust2: an R package for PICRUSt2 predicted functional profile analysis and visualization'
+  category: metagenomics
+  repo_url: https://github.com/cafferychen777/ggpicrust2
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_idelucs_cq
+  doi: 10.1093/bioinformatics/btad508
+  title: 'iDeLUCS: a deep learning interactive tool for alignment-free clustering of DNA sequences'
+  category: metagenomics
+  repo_url: https://github.com/Kari-Genomics-Lab/iDeLUCS
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_mbqtl_cq
+  doi: 10.1093/bioinformatics/btad565
+  title: 'mbQTL: an R/Bioconductor package for microbial quantitative trait loci (QTL) estimation'
+  category: metagenomics
+  repo_url: https://github.com/Mercedeh66/mbQTL
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_hostile_cq
+  doi: 10.1093/bioinformatics/btad728
+  title: 'Hostile: accurate decontamination of microbial host sequences'
+  category: metagenomics
+  repo_url: https://github.com/bede/hostile
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_argprofiler_cq
+  doi: 10.1093/bioinformatics/btae086
+  title: ARGprofiler—a pipeline for large-scale analysis of antimicrobial resistance genes and their flanking regions in metagenomic datasets
+  category: metagenomics
+  repo_url: https://github.com/genomicepidemiology/ARGprofiler
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_mapler_cq
+  doi: 10.1093/bioinformatics/btaf334
+  title: 'Mapler: a pipeline for assessing assembly quality in taxonomically rich metagenomes sequenced with HiFi reads'
+  category: metagenomics
+  repo_url: https://github.com/Nimauric/Mapler
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_patchwork_cq
+  doi: 10.1093/gbe/evad227
+  title: 'Patchwork: Alignment-Based Retrieval and Concatenation of Phylogenetic Markers from Genomic Data'
+  category: metagenomics
+  repo_url: https://github.com/fethalen/Patchwork
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_lmas_cq
+  doi: 10.1093/gigascience/giac122
+  title: 'LMAS: evaluating metagenomic short de novo assembly methods through defined communities'
+  category: metagenomics
+  repo_url: https://github.com/B-UMMI/LMAS
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_metalims_cq
+  doi: 10.1093/gigascience/gix025
+  title: MetaLIMS, a simple open-source laboratory information management system for small metagenomic labs
+  category: metagenomics
+  repo_url: https://github.com/cheinle/MetaLIMS
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_libra_cq
+  doi: 10.1093/gigascience/giy165
+  title: 'Libra: scalable k-mer–based tool for massive all-vs-all metagenome comparisons'
+  category: metagenomics
+  repo_url: https://github.com/iychoi/libra
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_lrtk_sim_cq
+  doi: 10.1093/gigascience/giz141
+  title: Assessment of human diploid genome assembly with 10x Linked-Reads data
+  category: metagenomics
+  repo_url: https://github.com/zhanglu295/LRTK-SIM
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_scalepopgen_cq
+  doi: 10.1093/molbev/msae057
+  title: 'scalepopgen: Bioinformatic Workflow Resources Implemented in Nextflow for Comprehensive Population Genomic Analyses'
+  category: metagenomics
+  repo_url: https://github.com/Popgen48/scalepopgen
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_metaplatanus_cq
+  doi: 10.1093/nar/gkab831
+  title: 'MetaPlatanus: a metagenome assembler that combines long-range sequence links and species-specific features'
+  category: metagenomics
+  repo_url: https://github.com/rkajitani/MetaPlatanus
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: open-access
+    license: CC-BY-NC-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: restricted
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: noncommercial
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_vrhyme_cq
+  doi: 10.1093/nar/gkac341
+  title: vRhyme enables binning of viral genomes from metagenomes
+  category: metagenomics
+  repo_url: https://github.com/AnantharamanLab/vRhyme
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: open-access
+    license: CC-BY-NC-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: restricted
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: noncommercial
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_strainxpress_cq
+  doi: 10.1093/nar/gkac543
+  title: 'StrainXpress: strain aware metagenome assembly from short reads'
+  category: metagenomics
+  repo_url: https://github.com/HaploKit/StrainXpress
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_webquast_cq
+  doi: 10.1093/nar/gkad406
+  title: 'WebQUAST: online evaluation of genome assemblies'
+  category: metagenomics
+  repo_url: https://github.com/ablab/quast
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_glimmer_mg_cq
+  doi: 10.1093/nar/gkr1067
+  title: Gene prediction with Glimmer for metagenomic sequences augmented by classification and clustering
+  category: metagenomics
+  repo_url: https://github.com/davek44/Glimmer-MG
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: open-access
+    license: CC-BY-NC-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: restricted
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: noncommercial
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_plasflow_cq
+  doi: 10.1093/nar/gkx1321
+  title: 'PlasFlow: predicting plasmid sequences in metagenomic data using genome signatures'
+  category: metagenomics
+  repo_url: https://github.com/smaegol/PlasFlow
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: open-access
+    license: CC-BY-NC-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: restricted
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: noncommercial
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_cafe_cq
+  doi: 10.1093/nar/gkx351
+  title: 'CAFE: aCcelerated Alignment-FrEe sequence analysis'
+  category: metagenomics
+  repo_url: https://github.com/younglululu/CAFE
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: open-access
+    license: CC-BY-NC-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: restricted
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: noncommercial
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_imkt_cq
+  doi: 10.1093/nar/gkz372
+  title: 'iMKT: the integrative McDonald and Kreitman test'
+  category: metagenomics
+  repo_url: https://github.com/BGD-UAB/iMKTData
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_deepmicrobes_cq
+  doi: 10.1093/nargab/lqaa009
+  title: 'DeepMicrobes: taxonomic classification for metagenomics with deep learning'
+  category: metagenomics
+  repo_url: https://github.com/MicrobeLab/DeepMicrobes
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: open-access
+    license: CC-BY-NC-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: restricted
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: noncommercial
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_cascollect_cq
+  doi: 10.1093/nargab/lqaa063
+  title: 'CasCollect: targeted assembly of CRISPR-associated operons from high-throughput sequencing data'
+  category: metagenomics
+  repo_url: https://github.com/sandialabs/CasCollect
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_camamed_cq
+  doi: 10.1093/nargab/lqaa107
+  title: 'CAMAMED: a pipeline for composition-aware mapping-based analysis of metagenomic data'
+  category: metagenomics
+  repo_url: https://github.com/mhnb/camamed
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: open-access
+    license: CC-BY-NC-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: restricted
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: noncommercial
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_genemark_hm_cq
+  doi: 10.1093/nargab/lqab047
+  title: 'GeneMark-HM: improving gene prediction in DNA sequences of human microbiome'
+  category: metagenomics
+  repo_url: https://github.com/GeneProbe/GeneMark-HM
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: open-access
+    license: CC-BY-NC-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: restricted
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: noncommercial
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_amat_cq
+  doi: 10.1093/nargab/lqab120
+  title: Adaptive and powerful microbiome multivariate association analysis via feature selection
+  category: metagenomics
+  repo_url: https://github.com/kzb193/AMAT
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: open-access
+    license: CC-BY-NC-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: restricted
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: noncommercial
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_nf_core_mag_cq
+  doi: 10.1093/nargab/lqac007
+  title: 'nf-core/mag: a best-practice pipeline for metagenome hybrid assembly and binning'
+  category: metagenomics
+  repo_url: https://github.com/nf-core/mag
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_omaru_cq
+  doi: 10.1093/nargab/lqac019
+  title: 'OMARU: a robust and multifaceted pipeline for metagenome-wide association study'
+  category: metagenomics
+  repo_url: https://github.com/toshi-kishikawa/OMARU
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: open-access
+    license: CC-BY-NC-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: restricted
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: noncommercial
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_nano2ngs_muta_cq
+  doi: 10.1093/nargab/lqac033
+  title: 'Nano2NGS-Muta: a framework for converting nanopore sequencing data to NGS-liked sequencing data for hotspot mutation detection'
+  category: metagenomics
+  repo_url: https://github.com/langjidong/Nano2NGS
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: open-access
+    license: CC-BY-NC-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: restricted
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: noncommercial
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_motulizer_cq
+  doi: 10.1093/nargab/lqac060
+  title: 'mOTUpan: a robust Bayesian approach to leverage metagenome-assembled genomes for core-genome estimation'
+  category: metagenomics
+  repo_url: https://github.com/moritzbuck/mOTUlizer
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_ribotaxa_cq
+  doi: 10.1093/nargab/lqac070
+  title: 'RiboTaxa: combined approaches for rRNA genes taxonomic resolution down to the species level from metagenomics data revealing novelties'
+  category: metagenomics
+  repo_url: https://github.com/oschakoory/RiboTaxa
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: open-access
+    license: CC-BY-NC-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: restricted
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: noncommercial
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_ganon_cq
+  doi: 10.1093/nargab/lqaf094
+  title: 'ganon2: up-to-date and scalable metagenomics analysis'
+  category: metagenomics
+  repo_url: https://github.com/pirovc/ganon_benchmark
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_chewbbaca_cq
+  doi: 10.1099/mgen.0.000166
+  title: 'chewBBACA: A complete suite for gene-by-gene schema creation and strain identification'
+  category: metagenomics
+  repo_url: https://github.com/B-UMMI/chewBBACA
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_disco_cq
+  doi: 10.1099/mgen.0.000603
+  title: 'DiSCo: a sequence-based type-specific predictor of Dsr-dependent dissimilatory sulphur metabolism in microbial data'
+  category: metagenomics
+  repo_url: https://github.com/Genome-Evolution-and-Ecology-Group-GEEG/DiSCo
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_palidis4_cq
+  doi: 10.1099/mgen.0.000917
+  title: 'Palidis: fast discovery of novel insertion sequences'
+  category: metagenomics
+  repo_url: https://github.com/blue-moon22/palidis4
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_virmine_2_0_cq
+  doi: 10.1128/mra.00107-22
+  title: 'virMine 2.0: Identifying Viral Sequences in Microbial Communities'
+  category: metagenomics
+  repo_url: https://github.com/putonti/virmine
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_traitar_cq
+  doi: 10.1128/msystems.00101-16
+  title: 'From Genomes to Phenotypes: Traitar, the Microbial Trait Analyzer'
+  category: metagenomics
+  repo_url: https://github.com/hzi-bifo/traitar
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_metafunprimer_cq
+  doi: 10.1128/msystems.00201-21
+  title: 'MetaFunPrimer: an Environment-Specific, High-Throughput Primer Design Tool for Improved Quantification of Target Genes'
+  category: metagenomics
+  repo_url: https://github.com/jialiu232/MetaFunPrimer_paper_info
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_hashseq_cq
+  doi: 10.1128/msystems.00697-21
+  title: 'HashSeq: a Simple, Scalable, and Conservative De Novo Variant Caller for 16S rRNA Gene Data Sets'
+  category: metagenomics
+  repo_url: https://github.com/FarnazFouladi/HashSeq
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_metaphage_cq
+  doi: 10.1128/msystems.00741-22
+  title: 'MetaPhage: an Automated Pipeline for Analyzing, Annotating, and Classifying Bacteriophages in Metagenomics Sequencing Data'
+  category: metagenomics
+  repo_url: https://github.com/MattiaPandolfoVR/MetaPhage
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_zebra_cq
+  doi: 10.1128/msystems.00758-22
+  title: 'Zebra: Static and Dynamic Genome Cover Thresholds with Overlapping References'
+  category: metagenomics
+  repo_url: https://github.com/biocore/zebra_filter
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_micone_cq
+  doi: 10.1128/msystems.00961-22
+  title: 'Inferring microbial co-occurrence networks from amplicon data: a systematic evaluation'
+  category: metagenomics
+  repo_url: https://github.com/segrelab/MiCoNE
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_stensl_cq
+  doi: 10.1128/msystems.00995-21
+  title: 'STENSL: Microbial Source Tracking with ENvironment SeLection'
+  category: metagenomics
+  repo_url: https://github.com/cozygene/FEAST
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_misurv_cq
+  doi: 10.1128/spectrum.05059-22
+  title: 'MiSurv: an Integrative Web Cloud Platform for User-Friendly Microbiome Data Analysis with Survival Responses'
+  category: metagenomics
+  repo_url: https://github.com/wg99526/MiSurvGit
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_shorah_cq
+  doi: 10.1186/1471-2105-12-119
+  title: 'ShoRAH: estimating the genetic diversity of a mixed sample from next-generation sequencing data'
+  category: metagenomics
+  repo_url: https://github.com/cbg-ethz/shorah
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_pandaseq_cq
+  doi: 10.1186/1471-2105-13-31
+  title: 'PANDAseq: paired-end assembler for illumina sequences'
+  category: metagenomics
+  repo_url: https://github.com/neufeld/pandaseq
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_pica_cq
+  doi: 10.1186/1471-2105-16-s14-s1
+  title: Prediction of microbial phenotypes based on comparative genomics
+  category: metagenomics
+  repo_url: https://github.com/univieCUBE/PICA
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_soapdenovo2_cq
+  doi: 10.1186/2047-217x-1-18
+  title: 'SOAPdenovo2: an empirically improved memory-efficient short-read de novo assembler'
+  category: metagenomics
+  repo_url: https://github.com/aquaskyline/SOAPdenovo2
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_copyrighter_cq
+  doi: 10.1186/2049-2618-2-11
+  title: 'CopyRighter: a rapid tool for improving the accuracy of microbial community profiles through lineage-specific gene copy number correction'
+  category: metagenomics
+  repo_url: https://github.com/fangly/AmpliCopyrighter
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_kraken_cq
+  doi: 10.1186/gb-2014-15-3-r46
+  title: 'Kraken: ultrafast metagenomic sequence classification using exact alignments'
+  category: metagenomics
+  repo_url: https://github.com/DerrickWood/kraken
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_samsa_cq
+  doi: 10.1186/s12859-016-1270-8
+  title: 'SAMSA: a comprehensive metatranscriptome analysis pipeline'
+  category: metagenomics
+  repo_url: https://github.com/transcript/SAMSA
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_micropie_cq
+  doi: 10.1186/s12859-016-1396-8
+  title: 'Microbial phenomics information extractor (MicroPIE): a natural language processing tool for the automated acquisition of prokaryotic phenotypic characters from text sources'
+  category: metagenomics
+  repo_url: https://github.com/biosemantics/micropie2
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_samsa2_cq
+  doi: 10.1186/s12859-018-2189-z
+  title: 'SAMSA2: a standalone metatranscriptome analysis pipeline'
+  category: metagenomics
+  repo_url: https://github.com/transcript/samsa2
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_metamicrobiomer_cq
+  doi: 10.1186/s12859-019-2744-2
+  title: 'metamicrobiomeR: an R package for analysis of microbiome relative abundance data using zero-inflated beta GAMLSS and meta-analysis across studies using random effects models'
+  category: metagenomics
+  repo_url: https://github.com/nhanhocu/metamicrobiomeR
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_tar_vir_cq
+  doi: 10.1186/s12859-019-2878-2
+  title: 'TAR-VIR: a pipeline for TARgeted VIRal strain reconstruction from metagenomic data'
+  category: metagenomics
+  repo_url: https://github.com/chjiao/TAR-VIR
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_ilmf_vh_cq
+  doi: 10.1186/s12859-019-3082-0
+  title: Predicting virus-host association by Kernelized logistic matrix factorization and similarity network fusion
+  category: metagenomics
+  repo_url: https://github.com/liudan111/ILMF-VH
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_deepeca_cq
+  doi: 10.1186/s12859-019-3190-x
+  title: 'DeepECA: an end-to-end learning framework for protein contact prediction from a multiple sequence alignment'
+  category: metagenomics
+  repo_url: https://github.com/tomiilab/DeepECA
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_mlst_f_cq
+  doi: 10.1186/s12859-019-3204-8
+  title: Deconvoluting the diversity of within-host pathogen strains in a multi-locus sequence typing framework
+  category: metagenomics
+  repo_url: https://github.com/WGS-TB/MLST
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_lemon_cq
+  doi: 10.1186/s12859-019-3301-8
+  title: 'LEMON: a method to construct the local strains at horizontal gene transfer sites in gut metagenomics'
+  category: metagenomics
+  repo_url: https://github.com/lichen2018/LEMON
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_nasqar_cq
+  doi: 10.1186/s12859-020-03577-4
+  title: 'NASQAR: a web-based platform for high-throughput sequencing data analysis and visualization'
+  category: metagenomics
+  repo_url: https://github.com/nasqar/NASQAR
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_ebwt2indel_cq
+  doi: 10.1186/s12859-020-03586-3
+  title: Variable-order reference-free variant discovery with the Burrows-Wheeler Transform
+  category: metagenomics
+  repo_url: https://github.com/nicolaprezza/ebwt2InDel
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_cdsnake_cq
+  doi: 10.1186/s12859-020-03591-6
+  title: 'CDSnake: Snakemake pipeline for retrieval of annotated OTUs from paired-end reads using CD-HIT utilities'
+  category: metagenomics
+  repo_url: https://github.com/ydkondratenko/cdsnake
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_lime_cq
+  doi: 10.1186/s12859-020-03628-w
+  title: Metagenomic analysis through the extended Burrows-Wheeler transform
+  category: metagenomics
+  repo_url: https://github.com/veronicaguerrini/LiME
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_microbvs_cq
+  doi: 10.1186/s12859-020-03640-0
+  title: 'MicroBVS: Dirichlet-tree multinomial regression models with Bayesian variable selection - an R package'
+  category: metagenomics
+  repo_url: https://github.com/mkoslovsky/MicroBVS
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_metalaffa_cq
+  doi: 10.1186/s12859-020-03815-9
+  title: 'MetaLAFFA: a flexible, end-to-end, distributed computing-compatible metagenomic functional annotation pipeline'
+  category: metagenomics
+  repo_url: https://github.com/borenstein-lab/MetaLAFFA
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_megar_cq
+  doi: 10.1186/s12859-020-03933-4
+  title: 'MegaR: an interactive R package for rapid sample classification and phenotype prediction using metagenome profiles and machine learning'
+  category: metagenomics
+  repo_url: https://github.com/BioHPC/MegaR
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_metacachespark_cq
+  doi: 10.1186/s12859-020-3429-6
+  title: A big data approach to metagenomics for all-food-sequencing
+  category: metagenomics
+  repo_url: https://github.com/jmabuin/MetaCacheSpark
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_contigextender_cq
+  doi: 10.1186/s12859-021-04038-2
+  title: 'ContigExtender: a new approach to improving de novo sequence assembly for viral metagenomics data'
+  category: metagenomics
+  repo_url: https://github.com/dengzac/contig-extender
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_progperm_cq
+  doi: 10.1186/s12859-021-04061-3
+  title: 'ProgPerm: Progressive permutation for a dynamic representation of the robustness of microbiome discoveries'
+  category: metagenomics
+  repo_url: https://github.com/LyonsZhang/ProgPerm
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_csupb_cq
+  doi: 10.1186/s12859-021-04149-w
+  title: A tri-tuple coordinate system derived for fast and accurate analysis of the colored de Bruijn graph-based pangenomes
+  category: metagenomics
+  repo_url: https://github.com/eggleader/cSupB
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall

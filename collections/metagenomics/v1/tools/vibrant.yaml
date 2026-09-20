@@ -1,0 +1,22 @@
+name: VIBRANT
+slug: vibrant
+version_used: null
+edam_topics: []
+evidence_spans:
+- More recent tools, such as **VIBRANT** (Kieft et al., 2020), use an alternative, hybrid approach
+- '[Vibrant](https://github.com/AnantharamanLab/VIBRANT#readme)'
+derived_from:
+- doi: 10.1128/msystems.00741-22
+  title: 'MetaPhage: an Automated Pipeline for Analyzing, Annotating, and Classifying Bacteriophages in Metagenomics Sequencing Data'
+- doi: 10.1080/19490976.2023.2192522
+  title: 'ViroProfiler: a containerized bioinformatics pipeline for viral metagenomic data analysis'
+source_repos:
+- https://github.com/AnantharamanLab/VIBRANT
+- https://github.com/MattiaPandolfoVR/MetaPhage
+- https://github.com/deng-lab/viroprofiler
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/AnantharamanLab/VIBRANT

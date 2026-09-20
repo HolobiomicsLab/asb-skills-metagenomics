@@ -1,0 +1,17 @@
+name: Graph Processing Tools (GPT)
+slug: graph-processing-tools-gpt
+version_used: null
+edam_topics: []
+evidence_spans:
+- All processing steps can be reproduced by means of the Graph Processing Tools (GPT)
+derived_from:
+- doi: 10.1038/s41467-019-12737-x
+  title: Radar vision in the mapping of forest biodiversity from space
+source_repos:
+- https://github.com/So-YeonBae/Sentinel1-Biodiversity
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/So-YeonBae/Sentinel1-Biodiversity

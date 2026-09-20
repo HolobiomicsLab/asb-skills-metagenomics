@@ -1,0 +1,18 @@
+name: CD-HIT 4.6
+slug: cd-hit-4-6
+version_used: '4.6'
+edam_topics: []
+evidence_spans:
+- CD-HIT 4.6 was run with the parameters -T 16 -M 0 and -n 5 -c 0.9
+- CD-HIT 4.6 was run with the parameters -T 16 -M 0 and -n 5 -c 0.9, -n 4 -c 0.7, and -n 3 -c 0.5
+derived_from:
+- doi: 10.1038/s41467-018-04964-5
+  title: Clustering huge protein sequence sets in linear time
+source_repos:
+- https://github.com/soedinglab/mmseqs2
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/soedinglab/mmseqs2

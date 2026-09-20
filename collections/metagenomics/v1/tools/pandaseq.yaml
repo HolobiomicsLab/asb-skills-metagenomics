@@ -1,0 +1,19 @@
+name: PANDAseq
+slug: pandaseq
+version_used: null
+edam_topics: []
+evidence_spans:
+- pandaseq -f forward.fastq -r reverse.fastq
+- PANDAseq assembles paired-end reads rapidly and with the correction of most errors.
+- PANDAseq aligns each set of paired-end sequence reads in a three-step process.
+derived_from:
+- doi: 10.1186/1471-2105-13-31
+  title: 'PANDAseq: paired-end assembler for illumina sequences'
+source_repos:
+- https://github.com/neufeld/pandaseq
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/neufeld/pandaseq

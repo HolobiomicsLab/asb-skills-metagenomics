@@ -1,0 +1,19 @@
+name: MiSurv
+slug: misurv
+version_used: null
+edam_topics: []
+evidence_spans:
+- If you have any problems for using MiSurv, please report in Issues
+- 'GitHub repository (local implementation): https://github.com/wg99526/MiSurvGit'
+- we introduce here an integrative web cloud platform, called MiSurv, for comprehensive microbiome data analysis with survival responses
+derived_from:
+- doi: 10.1128/spectrum.05059-22
+  title: 'MiSurv: an Integrative Web Cloud Platform for User-Friendly Microbiome Data Analysis with Survival Responses'
+source_repos:
+- https://github.com/wg99526/MiSurvGit
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/wg99526/MiSurvGit

@@ -1,0 +1,18 @@
+name: PenguiN
+slug: penguin
+version_used: null
+edam_topics: []
+evidence_spans:
+- PenguiN a software to assemble short read sequencing data on a nucleotide level
+- Penguin guided_nuclassemble  Assembles nucleotides using protein and nucleotide information (i:Nucleotides -> o:Nucleotides)
+derived_from:
+- doi: 10.1038/s41592-019-0437-4
+  title: Protein-level assembly increases protein sequence recovery from metagenomic samples manyfold
+source_repos:
+- https://github.com/soedinglab/plass
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/soedinglab/plass

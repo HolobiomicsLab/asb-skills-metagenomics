@@ -1,0 +1,22 @@
+name: pip
+slug: pip
+version_used: null
+edam_topics: []
+evidence_spans:
+- it requires [pip](https://pypi.org/project/pip/) installed
+- pip install idelucs
+- pip install traitar-<version>.tar.gz --user
+derived_from:
+- doi: 10.1093/bioinformatics/btad508
+  title: '<i>i</i>DeLUCS: a deep learning interactive tool for alignment-free clustering of DNA sequences'
+- doi: 10.1128/msystems.00101-16
+  title: 'From Genomes to Phenotypes: Traitar, the Microbial Trait Analyzer'
+source_repos:
+- https://github.com/Kari-Genomics-Lab/iDeLUCS
+- https://github.com/hzi-bifo/traitar
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Kari-Genomics-Lab/iDeLUCS

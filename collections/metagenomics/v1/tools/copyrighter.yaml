@@ -1,0 +1,20 @@
+name: CopyRighter
+slug: copyrighter
+version_used: null
+edam_topics: []
+evidence_spans:
+- CopyRighter is a user-friendly open source software tool that enables rapid correction of GCN bias
+- To install CopyRighter globally on your system, run the following commands
+- We created CopyRighter, new software which uses these estimates to correct 16S rRNA amplicon microbial profiles and associated quantitative (q)PCR total abundance.
+- To install CopyRighter globally on your system
+derived_from:
+- doi: 10.1186/2049-2618-2-11
+  title: 'CopyRighter: a rapid tool for improving the accuracy of microbial community profiles through lineage-specific gene copy number correction'
+source_repos:
+- https://github.com/fangly/AmpliCopyrighter
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/fangly/AmpliCopyrighter

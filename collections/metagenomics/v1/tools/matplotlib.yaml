@@ -1,0 +1,29 @@
+name: matplotlib
+slug: matplotlib
+version_used: 3.5.1
+edam_topics: []
+evidence_spans:
+- pandas, matplotlib and numpy were used to perform custom evaluation
+- 'Step 4: Model training and testing'
+- '* matplotlib >= 3.5.1'
+- sudo apt-get install python-scipy python-matplotlib python-pip python-pandas
+derived_from:
+- doi: 10.1093/bioinformatics/btaf334
+  title: 'Mapler: a pipeline for assessing assembly quality in taxonomically rich metagenomes sequenced with HiFi reads'
+- doi: 10.1093/bioadv/vbae013
+  title: 'PM-CNN: microbiome status recognition and disease detection model based on phylogeny and multi-path neural network'
+- doi: 10.1128/msystems.00101-16
+  title: 'From Genomes to Phenotypes: Traitar, the Microbial Trait Analyzer'
+- doi: 10.1038/s41587-020-00797-0
+  title: inStrain profiles population microdiversity from metagenomic data and sensitively detects shared microbial strains
+source_repos:
+- https://github.com/Nimauric/Mapler
+- https://github.com/qdu-bioinfo/PM_CNN
+- https://github.com/hzi-bifo/traitar
+- https://github.com/MrOlm/instrain
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Nimauric/Mapler

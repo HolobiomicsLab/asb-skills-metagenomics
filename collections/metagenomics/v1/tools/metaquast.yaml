@@ -1,0 +1,34 @@
+name: MetaQUAST
+slug: metaquast
+version_used: null
+edam_topics: []
+evidence_spans:
+- MetaQUAST ([git](https://github.com/ablab/quast)
+- (absent — flagged as missing)
+- reproduce the reported MetaQUAST statistics
+- (overview with [MetaQuast](http://quast.sourceforge.net/metaquast))
+- evaluated the quality of the assemblies of the 10 spiked in salmonella strains using metaQuast
+derived_from:
+- doi: 10.1093/bioinformatics/btaf334
+  title: 'Mapler: a pipeline for assessing assembly quality in taxonomically rich metagenomes sequenced with HiFi reads'
+- doi: 10.1093/bioinformatics/btad020
+  title: Capturing variation in metagenomic assembly graphs with MetaCortex
+- doi: 10.1128/msystems.00741-22
+  title: 'MetaPhage: an Automated Pipeline for Analyzing, Annotating, and Classifying Bacteriophages in Metagenomics Sequencing Data'
+- doi: 10.1093/nar/gkab831
+  title: 'MetaPlatanus: a metagenome assembler that combines long-range sequence links and species-specific features'
+- doi: 10.1093/nar/gkac543
+  title: 'StrainXpress: strain aware metagenome assembly from short reads'
+source_repos:
+- https://github.com/ablab/quast
+- https://github.com/Nimauric/Mapler
+- https://github.com/SR-Martin/metacortex
+- https://github.com/MattiaPandolfoVR/MetaPhage
+- https://github.com/rkajitani/MetaPlatanus
+- https://github.com/HaploKit/StrainXpress
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/ablab/quast

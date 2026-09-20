@@ -1,0 +1,36 @@
+name: CD-HIT
+slug: cd-hit
+version_used: '4.6'
+edam_topics: []
+evidence_spans:
+- Filtered sequences are clustered at 99% using cd-hit-est utility to discard chimeric reads.
+- CD-HIT 4.6 was run with the parameters -T 16 -M 0 and -n 5 -c 0.9, -n 4 -c 0.7, and -n 3 -c 0.5 for 90%, 70%, and 50%, respectively.
+- CD-HIT 4.6 was run with the parameters -T 16 -M 0 and -n 5 -c 0.9, -n 4 -c 0.7, and -n 3 -c 0.5
+- CD-HIT (38, 39) is used to cluster sequences in the range of 80% to 100% (with 1% increments) similarity
+- the representative protein sequence (identified by CD-HIT) is aligned to reference sequences
+- Consensus (cd-hit) and backmapping
+- Consensus (cd-hit) and backmapping ([bowtie2](http://bowtie-bio.sourceforge.net/bowtie2/index.shtml))
+derived_from:
+- doi: 10.1186/s12859-020-03591-6
+  title: 'CDSnake: Snakemake pipeline for retrieval of annotated OTUs from paired-end reads using CD-HIT utilities'
+- doi: 10.1016/j.csbj.2022.07.010
+  title: 'FunOMIC: Pipeline with built-in fungal taxonomic and functional databases for human mycobiome profiling'
+- doi: 10.1038/s41467-018-04964-5
+  title: Clustering huge protein sequence sets in linear time
+- doi: 10.1128/msystems.00201-21
+  title: 'MetaFunPrimer: an Environment-Specific, High-Throughput Primer Design Tool for Improved Quantification of Target Genes'
+- doi: 10.1128/msystems.00741-22
+  title: 'MetaPhage: an Automated Pipeline for Analyzing, Annotating, and Classifying Bacteriophages in Metagenomics Sequencing Data'
+source_repos:
+- https://github.com/ydkondratenko/cdsnake
+- https://github.com/ManichanhLab/FunOMIC
+- https://github.com/soedinglab/mmseqs2
+- https://github.com/jialiu232/MetaFunPrimer_paper_info
+- https://github.com/weizhongli/cdhit
+- https://github.com/MattiaPandolfoVR/MetaPhage
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/ydkondratenko/cdsnake

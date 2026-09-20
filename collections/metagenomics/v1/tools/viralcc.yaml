@@ -1,0 +1,18 @@
+name: ViralCC
+slug: viralcc
+version_used: null
+edam_topics: []
+evidence_spans:
+- python ./viralcc.py pipeline [Parameters] FASTA_file BAM_file VIRAL_file OUTPUT_directory
+- Here we introduce ViralCC, a publicly available tool to recover complete viral genomes and detect virus-host pairs using Hi-C data.
+derived_from:
+- doi: 10.1038/s41467-023-35945-y
+  title: ViralCC retrieves complete viral genomes and virus-host pairs from metagenomic Hi-C data
+source_repos:
+- https://github.com/dyxstat/ViralCC
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/dyxstat/ViralCC

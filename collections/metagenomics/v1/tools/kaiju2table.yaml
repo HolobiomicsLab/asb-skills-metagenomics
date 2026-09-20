@@ -1,0 +1,19 @@
+name: kaiju2table
+slug: kaiju2table
+version_used: null
+edam_topics: []
+evidence_spans:
+- 'The program `kaiju2table` converts Kaiju''s output file(s) into a
+
+  summary table'
+derived_from:
+- doi: 10.1038/ncomms11257
+  title: Fast and sensitive taxonomic classification for metagenomics with Kaiju
+source_repos:
+- https://github.com/bioinformatics-centre/kaiju
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/bioinformatics-centre/kaiju

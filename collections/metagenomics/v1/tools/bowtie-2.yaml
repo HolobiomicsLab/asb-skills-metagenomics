@@ -1,0 +1,17 @@
+name: Bowtie 2
+slug: bowtie-2
+version_used: null
+edam_topics: []
+evidence_spans:
+- MetaLAFFA defaults to using Bowtie 2 (Langmead and Salzberg 2012) for host read filtering.
+derived_from:
+- doi: 10.1186/s12859-020-03815-9
+  title: 'MetaLAFFA: a flexible, end-to-end, distributed computing-compatible metagenomic functional annotation pipeline'
+source_repos:
+- https://github.com/borenstein-lab/MetaLAFFA
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/borenstein-lab/MetaLAFFA

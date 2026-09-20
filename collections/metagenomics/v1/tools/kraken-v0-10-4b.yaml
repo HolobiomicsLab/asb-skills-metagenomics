@@ -1,0 +1,18 @@
+name: Kraken v0.10.4b
+slug: kraken-v0-10-4b
+version_used: null
+edam_topics: []
+evidence_spans:
+- Kraken (v0.10.4b) and Clark (v1.1.3) were run in their default modes using k=31 for highest precision
+- The program `kaiju-mergeOutputs` can merge two tab-separated output files in the column format (see above) used by Kaiju and Kraken.
+derived_from:
+- doi: 10.1038/ncomms11257
+  title: Fast and sensitive taxonomic classification for metagenomics with Kaiju
+source_repos:
+- https://github.com/bioinformatics-centre/kaiju
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/bioinformatics-centre/kaiju

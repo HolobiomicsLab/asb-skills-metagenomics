@@ -1,0 +1,17 @@
+name: Bokeh
+slug: bokeh
+version_used: 3.2.1
+edam_topics: []
+evidence_spans:
+- The Python scripts for interactive visualization use the Bokeh v 3.2.1 Python library
+derived_from:
+- doi: 10.1093/molbev/msae057
+  title: 'scalepopgen: Bioinformatic Workflow Resources Implemented in Nextflow for Comprehensive Population Genomic Analyses'
+source_repos:
+- https://github.com/Popgen48/scalepopgen
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Popgen48/scalepopgen

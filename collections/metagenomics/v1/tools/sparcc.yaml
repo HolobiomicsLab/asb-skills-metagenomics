@@ -1,0 +1,20 @@
+name: SparCC
+slug: sparcc
+version_used: null
+edam_topics: []
+evidence_spans:
+- '| Correlation | sparcc                       | ncpus                 | 1            |'
+derived_from:
+- doi: 10.1016/j.csbj.2022.07.010
+  title: 'FunOMIC: Pipeline with built-in fungal taxonomic and functional databases for human mycobiome profiling'
+- doi: 10.1128/msystems.00961-22
+  title: 'Inferring microbial co-occurrence networks from amplicon data: a systematic evaluation'
+source_repos:
+- https://github.com/ManichanhLab/FunOMIC
+- https://github.com/segrelab/MiCoNE
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/ManichanhLab/FunOMIC

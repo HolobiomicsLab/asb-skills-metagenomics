@@ -1,0 +1,20 @@
+name: Plassembler
+slug: plassembler
+version_used: null
+edam_topics: []
+evidence_spans:
+- '`plassembler` (with Flye and Raven) and Unicycler run from read sets simulated from 20 assemblies'
+- The following Tables show the summary statistics of `plassembler` (with Flye and Raven) and Unicycler run from read sets simulated from 20 assemblies
+- '`plassembler` uses Flye (Kolmogorov et al 2019) or optionally Raven (Vaser and Šikić 2021) to create an initial long-read only assembly.'
+- Plassembler was developed to provide a tool that automatically assembles and outputs bacterial plasmids using a hybrid assembly approach
+derived_from:
+- doi: 10.1093/bioinformatics/btad409
+  title: 'Plassembler: an automated bacterial plasmid assembly tool'
+source_repos:
+- https://github.com/gbouras13/plassembler
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/gbouras13/plassembler

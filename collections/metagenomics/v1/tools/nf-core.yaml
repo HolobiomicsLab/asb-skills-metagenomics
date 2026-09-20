@@ -1,0 +1,17 @@
+name: nf-core
+slug: nf-core
+version_used: null
+edam_topics: []
+evidence_spans:
+- VueGen is distributed as a Python package, Docker image, nf-core module, and desktop application.
+derived_from:
+- doi: 10.1093/bioadv/vbaf149
+  title: 'VueGen: automating the generation of scientific reports'
+source_repos:
+- https://github.com/Multiomics-Analytics-Group/vuegen
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Multiomics-Analytics-Group/vuegen

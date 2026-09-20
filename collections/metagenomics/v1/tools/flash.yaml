@@ -1,0 +1,24 @@
+name: FLASH
+slug: flash
+version_used: '2.7'
+edam_topics: []
+evidence_spans:
+- 'FLASH: fast length adjustment of short reads to improve genome assemblies'
+- including the programs FLASH and Trimmomatic, Python
+- SAMSA has several dependencies, including the programs FLASH and Trimmomatic, Python version 2.7
+- SAMSA has several dependencies, including the programs FLASH and Trimmomatic
+- each pair of paired-end reads are aligned to each other using FLASh, a short read aligning program
+derived_from:
+- doi: 10.1186/s12859-020-03591-6
+  title: 'CDSnake: Snakemake pipeline for retrieval of annotated OTUs from paired-end reads using CD-HIT utilities'
+- doi: 10.1186/s12859-016-1270-8
+  title: 'SAMSA: a comprehensive metatranscriptome analysis pipeline'
+source_repos:
+- https://github.com/ydkondratenko/cdsnake
+- https://github.com/transcript/SAMSA
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/ydkondratenko/cdsnake

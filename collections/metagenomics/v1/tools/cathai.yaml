@@ -1,0 +1,20 @@
+name: CATHAI
+slug: cathai
+version_used: null
+edam_topics: []
+evidence_spans:
+- CATHAI (cluster analysis tool for healthcare-associated infections) is an interactive web-based visualization platform
+- CATHAI (cluster analysis tool for healthcare-associated infections) is an interactive web-based visualization platform that couples WGS informed clustering with associated metadata
+- docker image build --file ./docker/Dockerfile --tag cathai ./docker
+- CATHAI (cluster analysis tool for healthcare-associated infections)
+derived_from:
+- doi: 10.1093/bioadv/vbac040
+  title: 'CATHAI: cluster analysis tool for healthcare-associated infections'
+source_repos:
+- https://github.com/FordeGenomics/cathai
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/FordeGenomics/cathai

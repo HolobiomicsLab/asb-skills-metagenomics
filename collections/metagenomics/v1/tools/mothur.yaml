@@ -1,0 +1,28 @@
+name: mothur
+slug: mothur
+version_used: null
+edam_topics: []
+evidence_spans:
+- The performances of mothur were qualitatively similar to QIIME
+- (0.008 for mothur)
+- microbiome bioinformatics platforms (e.g., QIIME, Qiita, mothur, JGI GOLD, MG-RAST, EBI, NCBI)
+derived_from:
+- doi: 10.1038/srep09743
+  title: 'MICCA: a complete and accurate software for taxonomic profiling of metagenomic data'
+- doi: 10.1038/s43705-022-00092-w
+  title: 'MIxS-SA: a MIxS extension defining the minimum information standard for sequence data from symbiont-associated micro-organisms'
+- doi: 10.1093/nargab/lqac070
+  title: 'RiboTaxa: combined approaches for rRNA genes taxonomic resolution down to the species level from metagenomics data revealing novelties'
+- doi: 10.1080/19490976.2023.2192522
+  title: 'ViroProfiler: a containerized bioinformatics pipeline for viral metagenomic data analysis'
+source_repos:
+- https://github.com/compmetagen/micca
+- https://github.com/GenomicsStandardsConsortium/mixs
+- https://github.com/oschakoory/RiboTaxa
+- https://github.com/deng-lab/viroprofiler
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/compmetagen/micca

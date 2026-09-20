@@ -1,0 +1,25 @@
+name: Centrifuge
+slug: centrifuge
+version_used: null
+edam_topics: []
+evidence_spans:
+- for instance Centrifuge [4], which is based on a read-mapping strategy and uses the FM-index [16]
+- nf-core/mag processes short-read, long-read, and hybrid data, and not every tool is valid for every read type
+- Preprocessed short reads are classified using Kraken2 or Centrifuge
+derived_from:
+- doi: 10.1186/s12859-020-03628-w
+  title: Metagenomic analysis through the extended Burrows-Wheeler transform
+- doi: 10.1093/nargab/lqac007
+  title: 'nf-core/mag: a best-practice pipeline for metagenome hybrid assembly and binning'
+- doi: 10.1093/nargab/lqac070
+  title: 'RiboTaxa: combined approaches for rRNA genes taxonomic resolution down to the species level from metagenomics data revealing novelties'
+source_repos:
+- https://github.com/veronicaguerrini/LiME
+- https://github.com/nf-core/mag
+- https://github.com/oschakoory/RiboTaxa
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/veronicaguerrini/LiME

@@ -1,0 +1,20 @@
+name: MOVIS
+slug: movis
+version_used: null
+edam_topics: []
+evidence_spans:
+- Here we present MOVIS, a modular time-series multi-omics exploration tool
+- Here we present MOVIS, a modular time-series multi-omics exploration tool with a user-friendly web interface
+- MOVIS is built using Python and additional libraries like Pandas [13], Numpy [14], Scikit-learn [15], Biopython [16], Gensim [17], Altair [18], and Streamlit.
+- 'The data analysis core is responsible for five sequential core steps: importing, sanitizing, filtering, analyzing, and visualizing all data sets.'
+derived_from:
+- doi: 10.1016/j.csbj.2022.02.012
+  title: 'MOVIS: A multi-omics software solution for multi-modal time-series clustering, embedding, and visualizing tasks'
+source_repos:
+- https://github.com/AAnzel/MOVIS
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/AAnzel/MOVIS

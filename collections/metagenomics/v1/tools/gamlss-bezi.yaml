@@ -1,0 +1,19 @@
+name: GAMLSS-BEZI
+slug: gamlss-bezi
+version_used: null
+edam_topics: []
+evidence_spans:
+- 'The advantages of GAMLSS-BEZI are: 1) it directly address the distribution of microbiome relative abundance data'
+- Our metamicrobiomeR package implemented GAMLSS-BEZI for analysis of microbiome relative abundance data
+- Comparison of bacterial taxa relative abundance using GAMLSS
+derived_from:
+- doi: 10.1186/s12859-019-2744-2
+  title: 'metamicrobiomeR: an R package for analysis of microbiome relative abundance data using zero-inflated beta GAMLSS and meta-analysis across studies using random effects models'
+source_repos:
+- https://github.com/nhanhocu/metamicrobiomeR
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/nhanhocu/metamicrobiomeR

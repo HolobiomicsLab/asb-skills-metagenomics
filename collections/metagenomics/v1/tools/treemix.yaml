@@ -1,0 +1,17 @@
+name: TreeMix
+slug: treemix
+version_used: null
+edam_topics: []
+evidence_spans:
+- running TreeMix analysis with or without bootstrapping and migration edges
+derived_from:
+- doi: 10.1093/molbev/msae057
+  title: 'scalepopgen: Bioinformatic Workflow Resources Implemented in Nextflow for Comprehensive Population Genomic Analyses'
+source_repos:
+- https://github.com/Popgen48/scalepopgen
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Popgen48/scalepopgen

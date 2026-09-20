@@ -1,0 +1,17 @@
+name: RefSeq_output_reducer.py
+slug: refseq-output-reducer-py
+version_used: null
+edam_topics: []
+evidence_spans:
+- RefSeq_output_reducer.py - consolidates identical organism matches in summary files
+derived_from:
+- doi: 10.1186/s12859-016-1270-8
+  title: 'SAMSA: a comprehensive metatranscriptome analysis pipeline'
+source_repos:
+- https://github.com/transcript/SAMSA
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/transcript/SAMSA

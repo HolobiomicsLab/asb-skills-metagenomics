@@ -1,0 +1,16 @@
+name: SSUAlign
+slug: ssualign
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1038/nature14486
+  title: Unusual biology across a group comprising more than 15% of domain Bacteria
+source_repos:
+- https://github.com/CK7/abawaca
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/CK7/abawaca

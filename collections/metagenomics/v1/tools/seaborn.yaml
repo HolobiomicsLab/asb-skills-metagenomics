@@ -1,0 +1,16 @@
+name: Seaborn
+slug: seaborn
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1038/s41587-020-00797-0
+  title: inStrain profiles population microdiversity from metagenomic data and sensitively detects shared microbial strains
+source_repos:
+- https://github.com/MrOlm/instrain
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/MrOlm/instrain

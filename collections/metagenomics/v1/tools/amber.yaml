@@ -1,0 +1,21 @@
+name: AMBER
+slug: amber
+version_used: 2.0.21
+edam_topics: []
+evidence_spans:
+- AMBER==2.0.21-beta (https://github.com/CAMI-challenge/AMBER/archive/658a268bc86622e6f41304d38c1856b727c995ed.tar.gz)
+derived_from:
+- doi: 10.1093/nargab/lqaf094
+  title: 'ganon2: up-to-date and scalable metagenomics analysis'
+- doi: 10.1016/j.compbiolchem.2022.107734
+  title: 'CH-Bin: A convex hull based approach for binning metagenomic contigs'
+source_repos:
+- https://github.com/CAMI-challenge/AMBER
+- https://github.com/pirovc/ganon_benchmark
+- https://github.com/kdsuneraavinash/CH-Bin
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/CAMI-challenge/AMBER

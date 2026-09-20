@@ -1,0 +1,20 @@
+name: Plass
+slug: plass
+version_used: null
+edam_topics: []
+evidence_spans:
+- 'Plass and PenguiN can assemble both paired-end reads (FASTQ) and single reads (FASTA or FASTQ):'
+- plass assemble examples/reads_1.fastq.gz examples/reads_2.fastq.gz assembly.fas tmp
+- Plass and PenguiN can assemble both paired-end reads (FASTQ) and single reads (FASTA or FASTQ)
+- --filter-proteins    Switches the neural network protein filter off/on
+derived_from:
+- doi: 10.1038/s41592-019-0437-4
+  title: Protein-level assembly increases protein sequence recovery from metagenomic samples manyfold
+source_repos:
+- https://github.com/soedinglab/plass
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/soedinglab/plass

@@ -1,0 +1,20 @@
+name: pIRS
+slug: pirs
+version_used: null
+edam_topics: []
+evidence_spans:
+- simulated paired-end reads from pIRS
+derived_from:
+- doi: 10.1186/s12859-021-04038-2
+  title: 'ContigExtender: a new approach to improving de novo sequence assembly for viral metagenomics data'
+- doi: 10.1038/s41587-020-00797-0
+  title: inStrain profiles population microdiversity from metagenomic data and sensitively detects shared microbial strains
+source_repos:
+- https://github.com/dengzac/contig-extender
+- https://github.com/MrOlm/instrain
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/dengzac/contig-extender

@@ -1,0 +1,23 @@
+name: MICCA
+slug: micca
+version_used: 1.2.2
+edam_topics: []
+evidence_spans:
+- '**Docker** images are available (compmetagen/micca) starting from version 1.2.2,'
+- 'MICCA: a complete and accurate software for taxonomic profiling of metagenomic data'
+- '**MICCA: a complete and accurate software for taxonomic profiling of metagenomic data**'
+- 'MICCA: a complete and accurate software for
+
+  taxonomic profiling of metagenomic data'
+- '**Docker** images are available (compmetagen/micca) starting from version 1.2.2'
+derived_from:
+- doi: 10.1038/srep09743
+  title: 'MICCA: a complete and accurate software for taxonomic profiling of metagenomic data'
+source_repos:
+- https://github.com/compmetagen/micca
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/compmetagen/micca

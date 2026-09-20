@@ -1,0 +1,19 @@
+name: mOTUpan
+slug: motupan
+version_used: null
+edam_topics: []
+evidence_spans:
+- We present mOTUpan, a novel iterative Bayesian method for computing the core genome for sets of genomes of highly diverse completeness range.
+- '`--boots BOOTS` : runs `BOOTS` bootstraps, where artificial genomes are generated using the gene-partitioning obtained with `mOTUpan`'
+- mOTUpan.py --faas *.faa -o output.tsv
+derived_from:
+- doi: 10.1093/nargab/lqac060
+  title: 'mOTUpan: a robust Bayesian approach to leverage metagenome-assembled genomes for core-genome estimation'
+source_repos:
+- https://github.com/moritzbuck/mOTUlizer
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/moritzbuck/mOTUlizer

@@ -1,0 +1,19 @@
+name: chewBBACA
+slug: chewbbaca
+version_used: null
+edam_topics: []
+evidence_spans:
+- The chewBBACA suite was designed to assist users in the creation and evaluation of novel whole-genome or core-genome gene-by-gene typing schemas
+- chewBBACA includes functionalities to annotate the schema loci
+- chewBBACA includes functionalities to annotate the schema loci, compute the set of loci that constitute the core genome for a given dataset
+derived_from:
+- doi: 10.1099/mgen.0.000166
+  title: 'chewBBACA: A complete suite for gene-by-gene schema creation and strain identification'
+source_repos:
+- https://github.com/B-UMMI/chewBBACA
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/B-UMMI/chewBBACA

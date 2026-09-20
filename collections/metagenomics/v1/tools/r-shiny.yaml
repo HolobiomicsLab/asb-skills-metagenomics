@@ -1,0 +1,22 @@
+name: R-Shiny
+slug: r-shiny
+version_used: null
+edam_topics: []
+evidence_spans:
+- model cross validation by power of interactive web-supporting library, R-Shiny
+- We have developed this into a user-friendly and efficient R-shiny tool with visualizations.
+derived_from:
+- doi: 10.1186/s12859-020-03933-4
+  title: 'MegaR: an interactive R package for rapid sample classification and phenotype prediction using metagenome profiles and machine learning'
+- doi: 10.1186/s12859-021-04061-3
+  title: 'ProgPerm: Progressive permutation for a dynamic representation of the robustness of microbiome discoveries'
+source_repos:
+- https://github.com/BioHPC/MegaR
+- https://github.com/LyonsZhang/ProgPerm
+- https://github.com/LyonsZhang/ProgPermute
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/BioHPC/MegaR

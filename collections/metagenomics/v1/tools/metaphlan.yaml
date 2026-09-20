@@ -1,0 +1,42 @@
+name: MetaPhlAn
+slug: metaphlan
+version_used: 4.0.3
+edam_topics: []
+evidence_spans:
+- we tested mOTUs 3.0.3 (Ruscheweyh et al. 2022), MetaPhlAn 4.0.3 (Blanco-Míguez et al. 2023), Bracken 2.8 (Lu et al. 2017) on Kraken2 (Wood et al. 2019) output, and KMA 1.4.7
+- 11 times faster than the abundance estimation program MetaPhlAn
+- Mapping reads against marker gene databases with tools such as MetaPhlAn1, MetaPhyler2 and mOTUs3 is a fast and effective way of recovering the microbial composition
+- Taxonomic analysis of the metagenomes included in VIRGO using MetaPhlAn (v2)19, revealed that these communities contained 312 bacterial species
+- ZellerGData <- curatedMetagenomicData("ZellerG_2014.metaphlan_bugs_list*", dryrun = FALSE, counts = TRUE, bugs.as.phyloseq = TRUE)
+derived_from:
+- doi: 10.1093/bioinformatics/btae086
+  title: ARGprofiler—a pipeline for large-scale analysis of antimicrobial resistance genes and their flanking regions in metagenomic datasets
+- doi: 10.1093/nargab/lqaa107
+  title: 'CAMAMED: a pipeline for composition-aware mapping-based analysis of metagenomic data'
+- doi: 10.1016/j.csbj.2022.07.010
+  title: 'FunOMIC: Pipeline with built-in fungal taxonomic and functional databases for human mycobiome profiling'
+- doi: 10.1186/gb-2014-15-3-r46
+  title: 'Kraken: ultrafast metagenomic sequence classification using exact alignments'
+- doi: 10.1093/nargab/lqac033
+  title: 'Nano2NGS-Muta: a framework for converting nanopore sequencing data to NGS-liked sequencing data for hotspot mutation detection'
+- doi: 10.1038/s41467-024-49958-8
+  title: MAGinator enables accurate profiling of de novo MAGs with strain-level phylogenies
+- doi: 10.1038/s41467-020-14677-3
+  title: A comprehensive non-redundant gene catalog reveals extensive within-community intraspecies diversity in the human vagina
+- doi: 10.1016/j.scib.2023.10.024
+  title: 'VTwins: inferring causative microbial features from metagenomic data of limited samples'
+source_repos:
+- https://github.com/genomicepidemiology/ARGprofiler
+- https://github.com/mhnb/camamed
+- https://github.com/ManichanhLab/FunOMIC
+- https://github.com/DerrickWood/kraken
+- https://github.com/langjidong/Nano2NGS
+- https://github.com/Russel88/MAGinator
+- https://github.com/ravel-lab/VIRGO
+- https://github.com/mengqingren/VTwins
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/genomicepidemiology/ARGprofiler

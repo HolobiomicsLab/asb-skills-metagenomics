@@ -1,0 +1,24 @@
+name: anvi'o
+slug: anvi-o
+version_used: null
+edam_topics: []
+evidence_spans:
+- the currently available version has parsers available for Roary, PPanGGOLiN, eggNOG-mapper (21), mmseqs2 (20) and anvi'o (22)
+- some recent metatranscriptome pipelines (anvi'o, [7], IMP, [8]) rely on BLAST [9] for annotations
+derived_from:
+- doi: 10.1016/j.csbj.2022.03.015
+  title: KEMET – A python tool for KEGG Module evaluation and microbial genome annotation expansion
+- doi: 10.1093/nargab/lqac060
+  title: 'mOTUpan: a robust Bayesian approach to leverage metagenome-assembled genomes for core-genome estimation'
+- doi: 10.1186/s12859-018-2189-z
+  title: 'SAMSA2: a standalone metatranscriptome analysis pipeline'
+source_repos:
+- https://github.com/Matteopaluh/KEMET
+- https://github.com/moritzbuck/mOTUlizer
+- https://github.com/transcript/samsa2
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Matteopaluh/KEMET

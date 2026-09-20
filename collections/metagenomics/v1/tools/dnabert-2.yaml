@@ -1,0 +1,18 @@
+name: DNABERT-2
+slug: dnabert-2
+version_used: null
+edam_topics: []
+evidence_spans:
+- Sequences were tokenized using the DNABERT-2 tokenizer (Zhou et al. 2023), which applies BPE to raw nucleotide sequences.
+- a transformer trained from scratch on the DNABERT-2 BPE vocabulary
+derived_from:
+- doi: 10.1093/bioadv/vbag166
+  title: 'DeepTaxa: a hybrid CNN-BERT framework for 16S rRNA taxonomic classification'
+source_repos:
+- https://github.com/systems-genomics-lab/deeptaxa
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/systems-genomics-lab/deeptaxa

@@ -1,0 +1,19 @@
+name: Mapler
+slug: mapler
+version_used: null
+edam_topics: []
+evidence_spans:
+- Mapler is a metagenome assembly and evaluation pipeline with a focus on evaluating the quality of Hi-Fi long read metagenome assemblies.
+- Mapler is a metagenome assembly and evaluation pipeline with a focus on evaluating the quality of HiFi long-read metagenomic assemblies.
+- Mapler analyzes the alignment of reads on contigs. It does this by calculating the ratio of mapped reads and bases
+derived_from:
+- doi: 10.1093/bioinformatics/btaf334
+  title: 'Mapler: a pipeline for assessing assembly quality in taxonomically rich metagenomes sequenced with HiFi reads'
+source_repos:
+- https://github.com/Nimauric/Mapler
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Nimauric/Mapler

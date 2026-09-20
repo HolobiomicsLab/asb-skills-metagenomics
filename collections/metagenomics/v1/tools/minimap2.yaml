@@ -1,0 +1,82 @@
+name: Minimap2
+slug: minimap2
+version_used: '2.22'
+edam_topics: []
+evidence_spans:
+- Hostile requires 4GB of RAM for decontaminating short reads (Bowtie2) and 13GB for long reads (Minimap2)
+- Note that Minimap2 mode accepts a path to a genome in fasta format or .mmi
+- mapped to the SARS-CoV-2 reference genome (Wuhan variant, NC_045512), using Minimap2 tool19 with a minimal chaining score
+- 'Mapping and filtering paramenters:'
+- These metrics are calculated for the contigs over *x* basepairs in size, as defined by the minimum contig size in the ``--minLength`` parameter, that map to the reference sequence.
+- the contigs are mapped to the reference replicons with minimap2 [32] (version 2.22).
+- Additionally, minimap2, pysam, biopython, pandas, matplotlib and numpy were used to perform custom evaluation
+- minimap2, pysam, biopython, pandas, matplotlib and numpy were used to perform custom evaluation
+- Mapler aligns the reads on the contigs with Minimap2 (Li 2018), and uses these alignments to calculate various metrics.
+- short- vs long-read alignment uses Bowtie2 vs minimap2
+- '* [Minimap2](https://github.com/lh3/minimap2) >=2.11'
+- Following this, minimap2 (Li 2018) is used to map long and short read sets.
+- maps all long- and short-reads to the long-read-only assembly using Minimap2 (Li 2018)
+- some code snippets from [Minimap2](https://github.com/lh3/minimap2)
+- minimap2 -ax map-pb -t 12 ./flye_out/assembly.fasta reads.fq.gz | samtools sort >./flye_out/alignment.sorted.bam
+- A minimap2-based alignment of input reads on the output assembly is also available in the `assembly.scaffolds.bam` file.
+- A minimap2-based alignment of input reads on the output assembly is also available
+- '[minimap2](https://github.com/lh3/minimap2)'
+- '- [minimap2](https://github.com/lh3/minimap2)'
+- StrainXpress utilizes Minimap2 (25) (version 2.18-r1015) for identifying the suffix-prefix overlaps between two reads as required.
+- If a reference genome is provided, the assemblies are aligned against it using minimap2
+- SPUMONI has similar accuracy as minimap2 when both are run against an index containing many strains per species.
+- This command uses `-P` for computing PMLs (if you want MSs, use `-M` instead) which will be used to classify the reads
+- the minimap2 read aligner (Li 2018) to align reads to a reference genome in real time
+derived_from:
+- doi: 10.1093/bioinformatics/btad728
+  title: 'Hostile: accurate decontamination of microbial host sequences'
+- doi: 10.1038/s41598-022-06625-6
+  title: Detecting SARS-CoV-2 lineages and mutational load in municipal wastewater and a use-case in the metropolitan area of Thessaloniki, Greece
+- doi: 10.1093/gigascience/giac122
+  title: 'LMAS: evaluating metagenomic short <i>de novo</i> assembly methods through defined communities'
+- doi: 10.1093/bioinformatics/btaf334
+  title: 'Mapler: a pipeline for assessing assembly quality in taxonomically rich metagenomes sequenced with HiFi reads'
+- doi: 10.1093/nar/gkab831
+  title: 'MetaPlatanus: a metagenome assembler that combines long-range sequence links and species-specific features'
+- doi: 10.1093/nargab/lqac033
+  title: 'Nano2NGS-Muta: a framework for converting nanopore sequencing data to NGS-liked sequencing data for hotspot mutation detection'
+- doi: 10.1093/nargab/lqac007
+  title: 'nf-core/mag: a best-practice pipeline for metagenome hybrid assembly and binning'
+- doi: 10.1093/bioinformatics/btad409
+  title: 'Plassembler: an automated bacterial plasmid assembly tool'
+- doi: 10.1093/bioinformatics/btad272
+  title: 'RawHash: enabling fast and accurate real-time analysis of raw nanopore signals for large genomes'
+- doi: 10.1038/s41467-021-24515-9
+  title: 'Strainberry: automated strain separation in low-complexity metagenomes using long reads'
+- doi: 10.1093/nar/gkac543
+  title: 'StrainXpress: strain aware metagenome assembly from short reads'
+- doi: 10.1093/nar/gkad406
+  title: 'WebQUAST: online evaluation of genome assemblies'
+- doi: 10.1016/j.compbiolchem.2022.107734
+  title: 'CH-Bin: A convex hull based approach for binning metagenomic contigs'
+- doi: 10.1016/j.isci.2021.102696
+  title: Pan-genomic matching statistics for targeted nanopore sequencing
+source_repos:
+- https://github.com/bede/hostile
+- https://github.com/BiodataAnalysisGroup/lineagespot
+- https://github.com/B-UMMI/LMAS
+- https://github.com/Nimauric/Mapler
+- https://github.com/lh3/minimap2
+- https://github.com/rkajitani/MetaPlatanus
+- https://github.com/langjidong/Nano2NGS
+- https://github.com/nf-core/mag
+- https://github.com/gbouras13/plassembler
+- https://github.com/CMU-SAFARI/RawHash
+- https://github.com/rvicedomini/strainberry
+- https://github.com/rvicedomini/strainberry-analyses
+- https://github.com/HaploKit/StrainXpress
+- https://github.com/ablab/quast
+- https://github.com/wwood/CoverM
+- https://github.com/kdsuneraavinash/CH-Bin
+- https://github.com/oma219/spumoni
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/bede/hostile

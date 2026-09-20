@@ -1,0 +1,17 @@
+name: Phoenix automated microbiology system (BD Biosciences)
+slug: phoenix-automated-microbiology-system-bd-biosciences
+version_used: null
+edam_topics: []
+evidence_spans:
+- 'all validation samples were phenotyped using two methods: a BSAC disc test15 and the Phoenix automated microbiology system (BD Biosciences)'
+derived_from:
+- doi: 10.1038/ncomms10063
+  title: Rapid antibiotic-resistance predictions from genome sequence data for Staphylococcus aureus and Mycobacterium tuberculosis
+source_repos:
+- https://github.com/phac-nml/mykrobe-parser
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/phac-nml/mykrobe-parser

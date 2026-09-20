@@ -1,0 +1,21 @@
+name: UCHIME
+slug: uchime
+version_used: null
+edam_topics: []
+evidence_spans:
+- After that UCHIME [11] algorithm as implemented by VSEARCH [12] is used for chimeras filtering.
+- For the chimera-filtering step, OTUCLUST embeds the public domain version of UCHIME10
+derived_from:
+- doi: 10.1186/s12859-020-03591-6
+  title: 'CDSnake: Snakemake pipeline for retrieval of annotated OTUs from paired-end reads using CD-HIT utilities'
+- doi: 10.1038/srep09743
+  title: 'MICCA: a complete and accurate software for taxonomic profiling of metagenomic data'
+source_repos:
+- https://github.com/ydkondratenko/cdsnake
+- https://github.com/compmetagen/micca
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/ydkondratenko/cdsnake

@@ -1,0 +1,18 @@
+name: chopper
+slug: chopper
+version_used: 0.11.0
+edam_topics: []
+evidence_spans:
+- '[chopper](https://github.com/wdecoster/chopper) >=0.11.0'
+derived_from:
+- doi: 10.1093/bioinformatics/btad409
+  title: 'Plassembler: an automated bacterial plasmid assembly tool'
+source_repos:
+- https://github.com/wdecoster/chopper
+- https://github.com/gbouras13/plassembler
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/wdecoster/chopper

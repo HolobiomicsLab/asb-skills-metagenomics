@@ -1,0 +1,19 @@
+name: Roary
+slug: roary
+version_used: null
+edam_topics: []
+evidence_spans:
+- '[`roary`](https://sanger-pathogens.github.io/Roary/)'
+- It has shown comparable estimates to state-of-the-art tools Roary and PPanGGOLiN for high-quality genomes
+derived_from:
+- doi: 10.1093/nargab/lqac060
+  title: 'mOTUpan: a robust Bayesian approach to leverage metagenome-assembled genomes for core-genome estimation'
+source_repos:
+- https://github.com/sanger-pathogens.github.io/Roary
+- https://github.com/moritzbuck/mOTUlizer
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/sanger-pathogens.github.io/Roary

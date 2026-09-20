@@ -1,0 +1,17 @@
+name: AFS-MetaCache
+slug: afs-metacache
+version_used: null
+edam_topics: []
+evidence_spans:
+- reduced memory requirements on a workstation (AFS-MetaCache) or on a Spark-based compute cluster (MetaCacheSpark)
+derived_from:
+- doi: 10.1186/s12859-020-3429-6
+  title: A big data approach to metagenomics for all-food-sequencing
+source_repos:
+- https://github.com/jmabuin/MetaCacheSpark
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/jmabuin/MetaCacheSpark

@@ -1,0 +1,17 @@
+name: truvari
+slug: truvari
+version_used: null
+edam_topics: []
+evidence_spans:
+- SVs against the GIAB Tier 1 set with truvari
+derived_from:
+- doi: 10.1093/gigascience/giz141
+  title: Assessment of human diploid genome assembly with 10x Linked-Reads data
+source_repos:
+- https://github.com/zhanglu295/LRTK-SIM
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/zhanglu295/LRTK-SIM

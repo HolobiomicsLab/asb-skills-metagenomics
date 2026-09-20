@@ -1,0 +1,17 @@
+name: vcfR
+slug: vcfr
+version_used: null
+edam_topics: []
+evidence_spans:
+- requires the R package "vcfR"
+derived_from:
+- doi: 10.1093/bioadv/vbae030
+  title: 'MetaQuad: shared informative variants discovery in metagenomic samples'
+source_repos:
+- https://github.com/holab-hku/MetaQuad
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/holab-hku/MetaQuad

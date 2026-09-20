@@ -1,0 +1,20 @@
+name: Linclust
+slug: linclust
+version_used: null
+edam_topics: []
+evidence_spans:
+- We developed Linclust, the first clustering algorithm whose runtime scales as N, independent of K.
+- Linclust and Linclust/MMseqs2 (commit 5e21868) used the commands mmseqs linclust --cov-mode 1 -c 0.9 --min-seq-id 0.9
+- --min-seq-id 0.5 --cov-mode 1 -c 0.9 --cluster-mode 2
+- Linclust and Linclust/MMseqs2 (commit 5e21868) used the commands mmseqs linclust --cov-mode 1 -c 0.9  --min-seq-id 0.9
+derived_from:
+- doi: 10.1038/s41467-018-04964-5
+  title: Clustering huge protein sequence sets in linear time
+source_repos:
+- https://github.com/soedinglab/mmseqs2
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/soedinglab/mmseqs2

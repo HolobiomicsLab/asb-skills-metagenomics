@@ -1,0 +1,23 @@
+name: SeqKit
+slug: seqkit
+version_used: 0.10.1
+edam_topics: []
+evidence_spans:
+- '> seqkit 2.1.0<br>'
+derived_from:
+- doi: 10.1093/nargab/lqaa107
+  title: 'CAMAMED: a pipeline for composition-aware mapping-based analysis of metagenomic data'
+- doi: 10.1093/nar/gkab831
+  title: 'MetaPlatanus: a metagenome assembler that combines long-range sequence links and species-specific features'
+- doi: 10.1038/s41564-024-01751-5
+  title: A multi-kingdom collection of 33,804 reference genomes for the human vaginal microbiome
+source_repos:
+- https://github.com/mhnb/camamed
+- https://github.com/rkajitani/MetaPlatanus
+- https://github.com/RChGO/VMGC
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/mhnb/camamed

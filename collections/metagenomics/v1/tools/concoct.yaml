@@ -1,0 +1,23 @@
+name: CONCOCT
+slug: concoct
+version_used: null
+edam_topics: []
+evidence_spans:
+- CONCOCT performs unsupervised binning of metagenomic contigs
+derived_from:
+- doi: 10.1093/nargab/lqac007
+  title: 'nf-core/mag: a best-practice pipeline for metagenome hybrid assembly and binning'
+- doi: 10.1093/nar/gkac341
+  title: vRhyme enables binning of viral genomes from metagenomes
+- doi: 10.1016/j.compbiolchem.2022.107734
+  title: 'CH-Bin: A convex hull based approach for binning metagenomic contigs'
+source_repos:
+- https://github.com/nf-core/mag
+- https://github.com/AnantharamanLab/vRhyme
+- https://github.com/kdsuneraavinash/CH-Bin
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/nf-core/mag

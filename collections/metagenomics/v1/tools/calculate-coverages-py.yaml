@@ -1,0 +1,17 @@
+name: calculate_coverages.py
+slug: calculate-coverages-py
+version_used: null
+edam_topics: []
+evidence_spans:
+- the first, _calculate_coverages.py_, calculates the genome coverage from .sam alignments
+derived_from:
+- doi: 10.1128/msystems.00758-22
+  title: 'Zebra: Static and Dynamic Genome Cover Thresholds with Overlapping References'
+source_repos:
+- https://github.com/biocore/zebra_filter
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/biocore/zebra_filter

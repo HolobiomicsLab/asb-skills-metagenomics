@@ -1,0 +1,17 @@
+name: Pathview
+slug: pathview
+version_used: null
+edam_topics: []
+evidence_spans:
+- Over-representation Analysis (ORA) built using the clusterProfiler R package
+derived_from:
+- doi: 10.1186/s12859-020-03577-4
+  title: 'NASQAR: a web-based platform for high-throughput sequencing data analysis and visualization'
+source_repos:
+- https://github.com/nasqar/NASQAR
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/nasqar/NASQAR

@@ -1,0 +1,21 @@
+name: VueGen
+slug: vuegen
+version_used: null
+edam_topics: []
+evidence_spans:
+- We present VueGen, a tool that automates the creation of reports from bioinformatics outputs
+- '[vuegen-repo]: https://github.com/Multiomics-Analytics-Group/vuegen'
+- VueGen is a Python library that automates the creation of scientific reports.
+- VueGen is a Python package that automates the creation of scientific reports.
+- pip install vuegen
+derived_from:
+- doi: 10.1093/bioadv/vbaf149
+  title: 'VueGen: automating the generation of scientific reports'
+source_repos:
+- https://github.com/Multiomics-Analytics-Group/vuegen
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Multiomics-Analytics-Group/vuegen

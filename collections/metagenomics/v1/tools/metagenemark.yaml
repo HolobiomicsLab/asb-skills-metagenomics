@@ -1,0 +1,23 @@
+name: MetaGeneMark
+slug: metagenemark
+version_used: '3.25'
+edam_topics: []
+evidence_spans:
+- Run MetaGeneMark (v3.25) with default settings on the assembled vaginal metagenome contigs
+derived_from:
+- doi: 10.1093/nargab/lqab047
+  title: 'GeneMark-HM: improving gene prediction in DNA sequences of human microbiome'
+- doi: 10.1093/nar/gkr1067
+  title: Gene prediction with Glimmer for metagenomic sequences augmented by classification and clustering
+- doi: 10.1038/s41467-020-14677-3
+  title: A comprehensive non-redundant gene catalog reveals extensive within-community intraspecies diversity in the human vagina
+source_repos:
+- https://github.com/GeneProbe/GeneMark-HM
+- https://github.com/davek44/Glimmer-MG
+- https://github.com/ravel-lab/VIRGO
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/GeneProbe/GeneMark-HM

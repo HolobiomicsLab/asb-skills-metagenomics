@@ -1,0 +1,22 @@
+name: Sickle
+slug: sickle
+version_used: null
+edam_topics: []
+evidence_spans:
+- After a quality check with FastQC [58] and trimming with Sickle [59] (-q 32 -l 50)
+- najoshi/sickle
+derived_from:
+- doi: 10.1093/bib/bbae680
+  title: 'kMetaShot: a fast and reliable taxonomy classifier for metagenome-assembled genomes'
+- doi: 10.1038/srep09743
+  title: 'MICCA: a complete and accurate software for taxonomic profiling of metagenomic data'
+source_repos:
+- https://github.com/gdefazio/kMetaShot
+- https://github.com/najoshi/sickle
+- https://github.com/compmetagen/micca
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/gdefazio/kMetaShot

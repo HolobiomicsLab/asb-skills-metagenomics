@@ -1,0 +1,17 @@
+name: nf-test
+slug: nf-test
+version_used: null
+edam_topics: []
+evidence_spans:
+- Once you have made your changes, run the pipeline with nf-test to test them locally.
+derived_from:
+- doi: 10.1093/nargab/lqac007
+  title: 'nf-core/mag: a best-practice pipeline for metagenome hybrid assembly and binning'
+source_repos:
+- https://github.com/nf-core/mag
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/nf-core/mag

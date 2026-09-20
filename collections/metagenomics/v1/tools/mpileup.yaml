@@ -1,0 +1,17 @@
+name: mpileup
+slug: mpileup
+version_used: null
+edam_topics: []
+evidence_spans:
+- 'three different variant callers were assessed: (1) freebayes14, (2) mpileup15 and (3) GATK Mutect216 (cancer only mode)'
+derived_from:
+- doi: 10.1038/s41598-022-06625-6
+  title: Detecting SARS-CoV-2 lineages and mutational load in municipal wastewater and a use-case in the metropolitan area of Thessaloniki, Greece
+source_repos:
+- https://github.com/BiodataAnalysisGroup/lineagespot
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/BiodataAnalysisGroup/lineagespot

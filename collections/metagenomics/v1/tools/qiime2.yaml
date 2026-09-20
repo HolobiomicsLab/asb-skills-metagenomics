@@ -1,0 +1,29 @@
+name: QIIME2
+slug: qiime2
+version_used: null
+edam_topics: []
+evidence_spans:
+- incorporated into popular workflow for microbiome analysis, QIIME2 - DADA2 and deblur
+- incorporated into popular workflow for microbiome analysis, QIIME2 [8]. These pipelines are DADA2 [9] and deblur [10].
+- These files must follow the ``qiime2`` supported formats
+- These files must follow the ``qiime2`` supported formats.
+- software packages (such as Quantitative Insights Into Microbial Ecology 2 (QIIME2) (51))
+- We used QIIME 2.0 [16] to obtain the feature table, taxonomic annotations, and phylogenetic tree
+- Some example microbiome profiling pipelines are QIIME (15), QIIME2 (16), MG-RAST (17), Mothur (18), and Nephele (19) for 16S rRNA sequencing
+derived_from:
+- doi: 10.1186/s12859-020-03591-6
+  title: 'CDSnake: Snakemake pipeline for retrieval of annotated OTUs from paired-end reads using CD-HIT utilities'
+- doi: 10.1128/msystems.00961-22
+  title: 'Inferring microbial co-occurrence networks from amplicon data: a systematic evaluation'
+- doi: 10.1128/spectrum.05059-22
+  title: 'MiSurv: an Integrative Web Cloud Platform for User-Friendly Microbiome Data Analysis with Survival Responses'
+source_repos:
+- https://github.com/ydkondratenko/cdsnake
+- https://github.com/segrelab/MiCoNE
+- https://github.com/wg99526/MiSurvGit
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/ydkondratenko/cdsnake

@@ -1,0 +1,23 @@
+name: MetaFunPrimer
+slug: metafunprimer
+version_used: null
+edam_topics: []
+evidence_spans:
+- The first step in the MetaFunPrimer pipeline is to cluster input protein sequences over a range of amino acid sequence similarity thresholds
+- Next, MetaFunPrimer evaluates the presence of these genes in user-input reference sequences
+- MetaFunPrimer uses selected gene sequences and user-defined parameters, such as amplicon product length and melting temperature ranges, for the subsequent primer design process
+- MetaFunPrimer converts all primer outputs to nondegenerate forms (e.g., all possible primer pairs) of forward and reverse primers
+- as a final step, MetaFunPrimer outputs the minimal number of primer sets to capture the maximum number of reference gene products
+derived_from:
+- doi: 10.1128/msystems.00201-21
+  title: 'MetaFunPrimer: an Environment-Specific, High-Throughput Primer Design Tool for Improved Quantification of Target Genes'
+source_repos:
+- https://github.com/jialiu232/MetaFunPrimer_paper_info
+- https://github.com/jialiu232/MetaFunPrimer_paper_info.git
+- https://github.com/rdpstaff/EcoFunPrimer
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/jialiu232/MetaFunPrimer_paper_info

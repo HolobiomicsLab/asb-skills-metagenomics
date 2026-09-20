@@ -1,0 +1,18 @@
+name: PRINSEQ
+slug: prinseq
+version_used: null
+edam_topics: []
+evidence_spans:
+- uses DUST method from PRINSEQ
+- Filtering based on complexity is an available option (uses DUST method from PRINSEQ)
+derived_from:
+- doi: 10.1186/s12859-021-04038-2
+  title: 'ContigExtender: a new approach to improving de novo sequence assembly for viral metagenomics data'
+source_repos:
+- https://github.com/dengzac/contig-extender
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/dengzac/contig-extender

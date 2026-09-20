@@ -1,0 +1,17 @@
+name: Load_metadata
+slug: load-metadata
+version_used: null
+edam_topics: []
+evidence_spans:
+- metadata <- Load_metadata(metadata_path = "~/FEAST/Data_files/metadata_example_multi.txt")
+derived_from:
+- doi: 10.1128/msystems.00995-21
+  title: 'STENSL: Microbial Source Tracking with ENvironment SeLection'
+source_repos:
+- https://github.com/cozygene/FEAST
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/cozygene/FEAST

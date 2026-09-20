@@ -1,0 +1,18 @@
+name: HARC
+slug: harc
+version_used: null
+edam_topics: []
+evidence_spans:
+- HARC (https://github.com/shubhamchandak94/HARC)
+derived_from:
+- doi: 10.1186/s12859-020-03586-3
+  title: Variable-order reference-free variant discovery with the Burrows-Wheeler Transform
+source_repos:
+- https://github.com/shubhamchandak94/HARC
+- https://github.com/nicolaprezza/ebwt2InDel
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/shubhamchandak94/HARC

@@ -1,0 +1,17 @@
+name: SweepFinder2
+slug: sweepfinder2
+version_used: 1.0.0
+edam_topics: []
+evidence_spans:
+- the workflows are developed for the methods implemented in vcftools (v 0.1.16) (Danecek et al. 2011) and SweepFinder2 (v 1.0.0)
+derived_from:
+- doi: 10.1093/molbev/msae057
+  title: 'scalepopgen: Bioinformatic Workflow Resources Implemented in Nextflow for Comprehensive Population Genomic Analyses'
+source_repos:
+- https://github.com/Popgen48/scalepopgen
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Popgen48/scalepopgen

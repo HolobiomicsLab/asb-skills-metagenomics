@@ -1,0 +1,31 @@
+name: CheckM2
+slug: checkm2
+version_used: null
+edam_topics: []
+evidence_spans:
+- checkM2 ([git](https://github.com/chklovski/CheckM2)
+- By default, bins are qualitatively assessed with CheckM2 (Chklovski et al. 2023)
+- 'MAG quality was assessed with CheckM2 and genomes with aggregate quality scores below 50% as calculated by quality = completeness −5
+
+  × redundancy were discarded.'
+- MAG quality was assessed with CheckM2 and genomes with aggregate quality scores below 50%
+- the completeness of A. indicium and A. nucleatus might be underestimated in the current CheckM2 algorithm31
+- the CheckM2-estimated completeness and contamination of 19,542 prokaryotic genomes
+derived_from:
+- doi: 10.1093/bioinformatics/btaf334
+  title: 'Mapler: a pipeline for assessing assembly quality in taxonomically rich metagenomes sequenced with HiFi reads'
+- doi: 10.1021/acs.est.5c03603
+  title: 'SourceApp: A Novel Metagenomic Source Tracking Tool that can Distinguish between Fecal Microbiomes Using Genome-To-Source Associations Benchmarked Against Mixed Input Spike-In Mesocosms'
+- doi: 10.1038/s41564-024-01751-5
+  title: A multi-kingdom collection of 33,804 reference genomes for the human vaginal microbiome
+source_repos:
+- https://github.com/chklovski/CheckM2
+- https://github.com/Nimauric/Mapler
+- https://github.com/bglindner/SourceApp
+- https://github.com/RChGO/VMGC
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/chklovski/CheckM2

@@ -1,0 +1,62 @@
+name: metaSPAdes
+slug: metaspades
+version_used: 3.15.2
+edam_topics: []
+evidence_spans:
+- For metagenomes, metaSPAdes is used in-place-of SPAdes.
+- Since metaSPAdes has been adopted by many labs, we will use it as our benchmark tool to generate the initial seed contigs to be extended.
+- We use SPAdes 3.13.0 with the “-meta” option to enable MetaSPAdes mode. The k-mer sizes were set to 21, 33, 55, and 77
+- PE reads were meta-assembled with metaSpades (v3.15.2) [44] and MegaHIT (v1.2.9) [45] (for both -k 35, 57, 79, 99)
+- PE reads were meta-assembled with metaSpades (v3.15.2) [44] and MegaHIT (v1.2.9) [45]
+- PE reads were meta-assembled with metaSpades (v3.15.2) and MegaHIT (v1.2.9)
+- The publication is now available at `https://academic.oup.com/bioinformatics/article/39/1/btad020/6986127
+- we also assembled the same datasets using MEGAHIT (v1.1.1), Ray Meta (v2.3.1), MetaVelvet (v1.2.02), metaSPAdes (v3.14) and IDBA-UD (v1.1.2)
+- We analyzed the performance of StrainXpress, by comparing it with the available state of the art tools on all of the data sets
+- 'metaSPAdes: a new versatile metagenomic assembler'
+- Three methods for assembly are included in virMine, namely, SPAdes, metaSPAdes, and MEGAHIT
+- Trimmed reads were assembled using metaSPAdes.
+derived_from:
+- doi: 10.1093/nargab/lqaa063
+  title: 'CasCollect: targeted assembly of CRISPR-associated operons from high-throughput sequencing data'
+- doi: 10.1186/s12859-021-04038-2
+  title: 'ContigExtender: a new approach to improving de novo sequence assembly for viral metagenomics data'
+- doi: 10.1093/bib/bbae680
+  title: 'kMetaShot: a fast and reliable taxonomy classifier for metagenome-assembled genomes'
+- doi: 10.1093/bioinformatics/btad020
+  title: Capturing variation in metagenomic assembly graphs with MetaCortex
+- doi: 10.1093/nar/gkab831
+  title: 'MetaPlatanus: a metagenome assembler that combines long-range sequence links and species-specific features'
+- doi: 10.1093/nar/gkac543
+  title: 'StrainXpress: strain aware metagenome assembly from short reads'
+- doi: 10.1038/s41467-023-35945-y
+  title: ViralCC retrieves complete viral genomes and virus-host pairs from metagenomic Hi-C data
+- doi: 10.1128/mra.00107-22
+  title: 'virMine 2.0: Identifying Viral Sequences in Microbial Communities'
+- doi: 10.1080/19490976.2023.2192522
+  title: 'ViroProfiler: a containerized bioinformatics pipeline for viral metagenomic data analysis'
+- doi: 10.1016/j.compbiolchem.2022.107734
+  title: 'CH-Bin: A convex hull based approach for binning metagenomic contigs'
+- doi: 10.1016/j.cels.2019.09.004
+  title: 'MetaMiner: A Scalable Peptidogenomics Approach for Discovery of Ribosomal Peptide Natural Products with Blind Modifications from Microbial Communities'
+- doi: 10.1021/acs.est.5c03603
+  title: 'SourceApp: A Novel Metagenomic Source Tracking Tool that can Distinguish between Fecal Microbiomes Using Genome-To-Source Associations Benchmarked Against Mixed Input Spike-In Mesocosms'
+source_repos:
+- https://github.com/sandialabs/CasCollect
+- https://github.com/dengzac/contig-extender
+- https://github.com/gdefazio/kMetaShot
+- https://github.com/SR-Martin/metacortex
+- https://github.com/rkajitani/MetaPlatanus
+- https://github.com/HaploKit/StrainXpress
+- https://github.com/dyxstat/ViralCC
+- https://github.com/putonti/virmine
+- https://github.com/ablab/spades
+- https://github.com/deng-lab/viroprofiler
+- https://github.com/kdsuneraavinash/CH-Bin
+- https://github.com/mohimanilab/MetaMiner
+- https://github.com/bglindner/SourceApp
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/sandialabs/CasCollect

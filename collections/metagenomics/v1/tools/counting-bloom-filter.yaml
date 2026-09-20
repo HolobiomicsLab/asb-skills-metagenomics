@@ -1,0 +1,17 @@
+name: counting Bloom filter
+slug: counting-bloom-filter
+version_used: null
+edam_topics: []
+evidence_spans:
+- The `fimpera` implementation proposed here uses a counting Bloom filter.
+derived_from:
+- doi: 10.1093/bioinformatics/btad305
+  title: '<tt>fimpera</tt>: drastic improvement of Approximate Membership Query data-structures with counts'
+source_repos:
+- https://github.com/lrobidou/fimpera
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/lrobidou/fimpera

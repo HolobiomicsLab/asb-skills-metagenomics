@@ -1,0 +1,38 @@
+name: QUAST
+slug: quast
+version_used: 5.0.2
+edam_topics: []
+evidence_spans:
+- GitHub Actions runs the pipeline on this data to ensure it runs through and exits successfully.
+- not every tool is valid for every read type
+- the quality of the assembly was assessed using QUAST v.5.0.2 (Gurevich et al. 2013)
+- Accuracy was assessed using QUAST comparing plasmid assemblies against the ground truth.
+- Indels and Mismatches are expressed as median, and per 100 kbp from QUAST.
+- Quantities referring to the criteria listed in the corresponding Tables were determined using Quast (40)
+- We present WebQUAST, a web server for multifaceted quality assessment and comparison of genome assemblies based on the state-of-the-art QUAST tool.
+- QUAST automatically compiles all its sub-parts when needed (on the first use).
+- parsing of output of QUAST
+- basic usage and parsing of output of QUAST
+derived_from:
+- doi: 10.1093/nargab/lqac007
+  title: 'nf-core/mag: a best-practice pipeline for metagenome hybrid assembly and binning'
+- doi: 10.1093/gbe/evad227
+  title: 'Patchwork: Alignment-Based Retrieval and Concatenation of Phylogenetic Markers from Genomic Data'
+- doi: 10.1093/bioinformatics/btad409
+  title: 'Plassembler: an automated bacterial plasmid assembly tool'
+- doi: 10.1093/nar/gkac543
+  title: 'StrainXpress: strain aware metagenome assembly from short reads'
+- doi: 10.1093/nar/gkad406
+  title: 'WebQUAST: online evaluation of genome assemblies'
+source_repos:
+- https://github.com/nf-core/mag
+- https://github.com/fethalen/Patchwork
+- https://github.com/gbouras13/plassembler
+- https://github.com/HaploKit/StrainXpress
+- https://github.com/ablab/quast
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/nf-core/mag

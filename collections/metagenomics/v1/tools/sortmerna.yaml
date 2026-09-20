@@ -1,0 +1,20 @@
+name: SortMeRNA
+slug: sortmerna
+version_used: null
+edam_topics: []
+evidence_spans:
+- 'SortMeRNA: http://bioinfo.lifl.fr/RNA/sortmerna/'
+derived_from:
+- doi: 10.1093/nargab/lqac070
+  title: 'RiboTaxa: combined approaches for rRNA genes taxonomic resolution down to the species level from metagenomics data revealing novelties'
+- doi: 10.1186/s12859-018-2189-z
+  title: 'SAMSA2: a standalone metatranscriptome analysis pipeline'
+source_repos:
+- https://github.com/oschakoory/RiboTaxa
+- https://github.com/transcript/samsa2
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/oschakoory/RiboTaxa

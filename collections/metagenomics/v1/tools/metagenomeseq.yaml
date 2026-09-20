@@ -1,0 +1,19 @@
+name: metagenomeSeq
+slug: metagenomeseq
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1093/nargab/lqaa107
+  title: 'CAMAMED: a pipeline for composition-aware mapping-based analysis of metagenomic data'
+- doi: 10.1038/nmeth.2658
+  title: Differential abundance analysis for microbial marker-gene surveys
+source_repos:
+- https://github.com/mhnb/camamed
+- https://github.com/HCBravoLab/metagenomeSeq
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/mhnb/camamed

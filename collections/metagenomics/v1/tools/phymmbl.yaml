@@ -1,0 +1,17 @@
+name: PhymmBL
+slug: phymmbl
+version_used: null
+edam_topics: []
+evidence_spans:
+- PhymmBL [5,7] combines the results of BLAST with scores produced from interpolated Markov models
+derived_from:
+- doi: 10.1186/gb-2014-15-3-r46
+  title: 'Kraken: ultrafast metagenomic sequence classification using exact alignments'
+source_repos:
+- https://github.com/DerrickWood/kraken
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/DerrickWood/kraken

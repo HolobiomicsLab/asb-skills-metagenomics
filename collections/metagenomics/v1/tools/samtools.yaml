@@ -1,0 +1,81 @@
+name: SAMtools
+slug: samtools
+version_used: '1.9'
+edam_topics: []
+evidence_spans:
+- extract coverage with SAMtools depth -a
+- The read coverage was extracted with SAMtools (20) using the depth command and -a parameter
+- Installation with conda/mamba or Docker is recommended due to non-Python dependencies (Bowtie2, Minimap2, Samtools and Bedtools)
+- samtools sort -o sample.bam sample.unsort.bam
+- samtools coverage ${i}.sorted.bam > ${i}.tab
+- We further filtered the resulting BAM files with Samtools (Danecek et al. 2021), removing alternative and supplemental alignments
+- '* [Samtools](https://github.com/samtools/samtools) >=0.15.0'
+- All unmapped reads and all reads that map to putative plasmid contigs are then extracted using SAMtools (Li et al. 2009)
+- samtools (tested with 1.9)
+- "samtools (tested with 1.9)  \nhttp://www.htslib.org/doc/"
+- samtools faidx ./flye_out/assembly.fasta
+- Both `FASTA` and `BAM` files are expected to be indexed with the `samtools faidx` and `samtools index` commands
+- Both `FASTA` and `BAM` files are expected to be indexed with the `samtools faidx` and `samtools index` commands, respectively.
+- samtools view -F 0x904 -bS MAP.sam > MAP_UNSORTED.bam
+- Use the read mappings to collect SNV information for each signature gene and marker gene for each sample
+derived_from:
+- doi: 10.1093/nargab/lqaa063
+  title: 'CasCollect: targeted assembly of CRISPR-associated operons from high-throughput sequencing data'
+- doi: 10.1016/j.csbj.2022.07.010
+  title: 'FunOMIC: Pipeline with built-in fungal taxonomic and functional databases for human mycobiome profiling'
+- doi: 10.1093/bioinformatics/btad728
+  title: 'Hostile: accurate decontamination of microbial host sequences'
+- doi: 10.1186/s12859-019-3301-8
+  title: 'LEMON: a method to construct the local strains at horizontal gene transfer sites in gut metagenomics'
+- doi: 10.1093/nar/gkab831
+  title: 'MetaPlatanus: a metagenome assembler that combines long-range sequence links and species-specific features'
+- doi: 10.1093/bioadv/vbae030
+  title: 'MetaQuad: shared informative variants discovery in metagenomic samples'
+- doi: 10.1093/nargab/lqac033
+  title: 'Nano2NGS-Muta: a framework for converting nanopore sequencing data to NGS-liked sequencing data for hotspot mutation detection'
+- doi: 10.1093/nar/gkx1321
+  title: 'PlasFlow: predicting plasmid sequences in metagenomic data using genome signatures'
+- doi: 10.1093/bioinformatics/btad409
+  title: 'Plassembler: an automated bacterial plasmid assembly tool'
+- doi: 10.1093/bioinformatics/btad302
+  title: 'STEMSIM: a simulator of within-strain short-term evolutionary mutations for longitudinal metagenomic data'
+- doi: 10.1038/s41467-021-24515-9
+  title: 'Strainberry: automated strain separation in low-complexity metagenomes using long reads'
+- doi: 10.1038/s41467-023-35945-y
+  title: ViralCC retrieves complete viral genomes and virus-host pairs from metagenomic Hi-C data
+- doi: 10.1093/nar/gkac341
+  title: vRhyme enables binning of viral genomes from metagenomes
+- doi: 10.1038/s41467-024-49958-8
+  title: MAGinator enables accurate profiling of de novo MAGs with strain-level phylogenies
+- doi: 10.1016/j.compbiolchem.2022.107734
+  title: 'CH-Bin: A convex hull based approach for binning metagenomic contigs'
+- doi: 10.1038/s41587-020-00797-0
+  title: inStrain profiles population microdiversity from metagenomic data and sensitively detects shared microbial strains
+source_repos:
+- https://github.com/sandialabs/CasCollect
+- https://github.com/ManichanhLab/FunOMIC
+- https://github.com/bede/hostile
+- https://github.com/lichen2018/LEMON
+- https://github.com/samtools/htslib
+- https://github.com/rkajitani/MetaPlatanus
+- https://github.com/holab-hku/MetaQuad.git
+- https://github.com/holab-hku/MetaQuad
+- https://github.com/langjidong/Nano2NGS
+- https://github.com/smaegol/PlasFlow
+- https://github.com/samtools/samtools
+- https://github.com/gbouras13/plassembler
+- https://github.com/BoyanZhou/STEMSim
+- https://github.com/rvicedomini/strainberry
+- https://github.com/rvicedomini/strainberry-analyses
+- https://github.com/dyxstat/Reproduce_ViralCC
+- https://github.com/dyxstat/ViralCC
+- https://github.com/AnantharamanLab/vRhyme
+- https://github.com/Russel88/MAGinator
+- https://github.com/kdsuneraavinash/CH-Bin
+- https://github.com/MrOlm/instrain
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/sandialabs/CasCollect

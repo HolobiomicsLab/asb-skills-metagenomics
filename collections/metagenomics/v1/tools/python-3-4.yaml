@@ -1,0 +1,17 @@
+name: Python 3.4
+slug: python-3-4
+version_used: '3.4'
+edam_topics: []
+evidence_spans:
+- The chewBBACA software uses Python 3.4 or higher and can run on a laptop or in high performance clusters
+derived_from:
+- doi: 10.1099/mgen.0.000166
+  title: 'chewBBACA: A complete suite for gene-by-gene schema creation and strain identification'
+source_repos:
+- https://github.com/B-UMMI/chewBBACA
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/B-UMMI/chewBBACA

@@ -1,0 +1,22 @@
+name: VirSorter
+slug: virsorter
+version_used: null
+edam_topics: []
+evidence_spans:
+- '**VirSorter** (Roux et al., 2015) was one of the first tools'
+- wrapper_phage_contigs_sorter_iPlant.pl -f final.contigs.fa --db 1
+derived_from:
+- doi: 10.1128/msystems.00741-22
+  title: 'MetaPhage: an Automated Pipeline for Analyzing, Annotating, and Classifying Bacteriophages in Metagenomics Sequencing Data'
+- doi: 10.1038/s41467-023-35945-y
+  title: ViralCC retrieves complete viral genomes and virus-host pairs from metagenomic Hi-C data
+source_repos:
+- https://github.com/simroux/VirSorter
+- https://github.com/MattiaPandolfoVR/MetaPhage
+- https://github.com/dyxstat/ViralCC
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/simroux/VirSorter

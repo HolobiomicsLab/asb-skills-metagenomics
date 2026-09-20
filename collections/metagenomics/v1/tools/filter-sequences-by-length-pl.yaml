@@ -1,0 +1,16 @@
+name: filter_sequences_by_length.pl
+slug: filter-sequences-by-length-pl
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1093/nar/gkx1321
+  title: 'PlasFlow: predicting plasmid sequences in metagenomic data using genome signatures'
+source_repos:
+- https://github.com/smaegol/PlasFlow
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/smaegol/PlasFlow

@@ -1,0 +1,16 @@
+name: dustmasker
+slug: dustmasker
+version_used: 1.0.0
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1016/j.crmeth.2021.100069
+  title: Probe design for simultaneous, targeted capture of diverse metagenomic targets
+source_repos:
+- https://github.com/zacherydickson/HUBDesign
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/zacherydickson/HUBDesign

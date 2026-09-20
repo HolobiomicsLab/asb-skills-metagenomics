@@ -1,0 +1,40 @@
+name: Mash
+slug: mash
+version_used: '2.3'
+edam_topics: []
+evidence_spans:
+- We used Mash 2.3 (Ondov et al. 2016) to enable comparison between large sets of metagenomes
+- these MAGs were compared against all the RefSeq genomes available for the observed strains by exploiting Mash [54]
+- The fastest of these methods, Mash [15], indexes samples by unique k-mers
+- such as MetaFast [13] and Mash [14]
+- Mash [15], indexes samples by unique k-mers
+- '`plassembler` uses [mash](https://github.com/marbl/Mash) as a quick way to determine whether each assembled contig has any similar hits in [PLSDB](https://doi.org/10.1093/nar/gkab1111).'
+- The full Mash distance-based phylogenetic tree, including >10,000 genomes, was imported from the literature24
+derived_from:
+- doi: 10.1093/bioinformatics/btae086
+  title: ARGprofiler—a pipeline for large-scale analysis of antimicrobial resistance genes and their flanking regions in metagenomic datasets
+- doi: 10.1093/bib/bbae680
+  title: 'kMetaShot: a fast and reliable taxonomy classifier for metagenome-assembled genomes'
+- doi: 10.1093/gigascience/giy165
+  title: 'Libra: scalable <i>k-</i>mer–based tool for massive all-vs-all metagenome comparisons'
+- doi: 10.1093/bioinformatics/btad409
+  title: 'Plassembler: an automated bacterial plasmid assembly tool'
+- doi: 10.1093/nar/gkac341
+  title: vRhyme enables binning of viral genomes from metagenomes
+- doi: 10.1038/s41587-024-02276-2
+  title: Strain tracking in complex microbiomes using synteny analysis reveals per-species modes of evolution
+source_repos:
+- https://github.com/marbl/Mash
+- https://github.com/genomicepidemiology/ARGprofiler
+- https://github.com/gdefazio/kMetaShot
+- https://github.com/iychoi/libra
+- https://github.com/gbouras13/plassembler
+- https://github.com/marbl/mash
+- https://github.com/AnantharamanLab/vRhyme
+- https://github.com/leylabmpi/SynTracker
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/marbl/Mash

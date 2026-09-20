@@ -1,0 +1,23 @@
+name: blastn
+slug: blastn
+version_used: 2.9.1
+edam_topics: []
+evidence_spans:
+- '- [ Usage ](#usage)'
+derived_from:
+- doi: 10.1093/nargab/lqab047
+  title: 'GeneMark-HM: improving gene prediction in DNA sequences of human microbiome'
+- doi: 10.1016/j.crmeth.2021.100069
+  title: Probe design for simultaneous, targeted capture of diverse metagenomic targets
+- doi: 10.1099/mgen.0.000917
+  title: 'Palidis: fast discovery of novel insertion sequences'
+source_repos:
+- https://github.com/GeneProbe/GeneMark-HM
+- https://github.com/zacherydickson/HUBDesign
+- https://github.com/blue-moon22/palidis4
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/GeneProbe/GeneMark-HM

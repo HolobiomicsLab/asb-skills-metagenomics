@@ -1,0 +1,22 @@
+name: CAMISIM
+slug: camisim
+version_used: '1.3'
+edam_topics: []
+evidence_spans:
+- The publication is now available at `https://academic.oup.com/bioinformatics/article/39/1/btad020/6986127
+- CAMISIM (tested with 1.3, optional, generate input for "camisim" mode)
+derived_from:
+- doi: 10.1093/bioinformatics/btad020
+  title: Capturing variation in metagenomic assembly graphs with MetaCortex
+- doi: 10.1093/bioinformatics/btad302
+  title: 'STEMSIM: a simulator of within-strain short-term evolutionary mutations for longitudinal metagenomic data'
+source_repos:
+- https://github.com/SR-Martin/metacortex
+- https://github.com/CAMI-challenge/CAMISIM
+- https://github.com/BoyanZhou/STEMSim
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/SR-Martin/metacortex

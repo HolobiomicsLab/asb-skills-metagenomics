@@ -1,0 +1,20 @@
+name: GTDBtk
+slug: gtdbtk
+version_used: 1.0.2
+edam_topics: []
+evidence_spans:
+- GTDBtk (v1.0.2)
+- two state-of-art tools, namely, GTDBtk (v1.0.2) and CAMITAX (v0.7.0; Nextflow v21.04.0)
+- kMetaShot, GTDBtk, and CAMITAX were used to taxonomically classify the inferred MAGs.
+- tools like CAMITAX and GTDBtk have implemented complex approaches, relying on marker gene identification and sequence alignments
+derived_from:
+- doi: 10.1093/bib/bbae680
+  title: 'kMetaShot: a fast and reliable taxonomy classifier for metagenome-assembled genomes'
+source_repos:
+- https://github.com/gdefazio/kMetaShot
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/gdefazio/kMetaShot

@@ -1,0 +1,21 @@
+name: MegaR
+slug: megar
+version_used: null
+edam_topics: []
+evidence_spans:
+- There are three machine learning models available for classification. **Generalized Linear Model (GLM)**, **Random Forest Model**, and **Support Vector Machines**.
+- '> devtools::install_github("BioHPC/MegaR")'
+- MegaR provides sample data from the DIABIMMUNE project.
+- We introduce MegaR, an R Shiny package and web application, to build an unbiased machine learning model effortlessly with interactive visual analysis.
+- devtools::install_github("BioHPC/MegaR")
+derived_from:
+- doi: 10.1186/s12859-020-03933-4
+  title: 'MegaR: an interactive R package for rapid sample classification and phenotype prediction using metagenome profiles and machine learning'
+source_repos:
+- https://github.com/BioHPC/MegaR
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/BioHPC/MegaR

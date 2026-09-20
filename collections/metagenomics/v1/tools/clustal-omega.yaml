@@ -1,0 +1,20 @@
+name: Clustal Omega
+slug: clustal-omega
+version_used: 1.2.1
+edam_topics: []
+evidence_spans:
+- Clustal Omega [45], and Mugsy [46], to identify SNVs, calculate the precision and recall rate
+derived_from:
+- doi: 10.1186/s12859-021-04149-w
+  title: A tri-tuple coordinate system derived for fast and accurate analysis of the colored de Bruijn graph-based pangenomes
+- doi: 10.1016/j.crmeth.2021.100069
+  title: Probe design for simultaneous, targeted capture of diverse metagenomic targets
+source_repos:
+- https://github.com/eggleader/cSupB
+- https://github.com/zacherydickson/HUBDesign
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/eggleader/cSupB

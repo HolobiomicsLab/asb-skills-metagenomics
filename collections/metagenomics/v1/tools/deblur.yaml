@@ -1,0 +1,27 @@
+name: deblur
+slug: deblur
+version_used: 81371.722149.592263.83
+edam_topics: []
+evidence_spans:
+- QIIME2 - DADA2 and deblur
+- incorporated into popular workflow for microbiome analysis, QIIME2 - DADA2 and deblur
+- Time, secDADA2deblursource CD-HITCDSnakeHMP4614.81371.722149.592263.83
+- Deblur compares sequence-to-sequence hamming distances to an upper-bound error model combined with a greedy algorithm
+- '| OTU assignment   | Deblur           | min_reads           | 2           |'
+derived_from:
+- doi: 10.1186/s12859-020-03591-6
+  title: 'CDSnake: Snakemake pipeline for retrieval of annotated OTUs from paired-end reads using CD-HIT utilities'
+- doi: 10.1128/msystems.00697-21
+  title: "HashSeq: a Simple, Scalable, and Conservative\n            <i>De Novo</i>\n            Variant Caller for 16S rRNA Gene Data Sets"
+- doi: 10.1128/msystems.00961-22
+  title: 'Inferring microbial co-occurrence networks from amplicon data: a systematic evaluation'
+source_repos:
+- https://github.com/ydkondratenko/cdsnake
+- https://github.com/FarnazFouladi/HashSeq
+- https://github.com/segrelab/MiCoNE
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/ydkondratenko/cdsnake

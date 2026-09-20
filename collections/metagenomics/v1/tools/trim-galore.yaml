@@ -1,0 +1,21 @@
+name: trim-galore
+slug: trim-galore
+version_used: 0.5.0
+edam_topics: []
+evidence_spans:
+- to trim the reads before assembly
+- we will use `trim-galore <https://github.com/FelixKrueger/TrimGalore>`_ to trim the reads before assembly
+- and we will use `trim-galore <https://github.com/FelixKrueger/TrimGalore>`_ to trim the reads before assembly
+- we used trim-galore v0.5.0, a wrapper script around Cutadapt, to trim low-quality bases and adapter sequence from the reads
+derived_from:
+- doi: 10.1093/bioinformatics/btad020
+  title: Capturing variation in metagenomic assembly graphs with MetaCortex
+source_repos:
+- https://github.com/FelixKrueger/TrimGalore
+- https://github.com/SR-Martin/metacortex
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/FelixKrueger/TrimGalore

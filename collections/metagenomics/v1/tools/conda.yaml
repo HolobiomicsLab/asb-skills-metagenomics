@@ -1,0 +1,72 @@
+name: conda
+slug: conda
+version_used: '4.8'
+edam_topics: []
+evidence_spans:
+- Install baseLess from conda, with the much faster [mamba](https://anaconda.org/conda-forge/mamba) drop-in replacement
+- Otherwise just replace `mamba` by `conda`.
+- All dependencies are covered by conda.
+- conda create -y -n hostile -c conda-forge -c bioconda hostile
+- kMetaShot is available through **conda** in _bioconda_ channel.
+- The pipeline requires Snakemake and Conda.
+- conda install -c bioconda metacortex
+- MetaLAFFA requires [**Conda**](https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html) (version 4.8 or greater) for installation and operation.
+- MetaLAFFA requires Conda (version 4.8 or greater) for installation and operation.
+- using either Conda, Singularity, or Docker
+- containerized using the software container technologies like Docker, Singularity, or Conda
+- a software container or environment system such as `conda`, `mamba`, `singularity` or `docker`
+- conda env create -n sberry --file environment.yml
+- conda create -n cathai -c conda-forge python=3.9 uwsgi=2.0 redis=5.0
+- conda create -n maginator -c bioconda -c conda-forge snakemake mamba
+- conda install -c conda-forge -c bioconda plass
+derived_from:
+- doi: 10.1093/bioadv/vbad017
+  title: 'baseLess: lightweight detection of sequences in raw MinION data'
+- doi: 10.1093/nargab/lqaf094
+  title: 'ganon2: up-to-date and scalable metagenomics analysis'
+- doi: 10.1093/bioinformatics/btad728
+  title: 'Hostile: accurate decontamination of microbial host sequences'
+- doi: 10.1093/bib/bbae680
+  title: 'kMetaShot: a fast and reliable taxonomy classifier for metagenome-assembled genomes'
+- doi: 10.1093/bioinformatics/btaf334
+  title: 'Mapler: a pipeline for assessing assembly quality in taxonomically rich metagenomes sequenced with HiFi reads'
+- doi: 10.1093/bioinformatics/btad020
+  title: Capturing variation in metagenomic assembly graphs with MetaCortex
+- doi: 10.1186/s12859-020-03815-9
+  title: 'MetaLAFFA: a flexible, end-to-end, distributed computing-compatible metagenomic functional annotation pipeline'
+- doi: 10.1093/nargab/lqac019
+  title: 'OMARU: a robust and multifaceted pipeline for metagenome-wide association study'
+- doi: 10.1093/molbev/msae057
+  title: 'scalepopgen: Bioinformatic Workflow Resources Implemented in Nextflow for Comprehensive Population Genomic Analyses'
+- doi: 10.1038/s41467-021-24515-9
+  title: 'Strainberry: automated strain separation in low-complexity metagenomes using long reads'
+- doi: 10.1080/19490976.2023.2192522
+  title: 'ViroProfiler: a containerized bioinformatics pipeline for viral metagenomic data analysis'
+- doi: 10.1093/bioadv/vbac040
+  title: 'CATHAI: cluster analysis tool for healthcare-associated infections'
+- doi: 10.1038/s41467-024-49958-8
+  title: MAGinator enables accurate profiling of de novo MAGs with strain-level phylogenies
+- doi: 10.1038/s41592-019-0437-4
+  title: Protein-level assembly increases protein sequence recovery from metagenomic samples manyfold
+source_repos:
+- https://github.com/cvdelannoy/baseLess
+- https://github.com/pirovc/ganon_benchmark
+- https://github.com/bede/hostile
+- https://github.com/gdefazio/kMetaShot
+- https://github.com/Nimauric/Mapler
+- https://github.com/SR-Martin/metacortex
+- https://github.com/borenstein-lab/MetaLAFFA
+- https://github.com/toshi-kishikawa/OMARU
+- https://github.com/Popgen48/scalepopgen
+- https://github.com/rvicedomini/strainberry
+- https://github.com/deng-lab/viroprofiler
+- https://github.com/FordeGenomics/cathai
+- https://github.com/Russel88/MAGinator
+- https://github.com/conda-forge/miniforge
+- https://github.com/soedinglab/plass
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/cvdelannoy/baseLess

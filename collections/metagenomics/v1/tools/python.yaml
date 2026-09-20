@@ -1,0 +1,154 @@
+name: Python
+slug: python
+version_used: '3.4'
+edam_topics: []
+evidence_spans:
+- The chewBBACA software uses Python 3.4 or higher and can run on a laptop or in high performance clusters
+- python3 -m venv dev_iDeLUCS
+- '### [01_*D. melanogaster* pipeline (python/bash)](https://nbviewer.jupyter.org/github/jmurga/iMKTData/blob/master/notebooks/dmelProteins.ipynb)'
+- '[02_Human pipeline (python/bash)](https://nbviewer.jupyter.org/github/jmurga/iMKTData/blob/master/notebooks/humanProteins.ipynb)'
+- '### [01_*D. melanogaster* pipeline (python/bash)]'
+- kmetashot=2.0=pyh7e72e81_1 python=3.9 -c bioconda
+- LRTK-SIM was written by [python3](https://www.python.org/downloads/source/) and six packages should be preinstalled
+- Source code is implemented in Python and Bash as a Snakemake pipeline.
+- By default, MetaLAFFA uses a custom Python script to filter hits and uses the highest specificity hit filtering method
+- Gene length normalization and fractional counting are performed by a custom Python script in default MetaLAFFA operation.
+- a Python module-based configuration system provides advanced users with a flexible interface for pipeline customization
+- MetaQuad is an open-source Python package available via https://github.com/holab-hku/MetaQuad.
+- pip install -U git+https://github.com/holab-hku/MetaQuad.git
+- If you have an interaction matrix stored in a ``tsv`` or ``csv`` format, you can load it into a ``Network`` object
+- If you have an interaction matrix stored in a ``tsv`` or ``csv`` format
+- from micone import Network, NetworkGroup
+- MOVIS is built using Python and additional libraries like Pandas [13], Numpy [14], Scikit-learn [15], Biopython [16], Gensim [17], Altair [18], and Streamlit.
+- The code is written in Python 3.8.11 and tested on Linux
+- '- [ Usage ](#usage)'
+- Python 3.5, 3.6, 3.7 and 3.8, and for PyPy
+- Plassembler is implemented in Python and is installable as a bioconda package
+- including the programs FLASH and Trimmomatic, Python version 2.7, and R
+- version 2.7, and R, preferably RStudio
+- including the programs FLASH and Trimmomatic, Python version 2.7
+- including the programs FLASH and Trimmomatic, Python version 2.7, and R, preferably RStudio
+- several Python and R scripts are also provided to collect and visualize the results
+- plotted using the custom Python scripts supplied with the workflow
+- Several Python scripts are embedded within the workflows to ... plot the results interactively using the Python library Plotly
+- An in-house Python script was developed to transform the VCF file to the input of the TreeMix v 1.13 tool
+- Additionally, stand-alone tools were developed in R and Python whenever the appropriate open-source tools
+- Several Python scripts are embedded within the workflows to (i) perform intermediate data conversion or transformation
+- ShoRAH is implemented in C++, Python, and Perl
+- It is implemented in C++, Python, and Perl
+- It is implemented in C++, Python, and Perl and the source code is distributed under the GPL licence.
+- Python 3.11 or later installed
+- Before installing Snekmer, check that you have Python 3.11 or later installed
+- Python 3.11 or later
+- Snekmer is written in Python using Snakemake.
+- This code was written and tested on python 3.6.5
+- 'This code was written and tested on python 3.6.5, and requires the following packages:'
+- conda install -c bioconda python=3.6 scipy pandas minimap2
+- 'The details for LCS calculation can be found in Additional file 1: Section 1'
+- traitar is available for Linux via the python packaging index.
+- These updates include Python v.3.9, BBMap v.38.94
+- $ python calculate_coverages.py -i test_data/ -o test_data/sample_output.tsv -d databases/WoL/metadata.tsv
+- VueGen is a Python package that automates the creation of scientific reports.
+- If you are familiar with Python, Git,, and GitHub, you can **fix the bug** yourself
+- VueGen is a Python library that automates the creation of scientific reports.
+- "Assuming you have Python available \n   on your system, this can be done using `venv`."
+- SourceApp was developed for use on Unix or Unix-like operating systems and its implementation in Python has the same requirement.
+- its implementation in Python has the same requirement
+- SourceApp was developed for use on Unix or Unix-like operating systems and its implementation in Python
+- python path/to/SourceApp/pipelines/sourceapp.py -h
+derived_from:
+- doi: 10.1099/mgen.0.000166
+  title: 'chewBBACA: A complete suite for gene-by-gene schema creation and strain identification'
+- doi: 10.1093/bioinformatics/btad508
+  title: '<i>i</i>DeLUCS: a deep learning interactive tool for alignment-free clustering of DNA sequences'
+- doi: 10.1093/nar/gkz372
+  title: 'iMKT: the integrative McDonald and Kreitman test'
+- doi: 10.1016/j.csbj.2022.03.015
+  title: KEMET – A python tool for KEGG Module evaluation and microbial genome annotation expansion
+- doi: 10.1093/bib/bbae680
+  title: 'kMetaShot: a fast and reliable taxonomy classifier for metagenome-assembled genomes'
+- doi: 10.1093/gigascience/giz141
+  title: Assessment of human diploid genome assembly with 10x Linked-Reads data
+- doi: 10.1093/bioinformatics/btaf334
+  title: 'Mapler: a pipeline for assessing assembly quality in taxonomically rich metagenomes sequenced with HiFi reads'
+- doi: 10.1186/s12859-020-03815-9
+  title: 'MetaLAFFA: a flexible, end-to-end, distributed computing-compatible metagenomic functional annotation pipeline'
+- doi: 10.1093/bioadv/vbae030
+  title: 'MetaQuad: shared informative variants discovery in metagenomic samples'
+- doi: 10.1128/msystems.00961-22
+  title: 'Inferring microbial co-occurrence networks from amplicon data: a systematic evaluation'
+- doi: 10.1016/j.csbj.2022.02.012
+  title: 'MOVIS: A multi-omics software solution for multi-modal time-series clustering, embedding, and visualizing tasks'
+- doi: 10.1099/mgen.0.000917
+  title: 'Palidis: fast discovery of novel insertion sequences'
+- doi: 10.1093/nar/gkx1321
+  title: 'PlasFlow: predicting plasmid sequences in metagenomic data using genome signatures'
+- doi: 10.1093/bioinformatics/btad409
+  title: 'Plassembler: an automated bacterial plasmid assembly tool'
+- doi: 10.1186/s12859-016-1270-8
+  title: 'SAMSA: a comprehensive metatranscriptome analysis pipeline'
+- doi: 10.1093/molbev/msae057
+  title: 'scalepopgen: Bioinformatic Workflow Resources Implemented in Nextflow for Comprehensive Population Genomic Analyses'
+- doi: 10.1186/1471-2105-12-119
+  title: 'ShoRAH: estimating the genetic diversity of a mixed sample from next-generation sequencing data'
+- doi: 10.1093/bioadv/vbad005
+  title: 'Snekmer: a scalable pipeline for protein sequence fingerprinting based on amino acid recoding'
+- doi: 10.1093/bioinformatics/btad302
+  title: 'STEMSIM: a simulator of within-strain short-term evolutionary mutations for longitudinal metagenomic data'
+- doi: 10.1093/nar/gkac543
+  title: 'StrainXpress: strain aware metagenome assembly from short reads'
+- doi: 10.1186/s12859-019-2878-2
+  title: 'TAR-VIR: a pipeline for TARgeted VIRal strain reconstruction from metagenomic data'
+- doi: 10.1128/msystems.00101-16
+  title: 'From Genomes to Phenotypes: Traitar, the Microbial Trait Analyzer'
+- doi: 10.1128/mra.00107-22
+  title: 'virMine 2.0: Identifying Viral Sequences in Microbial Communities'
+- doi: 10.1093/nar/gkac341
+  title: vRhyme enables binning of viral genomes from metagenomes
+- doi: 10.1128/msystems.00758-22
+  title: 'Zebra: Static and Dynamic Genome Cover Thresholds with Overlapping References'
+- doi: 10.1093/bioadv/vbaf149
+  title: 'VueGen: automating the generation of scientific reports'
+- doi: 10.1016/j.compbiolchem.2022.107734
+  title: 'CH-Bin: A convex hull based approach for binning metagenomic contigs'
+- doi: 10.1021/acs.est.5c03603
+  title: 'SourceApp: A Novel Metagenomic Source Tracking Tool that can Distinguish between Fecal Microbiomes Using Genome-To-Source Associations Benchmarked Against Mixed Input Spike-In Mesocosms'
+source_repos:
+- https://github.com/B-UMMI/chewBBACA
+- https://github.com/Kari-Genomics-Lab/iDeLUCS
+- https://github.com/BGD-UAB/iMKTData
+- https://github.com/jmurga/iMKTData
+- https://github.com/Matteopaluh/KEMET
+- https://github.com/gdefazio/kMetaShot
+- https://github.com/zhanglu295/LRTK-SIM
+- https://github.com/Nimauric/Mapler
+- https://github.com/borenstein-lab/MetaLAFFA
+- https://github.com/engal/MetaLAFFA
+- https://github.com/holab-hku/MetaQuad
+- https://github.com/holab-hku/MetaQuad.git
+- https://github.com/segrelab/MiCoNE
+- https://github.com/AAnzel/MOVIS
+- https://github.com/blue-moon22/palidis4
+- https://github.com/smaegol/PlasFlow
+- https://github.com/gbouras13/plassembler
+- https://github.com/transcript/SAMSA
+- https://github.com/Popgen48/scalepopgen
+- https://github.com/Popgen48/scalepopgen-cli.git
+- https://github.com/cbg-ethz/shorah
+- https://github.com/PNNL-CompBio/Snekmer
+- https://github.com/BoyanZhou/STEMSim
+- https://github.com/HaploKit/StrainXpress
+- https://github.com/chjiao/TAR-VIR
+- https://github.com/hzi-bifo/traitar
+- https://github.com/putonti/virmine
+- https://github.com/AnantharamanLab/vRhyme
+- https://github.com/biocore/zebra_filter
+- https://github.com/Multiomics-Analytics-Group/vuegen
+- https://github.com/kdsuneraavinash/CH-Bin
+- https://github.com/bglindner/SourceApp
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/B-UMMI/chewBBACA

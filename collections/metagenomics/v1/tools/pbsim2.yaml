@@ -1,0 +1,23 @@
+name: PBSIM2
+slug: pbsim2
+version_used: null
+edam_topics: []
+evidence_spans:
+- 140 complete mycobacterial assemblies
+- docker pull oma219/spumoni:latest
+- (absent — flagged as missing)
+derived_from:
+- doi: 10.1093/bioinformatics/btad728
+  title: 'Hostile: accurate decontamination of microbial host sequences'
+- doi: 10.1016/j.isci.2021.102696
+  title: Pan-genomic matching statistics for targeted nanopore sequencing
+source_repos:
+- https://github.com/bede/hostile
+- https://github.com/yukiteruono/pbsim2
+- https://github.com/oma219/spumoni
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/bede/hostile

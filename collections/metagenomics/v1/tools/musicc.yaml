@@ -1,0 +1,17 @@
+name: MUSiCC
+slug: musicc
+version_used: null
+edam_topics: []
+evidence_spans:
+- MetaLAFFA uses MUSiCC (Manor and Borenstein 2015) during default operation
+derived_from:
+- doi: 10.1186/s12859-020-03815-9
+  title: 'MetaLAFFA: a flexible, end-to-end, distributed computing-compatible metagenomic functional annotation pipeline'
+source_repos:
+- https://github.com/borenstein-lab/MetaLAFFA
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/borenstein-lab/MetaLAFFA

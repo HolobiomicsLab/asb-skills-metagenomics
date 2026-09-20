@@ -1,0 +1,16 @@
+name: NCBI BLAST (blastn)
+slug: ncbi-blast-blastn
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1093/nargab/lqab047
+  title: 'GeneMark-HM: improving gene prediction in DNA sequences of human microbiome'
+source_repos:
+- https://github.com/GeneProbe/GeneMark-HM
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/GeneProbe/GeneMark-HM

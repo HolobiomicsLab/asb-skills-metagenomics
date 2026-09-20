@@ -1,0 +1,19 @@
+name: fastq-dl
+slug: fastq-dl
+version_used: 2.0.4
+edam_topics: []
+evidence_spans:
+- ARGprofiler utilizes fastq-dl 2.0.4
+- ARGprofiler utilizes fastq-dl 2.0.4 (https://github.com/rpetit3/fastq-dl) to retrieve and download the reads
+derived_from:
+- doi: 10.1093/bioinformatics/btae086
+  title: ARGprofiler—a pipeline for large-scale analysis of antimicrobial resistance genes and their flanking regions in metagenomic datasets
+source_repos:
+- https://github.com/rpetit3/fastq-dl
+- https://github.com/genomicepidemiology/ARGprofiler
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/rpetit3/fastq-dl

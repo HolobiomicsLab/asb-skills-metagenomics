@@ -1,0 +1,22 @@
+name: baseLess
+slug: baseless
+version_used: null
+edam_topics: []
+evidence_spans:
+- baseLess and all code used in data preparation and validation are available on Github at https://github.com/cvdelannoy/baseLess, under an MIT license.
+- "baseLess run_production_pipeline \\\n  --training-reads path/to/training/reads \\\n  --test-reads path/to/test/reads \\\n  --out-dir path/to/networks/directory"
+- mamba install -c bioconda -c conda-forge -c cvdelannoy baseless
+- point baseLess to the fast5 output directory of your reads
+- "baseLess run_inference \\\n    --fast5-in directory/of/fast5s"
+- baseLess compile_model
+derived_from:
+- doi: 10.1093/bioadv/vbad017
+  title: 'baseLess: lightweight detection of sequences in raw MinION data'
+source_repos:
+- https://github.com/cvdelannoy/baseLess
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/cvdelannoy/baseLess

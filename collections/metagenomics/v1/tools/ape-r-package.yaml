@@ -1,0 +1,18 @@
+name: ape (R package)
+slug: ape-r-package
+version_used: null
+edam_topics: []
+evidence_spans:
+- '* Step 2: Get cophenetic distance matrix'
+- 'Step 2: Get cophenetic distance matrix'
+derived_from:
+- doi: 10.1093/bioadv/vbae013
+  title: 'PM-CNN: microbiome status recognition and disease detection model based on phylogeny and multi-path neural network'
+source_repos:
+- https://github.com/qdu-bioinfo/PM_CNN
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/qdu-bioinfo/PM_CNN

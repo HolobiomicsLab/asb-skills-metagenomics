@@ -1,0 +1,25 @@
+name: Kraken 2
+slug: kraken-2
+version_used: null
+edam_topics: []
+evidence_spans:
+- Kraken2 version 2.1.3 with a custom database built from Greengenes2 2024.09 sequences via kraken2-build
+- a new version of Kraken, named Kraken 2 [7], has been introduced.
+- a new version of Kraken, named Kraken 2 [7], has been introduced. It improves upon Kraken by reducing memory usage by 85%
+derived_from:
+- doi: 10.1093/nargab/lqaa009
+  title: 'DeepMicrobes: taxonomic classification for metagenomics with deep learning'
+- doi: 10.1093/bioadv/vbag166
+  title: 'DeepTaxa: a hybrid CNN-BERT framework for 16S rRNA taxonomic classification'
+- doi: 10.1186/s12859-020-03628-w
+  title: Metagenomic analysis through the extended Burrows-Wheeler transform
+source_repos:
+- https://github.com/MicrobeLab/DeepMicrobes
+- https://github.com/systems-genomics-lab/deeptaxa
+- https://github.com/veronicaguerrini/LiME
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/MicrobeLab/DeepMicrobes

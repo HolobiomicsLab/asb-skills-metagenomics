@@ -1,0 +1,39 @@
+name: MMseqs2
+slug: mmseqs2
+version_used: null
+edam_topics: []
+evidence_spans:
+- Linclust has been integrated into our free GPLv3-licensed MMseqs2 software suite10.
+- and mmseqs cluster --cov-mode 1 -c 0.9 --min-seq-id 0.9 for 90%, respectively, and --min-seq-id 0.7 or --min-seq-id 0.5 for 70% and 50%.
+- Linclust has been integrated into our free GPLv3-licensed MMseqs2 software suite
+- it computes gene clusters using [`mmseqs2`](https://github.com/soedinglab/MMseqs2)
+- it computes gene clusters using [`mmseqs2`]
+- Snekmer's ``snekmer cluster`` mode is an example of an unsupervised
+- we clustered approximately 26 million protein-coding genes from all prokaryotic, fungal and viral genomes at 50% (VMGC-50), 90% (VMGC-90) and 95% (VMGC-95) amino acid identity
+derived_from:
+- doi: 10.1038/s41467-018-04964-5
+  title: Clustering huge protein sequence sets in linear time
+- doi: 10.1093/nargab/lqac060
+  title: 'mOTUpan: a robust Bayesian approach to leverage metagenome-assembled genomes for core-genome estimation'
+- doi: 10.1093/bioadv/vbad005
+  title: 'Snekmer: a scalable pipeline for protein sequence fingerprinting based on amino acid recoding'
+- doi: 10.1080/19490976.2023.2192522
+  title: 'ViroProfiler: a containerized bioinformatics pipeline for viral metagenomic data analysis'
+- doi: 10.1093/nar/gkac341
+  title: vRhyme enables binning of viral genomes from metagenomes
+- doi: 10.1038/s41564-024-01751-5
+  title: A multi-kingdom collection of 33,804 reference genomes for the human vaginal microbiome
+source_repos:
+- https://github.com/soedinglab/mmseqs2
+- https://github.com/soedinglab/MMseqs2
+- https://github.com/moritzbuck/mOTUlizer
+- https://github.com/PNNL-CompBio/Snekmer
+- https://github.com/deng-lab/viroprofiler
+- https://github.com/AnantharamanLab/vRhyme
+- https://github.com/RChGO/VMGC
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/soedinglab/mmseqs2

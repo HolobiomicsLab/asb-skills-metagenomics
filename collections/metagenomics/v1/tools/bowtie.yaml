@@ -1,0 +1,18 @@
+name: bowtie
+slug: bowtie
+version_used: null
+edam_topics: []
+evidence_spans:
+- 'default value is 25 : *in step 1 scripts, the -l is the seed length for read mapping.'
+- the -l is the seed length for read mapping
+derived_from:
+- doi: 10.1038/s41467-020-14677-3
+  title: A comprehensive non-redundant gene catalog reveals extensive within-community intraspecies diversity in the human vagina
+source_repos:
+- https://github.com/ravel-lab/VIRGO
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/ravel-lab/VIRGO

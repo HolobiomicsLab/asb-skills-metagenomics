@@ -1,0 +1,18 @@
+name: LiME
+slug: lime
+version_used: null
+edam_topics: []
+evidence_spans:
+- git clone https://github.com/veronicaguerrini/LiME
+- The tool LiME (Lightweight Metagenomics via eBWT) is available at https://github.com/veronicaguerrini/LiME
+derived_from:
+- doi: 10.1186/s12859-020-03628-w
+  title: Metagenomic analysis through the extended Burrows-Wheeler transform
+source_repos:
+- https://github.com/veronicaguerrini/LiME
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/veronicaguerrini/LiME

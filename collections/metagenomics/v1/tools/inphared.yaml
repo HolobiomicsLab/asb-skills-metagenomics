@@ -1,0 +1,18 @@
+name: INPHARED
+slug: inphared
+version_used: null
+edam_topics: []
+evidence_spans:
+- Specify the INphared files prefix (vcontact2 db). Default is `20Jan2022_vConTACT2_`
+derived_from:
+- doi: 10.1128/msystems.00741-22
+  title: 'MetaPhage: an Automated Pipeline for Analyzing, Annotating, and Classifying Bacteriophages in Metagenomics Sequencing Data'
+source_repos:
+- https://github.com/RyanCook94/inphared
+- https://github.com/MattiaPandolfoVR/MetaPhage
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/RyanCook94/inphared

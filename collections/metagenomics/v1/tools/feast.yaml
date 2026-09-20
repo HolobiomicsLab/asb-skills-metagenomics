@@ -1,0 +1,24 @@
+name: FEAST
+slug: feast
+version_used: null
+edam_topics: []
+evidence_spans:
+- methods such as FEAST (1) and SourceTracker2 (2) quantify the fraction, or proportion, of different microbial samples (sources) in a target microbial community (sink)
+- '*FEAST* (Fast Expectation-mAximization microbial Source Tracking)'
+- '`FEAST(C, metadata, EM_iterations, COVERAGE, different_sources_flag, dir_path, outfile)`'
+- '*FEAST* (Fast Expectation-mAximization microbial Source Tracking) for microbial source tracking'
+- 'the performance of SourceApp against alternative tools for the same purposes: metaSourceTracker, FEAST, and decOM'
+derived_from:
+- doi: 10.1128/msystems.00995-21
+  title: 'STENSL: Microbial Source Tracking with ENvironment SeLection'
+- doi: 10.1021/acs.est.5c03603
+  title: 'SourceApp: A Novel Metagenomic Source Tracking Tool that can Distinguish between Fecal Microbiomes Using Genome-To-Source Associations Benchmarked Against Mixed Input Spike-In Mesocosms'
+source_repos:
+- https://github.com/cozygene/FEAST
+- https://github.com/bglindner/SourceApp
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/cozygene/FEAST

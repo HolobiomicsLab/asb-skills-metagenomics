@@ -1,0 +1,17 @@
+name: SHAPEIT5
+slug: shapeit5
+version_used: 5.1.1
+edam_topics: []
+evidence_spans:
+- the VCF files are phased using BEAGLE (v 5.2) (Browning and Browning 2007) or SHAPEIT5 (v 5.1.1)
+derived_from:
+- doi: 10.1093/molbev/msae057
+  title: 'scalepopgen: Bioinformatic Workflow Resources Implemented in Nextflow for Comprehensive Population Genomic Analyses'
+source_repos:
+- https://github.com/Popgen48/scalepopgen
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Popgen48/scalepopgen

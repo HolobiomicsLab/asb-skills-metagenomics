@@ -1,0 +1,41 @@
+name: VSEARCH
+slug: vsearch
+version_used: '10.7717'
+edam_topics: []
+evidence_spans:
+- DNA mode implements VSEARCH (22) for identity matching to a user-defined set of CRISPR array repeats
+- -match number       percent match for vsearch
+- We used VSEARCH incorporated in QIIME workflow in "join-pairs" mode to merge reads before deblur usage.
+- Other alignment-based approaches, such as MMseqs2 (Steinegger and Söding 2017), Minimap2 (Li 2018), and VSEARCH (Rognes et al. 2016)
+- '``filter``, ``mergepairs``, ``otu`` and ``msa`` commands'
+- 'VSEARCH (doi: 10.7717/peerj.2584) used in ``classify``, ``filter``, ``mergepairs``, ``otu`` and ``msa`` commands'
+- 'VSEARCH (doi: 10.7717/peerj.2584) used in ``classify``,'
+- "VSEARCH (doi: 10.7717/peerj.2584) used in ``classify``,\n  ``filter``, ``mergepairs``, ``otu`` and ``msa`` commands"
+- vsearch (https://github.com/torognes/vsearch)
+derived_from:
+- doi: 10.1093/nargab/lqaa063
+  title: 'CasCollect: targeted assembly of CRISPR-associated operons from high-throughput sequencing data'
+- doi: 10.1186/s12859-020-03591-6
+  title: 'CDSnake: Snakemake pipeline for retrieval of annotated OTUs from paired-end reads using CD-HIT utilities'
+- doi: 10.1093/bioadv/vbag166
+  title: 'DeepTaxa: a hybrid CNN-BERT framework for 16S rRNA taxonomic classification'
+- doi: 10.1038/srep09743
+  title: 'MICCA: a complete and accurate software for taxonomic profiling of metagenomic data'
+- doi: 10.1093/nargab/lqac070
+  title: 'RiboTaxa: combined approaches for rRNA genes taxonomic resolution down to the species level from metagenomics data revealing novelties'
+- doi: 10.1038/s41467-018-05658-8
+  title: Maximal viral information recovery from sequence data using VirMAP
+source_repos:
+- https://github.com/torognes/vsearch
+- https://github.com/sandialabs/CasCollect
+- https://github.com/ydkondratenko/cdsnake
+- https://github.com/systems-genomics-lab/deeptaxa
+- https://github.com/compmetagen/micca
+- https://github.com/oschakoory/RiboTaxa
+- https://github.com/cmmr/VirMAP
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/torognes/vsearch

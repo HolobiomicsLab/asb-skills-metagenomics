@@ -1,0 +1,18 @@
+name: genome_updater.sh
+slug: genome-updater-sh
+version_used: null
+edam_topics: []
+evidence_spans:
+- wget https://raw.githubusercontent.com/pirovc/genome_updater/a301b927362aced47ed88a20b3f396df0bf5258d/genome_updater.sh
+derived_from:
+- doi: 10.1093/nargab/lqaf094
+  title: 'ganon2: up-to-date and scalable metagenomics analysis'
+source_repos:
+- https://github.com/pirovc/genome_updater
+- https://github.com/pirovc/ganon_benchmark
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/pirovc/genome_updater

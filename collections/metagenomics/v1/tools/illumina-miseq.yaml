@@ -1,0 +1,17 @@
+name: Illumina MiSeq
+slug: illumina-miseq
+version_used: '16.5'
+edam_topics: []
+evidence_spans:
+- Using an Illumina MiSeq 16.5 h run, our proposed sequencing workflow would provide a full set of predictions for all drugs at 36 h
+derived_from:
+- doi: 10.1038/ncomms10063
+  title: Rapid antibiotic-resistance predictions from genome sequence data for Staphylococcus aureus and Mycobacterium tuberculosis
+source_repos:
+- https://github.com/phac-nml/mykrobe-parser
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/phac-nml/mykrobe-parser

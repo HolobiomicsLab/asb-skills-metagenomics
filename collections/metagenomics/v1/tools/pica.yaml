@@ -1,0 +1,18 @@
+name: PICA
+slug: pica
+version_used: null
+edam_topics: []
+evidence_spans:
+- The PICA framework facilitates application and comparison of different machine learning techniques for phenotypic trait prediction.
+- MacDonald and Beiko [18] developed a software framework for comparison of different phenotype prediction methods (PICA)
+derived_from:
+- doi: 10.1186/1471-2105-16-s14-s1
+  title: Prediction of microbial phenotypes based on comparative genomics
+source_repos:
+- https://github.com/univieCUBE/PICA
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/univieCUBE/PICA

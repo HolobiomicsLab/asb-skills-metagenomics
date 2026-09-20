@@ -1,0 +1,19 @@
+name: gamlss
+slug: gamlss
+version_used: null
+edam_topics: []
+evidence_spans:
+- propmed.rel="gamlss"
+- Comparison of bacterial taxa relative abundance using GAMLSS
+- applies Generalized Additive Models for Location, Scale and Shape (GAMLSS) with a zero-inflated beta (BEZI) family
+derived_from:
+- doi: 10.1186/s12859-019-2744-2
+  title: 'metamicrobiomeR: an R package for analysis of microbiome relative abundance data using zero-inflated beta GAMLSS and meta-analysis across studies using random effects models'
+source_repos:
+- https://github.com/nhanhocu/metamicrobiomeR
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/nhanhocu/metamicrobiomeR

@@ -1,0 +1,17 @@
+name: SINTAX
+slug: sintax
+version_used: 11.0.667
+edam_topics: []
+evidence_spans:
+- SINTAX via USEARCH v11.0.667 with the Greengenes2 2024.09 FASTA
+derived_from:
+- doi: 10.1093/bioadv/vbag166
+  title: 'DeepTaxa: a hybrid CNN-BERT framework for 16S rRNA taxonomic classification'
+source_repos:
+- https://github.com/systems-genomics-lab/deeptaxa
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/systems-genomics-lab/deeptaxa

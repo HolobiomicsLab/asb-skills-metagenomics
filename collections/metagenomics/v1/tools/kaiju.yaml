@@ -1,0 +1,29 @@
+name: Kaiju
+slug: kaiju
+version_used: null
+edam_topics: []
+evidence_spans:
+- For each of the 882 genomes, we simulated five sets of HTS reads and created a reference database not containing this genome that is then used to classify the simulated reads.
+- 'The run mode can be changed to **MEM** using option `-a`:'
+- The default run mode is **Greedy** with three allowed mismatches.
+- kaiju -z 25 -t nodes.dmp -f kaiju_db.fmi -i inputfile.fastq -o kaiju.out
+- Here we present the novel metagenome classifier Kaiju, which finds maximum (in-)exact matches on the protein-level using the Burrows-Wheeler transform.
+- kaiju -t nodes.dmp -f kaiju_db.fmi -i inputfile.fastq -o kaiju.out
+- Fast and sensitive taxonomic classification for metagenomics with kaiju
+derived_from:
+- doi: 10.1093/nargab/lqaa009
+  title: 'DeepMicrobes: taxonomic classification for metagenomics with deep learning'
+- doi: 10.1038/ncomms11257
+  title: Fast and sensitive taxonomic classification for metagenomics with Kaiju
+- doi: 10.1186/s12859-020-3429-6
+  title: A big data approach to metagenomics for all-food-sequencing
+source_repos:
+- https://github.com/MicrobeLab/DeepMicrobes
+- https://github.com/bioinformatics-centre/kaiju
+- https://github.com/jmabuin/MetaCacheSpark
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/MicrobeLab/DeepMicrobes

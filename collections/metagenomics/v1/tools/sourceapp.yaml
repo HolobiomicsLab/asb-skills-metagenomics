@@ -1,0 +1,21 @@
+name: SourceApp
+slug: sourceapp
+version_used: null
+edam_topics: []
+evidence_spans:
+- created an associated bioinformatic tool, called SourceApp, for inferring source attribution and apportionment by mapping the metagenomic data to these genome databases
+- 'the performance of SourceApp against alternative tools for the same purposes: metaSourceTracker, FEAST, and decOM'
+- sourceapp_build.py allows users to provide a set of genomes which they have collected/curated and create a SourceApp database for use with the main pipeline.
+- 'SourceApp: Python implementation of the Unix-based environmental monitoring tool.'
+- python path/to/SourceApp/pipelines/sourceapp.py -h
+derived_from:
+- doi: 10.1021/acs.est.5c03603
+  title: 'SourceApp: A Novel Metagenomic Source Tracking Tool that can Distinguish between Fecal Microbiomes Using Genome-To-Source Associations Benchmarked Against Mixed Input Spike-In Mesocosms'
+source_repos:
+- https://github.com/bglindner/SourceApp
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/bglindner/SourceApp

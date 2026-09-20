@@ -1,0 +1,26 @@
+name: GNU parallel
+slug: gnu-parallel
+version_used: null
+edam_topics: []
+evidence_spans:
+- For parallel execution it further requires GNU parallel.
+- '> GNU parallel 20201122<br>'
+- GNU parallel 20201122
+- Virmap now uses GNU parallel in one of its substeps
+derived_from:
+- doi: 10.1128/msystems.00101-16
+  title: 'From Genomes to Phenotypes: Traitar, the Microbial Trait Analyzer'
+- doi: 10.1038/s41564-024-01751-5
+  title: A multi-kingdom collection of 33,804 reference genomes for the human vaginal microbiome
+- doi: 10.1038/s41467-018-05658-8
+  title: Maximal viral information recovery from sequence data using VirMAP
+source_repos:
+- https://github.com/hzi-bifo/traitar
+- https://github.com/RChGO/VMGC
+- https://github.com/cmmr/VirMAP
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/hzi-bifo/traitar

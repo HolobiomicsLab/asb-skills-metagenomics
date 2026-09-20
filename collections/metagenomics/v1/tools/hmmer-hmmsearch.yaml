@@ -1,0 +1,18 @@
+name: hmmer/hmmsearch
+slug: hmmer-hmmsearch
+version_used: null
+edam_topics: []
+evidence_spans:
+- traitar further needs prodigal and hmmsearch available on the command line.
+- traitar further needs prodigal and hmmsearch available on the command line. For parallel execution it further requires GNU parallel.
+derived_from:
+- doi: 10.1128/msystems.00101-16
+  title: 'From Genomes to Phenotypes: Traitar, the Microbial Trait Analyzer'
+source_repos:
+- https://github.com/hzi-bifo/traitar
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/hzi-bifo/traitar

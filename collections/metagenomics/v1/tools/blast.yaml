@@ -1,0 +1,97 @@
+name: BLAST
+slug: blast
+version_used: '0.8'
+edam_topics: []
+evidence_spans:
+- typically using an approach based on blast [4]
+- used by BLASTp to determine representative alleles
+- similarity to NCBI viral reference nucleotide sequences using nucleotide BLAST
+- BLAST (Altschul et al. 1990) and MEGAN (Huson et al. 2007) have long been foundational in taxonomy assignment
+- The most well-known such algorithm, and one of the best methods for assigning a taxonomic label to an unknown sequence, is the BLAST program
+- 'we first filtered this dataset by using BLAST: we mapped reads against the whole nucleotide sequence database with a sequence identity of 98%'
+- We used BLAST to query the longest unaligned contigs (greater than 100 kb) against the nt database
+- the representative sequences of the OTUs can finally be classified using BLAST+ (against a QIIME-formatted database, such as Greengenes11, UNITE12)
+- '| Assign | BLAST       | perc_identity | 0.8                  |'
+- The program requires BLAST; the version here used was 2.11.0.
+- some recent metatranscriptome pipelines (anvi'o, [7], IMP, [8]) rely on BLAST [9] for annotations, which may be unacceptably slow
+- Sequence similarity (e.g. via BLAST) is commonly used to assign functional annotations
+- SARS-CoV shares about 80% of sequence identity with the bat coronavirus according to BLAST [36].
+- ViralCC constructs a phage-host network, which is further validated using CRISPR spacer analyses.
+- we aligned these spacers to vMAGs using BLAST with parameters '-task blastn-short -evalue 1e-5'
+- '-b : blast option [''blastx'' or ''blastp''] (''blastp'' is faster)'
+- SynTracker creates a BLAST database based on a user-provided collection of metagenomic assemblies or genomes.
+- NCBI BLAST+
+- "### Requirements: \nNCBI BLAST+"
+- we convert the collection of per-sample metagenomic assemblies (or genomes) to a basic local alignment search tool (BLAST) database
+- '> BLAST 2.12.0+<br>'
+- VIRGO was also made blastable in both nucleotide and amino acid. Just run your normal blastn or blastp command
+- '**VIRGO was also made blastable in both nucleotide and amino acid. Just run your normal blastn or blastp command'
+- blast+ (ftp://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/LATEST)
+derived_from:
+- doi: 10.1099/mgen.0.000166
+  title: 'chewBBACA: A complete suite for gene-by-gene schema creation and strain identification'
+- doi: 10.1186/s12859-021-04038-2
+  title: 'ContigExtender: a new approach to improving de novo sequence assembly for viral metagenomics data'
+- doi: 10.1093/bioadv/vbag166
+  title: 'DeepTaxa: a hybrid CNN-BERT framework for 16S rRNA taxonomic classification'
+- doi: 10.1186/gb-2014-15-3-r46
+  title: 'Kraken: ultrafast metagenomic sequence classification using exact alignments'
+- doi: 10.1186/s12859-020-03628-w
+  title: Metagenomic analysis through the extended Burrows-Wheeler transform
+- doi: 10.1093/bioinformatics/btad020
+  title: Capturing variation in metagenomic assembly graphs with MetaCortex
+- doi: 10.1038/srep09743
+  title: 'MICCA: a complete and accurate software for taxonomic profiling of metagenomic data'
+- doi: 10.1128/msystems.00961-22
+  title: 'Inferring microbial co-occurrence networks from amplicon data: a systematic evaluation'
+- doi: 10.1016/j.medmic.2020.100011
+  title: 'nf-rnaSeqMetagen: A nextflow metagenomics pipeline for identifying and characterizing microbial sequences from RNA-seq data'
+- doi: 10.1093/gbe/evad227
+  title: 'Patchwork: Alignment-Based Retrieval and Concatenation of Phylogenetic Markers from Genomic Data'
+- doi: 10.1093/nar/gkx1321
+  title: 'PlasFlow: predicting plasmid sequences in metagenomic data using genome signatures'
+- doi: 10.1186/s12859-018-2189-z
+  title: 'SAMSA2: a standalone metatranscriptome analysis pipeline'
+- doi: 10.1093/bioadv/vbad005
+  title: 'Snekmer: a scalable pipeline for protein sequence fingerprinting based on amino acid recoding'
+- doi: 10.1186/s12859-019-2878-2
+  title: 'TAR-VIR: a pipeline for TARgeted VIRal strain reconstruction from metagenomic data'
+- doi: 10.1038/s41467-023-35945-y
+  title: ViralCC retrieves complete viral genomes and virus-host pairs from metagenomic Hi-C data
+- doi: 10.1128/mra.00107-22
+  title: 'virMine 2.0: Identifying Viral Sequences in Microbial Communities'
+- doi: 10.1038/s41587-024-02276-2
+  title: Strain tracking in complex microbiomes using synteny analysis reveals per-species modes of evolution
+- doi: 10.1038/s41564-024-01751-5
+  title: A multi-kingdom collection of 33,804 reference genomes for the human vaginal microbiome
+- doi: 10.1038/s41467-020-14677-3
+  title: A comprehensive non-redundant gene catalog reveals extensive within-community intraspecies diversity in the human vagina
+- doi: 10.1038/s41467-018-05658-8
+  title: Maximal viral information recovery from sequence data using VirMAP
+source_repos:
+- https://github.com/B-UMMI/chewBBACA
+- https://github.com/dengzac/contig-extender
+- https://github.com/systems-genomics-lab/deeptaxa
+- https://github.com/DerrickWood/kraken
+- https://github.com/veronicaguerrini/LiME
+- https://github.com/SR-Martin/metacortex
+- https://github.com/compmetagen/micca
+- https://github.com/segrelab/MiCoNE
+- https://github.com/phelelani/nf-rnaSeqMetagen
+- https://github.com/fethalen/Patchwork
+- https://github.com/smaegol/PlasFlow
+- https://github.com/transcript/samsa2
+- https://github.com/PNNL-CompBio/Snekmer
+- https://github.com/chjiao/TAR-VIR
+- https://github.com/dyxstat/ViralCC
+- https://github.com/putonti/virmine
+- https://github.com/leylabmpi/SynTracker
+- https://github.com/RChGO/VMGC
+- https://github.com/ravel-lab/VIRGO
+- https://github.com/cmmr/VirMAP
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/B-UMMI/chewBBACA

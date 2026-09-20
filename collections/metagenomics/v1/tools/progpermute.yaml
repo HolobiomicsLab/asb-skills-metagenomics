@@ -1,0 +1,18 @@
+name: ProgPermute
+slug: progpermute
+version_used: null
+edam_topics: []
+evidence_spans:
+- install_github("LyonsZhang/ProgPermute")
+derived_from:
+- doi: 10.1186/s12859-021-04061-3
+  title: 'ProgPerm: Progressive permutation for a dynamic representation of the robustness of microbiome discoveries'
+source_repos:
+- https://github.com/LyonsZhang/ProgPerm
+- https://github.com/LyonsZhang/ProgPermute
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/LyonsZhang/ProgPerm

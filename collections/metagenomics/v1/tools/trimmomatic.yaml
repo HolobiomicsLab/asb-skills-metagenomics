@@ -1,0 +1,47 @@
+name: Trimmomatic
+slug: trimmomatic
+version_used: '2.7'
+edam_topics: []
+evidence_spans:
+- Reads sequences are then filtered by quality using Trimmomatic [7].
+- MetaLAFFA uses Trimmomatic (Bolger, Lohse, and Usadel 2014) by default, trimming reads based on Trimmomatic's maximum information criterion and filtering out trimmed reads shorter than 60bp.
+- This is performed using Trimmomatic [2] and the MAXINFO trimming criterion.
+- Trimmomatic performs a variety of useful trimming tasks for illumina paired-end and single ended data
+- Trimmomatic, a flexible read cleaner
+- 'Trimmomatic, a flexible read cleaner: http://www.usadellab.org/cms/?page=trimmomatic'
+- Trimmomatic [12] is a flexible read trimmer designed for Illumina sequence data, which can both remove low-quality sequences, and identify and remove any potential adaptor contamination.
+- including the programs FLASH and Trimmomatic, Python
+- SAMSA has several dependencies, including the programs FLASH and Trimmomatic, Python version 2.7
+- SAMSA has several dependencies, including the programs FLASH and Trimmomatic
+- raw sequences are trimmed to remove reads containing low-quality bases and eliminate adaptor contamination using Trimmomatic
+- trim low-quality ends with Trimmomatic
+- We checked the reads with FastQC and trimmed low-quality ends with Trimmomatic
+derived_from:
+- doi: 10.1186/s12859-020-03591-6
+  title: 'CDSnake: Snakemake pipeline for retrieval of annotated OTUs from paired-end reads using CD-HIT utilities'
+- doi: 10.1186/s12859-020-03815-9
+  title: 'MetaLAFFA: a flexible, end-to-end, distributed computing-compatible metagenomic functional annotation pipeline'
+- doi: 10.1093/nargab/lqac007
+  title: 'nf-core/mag: a best-practice pipeline for metagenome hybrid assembly and binning'
+- doi: 10.1093/nargab/lqac019
+  title: 'OMARU: a robust and multifaceted pipeline for metagenome-wide association study'
+- doi: 10.1186/s12859-018-2189-z
+  title: 'SAMSA2: a standalone metatranscriptome analysis pipeline'
+- doi: 10.1186/s12859-016-1270-8
+  title: 'SAMSA: a comprehensive metatranscriptome analysis pipeline'
+- doi: 10.1093/nar/gkad406
+  title: 'WebQUAST: online evaluation of genome assemblies'
+source_repos:
+- https://github.com/ydkondratenko/cdsnake
+- https://github.com/borenstein-lab/MetaLAFFA
+- https://github.com/nf-core/mag
+- https://github.com/toshi-kishikawa/OMARU
+- https://github.com/transcript/samsa2
+- https://github.com/transcript/SAMSA
+- https://github.com/ablab/quast
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/ydkondratenko/cdsnake

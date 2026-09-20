@@ -1,0 +1,22 @@
+name: C++
+slug: c
+version_used: null
+edam_topics: []
+evidence_spans:
+- See Additional file 1 for the details of the file formats
+- We have developed a C + + program for implementing our method
+- GPL-licensed open source software implemented in C++ and available for Linux and macOS
+derived_from:
+- doi: 10.1186/s12859-021-04149-w
+  title: A tri-tuple coordinate system derived for fast and accurate analysis of the colored de Bruijn graph-based pangenomes
+- doi: 10.1038/s41592-019-0437-4
+  title: Protein-level assembly increases protein sequence recovery from metagenomic samples manyfold
+source_repos:
+- https://github.com/eggleader/cSupB
+- https://github.com/soedinglab/plass
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/eggleader/cSupB

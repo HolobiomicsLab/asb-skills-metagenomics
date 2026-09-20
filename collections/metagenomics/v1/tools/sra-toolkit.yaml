@@ -1,0 +1,26 @@
+name: SRA Toolkit
+slug: sra-toolkit
+version_used: 2.8.2
+edam_topics: []
+evidence_spans:
+- Download the reads using the fastq-dump command from the SRA toolkit
+- The `SRA toolkit <https://github.com/ncbi/sra-tools/wiki>`_ will need to be installed to obtain the reads used in this tutorial
+- Starting from the public SRA accession ERR008613
+derived_from:
+- doi: 10.1093/nargab/lqaa107
+  title: 'CAMAMED: a pipeline for composition-aware mapping-based analysis of metagenomic data'
+- doi: 10.1093/bioinformatics/btad020
+  title: Capturing variation in metagenomic assembly graphs with MetaCortex
+- doi: 10.1093/nar/gkad406
+  title: 'WebQUAST: online evaluation of genome assemblies'
+source_repos:
+- https://github.com/mhnb/camamed
+- https://github.com/ncbi/sra-tools
+- https://github.com/SR-Martin/metacortex
+- https://github.com/ablab/quast
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/mhnb/camamed

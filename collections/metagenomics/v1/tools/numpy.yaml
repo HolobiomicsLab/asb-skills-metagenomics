@@ -1,0 +1,53 @@
+name: numpy
+slug: numpy
+version_used: 1.22.3
+edam_topics: []
+evidence_spans:
+- Kernelized Logistic Matrix Factorization based on Similarity Network Fusion for Predicting Virus-host Association
+- stephenliu0423/PyDTI
+- 'six packages should be preinstalled: [sys],[multiprocessing],​[numpy],[os],​[gzip],[collections]'
+- '[numpy](http://www.numpy.org/)'
+- MOVIS is built using Python and additional libraries like Pandas [13], Numpy [14], Scikit-learn [15], Biopython [16], Gensim [17]
+- MOVIS is built using Python and additional libraries like Pandas [13], Numpy [14], Scikit-learn [15], Biopython [16], Gensim [17], Altair [18], and Streamlit.
+- '* Step 3: Distance transformation and hierarchical clustering'
+- '* numpy >= 1.22.3'
+- 'Step 4: Model training and testing'
+- numpy (tested with 1.19.5)
+- first estimating f0dðtÞ using finite differences in Num Py (van der Walt et al., 2011)
+- finite differences in Num Py
+- estimating f0 d (t) using finite differences in Num Py
+derived_from:
+- doi: 10.1186/s12859-019-3082-0
+  title: Predicting virus-host association by Kernelized logistic matrix factorization and similarity network fusion
+- doi: 10.1093/gigascience/giz141
+  title: Assessment of human diploid genome assembly with 10x Linked-Reads data
+- doi: 10.1016/j.csbj.2022.02.012
+  title: 'MOVIS: A multi-omics software solution for multi-modal time-series clustering, embedding, and visualizing tasks'
+- doi: 10.1093/nar/gkx1321
+  title: 'PlasFlow: predicting plasmid sequences in metagenomic data using genome signatures'
+- doi: 10.1093/bioadv/vbae013
+  title: 'PM-CNN: microbiome status recognition and disease detection model based on phylogeny and multi-path neural network'
+- doi: 10.1093/bioinformatics/btad302
+  title: 'STEMSIM: a simulator of within-strain short-term evolutionary mutations for longitudinal metagenomic data'
+- doi: 10.1093/nar/gkac341
+  title: vRhyme enables binning of viral genomes from metagenomes
+- doi: 10.1038/s41587-020-00797-0
+  title: inStrain profiles population microdiversity from metagenomic data and sensitively detects shared microbial strains
+- doi: 10.1016/j.cels.2020.05.006
+  title: Efficient and Accurate Inference of Mixed Microbial Population Trajectories from Longitudinal Count Data
+source_repos:
+- https://github.com/liudan111/ILMF-VH
+- https://github.com/zhanglu295/LRTK-SIM
+- https://github.com/AAnzel/MOVIS
+- https://github.com/smaegol/PlasFlow
+- https://github.com/qdu-bioinfo/PM_CNN
+- https://github.com/BoyanZhou/STEMSim
+- https://github.com/AnantharamanLab/vRhyme
+- https://github.com/MrOlm/instrain
+- https://github.com/tyjo/luminate
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/liudan111/ILMF-VH

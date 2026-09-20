@@ -1,0 +1,20 @@
+name: Patchwork
+slug: patchwork
+version_used: 0.5.1
+edam_topics: []
+evidence_spans:
+- Patchwork v.0.5.1 was continuously run using Julia v.1.8.2 and DIAMOND v.2.0.13
+- Patchwork v.0.5.1 was run with both the sampled D. gyrociliatus read data sets and the assemblies we produced for these sampled read data.
+- Patchwork is obtainable from GitHub (https://github.com/fethalen/Patchwork), is distributed under the GPLv3 license
+- we present Patchwork, an alignment-based tool for mining phylogenetic markers directly from WGS data
+derived_from:
+- doi: 10.1093/gbe/evad227
+  title: 'Patchwork: Alignment-Based Retrieval and Concatenation of Phylogenetic Markers from Genomic Data'
+source_repos:
+- https://github.com/fethalen/Patchwork
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/fethalen/Patchwork

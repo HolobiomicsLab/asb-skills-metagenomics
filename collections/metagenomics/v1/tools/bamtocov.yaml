@@ -1,0 +1,17 @@
+name: bamtocov
+slug: bamtocov
+version_used: null
+edam_topics: []
+evidence_spans:
+- quantification ([bamtocov](https://github.com/telatin/bamtocov))
+derived_from:
+- doi: 10.1128/msystems.00741-22
+  title: 'MetaPhage: an Automated Pipeline for Analyzing, Annotating, and Classifying Bacteriophages in Metagenomics Sequencing Data'
+source_repos:
+- https://github.com/MattiaPandolfoVR/MetaPhage
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/MattiaPandolfoVR/MetaPhage

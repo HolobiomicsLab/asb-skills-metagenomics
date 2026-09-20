@@ -1,0 +1,33 @@
+name: devtools
+slug: devtools
+version_used: null
+edam_topics: []
+evidence_spans:
+- devtools::install_github("cafferychen777/ggpicrust2")
+- '#install.packages("devtools")'
+- library(devtools)
+- install *FEAST* using devtools
+derived_from:
+- doi: 10.1093/bioinformatics/btad470
+  title: 'ggpicrust2: an R package for PICRUSt2 predicted functional profile analysis and visualization'
+- doi: 10.1128/msystems.00697-21
+  title: "HashSeq: a Simple, Scalable, and Conservative\n            <i>De Novo</i>\n            Variant Caller for 16S rRNA Gene Data Sets"
+- doi: 10.1186/s12859-019-2744-2
+  title: 'metamicrobiomeR: an R package for analysis of microbiome relative abundance data using zero-inflated beta GAMLSS and meta-analysis across studies using random effects models'
+- doi: 10.1128/msystems.00995-21
+  title: 'STENSL: Microbial Source Tracking with ENvironment SeLection'
+- doi: 10.1038/nmeth.2658
+  title: Differential abundance analysis for microbial marker-gene surveys
+source_repos:
+- https://github.com/cafferychen777/ggpicrust2
+- https://github.com/FarnazFouladi/HashSeq
+- https://github.com/nhanhocu/metamicrobiomeR
+- https://github.com/cozygene/FEAST
+- https://github.com/Bioconductor-mirror/metagenomeSeq
+- https://github.com/HCBravoLab/metagenomeSeq
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/cafferychen777/ggpicrust2

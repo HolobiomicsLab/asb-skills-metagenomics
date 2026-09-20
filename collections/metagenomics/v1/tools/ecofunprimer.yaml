@@ -1,0 +1,19 @@
+name: EcoFunPrimer
+slug: ecofunprimer
+version_used: null
+edam_topics: []
+evidence_spans:
+- EcoFunPrimer is the primary tool used to design thermodynamically stable primer pairs from aligned nucleotide sequences
+- Within MetaFunPrimer, EcoFunPrimer is the primary tool used to design thermodynamically stable primer pairs from aligned nucleotide sequences.
+derived_from:
+- doi: 10.1128/msystems.00201-21
+  title: 'MetaFunPrimer: an Environment-Specific, High-Throughput Primer Design Tool for Improved Quantification of Target Genes'
+source_repos:
+- https://github.com/rdpstaff/EcoFunPrimer
+- https://github.com/jialiu232/MetaFunPrimer_paper_info
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/rdpstaff/EcoFunPrimer

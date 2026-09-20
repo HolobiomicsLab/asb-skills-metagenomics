@@ -1,0 +1,149 @@
+name: R
+slug: r
+version_used: 3.6.0
+edam_topics: []
+evidence_spans:
+- data(ko_abundance)
+- 'title: "Gene Set Enrichment Analysis with ggpicrust2"'
+- We have developed ggpicrust2, an R package, for analyzing functional profiles derived from 16S rRNA sequencing.
+- Source code is freely available at https://github.com/FarnazFouladi/HashSeq as an R package.
+- '#install.packages("devtools")'
+- library(HashSeq)
+- Figures were made with the ggplot2 package28 in the R statistical software29.
+- '%\VignetteEngine{knitr::rmarkdown}'
+- lineagespot is an open-source tool, implemented in R, and is freely available on GitHub and registered on bio.tools
+- R = citation()
+- '`r BiocStyle::pkg_ver(''lineagespot'')`'
+- We introduce LongDat, an R package that analyzes longitudinal multivariable (cohort) data
+- Longitudinal analysis pipeline with longdat_cont()
+- knitr::opts_chunk$set(
+- '%\VignetteEngine{knitr::rmarkdown}'
+- we introduce mbQTL, the first R package integrating 16S ribosomal RNA (rRNA) sequencing
+- Download R (>3.6.0) version from CRAN.
+- We introduce MegaR, an R Shiny package and web application, to build an unbiased machine learning model effortlessly with interactive visual analysis.
+- 'Programming language: R. Other requirements: R 3.4.2 or higher.'
+- library(devtools)
+- We developed an R package 'metamicrobiomeR'
+- We present MicroBVS, an R package for Dirichlet-tree multinomial models with Bayesian variable selection
+- Jingyan Fu, Matthew Koslovsky, Andreas Neophytou, and Marina Vannucci
+- 'output: rmarkdown::pdf_document'
+- 'Programming language: R and C++'
+- 'title: "BVSMed-vignette"
+
+  output: rmarkdown::pdf_document'
+- recent version of **R (>4.2.0)** is needed
+- For local implementation using this GitHub repository, recent version of **R (>4.2.0)** is needed.
+- NASQAR’s collection of applications is primarily implemented in R, a widely used and freely available statistical programming language
+- NASQAR's collection of applications is primarily implemented in R, a widely used and freely available statistical programming language
+- NASQAR’s collection of applications is primarily implemented in R
+- implemented in R, a widely used and freely available statistical programming language
+- '* Package requirement'
+- we rely on the DESeq2 package in R [11]
+- we rely on the DESeq2 package in R
+- Import these abundance summaries into R and use "run_DESeq_stats.R"
+- R_organism_script.Rmd - imports organism summary files and performs statistical  significance correlations
+- Python version 2.7, and R, preferably RStudio
+- including the programs FLASH and Trimmomatic, Python version 2.7, and R, preferably RStudio
+- several Python and R scripts are also provided to collect and visualize the results
+- The resulting phylogenetic trees are plotted using the R Scripts provided with the TreeMix package
+- This vignette provides a basic example of using *FEAST*
+- This vignette provides a basic example of using *FEAST* (Fast Expectation-mAximization microbial Source Tracking) for microbial source tracking.
+- This vignette provides a basic example of using *FEAST* (Fast Expectation-mAximization microbial Source Tracking)
+- 'output: rmarkdown::html_vignette'
+- install.packages(c('flexdashboard','visNetwork','r','DT','shinyjs','igraph','stringr','readr','dplyr','ggplot2','ISOweek','EpiCurve','RColorBrewer','gghighlight','imager','bslib','shinydashboard','fre
+- 'In R:
+
+  R
+
+  install.packages(c(''flexdashboard'',''visNetwork'',''r'''
+- install.packages(c('flexdashboard','visNetwork','r','DT','shinyjs','igraph','stringr','readr','dplyr','ggplot2','ISOweek','EpiCurve'
+- install.packages(c('flexdashboard','visNetwork','r','DT','shinyjs','igraph'
+- Like the rest of the manuscript it was performed using R.
+- 'library(tidyverse)
+
+  library(VTwins)
+
+  library(vegan)'
+- '- R version 4.0.5'
+derived_from:
+- doi: 10.1093/nargab/lqab120
+  title: Adaptive and powerful microbiome multivariate association analysis via feature selection
+- doi: 10.1093/nargab/lqaa009
+  title: 'DeepMicrobes: taxonomic classification for metagenomics with deep learning'
+- doi: 10.1016/j.csbj.2022.07.010
+  title: 'FunOMIC: Pipeline with built-in fungal taxonomic and functional databases for human mycobiome profiling'
+- doi: 10.1093/bioinformatics/btad470
+  title: 'ggpicrust2: an R package for PICRUSt2 predicted functional profile analysis and visualization'
+- doi: 10.1128/msystems.00697-21
+  title: "HashSeq: a Simple, Scalable, and Conservative\n            <i>De Novo</i>\n            Variant Caller for 16S rRNA Gene Data Sets"
+- doi: 10.1038/ncomms11257
+  title: Fast and sensitive taxonomic classification for metagenomics with Kaiju
+- doi: 10.1038/s41598-022-06625-6
+  title: Detecting SARS-CoV-2 lineages and mutational load in municipal wastewater and a use-case in the metropolitan area of Thessaloniki, Greece
+- doi: 10.1093/bioadv/vbad063
+  title: 'LongDat: an R package for covariate-sensitive longitudinal analysis of high-dimensional data'
+- doi: 10.1093/bioinformatics/btad565
+  title: 'mbQTL: an R/Bioconductor package for microbial quantitative trait loci (QTL) estimation'
+- doi: 10.1186/s12859-020-03933-4
+  title: 'MegaR: an interactive R package for rapid sample classification and phenotype prediction using metagenome profiles and machine learning'
+- doi: 10.1186/s12859-019-2744-2
+  title: 'metamicrobiomeR: an R package for analysis of microbiome relative abundance data using zero-inflated beta GAMLSS and meta-analysis across studies using random effects models'
+- doi: 10.1186/s12859-020-03640-0
+  title: 'MicroBVS: Dirichlet-tree multinomial regression models with Bayesian variable selection - an R package'
+- doi: 10.1128/spectrum.05059-22
+  title: 'MiSurv: an Integrative Web Cloud Platform for User-Friendly Microbiome Data Analysis with Survival Responses'
+- doi: 10.1186/s12859-020-03577-4
+  title: 'NASQAR: a web-based platform for high-throughput sequencing data analysis and visualization'
+- doi: 10.1093/bioadv/vbae013
+  title: 'PM-CNN: microbiome status recognition and disease detection model based on phylogeny and multi-path neural network'
+- doi: 10.1186/s12859-021-04061-3
+  title: 'ProgPerm: Progressive permutation for a dynamic representation of the robustness of microbiome discoveries'
+- doi: 10.1186/s12859-018-2189-z
+  title: 'SAMSA2: a standalone metatranscriptome analysis pipeline'
+- doi: 10.1186/s12859-016-1270-8
+  title: 'SAMSA: a comprehensive metatranscriptome analysis pipeline'
+- doi: 10.1093/molbev/msae057
+  title: 'scalepopgen: Bioinformatic Workflow Resources Implemented in Nextflow for Comprehensive Population Genomic Analyses'
+- doi: 10.1128/msystems.00995-21
+  title: 'STENSL: Microbial Source Tracking with ENvironment SeLection'
+- doi: 10.1093/bioadv/vbac040
+  title: 'CATHAI: cluster analysis tool for healthcare-associated infections'
+- doi: 10.1002/sim.8940
+  title: 'Meta‐analysis methods for multiple related markers: Applications to microbiome studies with the results on multiple <i>α</i>‐diversity indices'
+- doi: 10.1038/s41467-019-12737-x
+  title: Radar vision in the mapping of forest biodiversity from space
+- doi: 10.1016/j.scib.2023.10.024
+  title: 'VTwins: inferring causative microbial features from metagenomic data of limited samples'
+source_repos:
+- https://github.com/kzb193/AMAT
+- https://github.com/MicrobeLab/DeepMicrobes
+- https://github.com/ManichanhLab/FunOMIC
+- https://github.com/cafferychen777/ggpicrust2
+- https://github.com/FarnazFouladi/HashSeq
+- https://github.com/FarnazFouladi/HashSeq_Manuscript
+- https://github.com/bioinformatics-centre/kaiju
+- https://github.com/BiodataAnalysisGroup/lineagespot
+- https://github.com/CCY-dev/LongDat
+- https://github.com/Mercedeh66/mbQTL
+- https://github.com/BioHPC/MegaR
+- https://github.com/nhanhocu/metamicrobiomeR
+- https://github.com/mkoslovsky/MicroBVS
+- https://github.com/wg99526/MiSurvGit
+- https://github.com/nasqar/GeneCountMerger
+- https://github.com/nasqar/NASQAR
+- https://github.com/qdu-bioinfo/PM_CNN
+- https://github.com/LyonsZhang/ProgPerm
+- https://github.com/transcript/samsa2
+- https://github.com/transcript/SAMSA
+- https://github.com/Popgen48/scalepopgen
+- https://github.com/cozygene/FEAST
+- https://github.com/FordeGenomics/cathai
+- https://github.com/hk1785/mMeta
+- https://github.com/So-YeonBae/Sentinel1-Biodiversity
+- https://github.com/mengqingren/VTwins
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/kzb193/AMAT

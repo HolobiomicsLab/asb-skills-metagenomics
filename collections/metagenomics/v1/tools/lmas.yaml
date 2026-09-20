@@ -1,0 +1,24 @@
+name: LMAS
+slug: lmas
+version_used: null
+edam_topics: []
+evidence_spans:
+- '**LMAS** is an **automated workflow enabling the benchmarking** of traditional and metagenomic prokaryotic *de novo* **assembly software using defined mock communities**'
+- The `templates <https://github.com/B-UMMI/LMAS/tree/main/templates>`_ folder contains the custom python scripts used by LMAS to process the data and compute the evaluation metrics
+- we developed LMAS (Last Metagenomic Assembler Standing), an automated workflow to enable the benchmarking
+- LMAS (Last Metagenomic Assembler Standing) was developed as a flexible platform allowing users to evaluate assembler performance given known standard communities.
+- Both simulation studies and application to real microbiome data demonstrate that GAMLSS-BEZI well performs in testing differential relative abundances of microbial taxonomies.
+derived_from:
+- doi: 10.1093/gigascience/giac122
+  title: 'LMAS: evaluating metagenomic short <i>de novo</i> assembly methods through defined communities'
+- doi: 10.1186/s12859-019-2744-2
+  title: 'metamicrobiomeR: an R package for analysis of microbiome relative abundance data using zero-inflated beta GAMLSS and meta-analysis across studies using random effects models'
+source_repos:
+- https://github.com/B-UMMI/LMAS
+- https://github.com/nhanhocu/metamicrobiomeR
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/B-UMMI/LMAS

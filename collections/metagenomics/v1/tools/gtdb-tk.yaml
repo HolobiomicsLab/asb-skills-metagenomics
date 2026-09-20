@@ -1,0 +1,43 @@
+name: GTDB-tk
+slug: gtdb-tk
+version_used: 1.5.0
+edam_topics: []
+evidence_spans:
+- GTDB-Tk ([git](https://github.com/Ecogenomics/GTDBTk)
+- Each bin can be taxonomically classified using either GTDB-Tk (Chaumeil et al. 2022), or Kraken 2 (Wood et al. 2019)
+- All genomes classified as Prochlorococcus_A according to GTDB-Tk (18) found in RefSeq as well as GORG (19) were clustered into mOTUs
+- When you add or modify a step, decide which read types it applies to and gate it accordingly (for example, ALE is not run on long reads, Porechop adapter trimming is skipped for PacBio reads, and
+- MAGs are taxonomically annotated using GTDB-TK or CAT/BAT
+- 600 MAGs could be unambiguously annotated by GTDB-TK
+- Run GTDB-tk to taxonomically annotate bins and call open reading frames (ORFs)
+- MAG taxonomic classification was determined against GTDB (release 220) using the classification workflow of GTDBtk (v2.4.0)
+derived_from:
+- doi: 10.1016/j.csbj.2022.03.015
+  title: KEMET – A python tool for KEGG Module evaluation and microbial genome annotation expansion
+- doi: 10.1093/bioinformatics/btaf334
+  title: 'Mapler: a pipeline for assessing assembly quality in taxonomically rich metagenomes sequenced with HiFi reads'
+- doi: 10.1093/nargab/lqac060
+  title: 'mOTUpan: a robust Bayesian approach to leverage metagenome-assembled genomes for core-genome estimation'
+- doi: 10.1093/nargab/lqac007
+  title: 'nf-core/mag: a best-practice pipeline for metagenome hybrid assembly and binning'
+- doi: 10.1038/s41467-023-35945-y
+  title: ViralCC retrieves complete viral genomes and virus-host pairs from metagenomic Hi-C data
+- doi: 10.1038/s41467-024-49958-8
+  title: MAGinator enables accurate profiling of de novo MAGs with strain-level phylogenies
+- doi: 10.1021/acs.est.5c03603
+  title: 'SourceApp: A Novel Metagenomic Source Tracking Tool that can Distinguish between Fecal Microbiomes Using Genome-To-Source Associations Benchmarked Against Mixed Input Spike-In Mesocosms'
+source_repos:
+- https://github.com/Matteopaluh/KEMET
+- https://github.com/Ecogenomics/GTDBTk
+- https://github.com/Nimauric/Mapler
+- https://github.com/moritzbuck/mOTUlizer
+- https://github.com/nf-core/mag
+- https://github.com/dyxstat/ViralCC
+- https://github.com/Russel88/MAGinator
+- https://github.com/bglindner/SourceApp
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Matteopaluh/KEMET

@@ -1,0 +1,30 @@
+name: Perl
+slug: perl
+version_used: 5.10.0
+edam_topics: []
+evidence_spans:
+- Perl (>= 5.10.0)
+- Multi-threaded 5.24+
+- Perl:<br />
+- VirMAP is implemented in Perl.
+- 'Perl:'
+derived_from:
+- doi: 10.1186/2049-2618-2-11
+  title: 'CopyRighter: a rapid tool for improving the accuracy of microbial community profiles through lineage-specific gene copy number correction'
+- doi: 10.1093/nargab/lqab047
+  title: 'GeneMark-HM: improving gene prediction in DNA sequences of human microbiome'
+- doi: 10.1016/j.crmeth.2021.100069
+  title: Probe design for simultaneous, targeted capture of diverse metagenomic targets
+- doi: 10.1038/s41467-018-05658-8
+  title: Maximal viral information recovery from sequence data using VirMAP
+source_repos:
+- https://github.com/fangly/AmpliCopyrighter
+- https://github.com/GeneProbe/GeneMark-HM
+- https://github.com/zacherydickson/HUBDesign
+- https://github.com/cmmr/VirMAP
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/fangly/AmpliCopyrighter

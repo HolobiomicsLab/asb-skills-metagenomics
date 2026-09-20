@@ -1,0 +1,22 @@
+name: UCLUST
+slug: uclust
+version_used: 7.0.1090
+edam_topics: []
+evidence_spans:
+- UCLUST (7.0.1090) was run with --id 0.9, 0.7, 0.5
+- UCLUST (7.0.1090) was run with --id 0.9, 0.7, 0.5,
+- UCLUST (7.0.1090) was run with --id 0.9, 0.7, 0.5, for RAPsearch2 (2.23) we used -z 16
+derived_from:
+- doi: 10.1038/s41467-018-04964-5
+  title: Clustering huge protein sequence sets in linear time
+- doi: 10.1038/nbt.2676
+  title: Predictive functional profiling of microbial communities using 16S rRNA marker gene sequences
+source_repos:
+- https://github.com/soedinglab/mmseqs2
+- https://github.com/picrust/picrust
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/soedinglab/mmseqs2

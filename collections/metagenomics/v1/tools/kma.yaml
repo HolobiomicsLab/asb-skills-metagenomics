@@ -1,0 +1,19 @@
+name: KMA
+slug: kma
+version_used: '1.4'
+edam_topics: []
+evidence_spans:
+- ARGextender recursively applies KMA 1.4.12a (Clausen et al. 2018) and SPAdes 3.15.5
+- we tested mOTUs 3.0.3 (Ruscheweyh et al. 2022), MetaPhlAn 4.0.3 (Blanco-Míguez et al. 2023), Bracken 2.8 (Lu et al. 2017) on Kraken2 (Wood et al. 2019) output, and KMA 1.4.7
+- KMA 1.4.12a (Clausen et al. 2018) was used to map and align the trimmed reads to different databases
+derived_from:
+- doi: 10.1093/bioinformatics/btae086
+  title: ARGprofiler—a pipeline for large-scale analysis of antimicrobial resistance genes and their flanking regions in metagenomic datasets
+source_repos:
+- https://github.com/genomicepidemiology/ARGprofiler
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/genomicepidemiology/ARGprofiler

@@ -1,0 +1,21 @@
+name: hmmsearch
+slug: hmmsearch
+version_used: null
+edam_topics: []
+evidence_spans:
+- hmmsearch (hmmer v. 3.1b2, default parameters)
+- traitar further needs prodigal and hmmsearch available on the command line.
+derived_from:
+- doi: 10.1099/mgen.0.000603
+  title: 'DiSCo: a sequence-based type-specific predictor of Dsr-dependent dissimilatory sulphur metabolism in microbial data'
+- doi: 10.1128/msystems.00101-16
+  title: 'From Genomes to Phenotypes: Traitar, the Microbial Trait Analyzer'
+source_repos:
+- https://github.com/Genome-Evolution-and-Ecology-Group-GEEG/DiSCo
+- https://github.com/hzi-bifo/traitar
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Genome-Evolution-and-Ecology-Group-GEEG/DiSCo

@@ -1,0 +1,20 @@
+name: VAMB
+slug: vamb
+version_used: null
+edam_topics: []
+evidence_spans:
+- methods based on simulating known viral contigs from NCBI RefSeq viral genomes45 have already been employed to estimate the binning results of shotgun-based methods
+derived_from:
+- doi: 10.1038/s41467-023-35945-y
+  title: ViralCC retrieves complete viral genomes and virus-host pairs from metagenomic Hi-C data
+- doi: 10.1093/nar/gkac341
+  title: vRhyme enables binning of viral genomes from metagenomes
+source_repos:
+- https://github.com/dyxstat/ViralCC
+- https://github.com/AnantharamanLab/vRhyme
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/dyxstat/ViralCC

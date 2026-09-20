@@ -1,0 +1,17 @@
+name: MAFFT-GINSI
+slug: mafft-ginsi
+version_used: null
+edam_topics: []
+evidence_spans:
+- multiple sequence alignment based on fast Fourier transform – GINSI alignment (MAFFT-GINSI) [44]
+derived_from:
+- doi: 10.1186/s12859-021-04149-w
+  title: A tri-tuple coordinate system derived for fast and accurate analysis of the colored de Bruijn graph-based pangenomes
+source_repos:
+- https://github.com/eggleader/cSupB
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/eggleader/cSupB

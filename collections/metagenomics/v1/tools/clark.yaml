@@ -1,0 +1,25 @@
+name: CLARK
+slug: clark
+version_used: 1.1.3
+edam_topics: []
+evidence_spans:
+- Kraken (v0.10.4b) and Clark (v1.1.3) were run in their default modes using k=31 for highest precision
+- In comparison to the established tools CLARK, Kraken2, and Kraken2+Bracken it is superior in terms of false-positive rate and quantification accuracy.
+- In comparison to the established tools CLARK, Kraken2, and Kraken2+Bracken
+derived_from:
+- doi: 10.1093/nargab/lqaa009
+  title: 'DeepMicrobes: taxonomic classification for metagenomics with deep learning'
+- doi: 10.1038/ncomms11257
+  title: Fast and sensitive taxonomic classification for metagenomics with Kaiju
+- doi: 10.1186/s12859-020-3429-6
+  title: A big data approach to metagenomics for all-food-sequencing
+source_repos:
+- https://github.com/MicrobeLab/DeepMicrobes
+- https://github.com/bioinformatics-centre/kaiju
+- https://github.com/jmabuin/MetaCacheSpark
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/MicrobeLab/DeepMicrobes

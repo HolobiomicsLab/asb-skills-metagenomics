@@ -1,0 +1,22 @@
+name: MG-RAST
+slug: mg-rast
+version_used: null
+edam_topics: []
+evidence_spans:
+- DIAMOND integration, allowing for SAMSA2 to be run without ever needing an MG-RAST account.
+- The files must then be submitted to MG-RAST for annotation.
+- Working with the MG-RAST annotation server, we constructed the Simple Annotation of Metatranscriptomes by Sequence Analysis (SAMSA) software package
+derived_from:
+- doi: 10.1186/s12859-018-2189-z
+  title: 'SAMSA2: a standalone metatranscriptome analysis pipeline'
+- doi: 10.1186/s12859-016-1270-8
+  title: 'SAMSA: a comprehensive metatranscriptome analysis pipeline'
+source_repos:
+- https://github.com/transcript/samsa2
+- https://github.com/transcript/SAMSA
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/transcript/samsa2

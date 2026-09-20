@@ -1,0 +1,17 @@
+name: virMine 2.0
+slug: virmine-2-0
+version_used: '2.0'
+edam_topics: []
+evidence_spans:
+- Here, we present virMine 2.0, the next generation of the virMine software tool.
+derived_from:
+- doi: 10.1128/mra.00107-22
+  title: 'virMine 2.0: Identifying Viral Sequences in Microbial Communities'
+source_repos:
+- https://github.com/putonti/virmine
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/putonti/virmine

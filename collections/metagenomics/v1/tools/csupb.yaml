@@ -1,0 +1,20 @@
+name: cSupB
+slug: csupb
+version_used: null
+edam_topics: []
+evidence_spans:
+- we can obtain all the cSupBs and their information, including the source/sink node, cSupB color, and ordering
+- We developed a new method, a colored superbubble (cSupB)
+- efficiently detects small indels (< 50 bp) for highly similar samples, which can be validated by simulated datasets
+- Samples500020,000cSupB7.5 h + 3 min30.5 h + 8 min
+derived_from:
+- doi: 10.1186/s12859-021-04149-w
+  title: A tri-tuple coordinate system derived for fast and accurate analysis of the colored de Bruijn graph-based pangenomes
+source_repos:
+- https://github.com/eggleader/cSupB
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/eggleader/cSupB

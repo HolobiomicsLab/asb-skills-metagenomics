@@ -1,0 +1,19 @@
+name: UPARSE
+slug: uparse
+version_used: null
+edam_topics: []
+evidence_spans:
+- UPARSE tends to discard a higher number of reads, keeping only 42.3% and 66.8% of the reads
+- to be compared with 0.027 and 0.028 for QIIME and UPARSE, respectively
+- UPARSE tends to discard a higher number of reads, keeping only 42.3% and 66.8% of the reads on the 16S-10 and ITS-10 datasets
+derived_from:
+- doi: 10.1038/srep09743
+  title: 'MICCA: a complete and accurate software for taxonomic profiling of metagenomic data'
+source_repos:
+- https://github.com/compmetagen/micca
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/compmetagen/micca

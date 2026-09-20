@@ -1,0 +1,25 @@
+name: egap
+slug: egap
+version_used: null
+edam_topics: []
+evidence_spans:
+- or https://github.com/felipelouza/egap
+- one could use eGap [https://github.com/felipelouza/egap] and set both options *--lcp* and *--da* to have the lcp and da computed
+- one could use eGap [https://github.com/felipelouza/egap] and set both options --lcp and --da
+- To merge the two ebwts associated with the sets *R* and *G*, one could use eGap
+- one could use eGap [https://github.com/felipelouza/egap] and set both options *--lcp* and *--da*
+derived_from:
+- doi: 10.1186/s12859-020-03586-3
+  title: Variable-order reference-free variant discovery with the Burrows-Wheeler Transform
+- doi: 10.1186/s12859-020-03628-w
+  title: Metagenomic analysis through the extended Burrows-Wheeler transform
+source_repos:
+- https://github.com/felipelouza/egap
+- https://github.com/nicolaprezza/ebwt2InDel
+- https://github.com/veronicaguerrini/LiME
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/felipelouza/egap

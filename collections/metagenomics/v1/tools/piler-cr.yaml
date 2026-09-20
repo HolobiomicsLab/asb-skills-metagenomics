@@ -1,0 +1,17 @@
+name: PILER-CR
+slug: piler-cr
+version_used: null
+edam_topics: []
+evidence_spans:
+- ViralCC constructs a phage-host network, which is further validated using CRISPR spacer analyses.
+derived_from:
+- doi: 10.1038/s41467-023-35945-y
+  title: ViralCC retrieves complete viral genomes and virus-host pairs from metagenomic Hi-C data
+source_repos:
+- https://github.com/dyxstat/ViralCC
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/dyxstat/ViralCC

@@ -1,0 +1,77 @@
+name: docker
+slug: docker
+version_used: null
+edam_topics: []
+evidence_spans:
+- docker build -f Dockerfile_jetson -t baseless .
+- To install, first [install Docker](https://docs.docker.com/get-docker/)
+- This script will automatically download the Docker image and run ContigExtender with the parameters that are passed to it.
+- CAMITAX is run through Nextflow, which, by default, exploits Docker containers
+- LMAS relies on the use of Docker [13] containers for each assembler, allowing versions to be tracked and changed easily.
+- Docker [17] and Swarm provide containerization and cluster management
+- The use of container technologies such as Docker and Singularity enable reproducibility
+- a Docker container (Merkel 2014) of Patchwork is also distributed via the BioContainers framework
+- using either Conda, Singularity, or Docker
+- as a Docker container at https://hub.docker.com/r/aweimann/traitar
+- Docker is the only prerequisite for this program to run, all other dependencies are handled by the Dockerfile.
+- docker image build --file ./docker/Dockerfile --tag cathai ./docker
+- VueGen is distributed as a Python package, Docker image, nf-core module, and desktop application.
+- To simplify the installation process and ensure reproducibility, a Docker image is also available and linked in the documentation
+- "# install docker\n     docker pull ghcr.io/soedinglab/plass:latest"
+- docker pull oma219/spumoni:latest
+derived_from:
+- doi: 10.1093/bioadv/vbad017
+  title: 'baseLess: lightweight detection of sequences in raw MinION data'
+- doi: 10.1093/nargab/lqaa107
+  title: 'CAMAMED: a pipeline for composition-aware mapping-based analysis of metagenomic data'
+- doi: 10.1186/s12859-021-04038-2
+  title: 'ContigExtender: a new approach to improving de novo sequence assembly for viral metagenomics data'
+- doi: 10.1093/bib/bbae680
+  title: 'kMetaShot: a fast and reliable taxonomy classifier for metagenome-assembled genomes'
+- doi: 10.1093/gigascience/giac122
+  title: 'LMAS: evaluating metagenomic short <i>de novo</i> assembly methods through defined communities'
+- doi: 10.1186/s12859-020-03577-4
+  title: 'NASQAR: a web-based platform for high-throughput sequencing data analysis and visualization'
+- doi: 10.1093/nargab/lqac007
+  title: 'nf-core/mag: a best-practice pipeline for metagenome hybrid assembly and binning'
+- doi: 10.1093/gbe/evad227
+  title: 'Patchwork: Alignment-Based Retrieval and Concatenation of Phylogenetic Markers from Genomic Data'
+- doi: 10.1093/molbev/msae057
+  title: 'scalepopgen: Bioinformatic Workflow Resources Implemented in Nextflow for Comprehensive Population Genomic Analyses'
+- doi: 10.1128/msystems.00101-16
+  title: 'From Genomes to Phenotypes: Traitar, the Microbial Trait Analyzer'
+- doi: 10.1128/mra.00107-22
+  title: 'virMine 2.0: Identifying Viral Sequences in Microbial Communities'
+- doi: 10.1080/19490976.2023.2192522
+  title: 'ViroProfiler: a containerized bioinformatics pipeline for viral metagenomic data analysis'
+- doi: 10.1093/bioadv/vbac040
+  title: 'CATHAI: cluster analysis tool for healthcare-associated infections'
+- doi: 10.1093/bioadv/vbaf149
+  title: 'VueGen: automating the generation of scientific reports'
+- doi: 10.1038/s41592-019-0437-4
+  title: Protein-level assembly increases protein sequence recovery from metagenomic samples manyfold
+- doi: 10.1016/j.isci.2021.102696
+  title: Pan-genomic matching statistics for targeted nanopore sequencing
+source_repos:
+- https://github.com/cvdelannoy/baseLess
+- https://github.com/mhnb/camamed
+- https://github.com/dengzac/contig-extender
+- https://github.com/gdefazio/kMetaShot
+- https://github.com/B-UMMI/LMAS
+- https://github.com/nasqar/NASQAR
+- https://github.com/nf-core/mag
+- https://github.com/fethalen/Patchwork
+- https://github.com/Popgen48/scalepopgen
+- https://github.com/hzi-bifo/traitar
+- https://github.com/putonti/virmine
+- https://github.com/deng-lab/viroprofiler
+- https://github.com/FordeGenomics/cathai
+- https://github.com/Multiomics-Analytics-Group/vuegen
+- https://github.com/soedinglab/plass
+- https://github.com/oma219/spumoni
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/cvdelannoy/baseLess

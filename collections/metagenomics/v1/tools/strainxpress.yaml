@@ -1,0 +1,19 @@
+name: StrainXpress
+slug: strainxpress
+version_used: null
+edam_topics: []
+evidence_spans:
+- git clone https://github.com/kangxiongbin/StrainXpress.git
+- python ../scripts/strainxpress.py -fq all_reads.fq
+- StrainXpress is a de novo assembly method which base on overlap-layout-consensus (OLC) paradigm
+derived_from:
+- doi: 10.1093/nar/gkac543
+  title: 'StrainXpress: strain aware metagenome assembly from short reads'
+source_repos:
+- https://github.com/HaploKit/StrainXpress
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/HaploKit/StrainXpress

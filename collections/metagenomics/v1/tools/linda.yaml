@@ -1,0 +1,17 @@
+name: LinDA
+slug: linda
+version_used: null
+edam_topics: []
+evidence_spans:
+- 'title: "Gene Set Enrichment Analysis with ggpicrust2"'
+derived_from:
+- doi: 10.1093/bioinformatics/btad470
+  title: 'ggpicrust2: an R package for PICRUSt2 predicted functional profile analysis and visualization'
+source_repos:
+- https://github.com/cafferychen777/ggpicrust2
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/cafferychen777/ggpicrust2

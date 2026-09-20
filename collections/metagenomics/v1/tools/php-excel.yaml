@@ -1,0 +1,17 @@
+name: Php Excel
+slug: php-excel
+version_used: null
+edam_topics: []
+evidence_spans:
+- MetaLIMS uses many open-source packages such as Php Excel
+derived_from:
+- doi: 10.1093/gigascience/gix025
+  title: MetaLIMS, a simple open-source laboratory information management system for small metagenomic labs
+source_repos:
+- https://github.com/cheinle/MetaLIMS
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/cheinle/MetaLIMS

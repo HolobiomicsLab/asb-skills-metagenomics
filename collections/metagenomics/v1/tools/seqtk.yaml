@@ -1,0 +1,23 @@
+name: Seqtk
+slug: seqtk
+version_used: null
+edam_topics: []
+evidence_spans:
+- stripped using Seqtk (https://github.com/lh3/seqtk)
+- '**seqtk** seq -F ''I'' calls.snp > calls.fastq (convert the .snp file to fastq with fake base qualities)'
+- seqtk seq -F 'I' calls.snp > calls.fastq (convert the .snp file to fastq with fake base qualities)
+derived_from:
+- doi: 10.1093/nargab/lqaa063
+  title: 'CasCollect: targeted assembly of CRISPR-associated operons from high-throughput sequencing data'
+- doi: 10.1186/s12859-020-03586-3
+  title: Variable-order reference-free variant discovery with the Burrows-Wheeler Transform
+source_repos:
+- https://github.com/lh3/seqtk
+- https://github.com/sandialabs/CasCollect
+- https://github.com/nicolaprezza/ebwt2InDel
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/lh3/seqtk

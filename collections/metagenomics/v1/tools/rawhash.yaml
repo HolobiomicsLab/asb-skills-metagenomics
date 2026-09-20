@@ -1,0 +1,20 @@
+name: RawHash
+slug: rawhash
+version_used: null
+edam_topics: []
+evidence_spans:
+- We propose RawHash, the first mechanism that can accurately and efficiently perform real-time analysis of nanopore raw signals
+- RawHash performs real-time mapping of nanopore raw signals.
+- We propose RawHash, the first mechanism that can accurately and efficiently perform real-time analysis of nanopore raw signals for large genomes using a hash-based similarity search.
+- RawHash can be used to map reads from **FAST5, POD5, SLOW5, or BLOW5** files to a reference genome in sequence format.
+derived_from:
+- doi: 10.1093/bioinformatics/btad272
+  title: 'RawHash: enabling fast and accurate real-time analysis of raw nanopore signals for large genomes'
+source_repos:
+- https://github.com/CMU-SAFARI/RawHash
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/CMU-SAFARI/RawHash

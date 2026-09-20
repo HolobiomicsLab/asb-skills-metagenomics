@@ -1,0 +1,16 @@
+name: ANNOVAR
+slug: annovar
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1093/nargab/lqac033
+  title: 'Nano2NGS-Muta: a framework for converting nanopore sequencing data to NGS-liked sequencing data for hotspot mutation detection'
+source_repos:
+- https://github.com/langjidong/Nano2NGS
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/langjidong/Nano2NGS

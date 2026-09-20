@@ -1,0 +1,61 @@
+name: Snakemake
+slug: snakemake
+version_used: 5.2.0
+edam_topics: []
+evidence_spans:
+- The ARGprofiler pipeline is a Snakemake workflow that supports the reuse of metagenomic sequencing data
+- The pipeline is an easily usable and scalable workflow implemented in Snakemake (Koster and Rahmann 2012, Molder et al. 2021)
+- To run pipeline, you need to install Snakemake.
+- Snakemake-a scalable bioinformatics workflow engine
+- snakemake>=5.2.0
+- The pipeline requires Snakemake and Conda.
+- Source code is implemented in Python and Bash as a Snakemake pipeline.
+- MetaLAFFA is implemented as a Snakemake pipeline, which enables convenient integration with distributed computing clusters
+- MetaLAFFA is a Snakemake pipeline configured via Python scripts that manages the functional annotation of shotgun metagenomic data
+- MetaLAFFA is implemented as a Snakemake pipeline
+- MetaLAFFA is implemented in Snakemake [11], a Python-based workflow management framework that is specifically designed for bioinformatics analysis pipelines.
+- Benchmarking, implemented using a reproducible Snakemake pipeline (Mölder et al. 2021) powered by Snaketool (Roach et al. 2022)
+- workflow management systems such as Nextflow and Snakemake
+- Snakemake arguments are passed through directly to Snakemake
+- Snakemake arguments are passed through directly to Snakemake (they are not Snekmer-specific).
+- Snekmer is written in Python using Snakemake.
+- All you need for running MAGinator is snakemake and mamba.
+- It is implemented in Snakemake to take advantage of the integrated work distribution capabilities necessary for processing large-scale metagenomics data.
+derived_from:
+- doi: 10.1093/bioinformatics/btae086
+  title: ARGprofiler—a pipeline for large-scale analysis of antimicrobial resistance genes and their flanking regions in metagenomic datasets
+- doi: 10.1186/s12859-020-03591-6
+  title: 'CDSnake: Snakemake pipeline for retrieval of annotated OTUs from paired-end reads using CD-HIT utilities'
+- doi: 10.1093/nargab/lqaf094
+  title: 'ganon2: up-to-date and scalable metagenomics analysis'
+- doi: 10.1093/bioinformatics/btaf334
+  title: 'Mapler: a pipeline for assessing assembly quality in taxonomically rich metagenomes sequenced with HiFi reads'
+- doi: 10.1186/s12859-020-03815-9
+  title: 'MetaLAFFA: a flexible, end-to-end, distributed computing-compatible metagenomic functional annotation pipeline'
+- doi: 10.1093/nargab/lqac019
+  title: 'OMARU: a robust and multifaceted pipeline for metagenome-wide association study'
+- doi: 10.1093/bioinformatics/btad409
+  title: 'Plassembler: an automated bacterial plasmid assembly tool'
+- doi: 10.1093/molbev/msae057
+  title: 'scalepopgen: Bioinformatic Workflow Resources Implemented in Nextflow for Comprehensive Population Genomic Analyses'
+- doi: 10.1093/bioadv/vbad005
+  title: 'Snekmer: a scalable pipeline for protein sequence fingerprinting based on amino acid recoding'
+- doi: 10.1038/s41467-024-49958-8
+  title: MAGinator enables accurate profiling of de novo MAGs with strain-level phylogenies
+source_repos:
+- https://github.com/genomicepidemiology/ARGprofiler
+- https://github.com/ydkondratenko/cdsnake
+- https://github.com/pirovc/ganon_benchmark
+- https://github.com/Nimauric/Mapler
+- https://github.com/borenstein-lab/MetaLAFFA
+- https://github.com/toshi-kishikawa/OMARU
+- https://github.com/gbouras13/plassembler
+- https://github.com/Popgen48/scalepopgen
+- https://github.com/PNNL-CompBio/Snekmer
+- https://github.com/Russel88/MAGinator
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/genomicepidemiology/ARGprofiler

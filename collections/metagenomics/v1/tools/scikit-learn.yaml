@@ -1,0 +1,46 @@
+name: scikit-learn
+slug: scikit-learn
+version_used: 0.18.1
+edam_topics: []
+evidence_spans:
+- behaves almost identically to DADA2 calls in supervised classification
+- The OPTICS algorithm was implemented using the Python scikit-learn library (Pedregosa et al. 2011).
+- MOVIS is built using Python and additional libraries like Pandas [13], Numpy [14], Scikit-learn [15], Biopython [16], Gensim [17], Altair [18], and Streamlit.
+- 'The clustering step is presented with two clustering algorithms as options: KMeans [21] (distance-based) and OPTICS [22] (density-based).'
+- '* Step 3: Distance transformation and hierarchical clustering'
+- '* scikit-learn >= 1.1.1'
+- 'Step 4: Model training and testing'
+- 'Scikit-learn: machine learning in Python'
+- scikit-learn
+derived_from:
+- doi: 10.1128/msystems.00697-21
+  title: "HashSeq: a Simple, Scalable, and Conservative\n            <i>De Novo</i>\n            Variant Caller for 16S rRNA Gene Data Sets"
+- doi: 10.1093/bioadv/vbae030
+  title: 'MetaQuad: shared informative variants discovery in metagenomic samples'
+- doi: 10.1016/j.csbj.2022.02.012
+  title: 'MOVIS: A multi-omics software solution for multi-modal time-series clustering, embedding, and visualizing tasks'
+- doi: 10.1093/nar/gkx1321
+  title: 'PlasFlow: predicting plasmid sequences in metagenomic data using genome signatures'
+- doi: 10.1093/bioadv/vbae013
+  title: 'PM-CNN: microbiome status recognition and disease detection model based on phylogeny and multi-path neural network'
+- doi: 10.1128/msystems.00101-16
+  title: 'From Genomes to Phenotypes: Traitar, the Microbial Trait Analyzer'
+- doi: 10.1038/s41467-023-35945-y
+  title: ViralCC retrieves complete viral genomes and virus-host pairs from metagenomic Hi-C data
+- doi: 10.1093/nar/gkac341
+  title: vRhyme enables binning of viral genomes from metagenomes
+source_repos:
+- https://github.com/FarnazFouladi/HashSeq
+- https://github.com/holab-hku/MetaQuad
+- https://github.com/AAnzel/MOVIS
+- https://github.com/smaegol/PlasFlow
+- https://github.com/qdu-bioinfo/PM_CNN
+- https://github.com/hzi-bifo/traitar
+- https://github.com/dyxstat/ViralCC
+- https://github.com/AnantharamanLab/vRhyme
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/FarnazFouladi/HashSeq

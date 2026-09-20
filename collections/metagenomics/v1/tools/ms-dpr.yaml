@@ -1,0 +1,16 @@
+name: MS-DPR
+slug: ms-dpr
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1016/j.cels.2019.09.004
+  title: 'MetaMiner: A Scalable Peptidogenomics Approach for Discovery of Ribosomal Peptide Natural Products with Blind Modifications from Microbial Communities'
+source_repos:
+- https://github.com/mohimanilab/MetaMiner
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/mohimanilab/MetaMiner

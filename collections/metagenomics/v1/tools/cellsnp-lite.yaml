@@ -1,0 +1,20 @@
+name: cellsnp-lite
+slug: cellsnp-lite
+version_used: null
+edam_topics: []
+evidence_spans:
+- MetaQuad takes the output folder of cellSNP-lite
+- 'MetaQuad takes the output folder of cellSNP-lite:'
+- minMAF = 0.02 and minCOUNT = 100
+derived_from:
+- doi: 10.1093/bioadv/vbae030
+  title: 'MetaQuad: shared informative variants discovery in metagenomic samples'
+source_repos:
+- https://github.com/single-cell-genetics/cellsnp-lite
+- https://github.com/holab-hku/MetaQuad
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/single-cell-genetics/cellsnp-lite

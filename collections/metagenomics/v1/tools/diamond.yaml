@@ -1,0 +1,78 @@
+name: diamond
+slug: diamond
+version_used: 0.9.14
+edam_topics: []
+evidence_spans:
+- 'faa: .faa file with sequences (for diamond)'
+- is aligned to reference sequences using DIAMOND (version 0.9.14) (40, 41)
+- the representative protein sequence (identified by CD-HIT) is aligned to reference sequences using DIAMOND (version 0.9.14)
+- MetaLAFFA uses DIAMOND (Buchfink, Xie, and Huson 2015) as its default aligner due to its speed and built-in parallelization.
+- MetaLAFFA uses DIAMOND (Buchfink, Xie, and Huson 2015) as its default aligner
+- aligning reads to the UniRef90 database of protein sequences using DIAMOND [3], a core tool for rapid sequence alignment in most metagenomic annotation procedures.
+- Fast and sensitive protein alignment using DIAMOND
+- we aligned the protein sequences of the IGC database to the Comprehensive Antibiotic Resistance Database (Alcock et al. 2019) using DIAMOND (Buchfink et al. 2021).
+- with the options --ultra-sensitive --frameshift 15 --masking 0
+- DIAMOND v.2.0.13 (Buchfink et al. 2021), with the options --ultra-sensitive --frameshift 15 --masking 0
+- DIAMOND's BLASTX algorithm is used to align translated nucleotide sequences to 1 or more reference protein sequences
+- In either case, DIAMOND's BLASTX algorithm is used to align translated nucleotide sequences to 1 or more reference protein sequences
+- In either case, DIAMOND's BLASTX algorithm is used to align translated nucleotide sequences to 1 or more reference protein sequences.
+- Patchwork is an alignment-based tool that utilizes the sequence aligner DIAMOND and is written in the programming language Julia.
+- 'DIAMOND, version 0.8.3: https://github.com/bbuchfink/diamond'
+- use "DIAMOND\_analysis\_counter.py" to create a ranked abundance summary of the DIAMOND results from each metatransciptome file
+- SAMSA2 uses DIAMOND [10] for aligning sequences, which greatly increases its speed relative to BLAST or public services.
+- It uses DIAMOND to annotate results against any custom database that the user chooses
+- MMseqs2 (Mirdita et al., 2019; Steinegger and Söding, 2017) and DIAMOND (Buchfink et al., 2021) use kmers to increase the speed
+- emapper.py -i test/genes/all_genes_rep_seq.fasta --output test_out/functional_annotation -m diamond --cpu 38
+- diamond (https://github.com/bbuchfink/diamond)
+- --virDmnd /scratch/VirmapDb/virDmnd.dmnd
+- using BBMap19 and DIAMOND20, respectively
+- Fast and sensitive protein alignment using DIAMOND
+derived_from:
+- doi: 10.1093/nargab/lqaf094
+  title: 'ganon2: up-to-date and scalable metagenomics analysis'
+- doi: 10.1093/nargab/lqab047
+  title: 'GeneMark-HM: improving gene prediction in DNA sequences of human microbiome'
+- doi: 10.1128/msystems.00201-21
+  title: 'MetaFunPrimer: an Environment-Specific, High-Throughput Primer Design Tool for Improved Quantification of Target Genes'
+- doi: 10.1186/s12859-020-03815-9
+  title: 'MetaLAFFA: a flexible, end-to-end, distributed computing-compatible metagenomic functional annotation pipeline'
+- doi: 10.1128/msystems.00741-22
+  title: 'MetaPhage: an Automated Pipeline for Analyzing, Annotating, and Classifying Bacteriophages in Metagenomics Sequencing Data'
+- doi: 10.1093/bioadv/vbae030
+  title: 'MetaQuad: shared informative variants discovery in metagenomic samples'
+- doi: 10.1093/nargab/lqac019
+  title: 'OMARU: a robust and multifaceted pipeline for metagenome-wide association study'
+- doi: 10.1093/gbe/evad227
+  title: 'Patchwork: Alignment-Based Retrieval and Concatenation of Phylogenetic Markers from Genomic Data'
+- doi: 10.1186/s12859-018-2189-z
+  title: 'SAMSA2: a standalone metatranscriptome analysis pipeline'
+- doi: 10.1186/s12859-016-1270-8
+  title: 'SAMSA: a comprehensive metatranscriptome analysis pipeline'
+- doi: 10.1093/bioadv/vbad005
+  title: 'Snekmer: a scalable pipeline for protein sequence fingerprinting based on amino acid recoding'
+- doi: 10.1038/s41467-024-49958-8
+  title: MAGinator enables accurate profiling of de novo MAGs with strain-level phylogenies
+- doi: 10.1038/s41467-018-05658-8
+  title: Maximal viral information recovery from sequence data using VirMAP
+source_repos:
+- https://github.com/pirovc/ganon_benchmark
+- https://github.com/GeneProbe/GeneMark-HM
+- https://github.com/jialiu232/MetaFunPrimer_paper_info
+- https://github.com/bbuchfink/diamond_docs
+- https://github.com/borenstein-lab/MetaLAFFA
+- https://github.com/MattiaPandolfoVR/MetaPhage
+- https://github.com/holab-hku/MetaQuad
+- https://github.com/toshi-kishikawa/OMARU
+- https://github.com/bbuchfink/diamond
+- https://github.com/fethalen/Patchwork
+- https://github.com/transcript/samsa2
+- https://github.com/transcript/SAMSA
+- https://github.com/PNNL-CompBio/Snekmer
+- https://github.com/Russel88/MAGinator
+- https://github.com/cmmr/VirMAP
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/pirovc/ganon_benchmark

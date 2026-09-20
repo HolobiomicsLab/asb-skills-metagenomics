@@ -1,0 +1,21 @@
+name: knitr
+slug: knitr
+version_used: null
+edam_topics: []
+evidence_spans:
+- knitr::opts_chunk$set(
+- library(knitr)
+derived_from:
+- doi: 10.1093/bioinformatics/btad565
+  title: 'mbQTL: an R/Bioconductor package for microbial quantitative trait loci (QTL) estimation'
+- doi: 10.1186/s12859-019-2744-2
+  title: 'metamicrobiomeR: an R package for analysis of microbiome relative abundance data using zero-inflated beta GAMLSS and meta-analysis across studies using random effects models'
+source_repos:
+- https://github.com/Mercedeh66/mbQTL
+- https://github.com/nhanhocu/metamicrobiomeR
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Mercedeh66/mbQTL

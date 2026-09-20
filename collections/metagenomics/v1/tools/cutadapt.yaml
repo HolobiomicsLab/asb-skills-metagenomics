@@ -1,0 +1,25 @@
+name: Cutadapt
+slug: cutadapt
+version_used: '10.14806'
+edam_topics: []
+evidence_spans:
+- trim-galore v0.5.0, a wrapper script around Cutadapt (Martin, 2011), to trim low-quality bases
+- '* Cutadapt (doi: 10.14806/ej.17.1.200) used in the ``trim`` command'
+- 'Cutadapt (doi: 10.14806/ej.17.1.200) used in the ``trim`` command'
+derived_from:
+- doi: 10.1093/bioinformatics/btad020
+  title: Capturing variation in metagenomic assembly graphs with MetaCortex
+- doi: 10.1038/srep09743
+  title: 'MICCA: a complete and accurate software for taxonomic profiling of metagenomic data'
+- doi: 10.1093/nar/gkx1321
+  title: 'PlasFlow: predicting plasmid sequences in metagenomic data using genome signatures'
+source_repos:
+- https://github.com/SR-Martin/metacortex
+- https://github.com/compmetagen/micca
+- https://github.com/smaegol/PlasFlow
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/SR-Martin/metacortex

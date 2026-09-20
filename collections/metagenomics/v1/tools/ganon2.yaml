@@ -1,0 +1,21 @@
+name: ganon2
+slug: ganon2
+version_used: null
+edam_topics: []
+evidence_spans:
+- We propose a generational leap in performance and usability with ganon2, a sequence classification method
+- We propose a generational leap in performance and usability with ganon2, a sequence classification method that performs taxonomic binning and profiling for metagenomics analysis
+- a sequence classification method that performs taxonomic binning and profiling for metagenomics analysis
+- ganon2, a sequence classification method that performs taxonomic binning and profiling for metagenomics analysis
+derived_from:
+- doi: 10.1093/nargab/lqaf094
+  title: 'ganon2: up-to-date and scalable metagenomics analysis'
+source_repos:
+- https://github.com/pirovc/ganon
+- https://github.com/pirovc/ganon_benchmark
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/pirovc/ganon
