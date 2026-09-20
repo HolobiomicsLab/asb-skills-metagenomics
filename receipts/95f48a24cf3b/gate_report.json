@@ -1,8 +1,8 @@
 {
   "schema": "asbb-release-gate/1.1",
-  "generated_at": "2026-09-20T00:46:32.000230+00:00",
-  "collection_dir": "/private/tmp/claude-502/-Users-nothiasl-git/f6f661ef-32d5-4e20-9c54-09811a1c30c6/scratchpad/cand/metagenomics",
-  "corpus_path": "/private/tmp/claude-502/-Users-nothiasl-git/f6f661ef-32d5-4e20-9c54-09811a1c30c6/scratchpad/cand/metagenomics/corpus.yaml",
+  "generated_at": "2026-09-20T13:29:55.806693+00:00",
+  "collection_dir": "/private/tmp/claude-502/-Users-nothiasl-git/f6f661ef-32d5-4e20-9c54-09811a1c30c6/scratchpad/mission-014/land/metagenomics/candidate",
+  "corpus_path": "/private/tmp/claude-502/-Users-nothiasl-git/f6f661ef-32d5-4e20-9c54-09811a1c30c6/scratchpad/mission-014/land/metagenomics/candidate/corpus.yaml",
   "mode": "strict",
   "strict": true,
   "promote_logic_source": "agentic_science_builder.release.promote",
@@ -41,7 +41,7 @@
   },
   "binding": {
     "payload": {
-      "sha256": "37a935132a71a8ea7b9ee0b56c77dd553a95f103e4c79071e3a4338b9a21523f",
+      "sha256": "031da1c53054d5395d053cb25b189ddb8372a8d153e94d872be238ae666366a9",
       "entries": [
         {
           "path": ".claude-plugin",
@@ -51,6 +51,11 @@
           "path": ".claude-plugin/plugin.json",
           "bytes": 526,
           "sha256": "3234f7cab03174c8913bed7a1664b45bcaa1f87e19922bd815be618f280d06a7"
+        },
+        {
+          "path": ".zenodo.json",
+          "bytes": 2796,
+          "sha256": "094f8f13e855fb50e876b4b5b27e1a1ff148b4535f7cb1f70c2344292d727bfe"
         },
         {
           "path": "CITATION.cff",
@@ -69,7 +74,7 @@
         {
           "path": "collection.yaml",
           "bytes": 126470,
-          "sha256": "931e7634e6edc00b24b10566d73b7ca0809b9de94a526dab7cf54d6ee3373b2b"
+          "sha256": "fa9067f39b73a0fca715af69f5ae421ecdc19e9e5d17f625b0b7dc6f7a4038aa"
         },
         {
           "path": "corpus.yaml",
@@ -28487,6 +28492,62 @@
           "path": "tools_index.json",
           "bytes": 755267,
           "sha256": "4212594f053be2d386614a4e3b9cd7532f65ceb4aa2ebbbfa02e6a11b7c3003b"
+        },
+        {
+          "path": "workflows",
+          "directory": true
+        },
+        {
+          "path": "workflows/_workflow_router",
+          "directory": true
+        },
+        {
+          "path": "workflows/_workflow_router/SKILL.md",
+          "bytes": 3368,
+          "sha256": "3a79709f38af5942b213bd077561d657da5eff0b5316831842d0bd0cf22ea90e"
+        },
+        {
+          "path": "workflows/assembly-mag-quality-taxonomy",
+          "directory": true
+        },
+        {
+          "path": "workflows/assembly-mag-quality-taxonomy/README.md",
+          "bytes": 2154,
+          "sha256": "4f82d881490869b90f449d2b3a5f3e263b8bf3ee48f23e0c53309d4905395393"
+        },
+        {
+          "path": "workflows/assembly-mag-quality-taxonomy/SKILL.md",
+          "bytes": 7299,
+          "sha256": "fb3fc256f8eb42a5468c82554fadada37352f33fe0b96573d1169e9df20e435c"
+        },
+        {
+          "path": "workflows/assembly-mag-quality-taxonomy/workflow.yaml",
+          "bytes": 5290,
+          "sha256": "9eabe9d036a79b2f57e1672896660a204c9b5cc451f6d75fd28162e9d02ddfe5"
+        },
+        {
+          "path": "workflows/read-taxonomic-functional-profiling",
+          "directory": true
+        },
+        {
+          "path": "workflows/read-taxonomic-functional-profiling/README.md",
+          "bytes": 2092,
+          "sha256": "e91ed9e3cd66670989414fb90e2eb657f09678461f295055675a7dae409e0b39"
+        },
+        {
+          "path": "workflows/read-taxonomic-functional-profiling/SKILL.md",
+          "bytes": 6825,
+          "sha256": "733a607c289ffe0209ed27879d7a27b2ce883436465995f7e146ec832df208a4"
+        },
+        {
+          "path": "workflows/read-taxonomic-functional-profiling/workflow.yaml",
+          "bytes": 4792,
+          "sha256": "030a4860ef0a9c7b7acd2de5c41180ae5031dd4117706a4c195ad78110a532cf"
+        },
+        {
+          "path": "workflows/workflows_index.json",
+          "bytes": 1904,
+          "sha256": "e06a7bee939f781b13cbdbcdc8b72bee2646ae4bd9206a7aa48381b6bcf1fc29"
         }
       ],
       "excluded_paths": [
@@ -28505,7 +28566,7 @@
   "inventory": {
     "skills": 2754,
     "tools": 717,
-    "workflows": 0,
+    "workflows": 2,
     "papers": 117,
     "dois": 117
   },
@@ -28514,7 +28575,6 @@
   "verification_scope": "content-policy checks and bound artifact integrity",
   "release_verified": true,
   "zero_item_checks": [
-    "composite_workflows",
     "layout_packaging",
     "unit_closure",
     "catalogue_membership",
@@ -28524,11 +28584,11 @@
   "blocking": false,
   "exit_code": 0,
   "summary_counts": {
-    "pass": 11,
+    "pass": 12,
     "warn": 0,
     "fail": 0,
     "uncheckable": 0,
-    "not_applicable": 2
+    "not_applicable": 1
   },
   "hard_gate_ids": [
     2,
@@ -28642,21 +28702,16 @@
     },
     {
       "name": "composite_workflows",
-      "status": "not_applicable",
+      "status": "pass",
       "gates": [],
       "hard_gate": false,
-      "summary": "Composite workflow super-skills resolve to real leaves with a valid typed DAG and matching layout count.",
-      "n_findings": 1,
-      "details": [
-        {
-          "status": "not_applicable",
-          "message": "No workflows/ subtree; no workflow validation performed."
-        }
-      ],
+      "summary": "Composite workflow super-skills resolve to real leaves with a valid typed DAG and matching layout count.  (2 workflows checked)",
+      "n_findings": 0,
+      "details": [],
       "scope": "composite workflows",
-      "required": false,
+      "required": true,
       "counts": {
-        "checked": 0,
+        "checked": 2,
         "skipped": 0,
         "missing": 0,
         "failed": 0
@@ -28732,7 +28787,7 @@
       "scope": "payload files",
       "required": true,
       "counts": {
-        "checked": 3481,
+        "checked": 3490,
         "skipped": 0,
         "missing": 0,
         "failed": 0
@@ -28819,5 +28874,5 @@
       "coverage": {}
     }
   ],
-  "receipt_sha256": "2cc03f298964fbd3632743fa693bdc38a9275c95cb3bb4d2a040d69f5dd5d704"
+  "receipt_sha256": "97f3f050f757647e5f82ba05e1dfdac843bc0bad688e869aa15bc7acfca80ebf"
 }

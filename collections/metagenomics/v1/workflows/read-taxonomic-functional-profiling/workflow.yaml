@@ -1,0 +1,207 @@
+schema_version: 0.3.0
+workflow_id: read_taxonomic_functional_profiling
+kind: composite-workflow
+techniques: []
+steps:
+- id: trim_and_qc
+  goal: remove adapters and low-quality sequence and summarize read quality
+  edam_operation: http://edamontology.org/operation_3219
+  skills:
+  - metagenomic-read-quality-control--333f0c268bb84080
+  - fastqc-quality-reporting
+  - multiqc-report-aggregation
+  - short-read-quality-trimming--534731b241401dae
+  - illumina-adapter-trimming-bbduk
+  tools:
+  - BBTools
+  - FastQC
+  - MultiQC
+  inputs:
+  - type: paired-fastq
+    flavour: raw
+  outputs:
+  - type: fastq
+    flavour: trimmed
+  - type: html
+    flavour: read-qc-report
+  grounding:
+    kb_slugs:
+    - asb-paper-10-1093-nargab-lqac070
+    dois:
+    - 10.1093/nargab/lqac070
+  after: []
+- id: remove_host
+  goal: discard reads aligning above threshold to the configured host reference
+  edam_operation: http://edamontology.org/operation_3187
+  skills:
+  - host-read-filtering
+  - short-read-alignment-to-host-reference
+  - fastq-read-count-summary-statistics
+  - host-read-alignment-against-human-genome
+  tools:
+  - Bowtie 2
+  - Conda
+  - MetaLAFFA
+  inputs:
+  - type: fastq
+    flavour: trimmed
+  - type: database
+    flavour: host-bowtie2-index
+  outputs:
+  - type: fastq
+    flavour: host-filtered
+  - type: tsv
+    flavour: host-removal-statistics
+  grounding:
+    kb_slugs:
+    - asb-paper-10-1093-bioinformatics-btad728
+    - asb-paper-10-1186-s12859-016-1270-8
+    - asb-paper-10-1186-s12859-020-03815-9
+    dois:
+    - 10.1093/bioinformatics/btad728
+    - 10.1186/s12859-016-1270-8
+    - 10.1186/s12859-020-03815-9
+  after:
+  - trim_and_qc
+  candidate_tools:
+  - Bowtie2
+  - Hostile
+  - Minimap2
+  - Samtools
+  - Snakemake
+  - FLASH
+  - Python 2.7
+  - SAMSA
+  - Trimmomatic
+  inputs_from:
+    trim_and_qc:
+    - fastq:trimmed
+- id: build_taxonomic_profile
+  goal: classify host-filtered reads into sample-level Kraken2 taxonomic profiles
+  edam_operation: http://edamontology.org/operation_0222
+  skills:
+  - metagenomic-taxonomic-profiling
+  - taxonomic-profile-generation
+  - metagenomic-taxonomy-profiling-of-rna-seq-reads
+  - kraken2-taxonomy-charting
+  tools:
+  - CoverM
+  - FEAST
+  - Kraken2
+  - Python
+  - SourceApp
+  - decOM
+  - fastp
+  - kmtricks
+  - metaSourceTracker
+  inputs:
+  - type: fastq
+    flavour: host-filtered
+  - type: database
+    flavour: kraken2-taxonomy
+  outputs:
+  - type: tsv
+    flavour: taxonomic-profile
+  grounding:
+    kb_slugs:
+    - asb-paper-10-1016-j-medmic-2020-100011
+    - asb-paper-10-1021-acs-est-5c03603
+    - asb-paper-10-1093-nargab-lqaa009
+    - asb-paper-10-1128-msystems-00741-22
+    dois:
+    - 10.1016/j.medmic.2020.100011
+    - 10.1021/acs.est.5c03603
+    - 10.1093/nargab/lqaa009
+    - 10.1128/msystems.00741-22
+  after:
+  - remove_host
+  candidate_tools:
+  - DeepMicrobes
+  - Kaiju
+  - Kraken
+  - R
+  - Nextflow
+  - STAR
+  - Singularity
+  - nf-rnaSeqMetagen
+  - MetaPhage
+  - MetaQuast
+  - MultiQC
+  inputs_from:
+    remove_host:
+    - fastq:host-filtered
+- id: quantify_genes
+  goal: map reads to UniRef90 and derive fractional gene-length-normalized abundances
+  edam_operation: http://edamontology.org/operation_0292
+  skills:
+  - metagenomic-read-gene-annotation
+  - shotgun-metagenome-gene-abundance-estimation
+  - metagenomic-hit-summarization
+  - alignment-hits-tabular-output-processing
+  tools:
+  - DIAMOND
+  - MetaLAFFA
+  - Python
+  - Snakemake
+  inputs:
+  - type: fastq
+    flavour: host-filtered
+  - type: database
+    flavour: uniref90-protein
+  outputs:
+  - type: tsv
+    flavour: filtered-read-gene-hits
+  - type: tsv
+    flavour: gene-abundance
+  grounding:
+    kb_slugs:
+    - asb-paper-10-1186-s12859-020-03815-9
+    dois:
+    - 10.1186/s12859-020-03815-9
+  after:
+  - remove_host
+  inputs_from:
+    remove_host:
+    - fastq:host-filtered
+- id: aggregate_orthologs
+  goal: fractionally aggregate gene abundances into conserved KO profiles
+  edam_operation: http://edamontology.org/operation_0362
+  skills:
+  - kegg-orthology-annotation
+  - metagenomic-gene-to-ortholog-mapping
+  - many-to-many-mapping-table-parsing
+  - fractional-ortholog-abundance-counting
+  tools:
+  - MetaLAFFA
+  - Python
+  - Snakemake
+  inputs:
+  - type: tsv
+    flavour: gene-abundance
+  - type: tsv
+    flavour: gene-to-ko-map
+  outputs:
+  - type: tsv
+    flavour: ko-abundance-profile
+  grounding:
+    kb_slugs:
+    - asb-paper-10-1186-s12859-020-03815-9
+    dois:
+    - 10.1186/s12859-020-03815-9
+  after:
+  - quantify_genes
+  candidate_tools:
+  - UniRef90
+  inputs_from:
+    quantify_genes:
+    - tsv:gene-abundance
+verification:
+  final_outputs:
+  - path: taxonomic_profile.tsv
+    type: file
+  - path: ko_abundance_profile.tsv
+    type: file
+provenance:
+  derived_from_workflows: []
+  bound_by: perspicacite-semantic
+  coverage_gaps: []

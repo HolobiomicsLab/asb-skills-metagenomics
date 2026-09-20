@@ -1,1 +1,1 @@
-OK   /private/tmp/claude-502/-Users-nothiasl-git/f6f661ef-32d5-4e20-9c54-09811a1c30c6/scratchpad/cand/metagenomics  (2754 index entries, corpus checked)
+OK   /private/tmp/claude-502/-Users-nothiasl-git/f6f661ef-32d5-4e20-9c54-09811a1c30c6/scratchpad/mission-014/land/metagenomics/candidate  (2754 index entries, corpus checked)
