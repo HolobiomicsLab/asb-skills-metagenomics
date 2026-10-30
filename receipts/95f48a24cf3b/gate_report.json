@@ -1,11 +1,11 @@
 {
   "schema": "asbb-release-gate/1.1",
-  "generated_at": "2026-09-20T13:29:55.806693+00:00",
-  "collection_dir": "/private/tmp/claude-502/-Users-nothiasl-git/f6f661ef-32d5-4e20-9c54-09811a1c30c6/scratchpad/mission-014/land/metagenomics/candidate",
-  "corpus_path": "/private/tmp/claude-502/-Users-nothiasl-git/f6f661ef-32d5-4e20-9c54-09811a1c30c6/scratchpad/mission-014/land/metagenomics/candidate/corpus.yaml",
+  "generated_at": "2026-10-30T13:48:13.691148+00:00",
+  "collection_dir": "collections/metagenomics/v1",
+  "corpus_path": "collections/metagenomics/v1/corpus.yaml",
   "mode": "strict",
   "strict": true,
-  "promote_logic_source": "agentic_science_builder.release.promote",
+  "promote_logic_source": "vendored-fallback",
   "evidence_parser_source": "scripts.release_gate (gate-owned)",
   "policy": {
     "version": "asbb-content-gate/1.3",
@@ -36,12 +36,12 @@
       "SKILL.md",
       "skill_kb.json"
     ],
-    "config_sha256": "51e7b662befe1330605e08c0f6b6aa96a3a167428c48f25af3794b62f06f8eff",
+    "config_sha256": "392fc2ac65836b7cbb38c6acfc1886af153aa52ccdba3f509c87db7013b14984",
     "implementation_sha256": "c099f1bce4ec035bf099a4a14f8ee2900c7b8410d8b6d7b09b31ac3cf8545cf0"
   },
   "binding": {
     "payload": {
-      "sha256": "031da1c53054d5395d053cb25b189ddb8372a8d153e94d872be238ae666366a9",
+      "sha256": "06d95dd9b225f6b9ebf9b920a9fe19205d5adc8b0888c1aef36cbdacb4a06a2f",
       "entries": [
         {
           "path": ".claude-plugin",
@@ -54,8 +54,8 @@
         },
         {
           "path": ".zenodo.json",
-          "bytes": 2796,
-          "sha256": "094f8f13e855fb50e876b4b5b27e1a1ff148b4535f7cb1f70c2344292d727bfe"
+          "bytes": 2560,
+          "sha256": "cf069d6a820e828ddb4e42f9ee852015ef4cbbd5f2ea167202bb7c30835f7373"
         },
         {
           "path": "CITATION.cff",
@@ -28874,5 +28874,5 @@
       "coverage": {}
     }
   ],
-  "receipt_sha256": "97f3f050f757647e5f82ba05e1dfdac843bc0bad688e869aa15bc7acfca80ebf"
+  "receipt_sha256": "d3b612040d53e4c43934f3369ac20005fd577861b02e904462f9b42158621118"
 }
