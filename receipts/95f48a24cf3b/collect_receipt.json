@@ -1,5 +1,5 @@
 {
-  "builds_root": "/private/tmp/claude-502/-Users-nothiasl-git/f6f661ef-32d5-4e20-9c54-09811a1c30c6/scratchpad/task8/cut/metagenomics/builds",
+  "builds_root": "metagenomics",
   "counts": {
     "builds": 117,
     "input_files": 8616,
@@ -8628,7 +8628,7 @@
     "corpus/skills/zero-inflation-correction-sparse-count-data/tools.json": "5b7e373de7daf9fc1eade6ae453b1b4af3ba577bb9283d22eb35afe8adf4b4ad",
     "release_creators.yaml": "7ff7405a2af4aadf66a609161f381c90e236961a3a268e83a168b615f1009cb8"
   },
-  "output_tree_sha256": "091930c3a5f14f1f988f43137480cd0aa211dd7d822cf91e838d90910d509c7a",
+  "output_tree_sha256": "8331be56ebbd4007b802c5eae403be561b383042450f8fdc8848bccc02307184",
   "router_index": "provisional skills_index.json derived from leaf frontmatter before router_shape.shape",
   "status": "collected",
   "version": "v1"
