@@ -11,7 +11,7 @@ when_to_use_negative:
   zero)
 - When the taxa-set being tested contains fewer than five taxa, since the paper restricted
   association analysis to taxa-sets with at least five taxa
-edam_operation: http://edamontology.org/operation_3657
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3697
 - http://edamontology.org/topic_2269
@@ -44,7 +44,7 @@ metadata:
   tools:
   - AMAT
   - R
-  edam_operation: http://edamontology.org/operation_3657
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3697
   - http://edamontology.org/topic_2269

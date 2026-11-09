@@ -14,8 +14,7 @@ when_to_use_negative:
   documented default/recommended settings or the GAGE-B recipe, not bespoke parameter
   tuning
 edam_operation: http://edamontology.org/operation_0310
-edam_topics:
-- http://edamontology.org/topic_0193
+edam_topics: []
 tools:
 - name: ABySS
   role: Runs on trimmed paired-end reads using the GAGE-B parameter recipe (multiple
@@ -51,8 +50,7 @@ metadata:
   - Velvet
   - WebQUAST
   edam_operation: http://edamontology.org/operation_0310
-  edam_topics:
-  - http://edamontology.org/topic_0193
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

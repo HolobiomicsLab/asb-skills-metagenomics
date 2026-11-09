@@ -10,7 +10,7 @@ when_to_use_negative:
   long-read sequencing) — retraining would be required
 - You need to add new species to the database without reclassification overhead —
   adding new species requires retraining the entire deep neural network
-edam_operation: http://edamontology.org/operation_3656
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3174
 - http://edamontology.org/topic_0622
@@ -42,7 +42,7 @@ metadata:
   tools:
   - DeepMicrobes
   - R
-  edam_operation: http://edamontology.org/operation_3656
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3174
   - http://edamontology.org/topic_0622

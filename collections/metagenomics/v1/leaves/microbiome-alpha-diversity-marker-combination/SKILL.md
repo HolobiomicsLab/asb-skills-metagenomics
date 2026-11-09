@@ -11,7 +11,7 @@ when_to_use_negative:
 - Raw 16S rRNA read data or OTU tables are all you have — mMeta/aMeta require already-computed
   effect estimates and standard errors per study and marker (hard to obtain in practice
   when studies report only graphs or stratified summaries)
-edam_operation: http://edamontology.org/operation_3656
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3697
 - http://edamontology.org/topic_2269
@@ -45,7 +45,7 @@ metadata:
   - R package mMeta
   - devtools
   - mMeta
-  edam_operation: http://edamontology.org/operation_3656
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3697
   - http://edamontology.org/topic_2269

@@ -12,7 +12,7 @@ when_to_use_negative:
 - You need flexible handling of many different types of summary data (e.g., only graphs,
   stratified means/medians/IQRs per group) — the authors note no fully flexible method
   was achieved in this paper
-edam_operation: http://edamontology.org/operation_3656
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_2269
 - http://edamontology.org/topic_3697
@@ -52,7 +52,7 @@ metadata:
   - forestplot
   - mMeta
   - vegan
-  edam_operation: http://edamontology.org/operation_3656
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_2269
   - http://edamontology.org/topic_3697

@@ -10,7 +10,7 @@ when_to_use_negative:
   target bacterial 16S rRNA genes, where insertions are rare outside the CPR
 - Your goal is primer-binding or amplicon-detection assessment (e.g. 515F/806R coverage)
   rather than insertion detection and length statistics
-edam_operation: http://edamontology.org/operation_0242
+edam_operation: http://edamontology.org/operation_0438
 edam_topics:
 - http://edamontology.org/topic_0080
 tools:
@@ -39,7 +39,7 @@ metadata:
   - Comparative RNA Web seed alignment
   - Rfam + cmscan (Infernal)
   - fix_assembly_errors (re_assemble_errors.py / ra2.py)
-  edam_operation: http://edamontology.org/operation_0242
+  edam_operation: http://edamontology.org/operation_0438
   edam_topics:
   - http://edamontology.org/topic_0080
   provenance_tier: literature

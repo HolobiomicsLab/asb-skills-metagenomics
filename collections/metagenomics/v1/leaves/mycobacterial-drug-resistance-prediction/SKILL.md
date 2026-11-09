@@ -11,7 +11,7 @@ when_to_use_negative:
   and the drug is completely excluded from the panel
 - The organism is not one of the supported species (M. tuberculosis, S. aureus, S.
   sonnei, S. typhi, S. enterica Paratyphi B); the tb panel will not apply
-edam_operation: http://edamontology.org/operation_3757
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_2830
 - http://edamontology.org/topic_3673
@@ -49,7 +49,7 @@ metadata:
   - KvarQ
   - Mykrobe Parser
   - Mykrobe predictor
-  edam_operation: http://edamontology.org/operation_3757
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_2830
   - http://edamontology.org/topic_3673

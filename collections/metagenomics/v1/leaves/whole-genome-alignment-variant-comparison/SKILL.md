@@ -13,7 +13,6 @@ when_to_use_negative:
   to compute identity and SNP/indel metrics
 edam_operation: http://edamontology.org/operation_0292
 edam_topics:
-- http://edamontology.org/topic_0193
 - http://edamontology.org/topic_3174
 tools:
 - name: dnadiff
@@ -54,7 +53,6 @@ metadata:
   - trim-galore
   edam_operation: http://edamontology.org/operation_0292
   edam_topics:
-  - http://edamontology.org/topic_0193
   - http://edamontology.org/topic_3174
   provenance_tier: literature
 license: CC-BY-4.0

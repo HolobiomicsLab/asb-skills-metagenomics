@@ -8,7 +8,7 @@ when_to_use_negative:
   to taxonomy classification (e.g. kMetaShot classifier)
 - Reads are from an isolate genome or single-organism culture rather than a mixed
   community where metagenomic binning applies
-edam_operation: http://edamontology.org/operation_3720
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0622
 - http://edamontology.org/topic_3174
@@ -51,7 +51,7 @@ metadata:
   - Sickle
   - kMetaShot
   - metaSPAdes
-  edam_operation: http://edamontology.org/operation_3720
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0622
   - http://edamontology.org/topic_3174

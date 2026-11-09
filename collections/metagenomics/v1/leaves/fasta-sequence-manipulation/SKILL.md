@@ -13,7 +13,6 @@ when_to_use_negative:
   evaluated for any contig
 edam_operation: http://edamontology.org/operation_0282
 edam_topics:
-- http://edamontology.org/topic_0193
 - http://edamontology.org/topic_0080
 tools:
 - name: MetaPlatanus
@@ -46,7 +45,6 @@ metadata:
   - MetaPlatanus
   edam_operation: http://edamontology.org/operation_0282
   edam_topics:
-  - http://edamontology.org/topic_0193
   - http://edamontology.org/topic_0080
   provenance_tier: literature
 license: CC-BY-4.0

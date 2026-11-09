@@ -11,8 +11,7 @@ when_to_use_negative:
 - The goal is a single consensus contig rather than strain-resolved reconstruction
   — the consensus Cortex assembler (cortex_con) path already outputs that
 edam_operation: http://edamontology.org/operation_0310
-edam_topics:
-- http://edamontology.org/topic_0193
+edam_topics: []
 tools:
 - name: MetaCortex
   role: Metagenome assembler run in MC mode to emit the assembly graph in sequence-graph
@@ -47,8 +46,7 @@ metadata:
   - dnadiff
   - trim-galore
   edam_operation: http://edamontology.org/operation_0310
-  edam_topics:
-  - http://edamontology.org/topic_0193
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: critique

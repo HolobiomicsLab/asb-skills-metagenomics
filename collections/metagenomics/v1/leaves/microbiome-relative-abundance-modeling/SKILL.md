@@ -12,7 +12,7 @@ when_to_use_negative:
 - Input is metagenomic functional profiles or non-taxon omics data — the workflow
   targets bacterial taxon relative abundance tables from 16S-style pipelines (e.g.
   QIIME L6 taxonomy tables)
-edam_operation: http://edamontology.org/operation_3656
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0622
 - http://edamontology.org/topic_3697
@@ -57,7 +57,7 @@ metadata:
   - ggplot2
   - knitr
   - metamicrobiomeR
-  edam_operation: http://edamontology.org/operation_3656
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0622
   - http://edamontology.org/topic_3697

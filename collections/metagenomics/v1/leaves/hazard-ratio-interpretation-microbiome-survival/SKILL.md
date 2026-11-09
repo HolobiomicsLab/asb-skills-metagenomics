@@ -11,7 +11,7 @@ when_to_use_negative:
 - Input is raw sequencing data; this skill starts from a processed phyloseq/feature-table
   object produced by the MiSurv data processing module (QIIME 2-based OTU picking
   at 97% similarity against Greengenes, chimera removal, rarefaction).
-edam_operation: http://edamontology.org/operation_3575
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3697
 - http://edamontology.org/topic_0203
@@ -40,7 +40,7 @@ metadata:
   tools:
   - MiSurv
   - phyloseq
-  edam_operation: http://edamontology.org/operation_3575
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3697
   - http://edamontology.org/topic_0203

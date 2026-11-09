@@ -11,7 +11,7 @@ when_to_use_negative:
 - 'Hypothesis testing requires accompanying effect-size estimation from aMeta: aMeta
   is limited to hypothesis testing with no estimation facilities (use mMeta for pooled
   estimates)'
-edam_operation: http://edamontology.org/operation_3656
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_2269
 - http://edamontology.org/topic_0622
@@ -49,7 +49,7 @@ metadata:
   - forestplot
   - mMeta
   - vegan
-  edam_operation: http://edamontology.org/operation_3656
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_2269
   - http://edamontology.org/topic_0622

@@ -12,7 +12,6 @@ when_to_use_negative:
   abundance (use ko2kegg_abundance() first)
 edam_operation: http://edamontology.org/operation_0337
 edam_topics:
-- http://edamontology.org/topic_0699
 - http://edamontology.org/topic_0092
 tools:
 - name: ggpicrust2
@@ -44,7 +43,6 @@ metadata:
   - ggplot2
   edam_operation: http://edamontology.org/operation_0337
   edam_topics:
-  - http://edamontology.org/topic_0699
   - http://edamontology.org/topic_0092
   provenance_tier: literature
 license: CC-BY-4.0

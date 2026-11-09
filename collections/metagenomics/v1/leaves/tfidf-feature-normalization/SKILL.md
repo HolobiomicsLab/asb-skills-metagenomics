@@ -12,7 +12,7 @@ when_to_use_negative:
 - Applying to non-signature-based data (e.g. assembly graphs or read alignments for
   tools like PlasmidSpades or Recycler, which PlasFlow explicitly contrasts itself
   with)
-edam_operation: http://edamontology.org/operation_2936
+edam_operation: http://edamontology.org/operation_2938
 edam_topics:
 - http://edamontology.org/topic_0091
 tools:
@@ -53,7 +53,7 @@ metadata:
   - numpy
   - pandas
   - scikit-learn
-  edam_operation: http://edamontology.org/operation_2936
+  edam_operation: http://edamontology.org/operation_2938
   edam_topics:
   - http://edamontology.org/topic_0091
   provenance_tier: literature

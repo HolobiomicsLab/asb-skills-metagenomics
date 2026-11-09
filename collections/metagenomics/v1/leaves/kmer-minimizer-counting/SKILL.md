@@ -13,7 +13,6 @@ when_to_use_negative:
 edam_operation: http://edamontology.org/operation_3460
 edam_topics:
 - http://edamontology.org/topic_0637
-- http://edamontology.org/topic_3274
 tools:
 - name: kMetaShot
   role: Alignment-free taxonomy classifier performing k-mer/minimizer counting of
@@ -43,7 +42,6 @@ metadata:
   edam_operation: http://edamontology.org/operation_3460
   edam_topics:
   - http://edamontology.org/topic_0637
-  - http://edamontology.org/topic_3274
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

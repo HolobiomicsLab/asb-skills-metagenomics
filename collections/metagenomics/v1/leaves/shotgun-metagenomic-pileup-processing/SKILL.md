@@ -12,8 +12,7 @@ when_to_use_negative:
 - The goal is bulk per-sample variant calling rather than detecting shared informative
   variants across a population of metagenomic samples
 edam_operation: http://edamontology.org/operation_3227
-edam_topics:
-- http://edamontology.org/topic_3621
+edam_topics: []
 tools:
 - name: cellsnp-lite
   role: Performs the SNP pileup over the aligned shotgun metagenomic BAMs to generate
@@ -45,8 +44,7 @@ metadata:
   - bwa
   - cellsnp-lite
   edam_operation: http://edamontology.org/operation_3227
-  edam_topics:
-  - http://edamontology.org/topic_3621
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

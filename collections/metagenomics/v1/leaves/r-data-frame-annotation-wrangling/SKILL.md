@@ -10,7 +10,7 @@ when_to_use_negative:
   pathways) — ko_to_kegg=TRUE conversion would not apply
 - You need taxon-level attribution of pathway shifts — use the PICRUSt2 per-sequence
   contribution workflow (read_contrib_file()/read_strat_file()) instead
-edam_operation: http://edamontology.org/operation_0222
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3173
 - http://edamontology.org/topic_0091
@@ -42,7 +42,7 @@ metadata:
   - KEGGREST
   - R
   - ggpicrust2
-  edam_operation: http://edamontology.org/operation_0222
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3173
   - http://edamontology.org/topic_0091

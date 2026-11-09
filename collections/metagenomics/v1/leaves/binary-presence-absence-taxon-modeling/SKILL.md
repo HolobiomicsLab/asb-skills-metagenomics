@@ -13,7 +13,7 @@ when_to_use_negative:
 - When the input is not an abundance table with taxa as rownames and samples as colnames
   (e.g. an unnormalized metagenomeSeq or phyloseq object) — first normalize/convert
   via metagenomeSeqToMbqtl or phyloseq_to_metagenomeSeq().
-edam_operation: http://edamontology.org/operation_3657
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0625
 - http://edamontology.org/topic_3174
@@ -40,7 +40,7 @@ metadata:
   tools:
   - R
   - mbQTL
-  edam_operation: http://edamontology.org/operation_3657
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0625
   - http://edamontology.org/topic_3174

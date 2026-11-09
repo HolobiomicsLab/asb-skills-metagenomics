@@ -10,7 +10,7 @@ when_to_use_negative:
   (QC, rarefaction) must happen first
 - No treatment grouping or covariate metadata is available, so adjusted group comparison
   cannot be fit
-edam_operation: http://edamontology.org/operation_0280
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3697
 tools:
@@ -46,7 +46,7 @@ metadata:
   - R
   - phyloseq
   - picante
-  edam_operation: http://edamontology.org/operation_0280
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3697
   provenance_tier: literature

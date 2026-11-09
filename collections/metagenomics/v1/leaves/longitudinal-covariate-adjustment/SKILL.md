@@ -11,7 +11,7 @@ when_to_use_negative:
   abundance (GAMLSS-BEZI models relative abundances)
 - The goal is meta-analysis pooling across studies rather than within-study longitudinal
   covariate-adjusted comparison
-edam_operation: http://edamontology.org/operation_3656
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3697
 - http://edamontology.org/topic_2269
@@ -46,7 +46,7 @@ metadata:
   - gdata
   - knitr
   - metamicrobiomeR
-  edam_operation: http://edamontology.org/operation_3656
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3697
   - http://edamontology.org/topic_2269

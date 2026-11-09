@@ -11,7 +11,7 @@ when_to_use_negative:
   not map to the data
 - The analysis goal is MAG classification only and a pre-trimmed or QC'd dataset is
   already available
-edam_operation: http://edamontology.org/operation_3220
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0622
 - http://edamontology.org/topic_3170
@@ -47,7 +47,7 @@ metadata:
   - Sickle
   - kMetaShot
   - metaSPAdes
-  edam_operation: http://edamontology.org/operation_3220
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0622
   - http://edamontology.org/topic_3170

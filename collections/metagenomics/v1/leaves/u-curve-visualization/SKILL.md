@@ -12,7 +12,6 @@ when_to_use_negative:
   method does not control FDR or compute adjusted p-values
 edam_operation: http://edamontology.org/operation_0337
 edam_topics:
-- http://edamontology.org/topic_0699
 - http://edamontology.org/topic_3173
 tools:
 - name: ProgPermute
@@ -44,7 +43,6 @@ metadata:
   - R-shiny
   edam_operation: http://edamontology.org/operation_0337
   edam_topics:
-  - http://edamontology.org/topic_0699
   - http://edamontology.org/topic_3173
   provenance_tier: literature
 license: CC-BY-4.0

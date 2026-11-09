@@ -10,8 +10,7 @@ when_to_use_negative:
   2 for reads, as Mapler does), not completeness/contamination quality categories
 - The analysis requires assembly-level metrics such as mapped read/base ratios (MetaQUAST
   / read-contig alignment reports) rather than per-bin quality labels
-edam_topics:
-- http://edamontology.org/topic_3693
+edam_topics: []
 tools:
 - name: CheckM2
   role: Produces the machine-learning Completeness and Contamination estimates in
@@ -44,8 +43,7 @@ metadata:
   - matplotlib
   - pandas
   edam_operation: null
-  edam_topics:
-  - http://edamontology.org/topic_3693
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

@@ -11,7 +11,7 @@ when_to_use_negative:
   than the reference-free k-mer mode of qc3C
 - The goal is downstream viral genome binning itself (ViralCC pipeline) rather than
   assessing Hi-C library quality
-edam_operation: http://edamontology.org/operation_0222
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3168
 tools:
@@ -40,7 +40,7 @@ metadata:
   - BBTools (bbduk)
   - BBTools (clumpify.sh)
   - qc3C
-  edam_operation: http://edamontology.org/operation_0222
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3168
   provenance_tier: literature

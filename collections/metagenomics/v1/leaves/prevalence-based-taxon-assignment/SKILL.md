@@ -14,7 +14,6 @@ when_to_use_negative:
 edam_operation: http://edamontology.org/operation_3460
 edam_topics:
 - http://edamontology.org/topic_0637
-- http://edamontology.org/topic_3275
 tools:
 - name: kMetaShot
   role: Classifier that shreds MAGs into q-minimizers, queries the storage matrix,
@@ -47,7 +46,6 @@ metadata:
   edam_operation: http://edamontology.org/operation_3460
   edam_topics:
   - http://edamontology.org/topic_0637
-  - http://edamontology.org/topic_3275
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

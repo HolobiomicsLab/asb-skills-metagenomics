@@ -13,7 +13,7 @@ when_to_use_negative:
   matrix
 - Only a single family or already-grouped sequence set is available, so cross-family
   separation cannot be assessed
-edam_operation: http://edamontology.org/operation_0277
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0084
 tools:
@@ -49,7 +49,7 @@ metadata:
   - Snakemake
   - Snekmer
   - bsf-jaccard-py
-  edam_operation: http://edamontology.org/operation_0277
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0084
   provenance_tier: literature

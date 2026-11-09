@@ -10,7 +10,7 @@ when_to_use_negative:
   training, slightly lower species accuracy)
 - Input is short-read data without quality handling needs beyond FASTA — note the
   model does not incorporate base-level quality scores
-edam_operation: http://edamontology.org/operation_3093
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0654
 - http://edamontology.org/topic_3474
@@ -44,7 +44,7 @@ metadata:
   - DeepTaxa
   - Hugging Face Transformers
   - PyTorch
-  edam_operation: http://edamontology.org/operation_3093
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0654
   - http://edamontology.org/topic_3474

@@ -9,7 +9,7 @@ when_to_use_negative:
   redundant.
 - No known virus-host associations are available, so interaction profiles cannot be
   defined.
-edam_operation: http://edamontology.org/operation_3439
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0622
 - http://edamontology.org/topic_0084
@@ -41,7 +41,7 @@ metadata:
   - ILMF-VH code (similarity_os.py, main.py)
   - PyDTI
   - numpy
-  edam_operation: http://edamontology.org/operation_3439
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0622
   - http://edamontology.org/topic_0084

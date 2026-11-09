@@ -11,7 +11,7 @@ when_to_use_negative:
   reference FASTA sequences to be classified
 - The goal is DeepTaxa training or inference rather than baseline benchmarking with
   DADA2
-edam_operation: http://edamontology.org/operation_0222
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0637
 - http://edamontology.org/topic_0080
@@ -48,7 +48,7 @@ metadata:
   - Kraken 2
   - QIIME 2
   - SINTAX
-  edam_operation: http://edamontology.org/operation_0222
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0637
   - http://edamontology.org/topic_0080

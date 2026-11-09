@@ -11,7 +11,7 @@ when_to_use_negative:
   association testing
 - Sample size or metadata design cannot support a multivariable mixed-effects model
   with age as a random effect
-edam_operation: http://edamontology.org/operation_3656
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3941
 - http://edamontology.org/topic_2269
@@ -47,7 +47,7 @@ metadata:
   - FunOMIC
   - MaAsLin2
   - R
-  edam_operation: http://edamontology.org/operation_3656
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3941
   - http://edamontology.org/topic_2269

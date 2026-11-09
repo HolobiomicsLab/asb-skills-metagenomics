@@ -10,7 +10,7 @@ when_to_use_negative:
   of the Nanopore-specific Porechop step
 - Reads are already adapter-trimmed and only require control decontamination or length/quality
   filtering
-edam_operation: http://edamontology.org/operation_3238
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0196
 - http://edamontology.org/topic_3941
@@ -43,7 +43,7 @@ metadata:
   - Filtlong
   - Porechop
   - nf-core/mag
-  edam_operation: http://edamontology.org/operation_3238
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0196
   - http://edamontology.org/topic_3941

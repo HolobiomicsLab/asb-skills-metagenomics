@@ -11,7 +11,7 @@ when_to_use_negative:
   network
 - The goal is comparing or validating networks against mock/synthetic ground truth
   rather than merging multiple inferred networks into a consensus
-edam_operation: http://edamontology.org/operation_3439
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0622
 tools:
@@ -43,7 +43,7 @@ metadata:
   - MiCoNE
   - NetworkGroup
   - Python
-  edam_operation: http://edamontology.org/operation_3439
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0622
   provenance_tier: literature

@@ -15,7 +15,6 @@ when_to_use_negative:
 edam_operation: http://edamontology.org/operation_0496
 edam_topics:
 - http://edamontology.org/topic_0084
-- http://edamontology.org/topic_0652
 tools:
 - name: MAGinator
   role: Orchestrates the SNV collection, alignment, concatenation and tree inference
@@ -57,7 +56,6 @@ metadata:
   edam_operation: http://edamontology.org/operation_0496
   edam_topics:
   - http://edamontology.org/topic_0084
-  - http://edamontology.org/topic_0652
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

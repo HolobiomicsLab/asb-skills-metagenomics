@@ -10,7 +10,7 @@ when_to_use_negative:
   or de novo OTU table suffices
 - The community is dominated by viral or eukaryotic sequences, which the 16S bacterial/archaeal
   reference framework does not cover
-edam_operation: http://edamontology.org/operation_3234
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3697
 - http://edamontology.org/topic_3174
@@ -42,7 +42,7 @@ metadata:
   - QIIME 1.5.0-dev
   - STAMP
   - uclust
-  edam_operation: http://edamontology.org/operation_3234
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3697
   - http://edamontology.org/topic_3174

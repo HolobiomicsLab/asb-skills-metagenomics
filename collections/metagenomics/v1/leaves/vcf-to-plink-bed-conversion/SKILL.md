@@ -8,7 +8,7 @@ when_to_use_negative:
   sheet with header 'prefix,bed,bim,fam' instead of converting from VCF.
 - Data are multi-allelic or non-SNP variants — scalepopgen is designed for biallelic
   SNP data stored in VCF or PLINK binary files.
-edam_operation: http://edamontology.org/operation_1815
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0622
 - http://edamontology.org/topic_2885
@@ -38,7 +38,7 @@ metadata:
   - PLINK
   - Python
   - Vcftools
-  edam_operation: http://edamontology.org/operation_1815
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0622
   - http://edamontology.org/topic_2885

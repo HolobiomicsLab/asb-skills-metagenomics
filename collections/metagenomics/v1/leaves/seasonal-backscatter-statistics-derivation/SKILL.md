@@ -11,8 +11,7 @@ when_to_use_negative:
 - A spatially explicit single-date backscatter product is required — this skill produces
   temporally aggregated summary statistics, not instantaneous scenes
 edam_operation: http://edamontology.org/operation_2939
-edam_topics:
-- http://edamontology.org/topic_0768
+edam_topics: []
 tools:
 - name: R
   role: Environment in which the pixel-based summary statistics script (Sentinel1_pixel_neighborhood_statistics.r)
@@ -47,8 +46,7 @@ metadata:
   - rgdal
   - rgeos
   edam_operation: http://edamontology.org/operation_2939
-  edam_topics:
-  - http://edamontology.org/topic_0768
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

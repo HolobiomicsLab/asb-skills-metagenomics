@@ -12,7 +12,6 @@ when_to_use_negative:
 edam_operation: http://edamontology.org/operation_0266
 edam_topics:
 - http://edamontology.org/topic_0194
-- http://edamontology.org/topic_0684
 tools:
 - name: IQ-TREE 2
   role: Maximum-likelihood tree inference with extended model selection (-m MFP) and
@@ -47,7 +46,6 @@ metadata:
   edam_operation: http://edamontology.org/operation_0266
   edam_topics:
   - http://edamontology.org/topic_0194
-  - http://edamontology.org/topic_0684
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

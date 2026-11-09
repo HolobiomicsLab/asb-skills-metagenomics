@@ -9,7 +9,7 @@ when_to_use_negative:
   like MMseqs2 rather than naive per-item parallelism
 - A single large sample where per-item overhead dominates and a multi-threaded single
   invocation (e.g. one bwa-mem2 mem -t $thread run) is simpler
-edam_operation: http://edamontology.org/operation_2985
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0622
 - http://edamontology.org/topic_0797
@@ -44,7 +44,7 @@ metadata:
   - Prodigal
   - bwa-mem2 2.2.1
   - combine.pl
-  edam_operation: http://edamontology.org/operation_2985
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0622
   - http://edamontology.org/topic_0797

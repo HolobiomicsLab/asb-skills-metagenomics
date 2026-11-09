@@ -10,7 +10,7 @@ when_to_use_negative:
   than raw FASTQ reads
 - When the reference database must be tiny/in-memory only — ganon2 targets large,
   up-to-date reference sets and its profiling depends on reference completeness
-edam_operation: http://edamontology.org/operation_3656
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3174
 - http://edamontology.org/topic_0637
@@ -49,7 +49,7 @@ metadata:
   - conda
   - ganon2
   - genome_updater.sh
-  edam_operation: http://edamontology.org/operation_3656
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3174
   - http://edamontology.org/topic_0637

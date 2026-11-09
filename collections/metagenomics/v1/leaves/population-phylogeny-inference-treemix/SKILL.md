@@ -14,7 +14,6 @@ when_to_use_negative:
   are designed specifically for biallelic SNP data in these formats
 edam_operation: http://edamontology.org/operation_0323
 edam_topics:
-- http://edamontology.org/topic_0294
 - http://edamontology.org/topic_0102
 tools:
 - name: Nextflow
@@ -57,7 +56,6 @@ metadata:
   - TreeMix
   edam_operation: http://edamontology.org/operation_0323
   edam_topics:
-  - http://edamontology.org/topic_0294
   - http://edamontology.org/topic_0102
   provenance_tier: literature
 license: CC-BY-4.0

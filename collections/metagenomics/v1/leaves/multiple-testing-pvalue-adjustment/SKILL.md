@@ -10,7 +10,7 @@ when_to_use_negative:
   DAA testing)
 - Fewer than a handful of features are tested, so multiple-testing correction would
   be unnecessary or uninformative
-edam_operation: http://edamontology.org/operation_3812
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3308
 tools:
@@ -46,7 +46,7 @@ metadata:
   - PICRUSt2
   - R
   - ggpicrust2
-  edam_operation: http://edamontology.org/operation_3812
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3308
   provenance_tier: literature

@@ -9,9 +9,8 @@ when_to_use_negative:
 - Only a single inference method is required and cross-method robustness/consensus
   assessment is not a goal.
 - The dataset lacks the taxonomy columns needed to group nodes at the genus level.
-edam_operation: http://edamontology.org/operation_3439
+edam_operation: null
 edam_topics:
-- http://edamontology.org/topic_0699
 - http://edamontology.org/topic_3174
 tools:
 - name: MiCoNE
@@ -64,9 +63,8 @@ metadata:
   - SpiecEasi
   - mLDM
   - propr
-  edam_operation: http://edamontology.org/operation_3439
+  edam_operation: null
   edam_topics:
-  - http://edamontology.org/topic_0699
   - http://edamontology.org/topic_3174
   provenance_tier: literature
 license: CC-BY-4.0

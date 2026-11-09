@@ -12,7 +12,7 @@ when_to_use_negative:
 - Input is raw unprocessed abundance; for ANCOM comparisons the feature table must
   be absolute abundance preprocessed with feature_table_pre_process (zero_cut = 0.90,
   lib_cut), not relative abundance
-edam_operation: http://edamontology.org/operation_3656
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0769
 - http://edamontology.org/topic_3697
@@ -59,7 +59,7 @@ metadata:
   - ZIBR
   - lgpr
   - longdat_cont()
-  edam_operation: http://edamontology.org/operation_3656
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0769
   - http://edamontology.org/topic_3697

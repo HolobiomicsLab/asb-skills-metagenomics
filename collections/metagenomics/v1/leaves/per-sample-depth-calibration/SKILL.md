@@ -10,7 +10,7 @@ when_to_use_negative:
   size / (2 x read length) paired-end shotgun read-count formula does not apply.
 - No target depth schedule has been defined — the skill presumes prescribed per-sample/group
   depth values to calibrate against.
-edam_operation: http://edamontology.org/operation_0242
+edam_operation: http://edamontology.org/operation_0438
 edam_topics:
 - http://edamontology.org/topic_0622
 - http://edamontology.org/topic_3941
@@ -44,7 +44,7 @@ metadata:
   - InSilicoSeq
   - MetaQuad
   - Python
-  edam_operation: http://edamontology.org/operation_0242
+  edam_operation: http://edamontology.org/operation_0438
   edam_topics:
   - http://edamontology.org/topic_0622
   - http://edamontology.org/topic_3941

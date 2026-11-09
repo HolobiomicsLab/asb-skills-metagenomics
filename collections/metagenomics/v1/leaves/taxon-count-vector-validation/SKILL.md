@@ -8,7 +8,7 @@ when_to_use_negative:
   summing to 1) rather than a residual-derived count vector
 - The mixing proportions are still unnormalized EM estimates and the L1 sparse selection
   step has not been run, so argmax(αhat) is not defined
-edam_operation: http://edamontology.org/operation_3562
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3697
 tools:
@@ -32,7 +32,7 @@ metadata:
   tools:
   - R
   - STENSL
-  edam_operation: http://edamontology.org/operation_3562
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3697
   provenance_tier: literature

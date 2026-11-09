@@ -11,7 +11,7 @@ when_to_use_negative:
 - Runtime is critical and read complexity screening cannot be afforded — note this
   still requires disabling DUST via --complex-threshold -1, accepting the loss of
   complexity filtering
-edam_operation: http://edamontology.org/operation_0312
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0102
 - http://edamontology.org/topic_3697
@@ -52,7 +52,7 @@ metadata:
   - PRICE
   - PRINSEQ
   - metaSPAdes
-  edam_operation: http://edamontology.org/operation_0312
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0102
   - http://edamontology.org/topic_3697

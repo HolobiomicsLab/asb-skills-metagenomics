@@ -12,8 +12,7 @@ when_to_use_negative:
 - A reference genome already exists for the organism's gene content, making prediction
   via the pruned tree unnecessary.
 edam_operation: http://edamontology.org/operation_0323
-edam_topics:
-- http://edamontology.org/topic_0661
+edam_topics: []
 tools:
 - name: PICRUSt
   role: Package whose reference pipeline consumes the formatted/pruned marker gene
@@ -48,8 +47,7 @@ metadata:
   - PICRUSt
   - tax2tree
   edam_operation: http://edamontology.org/operation_0323
-  edam_topics:
-  - http://edamontology.org/topic_0661
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 evidence_trimmed: true

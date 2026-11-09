@@ -10,7 +10,7 @@ when_to_use_negative:
   formulation; a simple univariate test would suffice.
 - Sample metadata is not available or cannot be joined to the abundance table by sample
   identifier.
-edam_operation: http://edamontology.org/operation_3656
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3174
 - http://edamontology.org/topic_0622
@@ -46,7 +46,7 @@ metadata:
   - FunOMIC
   - MaAsLin2
   - R
-  edam_operation: http://edamontology.org/operation_3656
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3174
   - http://edamontology.org/topic_0622

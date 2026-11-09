@@ -11,7 +11,7 @@ when_to_use_negative:
   QC or taxonomic classification), where permutation calibration is out of scope.
 - Extremely low B is required for runtime reasons; a truncated null distribution cannot
   support P-values at the 0.05 threshold.
-edam_operation: http://edamontology.org/operation_3665
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0091
 tools:
@@ -48,7 +48,7 @@ metadata:
   - OMiRKAT
   - R
   - aMiSPU
-  edam_operation: http://edamontology.org/operation_3665
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0091
   provenance_tier: literature

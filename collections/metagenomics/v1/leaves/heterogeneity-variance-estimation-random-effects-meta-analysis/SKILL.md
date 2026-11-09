@@ -12,7 +12,7 @@ when_to_use_negative:
   regression adjusting for x1 and x2)
 - Fixed-effects meta-analysis is appropriate (no between-study heterogeneity expected),
   as this skill exists specifically to estimate the random effects heterogeneity variance
-edam_operation: http://edamontology.org/operation_3656
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_2269
 - http://edamontology.org/topic_0622
@@ -45,7 +45,7 @@ metadata:
   - R
   - R package mMeta
   - mMeta
-  edam_operation: http://edamontology.org/operation_3656
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_2269
   - http://edamontology.org/topic_0622

@@ -11,7 +11,6 @@ when_to_use_negative:
   sequence files')
 edam_operation: http://edamontology.org/operation_3192
 edam_topics:
-- http://edamontology.org/topic_0697
 - http://edamontology.org/topic_3168
 tools:
 - name: BBTools
@@ -48,7 +47,6 @@ metadata:
   - MultiQC
   edam_operation: http://edamontology.org/operation_3192
   edam_topics:
-  - http://edamontology.org/topic_0697
   - http://edamontology.org/topic_3168
   provenance_tier: literature
 license: CC-BY-4.0

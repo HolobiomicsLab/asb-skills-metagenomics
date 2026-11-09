@@ -13,7 +13,6 @@ when_to_use_negative:
   pre-computed estimates
 edam_operation: http://edamontology.org/operation_3221
 edam_topics:
-- http://edamontology.org/topic_0699
 - http://edamontology.org/topic_3174
 tools:
 - name: CopyRighter
@@ -49,7 +48,6 @@ metadata:
   - make
   edam_operation: http://edamontology.org/operation_3221
   edam_topics:
-  - http://edamontology.org/topic_0699
   - http://edamontology.org/topic_3174
   provenance_tier: literature
 license: CC-BY-4.0

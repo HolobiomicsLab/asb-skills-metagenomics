@@ -9,7 +9,7 @@ when_to_use_negative:
 - Gene sets of interest fall outside the 5-500 member size range after filtering
 - Preranked statistics are the only available input and inter-gene correlation structure
   cannot be modeled (preranked GSEA can produce unreliable p-values)
-edam_operation: http://edamontology.org/operation_3932
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3174
 - http://edamontology.org/topic_0605
@@ -43,7 +43,7 @@ metadata:
   - R
   - ggpicrust2
   - limma
-  edam_operation: http://edamontology.org/operation_3932
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3174
   - http://edamontology.org/topic_0605

@@ -13,7 +13,7 @@ when_to_use_negative:
 - You only need an interaction (correlation) matrix without significance assessment
   — use the correlation/direct inference step alone rather than bootstrapping 1000
   times.
-edam_operation: http://edamontology.org/operation_3562
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0091
 - http://edamontology.org/topic_3301
@@ -53,7 +53,7 @@ metadata:
   - SpiecEasi
   - mLDM
   - propr
-  edam_operation: http://edamontology.org/operation_3562
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0091
   - http://edamontology.org/topic_3301

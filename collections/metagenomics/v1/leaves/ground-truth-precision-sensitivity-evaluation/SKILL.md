@@ -8,7 +8,7 @@ when_to_use_negative:
   against a reference cannot be computed
 - You are evaluating sequence processing steps (demultiplexing, trimming, OTU assignment)
   rather than network inference/consensus quality
-edam_operation: http://edamontology.org/operation_3439
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0622
 - http://edamontology.org/topic_3174
@@ -40,7 +40,7 @@ metadata:
   - MiCoNE
   - Python
   - spieceasi
-  edam_operation: http://edamontology.org/operation_3439
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0622
   - http://edamontology.org/topic_3174

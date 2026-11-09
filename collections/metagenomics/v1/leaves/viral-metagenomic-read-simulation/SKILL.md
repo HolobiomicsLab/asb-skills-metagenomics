@@ -10,7 +10,7 @@ when_to_use_negative:
   error models would misrepresent it
 - A completely new virus sharing no conservation with any reference genome must be
   detected, since simulation from known references cannot represent it
-edam_operation: http://edamontology.org/operation_0242
+edam_operation: http://edamontology.org/operation_0438
 edam_topics:
 - http://edamontology.org/topic_0622
 - http://edamontology.org/topic_3697
@@ -40,7 +40,7 @@ metadata:
   - BWA
   - Karect
   - TAR-VIR
-  edam_operation: http://edamontology.org/operation_0242
+  edam_operation: http://edamontology.org/operation_0438
   edam_topics:
   - http://edamontology.org/topic_0622
   - http://edamontology.org/topic_3697

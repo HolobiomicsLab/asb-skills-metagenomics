@@ -8,7 +8,7 @@ when_to_use_negative:
   across w networks are undefined for w=1
 - You are still at the sequence processing stage (demultiplexing, trimming, OTU assignment,
   chimera checking) and no association matrices exist yet
-edam_operation: http://edamontology.org/operation_3439
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3697
 tools:
@@ -40,7 +40,7 @@ metadata:
   - MiCoNE
   - NetworkGroup
   - Python
-  edam_operation: http://edamontology.org/operation_3439
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3697
   provenance_tier: literature

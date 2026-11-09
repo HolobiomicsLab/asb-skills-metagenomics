@@ -9,7 +9,7 @@ when_to_use_negative:
 - When the goal is core-genome estimation itself rather than validation of mOTUpan's
   quality estimates
 - When genomes span multiple species/mOTUs such that a shared core genome is not expected
-edam_operation: http://edamontology.org/operation_3439
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3673
 - http://edamontology.org/topic_0622
@@ -47,7 +47,7 @@ metadata:
   - mOTUpan
   - mOTUpan.py
   - mmseqs2
-  edam_operation: http://edamontology.org/operation_3439
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3673
   - http://edamontology.org/topic_0622

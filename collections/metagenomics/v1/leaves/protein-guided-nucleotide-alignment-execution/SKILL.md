@@ -10,7 +10,7 @@ when_to_use_negative:
   nucleotide WGS data, so translated alignment adds no value
 - Coding-region artifacts are expected in output — use PREQUAL to detect and remove
   artifactual noncoding stretches before trusting alignments
-edam_operation: http://edamontology.org/operation_3779
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0622
 - http://edamontology.org/topic_0196
@@ -43,7 +43,7 @@ metadata:
   - DIAMOND
   - Julia
   - Patchwork
-  edam_operation: http://edamontology.org/operation_3779
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0622
   - http://edamontology.org/topic_0196

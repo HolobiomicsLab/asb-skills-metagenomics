@@ -10,7 +10,7 @@ when_to_use_negative:
   little benefit and could discard informative depth before assembly
 - A mapping-only workflow against a single reference genome is planned instead of
   de-novo assembly
-edam_operation: http://edamontology.org/operation_3238
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0196
 - http://edamontology.org/topic_0622
@@ -46,7 +46,7 @@ metadata:
   - VirMAP (Virmap.pl)
   - fasterq-dump
   - khmer (normalize-by-median.py)
-  edam_operation: http://edamontology.org/operation_3238
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0196
   - http://edamontology.org/topic_0622

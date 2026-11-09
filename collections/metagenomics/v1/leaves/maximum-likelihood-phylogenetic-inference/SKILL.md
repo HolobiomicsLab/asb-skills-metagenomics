@@ -10,8 +10,7 @@ when_to_use_negative:
 - When the question calls for the marker-retrieval benchmark itself rather than phylogeny
   construction from recovered markers.
 edam_operation: http://edamontology.org/operation_0554
-edam_topics:
-- http://edamontology.org/topic_0684
+edam_topics: []
 tools:
 - name: Patchwork
   role: source of recovered marker (near-USCO) sequences that serve as the input for
@@ -56,8 +55,7 @@ metadata:
   - seqkit
   - trimAl
   edam_operation: http://edamontology.org/operation_0554
-  edam_topics:
-  - http://edamontology.org/topic_0684
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

@@ -10,7 +10,6 @@ when_to_use_negative:
   seconds) and cannot be checked from the OTU-count table alone
 edam_operation: http://edamontology.org/operation_0335
 edam_topics:
-- http://edamontology.org/topic_0699
 - http://edamontology.org/topic_3174
 tools:
 - name: CDSnake
@@ -41,7 +40,6 @@ metadata:
   - deblur
   edam_operation: http://edamontology.org/operation_0335
   edam_topics:
-  - http://edamontology.org/topic_0699
   - http://edamontology.org/topic_3174
   provenance_tier: literature
 license: CC-BY-4.0

@@ -12,7 +12,6 @@ when_to_use_negative:
   reference values (1.2 million contigs, 2.8 billion bp, N50 6.2 kbp), which are cohort-specific
 edam_operation: http://edamontology.org/operation_0525
 edam_topics:
-- http://edamontology.org/topic_0193
 - http://edamontology.org/topic_0622
 tools:
 - name: IDBA-UD
@@ -44,7 +43,6 @@ metadata:
   - seqtk
   edam_operation: http://edamontology.org/operation_0525
   edam_topics:
-  - http://edamontology.org/topic_0193
   - http://edamontology.org/topic_0622
   provenance_tier: literature
 license: CC-BY-4.0

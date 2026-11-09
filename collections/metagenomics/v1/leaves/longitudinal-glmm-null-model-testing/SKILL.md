@@ -14,7 +14,7 @@ when_to_use_negative:
 - The feature table needs compositional zero preprocessing/structural-zero detection
   as in ANCOM's feature_table_pre_process() — that is a different tool's workflow,
   not LongDat's
-edam_operation: http://edamontology.org/operation_3656
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_2269
 - http://edamontology.org/topic_3174
@@ -49,7 +49,7 @@ metadata:
   - LongDat
   - R
   - longdat_cont()
-  edam_operation: http://edamontology.org/operation_3656
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_2269
   - http://edamontology.org/topic_3174

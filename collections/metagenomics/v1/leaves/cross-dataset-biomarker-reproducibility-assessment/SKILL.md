@@ -12,7 +12,7 @@ when_to_use_negative:
 - The count tables are already normalized or derived from RNA-seq-style workflows;
   metagenomeSeq's zero-inflated log-normal model with CSS is designed for sparse metagenomic
   count data and CAMAMED's compositional correction would not be appropriate
-edam_operation: http://edamontology.org/operation_3656
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3174
 - http://edamontology.org/topic_3697
@@ -49,7 +49,7 @@ metadata:
   - CAMAMED
   - Docker
   - metagenomeSeq
-  edam_operation: http://edamontology.org/operation_3656
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3174
   - http://edamontology.org/topic_3697

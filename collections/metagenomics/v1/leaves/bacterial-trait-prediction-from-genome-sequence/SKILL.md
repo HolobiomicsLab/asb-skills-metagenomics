@@ -11,7 +11,6 @@ when_to_use_negative:
 edam_operation: http://edamontology.org/operation_2990
 edam_topics:
 - http://edamontology.org/topic_0091
-- http://edamontology.org/topic_0260
 tools:
 - name: Traitar
   role: 'Orchestrating pipeline: ORF prediction, Pfam annotation, and SVM-based phenotype
@@ -48,7 +47,6 @@ metadata:
   edam_operation: http://edamontology.org/operation_2990
   edam_topics:
   - http://edamontology.org/topic_0091
-  - http://edamontology.org/topic_0260
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

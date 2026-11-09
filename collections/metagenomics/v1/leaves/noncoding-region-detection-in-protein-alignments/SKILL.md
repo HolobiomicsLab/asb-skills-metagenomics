@@ -11,7 +11,7 @@ when_to_use_negative:
   to avoid chimeric sequences.
 - A post-hoc check for artifactual noncoding stretches in already-built alignments
   is needed — PREQUAL is recommended instead for detecting and removing such regions.
-edam_operation: http://edamontology.org/operation_2009
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0102
 - http://edamontology.org/topic_0080
@@ -40,7 +40,7 @@ metadata:
   - DIAMOND
   - Julia
   - Patchwork
-  edam_operation: http://edamontology.org/operation_2009
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0102
   - http://edamontology.org/topic_0080
