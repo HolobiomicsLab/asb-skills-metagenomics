@@ -12,8 +12,7 @@ when_to_use_negative:
   an existing abundance matrix — those steps consume, rather than construct, the gene
   abundance output
 edam_operation: http://edamontology.org/operation_2928
-edam_topics:
-- http://edamontology.org/topic_3273
+edam_topics: []
 tools:
 - name: OMARU
   role: End-to-end Snakemake workflow that implements the assembly-based functional
@@ -53,8 +52,7 @@ metadata:
   - Prokka
   - Snakemake
   edam_operation: http://edamontology.org/operation_2928
-  edam_topics:
-  - http://edamontology.org/topic_3273
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 evidence_trimmed: true

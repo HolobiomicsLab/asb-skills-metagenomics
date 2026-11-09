@@ -11,7 +11,7 @@ when_to_use_negative:
   different evaluation
 - Genome is small (e.g., yeast) where the ~52GB index memory footprint for large genomes
   is not the bottleneck
-edam_operation: http://edamontology.org/operation_0374
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0102
 tools:
@@ -47,7 +47,7 @@ metadata:
   - RawHash2
   - Sigmap
   - UNCALLED
-  edam_operation: http://edamontology.org/operation_0374
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0102
   provenance_tier: literature

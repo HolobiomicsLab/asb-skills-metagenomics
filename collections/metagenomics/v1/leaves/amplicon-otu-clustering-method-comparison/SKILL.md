@@ -12,7 +12,6 @@ when_to_use_negative:
   comparison
 edam_operation: http://edamontology.org/operation_3227
 edam_topics:
-- http://edamontology.org/topic_0699
 - http://edamontology.org/topic_3301
 tools:
 - name: MiCoNE
@@ -44,7 +43,6 @@ metadata:
   - qiime2
   edam_operation: http://edamontology.org/operation_3227
   edam_topics:
-  - http://edamontology.org/topic_0699
   - http://edamontology.org/topic_3301
   provenance_tier: literature
 license: CC-BY-4.0

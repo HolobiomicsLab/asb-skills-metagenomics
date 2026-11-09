@@ -11,7 +11,7 @@ when_to_use_negative:
   RiboTaxa is not as fast as short-read classifiers (Kraken2, Centrifuge)
 - Chimera detection or 16S rRNA gene copy-number normalization are mandatory requirements
   — neither was included in this workflow
-edam_operation: http://edamontology.org/operation_0222
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0637
 - http://edamontology.org/topic_0080
@@ -56,7 +56,7 @@ metadata:
   - QIIME 2 Sklearn classifier
   - SPINGO
   - mothur
-  edam_operation: http://edamontology.org/operation_0222
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0637
   - http://edamontology.org/topic_0080

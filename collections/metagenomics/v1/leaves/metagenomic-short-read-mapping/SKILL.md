@@ -13,7 +13,6 @@ when_to_use_negative:
   and QIIME 2's sklearn classifier, not read mapping
 edam_operation: http://edamontology.org/operation_0292
 edam_topics:
-- http://edamontology.org/topic_0688
 - http://edamontology.org/topic_0080
 tools:
 - name: BBMap
@@ -47,7 +46,6 @@ metadata:
   - BBTools
   edam_operation: http://edamontology.org/operation_0292
   edam_topics:
-  - http://edamontology.org/topic_0688
   - http://edamontology.org/topic_0080
   provenance_tier: literature
 license: CC-BY-4.0

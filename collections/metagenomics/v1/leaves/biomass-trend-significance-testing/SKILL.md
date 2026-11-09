@@ -12,7 +12,6 @@ when_to_use_negative:
   pre-computed GCN data files cover the Oct 2012 Greengenes taxonomy
 edam_operation: http://edamontology.org/operation_3659
 edam_topics:
-- http://edamontology.org/topic_0699
 - http://edamontology.org/topic_3299
 tools:
 - name: CopyRighter
@@ -44,7 +43,6 @@ metadata:
   - make
   edam_operation: http://edamontology.org/operation_3659
   edam_topics:
-  - http://edamontology.org/topic_0699
   - http://edamontology.org/topic_3299
   provenance_tier: literature
 license: CC-BY-4.0

@@ -14,7 +14,6 @@ when_to_use_negative:
   like VIRGO is not the downstream goal.
 edam_operation: http://edamontology.org/operation_0525
 edam_topics:
-- http://edamontology.org/topic_0193
 - http://edamontology.org/topic_3168
 tools:
 - name: IDBA-UD
@@ -40,7 +39,6 @@ metadata:
   - VIRGO
   edam_operation: http://edamontology.org/operation_0525
   edam_topics:
-  - http://edamontology.org/topic_0193
   - http://edamontology.org/topic_3168
   provenance_tier: literature
 license: CC-BY-4.0

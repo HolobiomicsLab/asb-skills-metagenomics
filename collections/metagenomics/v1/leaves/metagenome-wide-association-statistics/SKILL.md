@@ -11,7 +11,7 @@ when_to_use_negative:
   beyond supplied covariate columns
 - Datasets lacking a binary case/control phenotype column (1/0) in `original_sample_list.txt`,
   since permutation of phenotype labels is the core of the procedure
-edam_operation: http://edamontology.org/operation_3656
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0622
 - http://edamontology.org/topic_3174
@@ -44,7 +44,7 @@ metadata:
   tools:
   - OMARU
   - Snakemake
-  edam_operation: http://edamontology.org/operation_3656
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0622
   - http://edamontology.org/topic_3174

@@ -10,7 +10,7 @@ when_to_use_negative:
   phased with Beagle/SHAPEIT5 before the selection scans
 - No population structure/mapping is available — SweepFinder2 is run per population,
   so a sample.map of individual-to-population assignments is required
-edam_operation: http://edamontology.org/operation_0486
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0622
 - http://edamontology.org/topic_3056
@@ -55,7 +55,7 @@ metadata:
   - SweepFinder2
   - est-sfs
   - selscan
-  edam_operation: http://edamontology.org/operation_0486
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0622
   - http://edamontology.org/topic_3056

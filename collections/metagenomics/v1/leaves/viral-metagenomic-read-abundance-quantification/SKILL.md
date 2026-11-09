@@ -10,8 +10,7 @@ when_to_use_negative:
   of already-reconstructed viral genomes
 - Sequences come from an isolate genome with no mixed-community background, so read
   sets will not require dereplication, normalization, or Jaccard-distance filtering
-edam_topics:
-- http://edamontology.org/topic_3621
+edam_topics: []
 tools:
 - name: VirMAP
   role: Perl pipeline orchestrating read alignment, per-genome read assignment, LCA-based
@@ -47,8 +46,7 @@ metadata:
   - VirMAP
   - khmer
   edam_operation: null
-  edam_topics:
-  - http://edamontology.org/topic_3621
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: critique

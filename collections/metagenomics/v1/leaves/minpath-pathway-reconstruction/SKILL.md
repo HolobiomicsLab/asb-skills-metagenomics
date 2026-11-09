@@ -12,7 +12,7 @@ when_to_use_negative:
   table exists yet.
 - You need habitat-specific or pangenome-based functional profiles rather than pathway-level
   reconstruction over KEGG/MetaCyc databases.
-edam_operation: http://edamontology.org/operation_2256
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0605
 tools:
@@ -38,7 +38,7 @@ metadata:
   tools:
   - MinPath
   - PICRUSt2
-  edam_operation: http://edamontology.org/operation_2256
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0605
   provenance_tier: literature

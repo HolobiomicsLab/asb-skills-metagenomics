@@ -10,7 +10,7 @@ when_to_use_negative:
   (analyzing step) must precede the cross-tabulation
 - The goal is direct integrative linking across omic types (e.g., taxa linking for
   metagenomics) — MOVIS does not currently support this
-edam_operation: http://edamontology.org/operation_2936
+edam_operation: http://edamontology.org/operation_2938
 edam_topics:
 - http://edamontology.org/topic_3892
 - http://edamontology.org/topic_3520
@@ -43,7 +43,7 @@ metadata:
   - Pandas
   - Python
   - scikit-learn
-  edam_operation: http://edamontology.org/operation_2936
+  edam_operation: http://edamontology.org/operation_2938
   edam_topics:
   - http://edamontology.org/topic_3892
   - http://edamontology.org/topic_3520

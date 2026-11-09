@@ -10,7 +10,7 @@ when_to_use_negative:
   and the 100/250 bp parameterization assumes short-read chemistry.
 - You need realistic coverage unevenness with quantitative community abundances rather
   than the stylized 50x-every-1kb spike pattern used here.
-edam_operation: http://edamontology.org/operation_0304
+edam_operation: http://edamontology.org/operation_2422
 edam_topics:
 - http://edamontology.org/topic_3697
 - http://edamontology.org/topic_0622
@@ -37,7 +37,7 @@ metadata:
   tools:
   - ContigExtender
   - pIRS
-  edam_operation: http://edamontology.org/operation_0304
+  edam_operation: http://edamontology.org/operation_2422
   edam_topics:
   - http://edamontology.org/topic_3697
   - http://edamontology.org/topic_0622

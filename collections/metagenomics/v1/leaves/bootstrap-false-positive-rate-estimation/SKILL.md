@@ -10,7 +10,7 @@ when_to_use_negative:
   without a core-genome quality assessment.
 - The input is a raw similarity/ANI file not yet converted into mOTUpan trait format
   — convert first with mOTUconvert.py before bootstrapping.
-edam_operation: http://edamontology.org/operation_3738
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0622
 - http://edamontology.org/topic_3174
@@ -60,7 +60,7 @@ metadata:
   - mOTUpan
   - mOTUpan.py
   - mmseqs2
-  edam_operation: http://edamontology.org/operation_3738
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0622
   - http://edamontology.org/topic_3174

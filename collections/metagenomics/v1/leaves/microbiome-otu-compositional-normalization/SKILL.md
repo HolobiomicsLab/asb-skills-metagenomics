@@ -13,7 +13,6 @@ when_to_use_negative:
 edam_operation: http://edamontology.org/operation_3435
 edam_topics:
 - http://edamontology.org/topic_0610
-- http://edamontology.org/topic_3272
 - http://edamontology.org/topic_2269
 tools:
 - name: R
@@ -51,7 +50,6 @@ metadata:
   edam_operation: http://edamontology.org/operation_3435
   edam_topics:
   - http://edamontology.org/topic_0610
-  - http://edamontology.org/topic_3272
   - http://edamontology.org/topic_2269
   provenance_tier: literature
 license: CC-BY-4.0

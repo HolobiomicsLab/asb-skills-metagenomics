@@ -11,7 +11,7 @@ when_to_use_negative:
   tracking step (FEAST/metaSourceTracker/decOM) remains
 - Data are 16S amplicon reads rather than shotgun metagenome FASTQ, which the benchmark
   workflow does not cover
-edam_operation: http://edamontology.org/operation_0222
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3174
 - http://edamontology.org/topic_3697
@@ -55,7 +55,7 @@ metadata:
   - fastp
   - kmtricks
   - metaSourceTracker
-  edam_operation: http://edamontology.org/operation_0222
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3174
   - http://edamontology.org/topic_3697

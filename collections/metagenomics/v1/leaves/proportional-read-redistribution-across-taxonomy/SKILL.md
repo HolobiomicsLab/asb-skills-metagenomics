@@ -8,7 +8,7 @@ when_to_use_negative:
   (plain MetaCacheSpark query output already provides these).
 - The input is already a per-organism abundance/feature table — redistribution operates
   on per-read classifications, not aggregated counts.
-edam_operation: http://edamontology.org/operation_3656
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0637
 - http://edamontology.org/topic_3174
@@ -41,7 +41,7 @@ metadata:
   - AFS-MetaCache
   - Apache Spark
   - MetaCacheSpark
-  edam_operation: http://edamontology.org/operation_3656
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0637
   - http://edamontology.org/topic_3174

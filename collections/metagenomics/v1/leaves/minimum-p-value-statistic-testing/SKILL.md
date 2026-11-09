@@ -11,7 +11,7 @@ when_to_use_negative:
   the number of studies to be ≥ 10
 - When marker-by-marker correlations are already known and a multivariate method exploiting
   them directly is preferred
-edam_operation: http://edamontology.org/operation_3657
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_2269
 - http://edamontology.org/topic_0622
@@ -38,7 +38,7 @@ metadata:
   - R
   - R package mMeta
   - mMeta
-  edam_operation: http://edamontology.org/operation_3657
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_2269
   - http://edamontology.org/topic_0622

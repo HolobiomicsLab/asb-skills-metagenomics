@@ -8,7 +8,7 @@ when_to_use_negative:
   randomized control test and seed requirement apply when data_type equals "count"
 - The goal is a cross-sectional differential abundance test rather than a longitudinal
   change-over-time analysis with covariate control
-edam_operation: http://edamontology.org/operation_3656
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3697
 - http://edamontology.org/topic_2269
@@ -46,7 +46,7 @@ metadata:
   - R
   - longdat_cont()
   - make_master_table()
-  edam_operation: http://edamontology.org/operation_3656
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3697
   - http://edamontology.org/topic_2269

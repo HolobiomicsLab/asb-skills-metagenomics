@@ -11,7 +11,7 @@ when_to_use_negative:
   response
 - You need non-adjusted comparisons only when Sex is not a plausible confounder of
   treatment in the study design
-edam_operation: http://edamontology.org/operation_3656
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3697
 - http://edamontology.org/topic_2269
@@ -46,7 +46,7 @@ metadata:
   - R
   - phyloseq
   - picante
-  edam_operation: http://edamontology.org/operation_3656
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3697
   - http://edamontology.org/topic_2269

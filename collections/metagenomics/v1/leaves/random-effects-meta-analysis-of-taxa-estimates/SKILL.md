@@ -10,7 +10,7 @@ when_to_use_negative:
   ratios of relative abundances), so pooling would be invalid
 - The goal is alpha diversity comparison or microbiome age prediction, which use alpha.compare
   or microbiomeage functions rather than meta.taxa
-edam_operation: http://edamontology.org/operation_3656
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3697
 - http://edamontology.org/topic_2269
@@ -44,7 +44,7 @@ metadata:
   - devtools
   - knitr
   - metamicrobiomeR
-  edam_operation: http://edamontology.org/operation_3656
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3697
   - http://edamontology.org/topic_2269

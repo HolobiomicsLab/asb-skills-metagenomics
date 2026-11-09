@@ -10,7 +10,7 @@ when_to_use_negative:
   a gene annotation/annotation-transfer tool (e.g., GeMoMa) would be more appropriate
 - The target references are not near-universal single-copy orthologs; the article
   recommends limiting reference sequences to near-USCOs to avoid chimeric sequences
-edam_operation: http://edamontology.org/operation_3779
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0622
 - http://edamontology.org/topic_0196
@@ -44,7 +44,7 @@ metadata:
   - DIAMOND
   - Julia
   - Patchwork
-  edam_operation: http://edamontology.org/operation_3779
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0622
   - http://edamontology.org/topic_0196

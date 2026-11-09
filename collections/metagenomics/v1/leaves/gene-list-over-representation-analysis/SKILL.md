@@ -10,7 +10,7 @@ when_to_use_negative:
   not the enrichment apps
 - The input is metagenomic (e.g. 16S) data requiring differential metagenomic analysis
   — use SHAMAN, not the enrichment apps
-edam_operation: http://edamontology.org/operation_2434
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0203
 - http://edamontology.org/topic_0085
@@ -52,7 +52,7 @@ metadata:
   - Pathview
   - R
   - clusterProfiler
-  edam_operation: http://edamontology.org/operation_2434
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0203
   - http://edamontology.org/topic_0085

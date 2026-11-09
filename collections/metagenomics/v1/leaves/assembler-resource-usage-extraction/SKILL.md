@@ -13,7 +13,7 @@ when_to_use_negative:
   transferable to tuned settings.
 - When the deposit lacks per-run resource records (e.g. a single collapsed report),
   aggregation across repeated runs is impossible and consistency cannot be assessed.
-edam_operation: http://edamontology.org/operation_0222
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3697
 tools:
@@ -55,7 +55,7 @@ metadata:
   - MetaHipmer2
   - VelvetOptimiser
   - minia
-  edam_operation: http://edamontology.org/operation_0222
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3697
   provenance_tier: literature

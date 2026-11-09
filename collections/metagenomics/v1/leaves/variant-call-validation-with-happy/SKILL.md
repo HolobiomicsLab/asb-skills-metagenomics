@@ -12,8 +12,7 @@ when_to_use_negative:
   both tools due to an approximated ground truth, so precision estimates on such data
   are not comparable to synthetic-data results'
 edam_operation: http://edamontology.org/operation_3196
-edam_topics:
-- http://edamontology.org/topic_3245
+edam_topics: []
 tools:
 - name: hap.py
   role: Genotype-level haplotype comparison of query VCF against truth VCF to compute
@@ -53,8 +52,7 @@ metadata:
   - seqtk
   - snp2vcf
   edam_operation: http://edamontology.org/operation_3196
-  edam_topics:
-  - http://edamontology.org/topic_3245
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

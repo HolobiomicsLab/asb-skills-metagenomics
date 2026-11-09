@@ -11,7 +11,7 @@ when_to_use_negative:
   — MICCA's EE-based filtering is deliberately more flexible
 - Data are shotgun metagenomic reads rather than targeted conserved amplicons (16S
   rRNA, ITS, 18S, 28S), which is MICCA's declared scope
-edam_operation: http://edamontology.org/operation_3188
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3697
 - http://edamontology.org/topic_0080
@@ -48,7 +48,7 @@ metadata:
   - MICCA
   - VSEARCH
   - sickle
-  edam_operation: http://edamontology.org/operation_3188
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3697
   - http://edamontology.org/topic_0080

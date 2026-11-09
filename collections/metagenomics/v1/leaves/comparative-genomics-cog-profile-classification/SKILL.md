@@ -10,7 +10,7 @@ when_to_use_negative:
   interest — the article notes performance for further traits is pending availability
   of training data
 - Input is already a raw phenotype annotation requiring no COG-profile-based inference
-edam_operation: http://edamontology.org/operation_0425
+edam_operation: http://edamontology.org/operation_2454
 edam_topics:
 - http://edamontology.org/topic_3474
 tools:
@@ -44,7 +44,7 @@ metadata:
   - PICA support vector machine plug-in
   - libSVM
   - phenotrex
-  edam_operation: http://edamontology.org/operation_0425
+  edam_operation: http://edamontology.org/operation_2454
   edam_topics:
   - http://edamontology.org/topic_3474
   provenance_tier: literature

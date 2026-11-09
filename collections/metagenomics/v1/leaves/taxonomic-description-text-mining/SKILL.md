@@ -17,7 +17,7 @@ when_to_use_negative:
 edam_operation: http://edamontology.org/operation_0306
 edam_topics:
 - http://edamontology.org/topic_0218
-- http://edamontology.org/topic_3061
+- http://edamontology.org/topic_3068
 - http://edamontology.org/topic_0625
 tools:
 - name: MicroPIE 0.1.0
@@ -49,7 +49,7 @@ metadata:
   edam_operation: http://edamontology.org/operation_0306
   edam_topics:
   - http://edamontology.org/topic_0218
-  - http://edamontology.org/topic_3061
+  - http://edamontology.org/topic_3068
   - http://edamontology.org/topic_0625
   provenance_tier: literature
 license: CC-BY-4.0

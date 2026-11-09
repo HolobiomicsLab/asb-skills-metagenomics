@@ -12,7 +12,7 @@ when_to_use_negative:
   synthetic dataset)
 - Circular scaffolds (complete viral genomes) are present and should be extracted
   pre-binning rather than networked
-edam_operation: http://edamontology.org/operation_0271
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0114
 - http://edamontology.org/topic_0622
@@ -53,7 +53,7 @@ metadata:
   - networkx
   - scikit-learn
   - vRhyme
-  edam_operation: http://edamontology.org/operation_0271
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0114
   - http://edamontology.org/topic_0622

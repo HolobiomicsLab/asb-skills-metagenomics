@@ -10,7 +10,7 @@ when_to_use_negative:
   are removed, not binned
 - Scaffolds lack terminal repeats (linear viral fragments) — no circularity signal
   exists to detect
-edam_operation: http://edamontology.org/operation_0328
+edam_operation: http://edamontology.org/operation_2415
 edam_topics:
 - http://edamontology.org/topic_0080
 - http://edamontology.org/topic_0196
@@ -53,7 +53,7 @@ metadata:
   - Python
   - Samtools
   - vRhyme
-  edam_operation: http://edamontology.org/operation_0328
+  edam_operation: http://edamontology.org/operation_2415
   edam_topics:
   - http://edamontology.org/topic_0080
   - http://edamontology.org/topic_0196

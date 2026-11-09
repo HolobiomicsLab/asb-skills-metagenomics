@@ -15,7 +15,6 @@ when_to_use_negative:
 edam_operation: http://edamontology.org/operation_0362
 edam_topics:
 - http://edamontology.org/topic_0196
-- http://edamontology.org/topic_0193
 tools:
 - name: CheckM
   role: Estimates completeness and contamination of scaffolds to classify them as
@@ -62,7 +61,6 @@ metadata:
   edam_operation: http://edamontology.org/operation_0362
   edam_topics:
   - http://edamontology.org/topic_0196
-  - http://edamontology.org/topic_0193
   provenance_tier: literature
 license: CC-BY-4.0
 evidence_trimmed: true

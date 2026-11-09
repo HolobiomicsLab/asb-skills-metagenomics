@@ -12,9 +12,7 @@ when_to_use_negative:
 - When overlaps are already scored by a downstream tool with its own scoring scheme
   (e.g. SAVAGE's statistically calibrated overlap grouping in HaploConduct)
 edam_operation: http://edamontology.org/operation_0292
-edam_topics:
-- http://edamontology.org/topic_0193
-- http://edamontology.org/topic_3693
+edam_topics: []
 tools:
 - name: Minimap2
   role: Performs all-vs-all suffix-prefix overlap detection between reads and emits
@@ -45,9 +43,7 @@ metadata:
   - Python
   - StrainXpress
   edam_operation: http://edamontology.org/operation_0292
-  edam_topics:
-  - http://edamontology.org/topic_0193
-  - http://edamontology.org/topic_3693
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: critique

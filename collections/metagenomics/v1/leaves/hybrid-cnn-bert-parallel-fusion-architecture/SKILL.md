@@ -11,7 +11,7 @@ when_to_use_negative:
 - A lightweight fast classifier is needed and long-range context is unnecessary —
   the README notes CNNClassifier is faster to train with only slightly lower species
   accuracy
-edam_operation: http://edamontology.org/operation_3439
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3474
 - http://edamontology.org/topic_0659
@@ -46,7 +46,7 @@ metadata:
   - DeepTaxa
   - Hugging Face Transformers
   - PyTorch
-  edam_operation: http://edamontology.org/operation_3439
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3474
   - http://edamontology.org/topic_0659

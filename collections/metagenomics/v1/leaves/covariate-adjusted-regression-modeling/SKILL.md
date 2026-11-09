@@ -12,7 +12,7 @@ when_to_use_negative:
 - Input is a phyloseq or metagenomeSeq object that has not yet been converted to an
   mbQTL-compatible abundance data frame — convert first with phyloseq_to_metagenomeSeq()
   and metagenomeSeqToMbqtl
-edam_operation: http://edamontology.org/operation_3657
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0625
 - http://edamontology.org/topic_3697
@@ -53,7 +53,7 @@ metadata:
   - mbQTL
   - metagenomeSeq
   - phyloseq
-  edam_operation: http://edamontology.org/operation_3657
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0625
   - http://edamontology.org/topic_3697

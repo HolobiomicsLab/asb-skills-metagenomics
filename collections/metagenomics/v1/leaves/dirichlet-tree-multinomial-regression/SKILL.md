@@ -10,7 +10,7 @@ when_to_use_negative:
   clustering rather than covariate-branch association selection
 - A known phylogenetic tree is unavailable and MRF/DM structure is not the target
   — the DTM models accommodate tree-like structure between the compositional data
-edam_operation: http://edamontology.org/operation_3656
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3697
 - http://edamontology.org/topic_2269
@@ -50,7 +50,7 @@ metadata:
   - Rcpp
   - ape
   - igraph
-  edam_operation: http://edamontology.org/operation_3656
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3697
   - http://edamontology.org/topic_2269

@@ -10,8 +10,7 @@ when_to_use_negative:
   no phase-block haplotype scaffold pairs are available for the window coverage classification
 - Non-human genomes lacking an hg38-equivalent high-quality reference and known hemizygous
   X coordinate set
-edam_topics:
-- http://edamontology.org/topic_0193
+edam_topics: []
 tools:
 - name: Supernova2
   role: De novo assembler whose mkoutput output supplies the haplotype scaffold pairs
@@ -41,8 +40,7 @@ metadata:
   - Supernova2
   - hg38 human reference sequence
   edam_operation: null
-  edam_topics:
-  - http://edamontology.org/topic_0193
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: critique

@@ -8,7 +8,7 @@ when_to_use_negative:
   Mb SD set are human-specific.
 - The goal is de novo identification of segmental duplications rather than retrieval
   of previously published (annotated) SD sequences.
-edam_operation: http://edamontology.org/operation_2402
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0622
 - http://edamontology.org/topic_0102
@@ -31,7 +31,7 @@ metadata:
   license_tier: open
   tools:
   - SOAPdenovo2
-  edam_operation: http://edamontology.org/operation_2402
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0622
   - http://edamontology.org/topic_0102

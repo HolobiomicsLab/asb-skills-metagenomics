@@ -15,7 +15,6 @@ when_to_use_negative:
 edam_operation: http://edamontology.org/operation_3219
 edam_topics:
 - http://edamontology.org/topic_3174
-- http://edamontology.org/topic_3483
 tools:
 - name: Porechop
   role: Trims adapters from Nanopore reads before control-read screening; skipped
@@ -54,7 +53,6 @@ metadata:
   edam_operation: http://edamontology.org/operation_3219
   edam_topics:
   - http://edamontology.org/topic_3174
-  - http://edamontology.org/topic_3483
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

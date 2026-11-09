@@ -11,7 +11,7 @@ when_to_use_negative:
   assignment from sequence data
 - Proteins of interest fall outside the Dsr-dependent dissimilatory sulphur metabolism
   families covered by the DiSCo HMM library
-edam_operation: http://edamontology.org/operation_0414
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0623
 - http://edamontology.org/topic_0080
@@ -49,7 +49,7 @@ metadata:
   - blastp
   - hmmbuild 3.1b2
   - hmmsearch 3.1b2
-  edam_operation: http://edamontology.org/operation_0414
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0623
   - http://edamontology.org/topic_0080

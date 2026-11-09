@@ -14,7 +14,6 @@ when_to_use_negative:
   applies
 edam_operation: http://edamontology.org/operation_3557
 edam_topics:
-- http://edamontology.org/topic_0688
 - http://edamontology.org/topic_3697
 tools:
 - name: CopyRighter
@@ -50,7 +49,6 @@ metadata:
   - make
   edam_operation: http://edamontology.org/operation_3557
   edam_topics:
-  - http://edamontology.org/topic_0688
   - http://edamontology.org/topic_3697
   provenance_tier: literature
 license: CC-BY-4.0

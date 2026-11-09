@@ -15,7 +15,7 @@ when_to_use_negative:
   signature gene refinement requires multiple samples (--min_samples) and mixed-allele/noise
   behaviour at strain level may degrade beta diversity estimates (highest mixed-allele
   proportion observed was 86% in the honey-bee gut).
-edam_operation: http://edamontology.org/operation_3656
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0659
 - http://edamontology.org/topic_3174
@@ -63,7 +63,7 @@ metadata:
   - conda
   - dRep
   - mamba
-  edam_operation: http://edamontology.org/operation_3656
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0659
   - http://edamontology.org/topic_3174

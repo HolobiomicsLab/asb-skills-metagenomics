@@ -11,7 +11,7 @@ when_to_use_negative:
   is not appropriate
 - Data are counts or absolute abundances rather than relative abundances resembling
   a zero-inflated beta distribution
-edam_operation: http://edamontology.org/operation_3656
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3697
 - http://edamontology.org/topic_2269
@@ -48,7 +48,7 @@ metadata:
   - gamlss
   - knitr
   - metamicrobiomeR
-  edam_operation: http://edamontology.org/operation_3656
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3697
   - http://edamontology.org/topic_2269

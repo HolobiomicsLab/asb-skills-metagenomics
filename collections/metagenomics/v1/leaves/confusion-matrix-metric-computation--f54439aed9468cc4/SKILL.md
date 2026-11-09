@@ -9,7 +9,7 @@ when_to_use_negative:
   cannot be built without ground-truth assignments
 - When the goal is de novo identification of sulphur-metabolism proteins rather than
   benchmarking a predictor against reference assignments
-edam_operation: http://edamontology.org/operation_3439
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0080
 - http://edamontology.org/topic_0621
@@ -41,7 +41,7 @@ metadata:
   - blastp
   - blastp 2.10.0
   - hmmsearch
-  edam_operation: http://edamontology.org/operation_3439
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0080
   - http://edamontology.org/topic_0621

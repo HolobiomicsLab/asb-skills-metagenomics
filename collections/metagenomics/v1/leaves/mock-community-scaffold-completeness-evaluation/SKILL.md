@@ -12,8 +12,7 @@ when_to_use_negative:
 - The goal is strain separation itself (running Strainberry) rather than post-hoc
   evaluation of already-generated scaffolds
 edam_operation: http://edamontology.org/operation_0310
-edam_topics:
-- http://edamontology.org/topic_3693
+edam_topics: []
 tools:
 - name: Strainberry
   role: Produces the strain-resolved scaffold assemblies (assembly.scaffolds.fa) that
@@ -42,8 +41,7 @@ metadata:
   - Strainberry
   - minimap2
   edam_operation: http://edamontology.org/operation_0310
-  edam_topics:
-  - http://edamontology.org/topic_3693
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: critique

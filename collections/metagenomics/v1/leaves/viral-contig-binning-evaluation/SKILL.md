@@ -11,7 +11,7 @@ when_to_use_negative:
 - Comparing methods using CheckV completeness alone without a random binning control,
   which the paper says is necessary because random binning does not reduce CheckV
   completeness
-edam_operation: http://edamontology.org/operation_0271
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3174
 - http://edamontology.org/topic_0102
@@ -44,7 +44,7 @@ metadata:
   - CheckV
   - ViralCC
   - leidenalg
-  edam_operation: http://edamontology.org/operation_0271
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3174
   - http://edamontology.org/topic_0102

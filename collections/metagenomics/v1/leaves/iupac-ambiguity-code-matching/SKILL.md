@@ -12,7 +12,7 @@ when_to_use_negative:
   tool
 - If reads need no ambiguity-code handling and a lightweight scan of only da(S) suffices,
   the document-array variant avoids requiring fileFasta.ebwt
-edam_operation: http://edamontology.org/operation_3479
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0622
 - http://edamontology.org/topic_3174
@@ -51,7 +51,7 @@ metadata:
   - LiME
   - eGAP
   - eGap
-  edam_operation: http://edamontology.org/operation_3479
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0622
   - http://edamontology.org/topic_3174

@@ -10,7 +10,7 @@ when_to_use_negative:
   is unnecessary overhead
 - Nucleotide-level read mapping to a host genome (e.g., hs37d5 host filtering) — that
   step uses Bowtie 2, not DIAMOND translated alignment
-edam_operation: http://edamontology.org/operation_3648
+edam_operation: http://edamontology.org/operation_3649
 edam_topics:
 - http://edamontology.org/topic_3174
 - http://edamontology.org/topic_0623
@@ -39,7 +39,7 @@ metadata:
   tools:
   - DIAMOND
   - MetaLAFFA
-  edam_operation: http://edamontology.org/operation_3648
+  edam_operation: http://edamontology.org/operation_3649
   edam_topics:
   - http://edamontology.org/topic_3174
   - http://edamontology.org/topic_0623

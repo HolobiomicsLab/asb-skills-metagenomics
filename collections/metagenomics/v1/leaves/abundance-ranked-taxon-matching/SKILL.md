@@ -10,7 +10,7 @@ when_to_use_negative:
   a pairwise cross-database similarity comparison
 - You need to compare the full taxon universe including rare taxa — this skill is
   scoped to the top-100 most abundant taxa per database
-edam_operation: http://edamontology.org/operation_2927
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0637
 tools:
@@ -44,7 +44,7 @@ metadata:
   - Nextflow
   - Python
   - QIIME2
-  edam_operation: http://edamontology.org/operation_2927
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0637
   provenance_tier: literature

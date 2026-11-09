@@ -14,7 +14,7 @@ when_to_use_negative:
 - Only relative abundance without any GCN-bearing taxonomy is available (e.g. unclassified
   OTUs dominate), making community-average-GCN fallback the only correction possible
   and accuracy gains uncertain
-edam_operation: http://edamontology.org/operation_3220
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3697
 tools:
@@ -39,7 +39,7 @@ metadata:
   tools:
   - Bio::Community
   - CopyRighter
-  edam_operation: http://edamontology.org/operation_3220
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3697
   provenance_tier: literature

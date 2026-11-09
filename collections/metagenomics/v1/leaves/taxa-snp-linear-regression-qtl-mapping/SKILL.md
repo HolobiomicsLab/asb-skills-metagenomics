@@ -10,7 +10,7 @@ when_to_use_negative:
   (LD) SNPs via taxa-taxa R values (Approach B), rather than per-pair linear regression
 - Input is not in the required sample-matched taxa/SNP data-frame format and has not
   been converted via metagenomeSeqToMbqtl or phyloseq_to_metagenomeSeq()
-edam_operation: http://edamontology.org/operation_3656
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0625
 - http://edamontology.org/topic_3697
@@ -43,7 +43,7 @@ metadata:
   - R
   - mbQTL
   - phyloseq
-  edam_operation: http://edamontology.org/operation_3656
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0625
   - http://edamontology.org/topic_3697

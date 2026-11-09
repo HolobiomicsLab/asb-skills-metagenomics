@@ -12,7 +12,7 @@ when_to_use_negative:
   the 42 covered types.
 - The target character types (e.g. antibiotic production, pressure preference in 0.2.0)
   are absent from the 0.1.0 Term Lists.
-edam_operation: http://edamontology.org/operation_0280
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0218
 - http://edamontology.org/topic_0091
@@ -39,7 +39,7 @@ metadata:
   tools:
   - MicroPIE
   - SVM (Support Vector Machine)
-  edam_operation: http://edamontology.org/operation_0280
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0218
   - http://edamontology.org/topic_0091

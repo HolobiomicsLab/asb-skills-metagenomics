@@ -10,7 +10,7 @@ when_to_use_negative:
   abundance quantification
 - The analysis does not require a selectable taxonomic level and raw per-taxon read
   counts from the classifier suffice
-edam_operation: http://edamontology.org/operation_3234
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0637
 - http://edamontology.org/topic_3307
@@ -41,7 +41,7 @@ metadata:
   - AFS-MetaCache
   - Apache Spark
   - MetaCacheSpark
-  edam_operation: http://edamontology.org/operation_3234
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0637
   - http://edamontology.org/topic_3307

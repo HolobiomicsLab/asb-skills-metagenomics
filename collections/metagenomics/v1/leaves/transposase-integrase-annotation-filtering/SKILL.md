@@ -12,7 +12,7 @@ when_to_use_negative:
   ORFs
 - Sequences fall outside the 500-3000 bp IS length window (e.g. nested insertions
   lengthened beyond max_is_len), which are missed before annotation
-edam_operation: http://edamontology.org/operation_3779
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0621
 - http://edamontology.org/topic_0797
@@ -42,7 +42,7 @@ metadata:
   - InterProScan
   - Palidis
   - Prodigal
-  edam_operation: http://edamontology.org/operation_3779
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0621
   - http://edamontology.org/topic_0797

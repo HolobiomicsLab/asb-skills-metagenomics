@@ -11,7 +11,7 @@ when_to_use_negative:
 - Mock community data with a defined species composition is the intended benchmark
   — the article uses both mock and synthetic data sets, and this skill covers only
   the synthetic simulator branch
-edam_operation: http://edamontology.org/operation_0222
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0621
 - http://edamontology.org/topic_3308
@@ -48,7 +48,7 @@ metadata:
   - MiCoNE-synthetic-data
   - Python
   - spieceasi
-  edam_operation: http://edamontology.org/operation_0222
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0621
   - http://edamontology.org/topic_3308

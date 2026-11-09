@@ -10,7 +10,7 @@ when_to_use_negative:
   not applicable
 - Input is still separate metadata and feature tables that have not been combined
   — first create the master table with make_master_table()
-edam_operation: http://edamontology.org/operation_3656
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3697
 - http://edamontology.org/topic_2269
@@ -40,7 +40,7 @@ metadata:
   - LongDat
   - MaAsLin2
   - R
-  edam_operation: http://edamontology.org/operation_3656
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3697
   - http://edamontology.org/topic_2269

@@ -10,7 +10,7 @@ when_to_use_negative:
   rather than building or testing the database lookup structure itself
 - K-mers contain ambiguous nucleotides, which Kraken ignores and which therefore do
   not contribute to classification
-edam_operation: http://edamontology.org/operation_0298
+edam_operation: http://edamontology.org/operation_0300
 edam_topics:
 - http://edamontology.org/topic_0622
 - http://edamontology.org/topic_3307
@@ -35,7 +35,7 @@ metadata:
   tools:
   - Jellyfish
   - Kraken
-  edam_operation: http://edamontology.org/operation_0298
+  edam_operation: http://edamontology.org/operation_0300
   edam_topics:
   - http://edamontology.org/topic_0622
   - http://edamontology.org/topic_3307

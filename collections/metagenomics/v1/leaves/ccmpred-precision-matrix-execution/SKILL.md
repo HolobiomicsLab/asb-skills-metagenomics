@@ -12,7 +12,7 @@ when_to_use_negative:
 - You need to train DeepECA models from scratch (python multitask.py, 2–3 days on
   a TITAN GTX GPU) — that is a separate training workflow, not this timing-execution
   skill.
-edam_operation: http://edamontology.org/operation_0271
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0082
 - http://edamontology.org/topic_3316
@@ -44,7 +44,7 @@ metadata:
   - CCMpred
   - DeepECA
   - HHblits
-  edam_operation: http://edamontology.org/operation_0271
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0082
   - http://edamontology.org/topic_3316

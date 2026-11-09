@@ -11,7 +11,7 @@ when_to_use_negative:
   regression.
 - The microbe data is a metagenomeSeq or phyloseq object that has not yet been converted
   to an mbQTL-compatible data frame via metagenomeSeqToMbqtl / phyloseq_to_metagenomeSeq().
-edam_operation: http://edamontology.org/operation_3657
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0625
 - http://edamontology.org/topic_3174
@@ -37,7 +37,7 @@ metadata:
   tools:
   - R
   - mbQTL
-  edam_operation: http://edamontology.org/operation_3657
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0625
   - http://edamontology.org/topic_3174

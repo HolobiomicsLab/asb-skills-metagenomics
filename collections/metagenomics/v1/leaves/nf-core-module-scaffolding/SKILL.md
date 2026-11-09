@@ -13,7 +13,6 @@ when_to_use_negative:
   workflow step
 edam_topics:
 - http://edamontology.org/topic_0091
-- http://edamontology.org/topic_0768
 tools:
 - name: VueGen
   role: Tool wrapped by the scaffolded nf-core module; its CLI generates the report
@@ -47,7 +46,6 @@ metadata:
   edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0091
-  - http://edamontology.org/topic_0768
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

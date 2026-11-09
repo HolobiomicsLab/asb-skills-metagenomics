@@ -10,7 +10,7 @@ when_to_use_negative:
   analysis on raw signal
 - You lack a good reference genome for tombo resquiggle or a large read set of a known
   species to train on
-edam_operation: http://edamontology.org/operation_3983
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3474
 - http://edamontology.org/topic_0622
@@ -43,7 +43,7 @@ metadata:
   - guppy
   - ont-fast5-api
   - tombo
-  edam_operation: http://edamontology.org/operation_3983
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3474
   - http://edamontology.org/topic_0622

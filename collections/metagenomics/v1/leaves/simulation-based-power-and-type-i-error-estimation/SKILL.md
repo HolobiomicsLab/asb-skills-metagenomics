@@ -10,7 +10,7 @@ when_to_use_negative:
   est/std.err)
 - Raw microbiome sequences need processing (quality control, OTU picking) rather than
   meta-analysis of already-computed summary statistics
-edam_operation: http://edamontology.org/operation_3578
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_2269
 - http://edamontology.org/topic_0622
@@ -43,7 +43,7 @@ metadata:
   - R
   - R package mMeta
   - vegan
-  edam_operation: http://edamontology.org/operation_3578
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_2269
   - http://edamontology.org/topic_0622

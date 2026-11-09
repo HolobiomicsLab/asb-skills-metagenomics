@@ -11,8 +11,7 @@ when_to_use_negative:
   the assembler binary — use the compiled executable in the two-stage CTX workflow,
   not the build step.
 edam_operation: http://edamontology.org/operation_0525
-edam_topics:
-- http://edamontology.org/topic_0193
+edam_topics: []
 tools:
 - name: MetaCortex
   role: Assembler whose source is compiled with a chosen MAXK value to set the maximum
@@ -36,8 +35,7 @@ metadata:
   - GCC
   - MetaCortex
   edam_operation: http://edamontology.org/operation_0525
-  edam_topics:
-  - http://edamontology.org/topic_0193
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: critique

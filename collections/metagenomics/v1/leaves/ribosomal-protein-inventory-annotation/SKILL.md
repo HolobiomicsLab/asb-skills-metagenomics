@@ -11,7 +11,7 @@ when_to_use_negative:
   absence-probability calculation
 - When testing absence of non-ribosomal protein families that lack well-curated Pfam
   HMM profiles for detecting divergent homologs
-edam_operation: http://edamontology.org/operation_0222
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0160
 tools:
@@ -33,7 +33,7 @@ metadata:
   tools:
   - HMMER hmmscan
   - gg Kbase
-  edam_operation: http://edamontology.org/operation_0222
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0160
   provenance_tier: literature
