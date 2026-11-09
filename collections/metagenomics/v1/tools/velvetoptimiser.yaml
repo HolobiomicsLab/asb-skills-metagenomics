@@ -1,0 +1,19 @@
+name: VelvetOptimiser
+slug: velvetoptimiser
+version_used: null
+edam_topics: []
+evidence_spans:
+- extends the original Velvet assembler by performing **several de Bruijn assemblies with variable k-mer sizes**
+- Some assemblers still in use, such as ABySS, MetaHipmer2, minia, and VelvetOptimiser, perform relatively poorly
+derived_from:
+- doi: 10.1093/gigascience/giac122
+  title: 'LMAS: evaluating metagenomic short <i>de novo</i> assembly methods through defined communities'
+source_repos:
+- https://github.com/tseemann/VelvetOptimiser
+- https://github.com/B-UMMI/LMAS
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/tseemann/VelvetOptimiser

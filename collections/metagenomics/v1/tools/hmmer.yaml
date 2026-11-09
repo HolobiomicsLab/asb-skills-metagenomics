@@ -1,0 +1,30 @@
+name: HMMER
+slug: hmmer
+version_used: null
+edam_topics: []
+evidence_spans:
+- by HMMER (21) with a default set of 120 Cas protein family profile HMMs (13) as query
+- HMMER (21), VSEARCH (22), SPAdes (23) and CRISPRCasFinder (13)
+- 'This pipeline relies on several third-party programs that include: HMMER (21), VSEARCH (22), SPAdes (23) and CRISPRCasFinder (13)'
+- traitar further needs prodigal and hmmsearch available on the command line.
+- traitar further needs prodigal and hmmsearch available on the command line
+derived_from:
+- doi: 10.1093/nargab/lqaa063
+  title: 'CasCollect: targeted assembly of CRISPR-associated operons from high-throughput sequencing data'
+- doi: 10.1016/j.csbj.2022.03.015
+  title: KEMET – A python tool for KEGG Module evaluation and microbial genome annotation expansion
+- doi: 10.1128/msystems.00101-16
+  title: 'From Genomes to Phenotypes: Traitar, the Microbial Trait Analyzer'
+- doi: 10.1016/j.cels.2019.09.004
+  title: 'MetaMiner: A Scalable Peptidogenomics Approach for Discovery of Ribosomal Peptide Natural Products with Blind Modifications from Microbial Communities'
+source_repos:
+- https://github.com/sandialabs/CasCollect
+- https://github.com/Matteopaluh/KEMET
+- https://github.com/hzi-bifo/traitar
+- https://github.com/mohimanilab/MetaMiner
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/sandialabs/CasCollect

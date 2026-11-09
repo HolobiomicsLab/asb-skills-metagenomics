@@ -1,0 +1,21 @@
+name: OPAL
+slug: opal
+version_used: null
+edam_topics: []
+evidence_spans:
+- The performance of each tool and reference database was evaluated similarly to the CAMI challenge using the OPAL tool (Meyer et al. 2019).
+- where we benchmark MAGinator against similar tools
+derived_from:
+- doi: 10.1093/bioinformatics/btae086
+  title: ARGprofiler—a pipeline for large-scale analysis of antimicrobial resistance genes and their flanking regions in metagenomic datasets
+- doi: 10.1038/s41467-024-49958-8
+  title: MAGinator enables accurate profiling of de novo MAGs with strain-level phylogenies
+source_repos:
+- https://github.com/genomicepidemiology/ARGprofiler
+- https://github.com/Russel88/MAGinator
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/genomicepidemiology/ARGprofiler

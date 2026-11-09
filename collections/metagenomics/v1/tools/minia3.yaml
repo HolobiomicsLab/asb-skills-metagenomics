@@ -1,0 +1,17 @@
+name: Minia3
+slug: minia3
+version_used: null
+edam_topics: []
+evidence_spans:
+- A non-exhaustive selection of state-of-the-art approaches encompasses IDBA-UD (6), SPAdes (7), Minia3 (8) and MEGAHIT (9).
+derived_from:
+- doi: 10.1093/nar/gkac543
+  title: 'StrainXpress: strain aware metagenome assembly from short reads'
+source_repos:
+- https://github.com/HaploKit/StrainXpress
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/HaploKit/StrainXpress

@@ -1,0 +1,19 @@
+name: iMKT (R package)
+slug: imkt-r-package
+version_used: null
+edam_topics: []
+evidence_spans:
+- The corresponding R package is available for download at https://github.com/BGD-UAB/iMKT
+- '### [01_*D. melanogaster* pipeline (python/bash)]'
+derived_from:
+- doi: 10.1093/nar/gkz372
+  title: 'iMKT: the integrative McDonald and Kreitman test'
+source_repos:
+- https://github.com/BGD-UAB/iMKT
+- https://github.com/BGD-UAB/iMKTData
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/BGD-UAB/iMKT

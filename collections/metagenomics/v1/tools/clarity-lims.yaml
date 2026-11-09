@@ -1,0 +1,17 @@
+name: Clarity LIMS
+slug: clarity-lims
+version_used: null
+edam_topics: []
+evidence_spans:
+- MetaLIMS can produce a basic sequencing submission form compatible with the proprietary Clarity LIMS system used by some sequencing facilities.
+derived_from:
+- doi: 10.1093/gigascience/gix025
+  title: MetaLIMS, a simple open-source laboratory information management system for small metagenomic labs
+source_repos:
+- https://github.com/cheinle/MetaLIMS
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/cheinle/MetaLIMS

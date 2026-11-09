@@ -1,0 +1,17 @@
+name: CRISPRCasFinder
+slug: crisprcasfinder
+version_used: null
+edam_topics: []
+evidence_spans:
+- The targeted assembly contigs are searched with the CRISPRCasFinder program (13).
+derived_from:
+- doi: 10.1093/nargab/lqaa063
+  title: 'CasCollect: targeted assembly of CRISPR-associated operons from high-throughput sequencing data'
+source_repos:
+- https://github.com/sandialabs/CasCollect
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/sandialabs/CasCollect

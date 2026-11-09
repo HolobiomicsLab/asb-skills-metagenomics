@@ -1,0 +1,17 @@
+name: Bakta
+slug: bakta
+version_used: 1.7.0
+edam_topics: []
+evidence_spans:
+- Annotation with Bakta v1.7.0 (Schwengers et al. 2021) revealed that this plasmid contains a Type III toxin-antitoxin system
+derived_from:
+- doi: 10.1093/bioinformatics/btad409
+  title: 'Plassembler: an automated bacterial plasmid assembly tool'
+source_repos:
+- https://github.com/gbouras13/plassembler
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/gbouras13/plassembler

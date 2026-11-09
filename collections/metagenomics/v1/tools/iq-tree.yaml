@@ -1,0 +1,21 @@
+name: IQ-TREE
+slug: iq-tree
+version_used: null
+edam_topics: []
+evidence_spans:
+- Use --phylo to toggle whether use fasttree (fast, approximate) or iqtree (slow, precise) to infer phylogenies
+- rebuild the L1 phylogenetic tree with MAFFT/IQ-TREE against NCBI RefSeq papillomavirus genomes (Fig. 5b)
+derived_from:
+- doi: 10.1038/s41467-024-49958-8
+  title: MAGinator enables accurate profiling of de novo MAGs with strain-level phylogenies
+- doi: 10.1038/s41564-024-01751-5
+  title: A multi-kingdom collection of 33,804 reference genomes for the human vaginal microbiome
+source_repos:
+- https://github.com/Russel88/MAGinator
+- https://github.com/RChGO/VMGC
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Russel88/MAGinator

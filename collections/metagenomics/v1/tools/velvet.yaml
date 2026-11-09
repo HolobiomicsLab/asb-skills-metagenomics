@@ -1,0 +1,17 @@
+name: Velvet
+slug: velvet
+version_used: null
+edam_topics: []
+evidence_spans:
+- ABySS produced the largest (4.8 Mb versus 4.6 Mb) but also the most fragmented assembly (176 contigs versus 90–95 for Velvet, SPAdes and MEGAHIT)
+derived_from:
+- doi: 10.1093/nar/gkad406
+  title: 'WebQUAST: online evaluation of genome assemblies'
+source_repos:
+- https://github.com/ablab/quast
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/ablab/quast

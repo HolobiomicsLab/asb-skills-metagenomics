@@ -1,0 +1,17 @@
+name: Badread
+slug: badread
+version_used: 0.2.0
+edam_topics: []
+evidence_spans:
+- Badread v0.2.0 (parameters --quantity 50x --error_model pacbio2016 --identity 90,97,3 --length 6100,3700)
+derived_from:
+- doi: 10.1038/s41467-021-24515-9
+  title: 'Strainberry: automated strain separation in low-complexity metagenomes using long reads'
+source_repos:
+- https://github.com/rvicedomini/strainberry
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/rvicedomini/strainberry

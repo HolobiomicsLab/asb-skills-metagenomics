@@ -1,0 +1,20 @@
+name: Unicycler
+slug: unicycler
+version_used: 0.4.8
+edam_topics: []
+evidence_spans:
+- and Unicycler run from read sets simulated from 20 assemblies from Wick, Judd, Wyres et al 2021
+- '| 8       | Unicycler              | 4411                       | 2139                    | 10003'
+- '* [Unicycler](https://github.com/rrwick/Unicycler) >=0.4.8'
+derived_from:
+- doi: 10.1093/bioinformatics/btad409
+  title: 'Plassembler: an automated bacterial plasmid assembly tool'
+source_repos:
+- https://github.com/rrwick/Unicycler
+- https://github.com/gbouras13/plassembler
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/rrwick/Unicycler

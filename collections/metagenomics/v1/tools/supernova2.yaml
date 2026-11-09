@@ -1,0 +1,19 @@
+name: Supernova2
+slug: supernova2
+version_used: null
+edam_topics: []
+evidence_spans:
+- These simulated and real data sets were then used to produce de novo assemblies, with an emphasis on the performance of 10x's Supernova2 [24].
+- The simulated data have been tested and accepted by 10x official pipelines
+- These simulated and real data sets were then used to produce de novo assemblies, with an emphasis on the performance of 10x's Supernova2
+derived_from:
+- doi: 10.1093/gigascience/giz141
+  title: Assessment of human diploid genome assembly with 10x Linked-Reads data
+source_repos:
+- https://github.com/zhanglu295/LRTK-SIM
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/zhanglu295/LRTK-SIM

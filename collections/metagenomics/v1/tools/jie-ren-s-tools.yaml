@@ -1,0 +1,17 @@
+name: Jie Ren's tools
+slug: jie-ren-s-tools
+version_used: null
+edam_topics: []
+evidence_spans:
+- Jie Ren's tools is used to get dissimilarity between viruses,you should transform to similarity.
+derived_from:
+- doi: 10.1186/s12859-019-3082-0
+  title: Predicting virus-host association by Kernelized logistic matrix factorization and similarity network fusion
+source_repos:
+- https://github.com/liudan111/ILMF-VH
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/liudan111/ILMF-VH

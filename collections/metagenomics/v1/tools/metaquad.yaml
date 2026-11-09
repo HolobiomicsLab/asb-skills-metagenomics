@@ -1,0 +1,21 @@
+name: MetaQuad
+slug: metaquad
+version_used: null
+edam_topics: []
+evidence_spans:
+- pip install -U git+https://github.com/holab-hku/MetaQuad.git
+- 'MetaQuad is available from the GitHub repository for latest version by the following command line:'
+- metaquad  -i cellSNP -o Metaquad --minSample=5
+- MetaQuad is available from the GitHub repository for latest version by the following command line
+derived_from:
+- doi: 10.1093/bioadv/vbae030
+  title: 'MetaQuad: shared informative variants discovery in metagenomic samples'
+source_repos:
+- https://github.com/holab-hku/MetaQuad
+- https://github.com/holab-hku/MetaQuad.git
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/holab-hku/MetaQuad

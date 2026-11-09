@@ -1,0 +1,28 @@
+name: CheckV
+slug: checkv
+version_used: '10.3'
+edam_topics: []
+evidence_spans:
+- Quality assessment with CheckV (29) showed that the large difference in number of vOTUs predicted was due to predictions of more partial and low-quality genomes
+- CheckV has been widely used to estimate the completeness of vMAGs by comparing them to a large database curated from NCBI GenBank and environmental samples43
+- Based on the CheckV algorithm18, 10.3% of viral sequences were estimated as complete viral genomes
+derived_from:
+- doi: 10.1128/msystems.00741-22
+  title: 'MetaPhage: an Automated Pipeline for Analyzing, Annotating, and Classifying Bacteriophages in Metagenomics Sequencing Data'
+- doi: 10.1038/s41467-023-35945-y
+  title: ViralCC retrieves complete viral genomes and virus-host pairs from metagenomic Hi-C data
+- doi: 10.1080/19490976.2023.2192522
+  title: 'ViroProfiler: a containerized bioinformatics pipeline for viral metagenomic data analysis'
+- doi: 10.1038/s41564-024-01751-5
+  title: A multi-kingdom collection of 33,804 reference genomes for the human vaginal microbiome
+source_repos:
+- https://github.com/MattiaPandolfoVR/MetaPhage
+- https://github.com/dyxstat/ViralCC
+- https://github.com/deng-lab/viroprofiler
+- https://github.com/RChGO/VMGC
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/MattiaPandolfoVR/MetaPhage

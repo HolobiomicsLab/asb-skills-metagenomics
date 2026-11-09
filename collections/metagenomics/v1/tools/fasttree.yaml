@@ -1,0 +1,25 @@
+name: FastTree
+slug: fasttree
+version_used: '10.1371'
+edam_topics: []
+evidence_spans:
+- 'FastTree (doi: 10.1371/journal.pone.0009490) used in the ``tree`` command'
+- 'FastTree (Build a phylogenetic tree):'
+- Use --phylo to toggle whether use fasttree (fast, approximate) or iqtree (slow, precise) to infer phylogenies
+derived_from:
+- doi: 10.1038/srep09743
+  title: 'MICCA: a complete and accurate software for taxonomic profiling of metagenomic data'
+- doi: 10.1093/bioadv/vbae013
+  title: 'PM-CNN: microbiome status recognition and disease detection model based on phylogeny and multi-path neural network'
+- doi: 10.1038/s41467-024-49958-8
+  title: MAGinator enables accurate profiling of de novo MAGs with strain-level phylogenies
+source_repos:
+- https://github.com/compmetagen/micca
+- https://github.com/qdu-bioinfo/PM_CNN
+- https://github.com/Russel88/MAGinator
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/compmetagen/micca

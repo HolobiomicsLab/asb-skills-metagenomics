@@ -1,0 +1,22 @@
+name: CD-HIT-EST
+slug: cd-hit-est
+version_used: '4.6'
+edam_topics: []
+evidence_spans:
+- These ISs can then be pooled and clustered to create a non-redundant catalogue of ISs.
+- '- [ Usage ](#usage)'
+- CD-HIT-EST v4.6, >=95% identity over >=90% of the shorter gene length
+derived_from:
+- doi: 10.1099/mgen.0.000917
+  title: 'Palidis: fast discovery of novel insertion sequences'
+- doi: 10.1038/s41467-020-14677-3
+  title: A comprehensive non-redundant gene catalog reveals extensive within-community intraspecies diversity in the human vagina
+source_repos:
+- https://github.com/blue-moon22/palidis4
+- https://github.com/ravel-lab/VIRGO
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/blue-moon22/palidis4

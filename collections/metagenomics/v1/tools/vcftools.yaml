@@ -1,0 +1,18 @@
+name: Vcftools
+slug: vcftools
+version_used: 0.1.16
+edam_topics: []
+evidence_spans:
+- Plink v1.9, Plink2 v2.00a3.7 (Purcell et al. 2007), and Vcftools v0.1.16 (Danecek et al. 2011) are used
+- Vcftools v0.1.16 (Danecek et al. 2011), Beagle v5.2 (Browning and Browning 2007)
+derived_from:
+- doi: 10.1093/molbev/msae057
+  title: 'scalepopgen: Bioinformatic Workflow Resources Implemented in Nextflow for Comprehensive Population Genomic Analyses'
+source_repos:
+- https://github.com/Popgen48/scalepopgen
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Popgen48/scalepopgen

@@ -1,0 +1,22 @@
+name: kraken2+bracken
+slug: kraken2-bracken
+version_used: null
+edam_topics: []
+evidence_spans:
+- '# Classify simulated reads at taxonomic level'
+- In comparison to the established tools CLARK, Kraken2, and Kraken2+Bracken it is superior in terms of false-positive rate and quantification accuracy.
+- In comparison to the established tools CLARK, Kraken2, and Kraken2+Bracken
+derived_from:
+- doi: 10.1093/nargab/lqaf094
+  title: 'ganon2: up-to-date and scalable metagenomics analysis'
+- doi: 10.1186/s12859-020-3429-6
+  title: A big data approach to metagenomics for all-food-sequencing
+source_repos:
+- https://github.com/pirovc/ganon_benchmark
+- https://github.com/jmabuin/MetaCacheSpark
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/pirovc/ganon_benchmark

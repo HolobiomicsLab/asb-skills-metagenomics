@@ -1,0 +1,25 @@
+name: Mykrobe predictor
+slug: mykrobe-predictor
+version_used: null
+edam_topics: []
+evidence_spans:
+- '[Mykrobe](https://github.com/Mykrobe-tools/mykrobe) is an open-sourced program the can predict antimicrobial resistance from *Staphylococcus aureus*'
+- We implement this method for Staphylococcus aureus and Mycobacterium tuberculosis in a software package (‘Mykrobe predictor') that takes raw sequence data as input
+- We implement this method for Staphylococcus aureus and Mycobacterium tuberculosis in a software package (‘Mykrobe predictor')
+- We implement this method for Staphylococcus aureus and Mycobacterium tuberculosis in a software package
+- '[Mykrobe](https://github.com/Mykrobe-tools/mykrobe) is an open-sourced program the can predict antimicrobial resistance from *Staphylococcus aureus* and *Mycobacterium tuberculosis*.'
+- is an open-sourced program the can predict antimicrobial resistance from *Staphylococcus aureus* and *Mycobacterium tuberculosis*
+- in a software package (‘Mykrobe predictor') that takes raw sequence data as input
+derived_from:
+- doi: 10.1038/ncomms10063
+  title: Rapid antibiotic-resistance predictions from genome sequence data for Staphylococcus aureus and Mycobacterium tuberculosis
+source_repos:
+- https://github.com/Mykrobe-tools/mykrobe
+- https://github.com/iqbal-lab/Mykrobe-predictor
+- https://github.com/phac-nml/mykrobe-parser
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Mykrobe-tools/mykrobe

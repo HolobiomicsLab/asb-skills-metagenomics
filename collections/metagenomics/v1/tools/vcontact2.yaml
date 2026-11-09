@@ -1,0 +1,21 @@
+name: vConTACT2
+slug: vcontact2
+version_used: null
+edam_topics: []
+evidence_spans:
+- Genefinding and viral taxonomy ([vContact2](https://bitbucket.org/MAVERICLab/vcontact2/wiki/Home))
+- vConTACT2 is the taxonomy classification tool implemented in MP
+derived_from:
+- doi: 10.1128/msystems.00741-22
+  title: 'MetaPhage: an Automated Pipeline for Analyzing, Annotating, and Classifying Bacteriophages in Metagenomics Sequencing Data'
+- doi: 10.1080/19490976.2023.2192522
+  title: 'ViroProfiler: a containerized bioinformatics pipeline for viral metagenomic data analysis'
+source_repos:
+- https://github.com/MattiaPandolfoVR/MetaPhage
+- https://github.com/deng-lab/viroprofiler
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/MattiaPandolfoVR/MetaPhage

@@ -1,0 +1,17 @@
+name: diri_sampler
+slug: diri-sampler
+version_used: null
+edam_topics: []
+evidence_spans:
+- '| `diri_sampler` | Gibbs sampling for error correction via Dirichlet process mixture |'
+derived_from:
+- doi: 10.1186/1471-2105-12-119
+  title: 'ShoRAH: estimating the genetic diversity of a mixed sample from next-generation sequencing data'
+source_repos:
+- https://github.com/cbg-ethz/shorah
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/cbg-ethz/shorah

@@ -1,0 +1,22 @@
+name: SAMSA2
+slug: samsa2
+version_used: null
+edam_topics: []
+evidence_spans:
+- git clone https://github.com/transcript/samsa2.git
+- which performs the first 3 of 4 steps in the SAMSA2 pipeline (preprocessing, annotation, aggregation)
+- Version 2 of the SAMSA pipeline - faster!  Lighter!  More options!  Less waiting!
+- See "example\_DIAMOND\_annotation\_script.bash" for more details.
+- the first 3 of 4 steps in the SAMSA2 pipeline (preprocessing, annotation, aggregation)
+- Better, more polished R scripts that can be executed from the command line.
+derived_from:
+- doi: 10.1186/s12859-018-2189-z
+  title: 'SAMSA2: a standalone metatranscriptome analysis pipeline'
+source_repos:
+- https://github.com/transcript/samsa2
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/transcript/samsa2

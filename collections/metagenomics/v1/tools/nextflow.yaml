@@ -1,0 +1,67 @@
+name: Nextflow
+slug: nextflow
+version_used: 21.04.0
+edam_topics: []
+evidence_spans:
+- CAMITAX (v0.7.0; Nextflow v21.04.0)
+- CAMITAX is run through Nextflow, which, by default, exploits Docker containers to parallelize
+- The workflow is developed in `Nextflow <https://www.nextflow.io/>`_ DSL2.
+- LMAS was implemented in Nextflow [12] to provide flexibility and ensure the transparency and reproducibility of the results.
+- The workflow is written in [Nextflow](https://nextflow.io/)
+- The workflow is written in [Nextflow](https://nextflow.io/), a DSL and task
+- 'The workflow is written in [Nextflow](https://nextflow.io/), a DSL and task
+
+  orchestrator'
+- The pipeline is implemented in Nextflow, a widely adopted workflow manager that enables an optimized parallelization of tasks
+- To set up the ``nextflow`` workflow template for the desired workflow, you can use the ``micone init`` command
+- 'you can use the ``micone init`` command: micone init -w <workflow> -o <pipeline_dir>'
+- you can use the ``micone init`` command
+- such as Snakemake (9) or Nextflow (10), which facilitate scalability, portability, reproducibility and ease of application
+- These tests are run with the latest available version of Nextflow and the minimum required version specified in the pipeline code.
+- Ensure you have Nextflow, nf-core tools, and nf-test installed.
+- The environment includes pre-installed nf-core tools, Nextflow, and a few other helpful utilities
+- It is written in Nextflow and developed as part of the nf-core initiative for best-practice pipeline development.
+- It is written in Nextflow and developed as part of the nf-core initiative
+- Palidis is implemented as a Nextflow pipeline with all dependency software packaged in one container image.
+- workflow management systems such as Nextflow and Snakemake
+- scalepopgen is mainly developed using the Nextflow workflow management system
+- scalepopgen is mainly developed using the Nextflow workflow management system (Di Tommaso et al. 2017)
+- The module integrates the VueGen Python library and customizes it for compatibility with the Nextflow environment (Di Tommaso et al. 2017)
+derived_from:
+- doi: 10.1093/bib/bbae680
+  title: 'kMetaShot: a fast and reliable taxonomy classifier for metagenome-assembled genomes'
+- doi: 10.1093/gigascience/giac122
+  title: 'LMAS: evaluating metagenomic short <i>de novo</i> assembly methods through defined communities'
+- doi: 10.1128/msystems.00741-22
+  title: 'MetaPhage: an Automated Pipeline for Analyzing, Annotating, and Classifying Bacteriophages in Metagenomics Sequencing Data'
+- doi: 10.1128/msystems.00961-22
+  title: 'Inferring microbial co-occurrence networks from amplicon data: a systematic evaluation'
+- doi: 10.1093/nargab/lqac007
+  title: 'nf-core/mag: a best-practice pipeline for metagenome hybrid assembly and binning'
+- doi: 10.1016/j.medmic.2020.100011
+  title: 'nf-rnaSeqMetagen: A nextflow metagenomics pipeline for identifying and characterizing microbial sequences from RNA-seq data'
+- doi: 10.1099/mgen.0.000917
+  title: 'Palidis: fast discovery of novel insertion sequences'
+- doi: 10.1093/molbev/msae057
+  title: 'scalepopgen: Bioinformatic Workflow Resources Implemented in Nextflow for Comprehensive Population Genomic Analyses'
+- doi: 10.1080/19490976.2023.2192522
+  title: 'ViroProfiler: a containerized bioinformatics pipeline for viral metagenomic data analysis'
+- doi: 10.1093/bioadv/vbaf149
+  title: 'VueGen: automating the generation of scientific reports'
+source_repos:
+- https://github.com/gdefazio/kMetaShot
+- https://github.com/B-UMMI/LMAS
+- https://github.com/MattiaPandolfoVR/MetaPhage
+- https://github.com/segrelab/MiCoNE
+- https://github.com/nf-core/mag
+- https://github.com/phelelani/nf-rnaSeqMetagen
+- https://github.com/blue-moon22/palidis4
+- https://github.com/Popgen48/scalepopgen
+- https://github.com/deng-lab/viroprofiler
+- https://github.com/Multiomics-Analytics-Group/vuegen
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/gdefazio/kMetaShot

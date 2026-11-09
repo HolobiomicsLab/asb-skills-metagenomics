@@ -1,0 +1,17 @@
+name: InterProScan
+slug: interproscan
+version_used: null
+edam_topics: []
+evidence_spans:
+- '- [ Usage ](#usage)'
+derived_from:
+- doi: 10.1099/mgen.0.000917
+  title: 'Palidis: fast discovery of novel insertion sequences'
+source_repos:
+- https://github.com/blue-moon22/palidis4
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/blue-moon22/palidis4

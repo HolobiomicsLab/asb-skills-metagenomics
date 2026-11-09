@@ -1,0 +1,30 @@
+name: BUSCO
+slug: busco
+version_used: null
+edam_topics: []
+evidence_spans:
+- not every tool is valid for every read type
+- nf-core/mag processes short-read, long-read, and hybrid data, and not every tool is valid for every read type.
+- or look for conservative genes to estimate the assembly completeness, such as BUSCO (7,8) and CEGMA (9)
+- such as BUSCO (7,8) and CEGMA (9)
+- Similar assessment results were also revealed by other algorithms such as CheckM and BUSCO (based on 124 universal single-copy orthologs (USCOs) for prokaryotes32)
+derived_from:
+- doi: 10.1016/j.csbj.2022.07.010
+  title: 'FunOMIC: Pipeline with built-in fungal taxonomic and functional databases for human mycobiome profiling'
+- doi: 10.1093/nargab/lqac007
+  title: 'nf-core/mag: a best-practice pipeline for metagenome hybrid assembly and binning'
+- doi: 10.1093/nar/gkad406
+  title: 'WebQUAST: online evaluation of genome assemblies'
+- doi: 10.1038/s41564-024-01751-5
+  title: A multi-kingdom collection of 33,804 reference genomes for the human vaginal microbiome
+source_repos:
+- https://github.com/ManichanhLab/FunOMIC
+- https://github.com/nf-core/mag
+- https://github.com/ablab/quast
+- https://github.com/RChGO/VMGC
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/ManichanhLab/FunOMIC

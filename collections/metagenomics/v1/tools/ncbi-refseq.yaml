@@ -1,0 +1,18 @@
+name: NCBI RefSeq
+slug: ncbi-refseq
+version_used: null
+edam_topics: []
+evidence_spans:
+- publicly available prokaryotic and fungal genomes sourced from the National Center of Biotechnology Information (NCBI) RefSeq genome database
+- rebuild the L1 phylogenetic tree with MAFFT/IQ-TREE against NCBI RefSeq papillomavirus genomes (Fig. 5b)
+derived_from:
+- doi: 10.1038/s41564-024-01751-5
+  title: A multi-kingdom collection of 33,804 reference genomes for the human vaginal microbiome
+source_repos:
+- https://github.com/RChGO/VMGC
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/RChGO/VMGC

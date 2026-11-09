@@ -1,0 +1,19 @@
+name: WebQUAST
+slug: webquast
+version_used: null
+edam_topics: []
+evidence_spans:
+- We present WebQUAST, a web server for multifaceted quality assessment and comparison of genome assemblies based on the state-of-the-art QUAST tool.
+- We present WebQUAST, a web server for multifaceted quality assessment and comparison of genome assemblies
+derived_from:
+- doi: 10.1093/nar/gkad406
+  title: 'WebQUAST: online evaluation of genome assemblies'
+source_repos:
+- https://github.com/ablab/quast-website
+- https://github.com/ablab/quast
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/ablab/quast-website

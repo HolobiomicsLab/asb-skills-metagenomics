@@ -1,0 +1,21 @@
+name: Cytoscape
+slug: cytoscape
+version_used: null
+edam_topics: []
+evidence_spans:
+- This network can be inspected using Cytoscape
+- For visualization, we recommend exporting & loading the network into specialized tools such as [Cytoscape](https://cytoscape.org/) or [Gephi](https://gephi.org/).
+derived_from:
+- doi: 10.1128/msystems.00741-22
+  title: 'MetaPhage: an Automated Pipeline for Analyzing, Annotating, and Classifying Bacteriophages in Metagenomics Sequencing Data'
+- doi: 10.1016/j.cels.2019.08.002
+  title: Rapid Inference of Direct Interactions in Large-Scale Ecological Networks from Heterogeneous Microbial Sequencing Data
+source_repos:
+- https://github.com/MattiaPandolfoVR/MetaPhage
+- https://github.com/meringlab/FlashWeave.jl
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/MattiaPandolfoVR/MetaPhage

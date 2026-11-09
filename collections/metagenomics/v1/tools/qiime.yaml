@@ -1,0 +1,40 @@
+name: QIIME
+slug: qiime
+version_used: 1.5.0
+edam_topics: []
+evidence_spans:
+- Reads from distinct samples were first separated according to their multiplex identifier using QIIME
+- Qiime allows analysis of high-throughput community sequencing data
+- Relative abundances of bacterial taxa at various taxonomic levels (from phylum to genus or species) are obtained via the “summarize_taxa.py” script in QIIME1
+- While the number of reads discarded by MICCA and QIIME are very similar
+- to be compared with 0.027 and 0.028 for QIIME and UPARSE, respectively
+- microbiome bioinformatics platforms (e.g., QIIME, Qiita, mothur, JGI GOLD, MG-RAST, EBI, NCBI)
+derived_from:
+- doi: 10.1186/2049-2618-2-11
+  title: 'CopyRighter: a rapid tool for improving the accuracy of microbial community profiles through lineage-specific gene copy number correction'
+- doi: 10.1186/s12859-020-3429-6
+  title: A big data approach to metagenomics for all-food-sequencing
+- doi: 10.1186/s12859-019-2744-2
+  title: 'metamicrobiomeR: an R package for analysis of microbiome relative abundance data using zero-inflated beta GAMLSS and meta-analysis across studies using random effects models'
+- doi: 10.1038/srep09743
+  title: 'MICCA: a complete and accurate software for taxonomic profiling of metagenomic data'
+- doi: 10.1038/s43705-022-00092-w
+  title: 'MIxS-SA: a MIxS extension defining the minimum information standard for sequence data from symbiont-associated micro-organisms'
+- doi: 10.1080/19490976.2023.2192522
+  title: 'ViroProfiler: a containerized bioinformatics pipeline for viral metagenomic data analysis'
+- doi: 10.1038/nbt.2676
+  title: Predictive functional profiling of microbial communities using 16S rRNA marker gene sequences
+source_repos:
+- https://github.com/fangly/AmpliCopyrighter
+- https://github.com/jmabuin/MetaCacheSpark
+- https://github.com/nhanhocu/metamicrobiomeR
+- https://github.com/compmetagen/micca
+- https://github.com/GenomicsStandardsConsortium/mixs
+- https://github.com/deng-lab/viroprofiler
+- https://github.com/picrust/picrust
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/fangly/AmpliCopyrighter

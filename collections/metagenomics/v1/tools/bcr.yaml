@@ -1,0 +1,26 @@
+name: BCR
+slug: bcr
+version_used: null
+edam_topics: []
+evidence_spans:
+- We separate the running time required to build the BWT (by using BCR [42, 43]) from the running time of EBWT2INDEL
+- First, the BWT of the input dataset(s) must be built. To achieve this, you can use https://github.com/felipelouza/egsa, https://github.com/giovannarosone/BCR_LCP_GSA
+- '#Build the BWT of the sets of reads'
+- one could use BCR [https://github.com/giovannarosone/BCR_LCP_GSA]
+- one could use BCR [https://github.com/giovannarosone/BCR_LCP_GSA], or egsa
+- To build ebwt, lcp, and da files from scratch from a single fasta file, one could use BCR
+derived_from:
+- doi: 10.1186/s12859-020-03586-3
+  title: Variable-order reference-free variant discovery with the Burrows-Wheeler Transform
+- doi: 10.1186/s12859-020-03628-w
+  title: Metagenomic analysis through the extended Burrows-Wheeler transform
+source_repos:
+- https://github.com/giovannarosone/BCR_LCP_GSA
+- https://github.com/nicolaprezza/ebwt2InDel
+- https://github.com/veronicaguerrini/LiME
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/giovannarosone/BCR_LCP_GSA

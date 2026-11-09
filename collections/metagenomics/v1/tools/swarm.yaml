@@ -1,0 +1,21 @@
+name: swarm
+slug: swarm
+version_used: '10.7717'
+edam_topics: []
+evidence_spans:
+- 'swarm (doi: 10.7717/peerj.1420) used in the ``otu`` command'
+- Applications are containerized and managed on the cluster using Docker and Swarm
+derived_from:
+- doi: 10.1038/srep09743
+  title: 'MICCA: a complete and accurate software for taxonomic profiling of metagenomic data'
+- doi: 10.1186/s12859-020-03577-4
+  title: 'NASQAR: a web-based platform for high-throughput sequencing data analysis and visualization'
+source_repos:
+- https://github.com/compmetagen/micca
+- https://github.com/nasqar/NASQAR
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/compmetagen/micca

@@ -1,0 +1,19 @@
+name: HUMAnN
+slug: humann
+version_used: '3.0'
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1016/j.csbj.2022.07.010
+  title: 'FunOMIC: Pipeline with built-in fungal taxonomic and functional databases for human mycobiome profiling'
+- doi: 10.1038/nbt.2676
+  title: Predictive functional profiling of microbial communities using 16S rRNA marker gene sequences
+source_repos:
+- https://github.com/ManichanhLab/FunOMIC
+- https://github.com/picrust/picrust
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/ManichanhLab/FunOMIC

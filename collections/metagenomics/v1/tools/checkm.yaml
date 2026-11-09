@@ -1,0 +1,44 @@
+name: CheckM
+slug: checkm
+version_used: 1.0.11
+edam_topics: []
+evidence_spans:
+- bin with Bowtie2+MetaBAT2, and assess bins with CheckM
+- we used checkm (Parks, 2015) to assess the bins. This found 23 bins with a completeness level of >50%
+- '`--checkm` : provide a file with Completenesses and Contaminations (Redundancy)'
+- (for example [`checkm`](https://ecogenomics.github.io/CheckM/) output or a fixed value)
+- it accepts the output of `checkm` or any other `TAB`-separated file with at least three columns
+- genome completeness can be calculated using CheckM (16) or any other tool of your choosing, or a fixed value used
+- could be indirectly estimated by using methods such as checkM
+- unlike the CheckM which takes advantage of universal single-copy marker genes to assess both completeness and contamination of prokaryotic MAGs
+- Similar assessment results were also revealed by other algorithms such as CheckM and BUSCO
+derived_from:
+- doi: 10.1093/nargab/lqaa009
+  title: 'DeepMicrobes: taxonomic classification for metagenomics with deep learning'
+- doi: 10.1093/bioinformatics/btad020
+  title: Capturing variation in metagenomic assembly graphs with MetaCortex
+- doi: 10.1093/nar/gkab831
+  title: 'MetaPlatanus: a metagenome assembler that combines long-range sequence links and species-specific features'
+- doi: 10.1093/nargab/lqac060
+  title: 'mOTUpan: a robust Bayesian approach to leverage metagenome-assembled genomes for core-genome estimation'
+- doi: 10.1128/msystems.00101-16
+  title: 'From Genomes to Phenotypes: Traitar, the Microbial Trait Analyzer'
+- doi: 10.1038/s41467-023-35945-y
+  title: ViralCC retrieves complete viral genomes and virus-host pairs from metagenomic Hi-C data
+- doi: 10.1038/s41564-024-01751-5
+  title: A multi-kingdom collection of 33,804 reference genomes for the human vaginal microbiome
+source_repos:
+- https://github.com/MicrobeLab/DeepMicrobes
+- https://github.com/SR-Martin/metacortex
+- https://github.com/rkajitani/MetaPlatanus
+- https://github.com/ecogenomics.github.io/CheckM
+- https://github.com/moritzbuck/mOTUlizer
+- https://github.com/hzi-bifo/traitar
+- https://github.com/dyxstat/ViralCC
+- https://github.com/RChGO/VMGC
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/MicrobeLab/DeepMicrobes

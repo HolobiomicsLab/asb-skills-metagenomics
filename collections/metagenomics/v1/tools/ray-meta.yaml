@@ -1,0 +1,18 @@
+name: Ray Meta
+slug: ray-meta
+version_used: 2.3.1
+edam_topics: []
+evidence_spans:
+- The publication is now available at `https://academic.oup.com/bioinformatics/article/39/1/btad020/6986127
+- we also assembled the same datasets using MEGAHIT (v1.1.1), Ray Meta (v2.3.1), MetaVelvet (v1.2.02), metaSPAdes (v3.14) and IDBA-UD (v1.1.2)
+derived_from:
+- doi: 10.1093/bioinformatics/btad020
+  title: Capturing variation in metagenomic assembly graphs with MetaCortex
+source_repos:
+- https://github.com/SR-Martin/metacortex
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/SR-Martin/metacortex

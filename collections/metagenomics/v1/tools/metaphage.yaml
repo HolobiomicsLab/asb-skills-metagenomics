@@ -1,0 +1,21 @@
+name: MetaPhage
+slug: metaphage
+version_used: null
+edam_topics: []
+evidence_spans:
+- a comprehensive reads-to-report pipeline that streamlines the use of multiple phage miners
+- 'A reads to report workflow for metavirome analysis:'
+- MetaPhage is a modular and automated tool to detect, annotate, and analyze bacteriophages present in a variety of different metagenomic data sets
+- skip the alpha-diversity plots creation or not
+- A reads to report workflow for metavirome analysis
+derived_from:
+- doi: 10.1128/msystems.00741-22
+  title: 'MetaPhage: an Automated Pipeline for Analyzing, Annotating, and Classifying Bacteriophages in Metagenomics Sequencing Data'
+source_repos:
+- https://github.com/MattiaPandolfoVR/MetaPhage
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/MattiaPandolfoVR/MetaPhage

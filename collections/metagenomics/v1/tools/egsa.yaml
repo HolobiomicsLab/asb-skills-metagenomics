@@ -1,0 +1,22 @@
+name: egsa
+slug: egsa
+version_used: null
+edam_topics: []
+evidence_spans:
+- you can use https://github.com/felipelouza/egsa
+- or egsa [https://github.com/felipelouza/egsa] for instance
+derived_from:
+- doi: 10.1186/s12859-020-03586-3
+  title: Variable-order reference-free variant discovery with the Burrows-Wheeler Transform
+- doi: 10.1186/s12859-020-03628-w
+  title: Metagenomic analysis through the extended Burrows-Wheeler transform
+source_repos:
+- https://github.com/felipelouza/egsa
+- https://github.com/nicolaprezza/ebwt2InDel
+- https://github.com/veronicaguerrini/LiME
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/felipelouza/egsa

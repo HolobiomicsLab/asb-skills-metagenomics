@@ -1,0 +1,21 @@
+name: SAMSA
+slug: samsa
+version_used: null
+edam_topics: []
+evidence_spans:
+- Version 2 of the SAMSA pipeline - faster! Lighter! More options! Less waiting!
+- The purpose of the SAMSA pipeline is to handle beginning-to-end metatranscriptome analysis.
+derived_from:
+- doi: 10.1186/s12859-018-2189-z
+  title: 'SAMSA2: a standalone metatranscriptome analysis pipeline'
+- doi: 10.1186/s12859-016-1270-8
+  title: 'SAMSA: a comprehensive metatranscriptome analysis pipeline'
+source_repos:
+- https://github.com/transcript/samsa2
+- https://github.com/transcript/SAMSA
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/transcript/samsa2

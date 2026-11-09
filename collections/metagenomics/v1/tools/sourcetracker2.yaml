@@ -1,0 +1,18 @@
+name: SourceTracker2
+slug: sourcetracker2
+version_used: null
+edam_topics: []
+evidence_spans:
+- methods such as FEAST (1) and SourceTracker2 (2) quantify the fraction, or proportion, of different microbial samples (sources) in a target microbial community (sink)
+- (absent — flagged as missing)
+derived_from:
+- doi: 10.1128/msystems.00995-21
+  title: 'STENSL: Microbial Source Tracking with ENvironment SeLection'
+source_repos:
+- https://github.com/cozygene/FEAST
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/cozygene/FEAST

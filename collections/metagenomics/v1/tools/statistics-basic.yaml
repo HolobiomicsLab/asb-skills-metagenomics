@@ -1,0 +1,17 @@
+name: Statistics::Basic
+slug: statistics-basic
+version_used: null
+edam_topics: []
+evidence_spans:
+- Statistics::Basic (https://metacpan.org/pod/distribution/Statistics-Basic/lib/Statistics/Basic.pod)
+derived_from:
+- doi: 10.1038/s41467-018-05658-8
+  title: Maximal viral information recovery from sequence data using VirMAP
+source_repos:
+- https://github.com/cmmr/VirMAP
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/cmmr/VirMAP

@@ -1,0 +1,18 @@
+name: flexdashboard
+slug: flexdashboard
+version_used: null
+edam_topics: []
+evidence_spans:
+- install.packages(c('flexdashboard','visNetwork','r'
+- install.packages(c('flexdashboard','visNetwork','r','DT','shinyjs','igraph','stringr','readr','dplyr','ggplot2','ISOweek','EpiCurve'
+derived_from:
+- doi: 10.1093/bioadv/vbac040
+  title: 'CATHAI: cluster analysis tool for healthcare-associated infections'
+source_repos:
+- https://github.com/FordeGenomics/cathai
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/FordeGenomics/cathai

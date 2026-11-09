@@ -1,0 +1,1 @@
+OK   collections/metagenomics/v1  (2754 index entries, corpus checked)

@@ -1,0 +1,18 @@
+name: LRTK-SIM
+slug: lrtk-sim
+version_used: null
+edam_topics: []
+evidence_spans:
+- We also developed the simulator LRTK-SIM to follow the workflow of 10x data generation and produce realistic simulated Linked-Read data sets.
+- python LRTK-SIM.py <path to configuration files>
+derived_from:
+- doi: 10.1093/gigascience/giz141
+  title: Assessment of human diploid genome assembly with 10x Linked-Reads data
+source_repos:
+- https://github.com/zhanglu295/LRTK-SIM
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/zhanglu295/LRTK-SIM

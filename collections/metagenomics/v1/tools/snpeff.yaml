@@ -1,0 +1,17 @@
+name: SnpEff
+slug: snpeff
+version_used: '5.1'
+edam_topics: []
+evidence_spans:
+- SnpEff (tested with 5.1, optional, annotate the vcf output of true mutations)
+derived_from:
+- doi: 10.1093/bioinformatics/btad302
+  title: 'STEMSIM: a simulator of within-strain short-term evolutionary mutations for longitudinal metagenomic data'
+source_repos:
+- https://github.com/BoyanZhou/STEMSim
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/BoyanZhou/STEMSim

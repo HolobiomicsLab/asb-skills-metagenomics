@@ -1,0 +1,22 @@
+name: shiny
+slug: shiny
+version_used: null
+edam_topics: []
+evidence_spans:
+- install.packages("shiny")
+- For local implementation using this GitHub repository, recent version of **R (>4.2.0)** is needed. shiny
+- Uses shiny server to serve the R shiny apps that are proxied through the authenication dashboard portal
+derived_from:
+- doi: 10.1128/spectrum.05059-22
+  title: 'MiSurv: an Integrative Web Cloud Platform for User-Friendly Microbiome Data Analysis with Survival Responses'
+- doi: 10.1093/bioadv/vbac040
+  title: 'CATHAI: cluster analysis tool for healthcare-associated infections'
+source_repos:
+- https://github.com/wg99526/MiSurvGit
+- https://github.com/FordeGenomics/cathai
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/wg99526/MiSurvGit

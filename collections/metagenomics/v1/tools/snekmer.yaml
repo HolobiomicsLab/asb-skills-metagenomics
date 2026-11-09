@@ -1,0 +1,19 @@
+name: Snekmer
+slug: snekmer
+version_used: 1.4.1
+edam_topics: []
+evidence_spans:
+- Snekmer's ``snekmer model`` mode uses supervised
+- Snekmer 1.4.1 — protein sequence fingerprinting via amino acid reduction.
+- Snekmer's ``snekmer cluster`` mode is an example of an unsupervised
+derived_from:
+- doi: 10.1093/bioadv/vbad005
+  title: 'Snekmer: a scalable pipeline for protein sequence fingerprinting based on amino acid recoding'
+source_repos:
+- https://github.com/PNNL-CompBio/Snekmer
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/PNNL-CompBio/Snekmer

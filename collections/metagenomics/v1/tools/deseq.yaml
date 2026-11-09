@@ -1,0 +1,22 @@
+name: DESeq
+slug: deseq
+version_used: null
+edam_topics: []
+evidence_spans:
+- Our proposed method can also utilize p-values obtained from other testing methods, such as DESeq
+- Our proposed method can also utilize p-values obtained from other testing methods, such as DESeq.
+- differential abundance statistics with DESeq
+derived_from:
+- doi: 10.1186/s12859-021-04061-3
+  title: 'ProgPerm: Progressive permutation for a dynamic representation of the robustness of microbiome discoveries'
+- doi: 10.1186/s12859-018-2189-z
+  title: 'SAMSA2: a standalone metatranscriptome analysis pipeline'
+source_repos:
+- https://github.com/LyonsZhang/ProgPerm
+- https://github.com/transcript/samsa2
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/LyonsZhang/ProgPerm

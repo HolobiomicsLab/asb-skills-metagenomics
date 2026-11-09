@@ -1,0 +1,20 @@
+name: lineagespot
+slug: lineagespot
+version_used: null
+edam_topics: []
+evidence_spans:
+- 'title: "lineagespot User Guide"'
+- we propose a novel methodology called lineagespot, implemented as a software tool that can facilitate the detection of SARS-CoV-2 lineages in wastewater samples
+- 'package: "`r BiocStyle::pkg_ver(''lineagespot'')`"'
+- lineagespot User Guide
+derived_from:
+- doi: 10.1038/s41598-022-06625-6
+  title: Detecting SARS-CoV-2 lineages and mutational load in municipal wastewater and a use-case in the metropolitan area of Thessaloniki, Greece
+source_repos:
+- https://github.com/BiodataAnalysisGroup/lineagespot
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/BiodataAnalysisGroup/lineagespot

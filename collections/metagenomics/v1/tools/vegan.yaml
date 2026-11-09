@@ -1,0 +1,30 @@
+name: vegan
+slug: vegan
+version_used: null
+edam_topics: []
+evidence_spans:
+- the first non-metric multidimensional scaling axes representing assemblage composition
+- 'library(vegan)
+
+  # relative abundance dataframe'
+- library(vegan)
+derived_from:
+- doi: 10.1093/nargab/lqac019
+  title: 'OMARU: a robust and multifaceted pipeline for metagenome-wide association study'
+- doi: 10.1002/sim.8940
+  title: 'Meta‐analysis methods for multiple related markers: Applications to microbiome studies with the results on multiple <i>α</i>‐diversity indices'
+- doi: 10.1038/s41467-019-12737-x
+  title: Radar vision in the mapping of forest biodiversity from space
+- doi: 10.1016/j.scib.2023.10.024
+  title: 'VTwins: inferring causative microbial features from metagenomic data of limited samples'
+source_repos:
+- https://github.com/toshi-kishikawa/OMARU
+- https://github.com/hk1785/mMeta
+- https://github.com/So-YeonBae/Sentinel1-Biodiversity
+- https://github.com/mengqingren/VTwins
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/toshi-kishikawa/OMARU

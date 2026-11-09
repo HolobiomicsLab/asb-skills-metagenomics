@@ -1,0 +1,24 @@
+name: bash
+slug: bash
+version_used: null
+edam_topics: []
+evidence_spans:
+- '### [02_Human pipeline (python/bash)](https://nbviewer.jupyter.org/github/jmurga/iMKTData/blob/master/notebooks/humanProteins.ipynb)'
+- '[02_Human pipeline (python/bash)](https://nbviewer.jupyter.org/github/jmurga/iMKTData/blob/master/notebooks/humanProteins.ipynb)'
+- '### [02_Human pipeline (python/bash)]'
+- Source code is implemented in Python and Bash as a Snakemake pipeline.
+derived_from:
+- doi: 10.1093/nar/gkz372
+  title: 'iMKT: the integrative McDonald and Kreitman test'
+- doi: 10.1093/bioinformatics/btaf334
+  title: 'Mapler: a pipeline for assessing assembly quality in taxonomically rich metagenomes sequenced with HiFi reads'
+source_repos:
+- https://github.com/BGD-UAB/iMKTData
+- https://github.com/jmurga/iMKTData
+- https://github.com/Nimauric/Mapler
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/BGD-UAB/iMKTData

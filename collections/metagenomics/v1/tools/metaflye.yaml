@@ -1,0 +1,26 @@
+name: metaflye
+slug: metaflye
+version_used: null
+edam_topics: []
+evidence_spans:
+- using multiple state-of-the-art assemblers (metaMDBG, metaflye, hifiasm-meta)
+- flye --meta --pacbio-raw reads.fq.gz --out-dir flye_out --genome-size 300k --threads 12
+derived_from:
+- doi: 10.1093/bioinformatics/btaf334
+  title: 'Mapler: a pipeline for assessing assembly quality in taxonomically rich metagenomes sequenced with HiFi reads'
+- doi: 10.1093/nar/gkab831
+  title: 'MetaPlatanus: a metagenome assembler that combines long-range sequence links and species-specific features'
+- doi: 10.1038/s41467-021-24515-9
+  title: 'Strainberry: automated strain separation in low-complexity metagenomes using long reads'
+source_repos:
+- https://github.com/mikolmogorov/Flye
+- https://github.com/Nimauric/Mapler
+- https://github.com/rkajitani/MetaPlatanus
+- https://github.com/rvicedomini/strainberry
+- https://github.com/rvicedomini/strainberry-analyses
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/mikolmogorov/Flye

@@ -1,0 +1,17 @@
+name: Java
+slug: java
+version_used: 0.1.0
+edam_topics: []
+evidence_spans:
+- Java –cp micropieproject_lib –jar micropie-0.1.0.jar
+derived_from:
+- doi: 10.1186/s12859-016-1396-8
+  title: 'Microbial phenomics information extractor (MicroPIE): a natural language processing tool for the automated acquisition of prokaryotic phenotypic characters from text sources'
+source_repos:
+- https://github.com/biosemantics/micropie2
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/biosemantics/micropie2

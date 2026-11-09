@@ -1,0 +1,235 @@
+schema_version: 0.3.0
+workflow_id: assembly_mag_quality_taxonomy
+kind: composite-workflow
+techniques: []
+steps:
+- id: clean_reads
+  goal: remove adapters and low-quality tails and summarize read quality
+  edam_operation: http://edamontology.org/operation_3219
+  skills:
+  - metagenomic-read-quality-control--333f0c268bb84080
+  - short-read-quality-trimming--534731b241401dae
+  - adapter-trimming-quality-control
+  - fastqc-quality-reporting
+  tools:
+  - BBTools
+  - FastQC
+  - MultiQC
+  inputs:
+  - type: paired-fastq
+    flavour: raw
+  outputs:
+  - type: fastq
+    flavour: trimmed
+  - type: html
+    flavour: read-qc-report
+  grounding:
+    kb_slugs:
+    - asb-paper-10-1093-nargab-lqac070
+    dois:
+    - 10.1093/nargab/lqac070
+  after: []
+  candidate_tools:
+  - SortMeRNA
+- id: assemble_contigs
+  goal: assemble short reads per sample and compare contiguity metrics
+  edam_operation: http://edamontology.org/operation_0525
+  skills:
+  - metagenome-de-novo-assembly
+  - assembled-contig-fasta-handling
+  - assembly-contiguity-quality-assessment
+  - paired-end-read-assembly--a5035386db5a753c
+  - assembled-contig-length-and-count-qc
+  tools:
+  - MEGAHIT
+  - QUAST
+  - SPAdes
+  - hybridSPAdes
+  - nf-test
+  inputs:
+  - type: fastq
+    flavour: trimmed
+  outputs:
+  - type: fasta
+    flavour: per-sample-contigs
+  - type: tsv
+    flavour: assembly-qc
+  grounding:
+    kb_slugs:
+    - asb-paper-10-1093-nar-gkad406
+    - asb-paper-10-1093-nargab-lqac007
+    - asb-paper-10-1128-mra-00107-22
+    dois:
+    - 10.1093/nar/gkad406
+    - 10.1093/nargab/lqac007
+    - 10.1128/mra.00107-22
+  after:
+  - clean_reads
+  candidate_tools:
+  - Docker
+  - Python
+  - SPAdes 3.15.3
+  - metaSPAdes
+  - virMine 2.0
+  - Nextflow
+  - ABySS
+  - FastQC
+  - SRA Toolkit
+  - Trimmomatic
+  - Velvet
+  - WebQUAST
+  inputs_from:
+    clean_reads:
+    - fastq:trimmed
+- id: bin_contigs
+  goal: group sufficiently long contigs into per-sample MAG FASTA bins
+  edam_operation: http://edamontology.org/operation_0310
+  skills:
+  - metabat2-contig-binning
+  - metagenomic-contig-binning--7530fd71afe1cdc5
+  - metagenomic-contig-binning--aa6be0a34a35d65a
+  - metagenomic-contig-depth-estimation
+  tools:
+  - CAMITAX
+  - FastQC
+  - GTDBtk
+  - MegaHIT v1.2.9
+  - MetaBAT2
+  - MetaBAT2 (v2:2.15)
+  - Sickle
+  - kMetaShot
+  - metaSPAdes v3.15.2
+  inputs:
+  - type: fasta
+    flavour: per-sample-contigs
+  outputs:
+  - type: directory
+    flavour: mag-bins
+  grounding:
+    kb_slugs:
+    - asb-paper-10-1093-bib-bbae680
+    - asb-paper-10-1093-bioinformatics-btad020
+    - asb-paper-10-1093-nargab-lqac007
+    dois:
+    - 10.1093/bib/bbae680
+    - 10.1093/bioinformatics/btad020
+    - 10.1093/nargab/lqac007
+  after:
+  - assemble_contigs
+  candidate_tools:
+  - Bowtie2
+  - CheckM
+  - Conda
+  - GCC
+  - MetaCortex
+  - SRA toolkit
+  - trim-galore
+  - Mash
+  - MegaHIT
+  - metaSPAdes
+  inputs_from:
+    assemble_contigs:
+    - fasta:per-sample-contigs
+- id: assess_mag_quality
+  goal: estimate marker-based completeness and contamination and split classifier
+    routes
+  edam_operation: http://edamontology.org/operation_0362
+  skills:
+  - metagenome-binning-quality-assessment
+  - metagenome-assembled-genome-quality-assessment--b4335ce8bdbe4c98
+  - marker-gene-completeness-contamination-estimation
+  - per-bin-summary-table-generation
+  tools:
+  - BUSCO
+  - CheckM2
+  - GTDB-Tk
+  inputs:
+  - type: directory
+    flavour: mag-bins
+  - type: yaml
+    flavour: mag-quality-thresholds
+  outputs:
+  - type: tsv
+    flavour: busco-mag-quality
+  - type: directory
+    flavour: gtdbtk-eligible-mags
+  - type: directory
+    flavour: catbat-fallback-mags
+  grounding:
+    kb_slugs:
+    - asb-paper-10-1093-nargab-lqac007
+    dois:
+    - 10.1093/nargab/lqac007
+  after:
+  - bin_contigs
+  candidate_tools:
+  - BIgMAG
+  - MultiQC
+  - QUAST
+  - Nextflow
+  inputs_from:
+    bin_contigs:
+    - directory:mag-bins
+- id: classify_mags
+  goal: classify passing bins with GTDB-Tk and remaining bins with CAT/BAT
+  edam_operation: http://edamontology.org/operation_0363
+  skills:
+  - gtdbtk-genome-taxonomy-assignment
+  - mag-taxonomic-classification--8bedab30d38f7e0c
+  - catbat-bin-taxonomic-classification
+  - mag-taxonomic-classification--6714e56ce1419c81
+  tools:
+  - BUSCO
+  - GTDB-Tk
+  - Nextflow
+  inputs:
+  - type: tsv
+    flavour: busco-mag-quality
+  - type: directory
+    flavour: gtdbtk-eligible-mags
+  - type: directory
+    flavour: catbat-fallback-mags
+  - type: database
+    flavour: gtdb-reference
+  - type: database
+    flavour: catbat-reference
+  outputs:
+  - type: tsv
+    flavour: mag-taxonomy
+  grounding:
+    kb_slugs:
+    - asb-paper-10-1093-bib-bbae680
+    - asb-paper-10-1093-nargab-lqac007
+    dois:
+    - 10.1093/bib/bbae680
+    - 10.1093/nargab/lqac007
+  after:
+  - assess_mag_quality
+  candidate_tools:
+  - CAMITAX
+  - CMDbench
+  - FastQC
+  - GTDBtk
+  - Mash
+  - MegaHIT
+  - MetaBAT2
+  - Sickle
+  - kMetaShot
+  - metaSPAdes
+  inputs_from:
+    assess_mag_quality:
+    - tsv:busco-mag-quality
+    - directory:gtdbtk-eligible-mags
+    - directory:catbat-fallback-mags
+verification:
+  final_outputs:
+  - path: mag_bins
+    type: directory
+  - path: busco_mag_quality.tsv
+    type: file
+  - path: mag_taxonomy.tsv
+    type: file
+provenance:
+  derived_from_workflows: []
+  bound_by: perspicacite-semantic
+  coverage_gaps: []

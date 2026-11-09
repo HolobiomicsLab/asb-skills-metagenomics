@@ -1,0 +1,17 @@
+name: uShuffle
+slug: ushuffle
+version_used: null
+edam_topics: []
+evidence_spans:
+- we created a shuffled version of the microbial subset of NCBI's NR protein database, using uShuffle25 with a window length of 100 amino acids
+derived_from:
+- doi: 10.1038/ncomms11257
+  title: Fast and sensitive taxonomic classification for metagenomics with Kaiju
+source_repos:
+- https://github.com/bioinformatics-centre/kaiju
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/bioinformatics-centre/kaiju

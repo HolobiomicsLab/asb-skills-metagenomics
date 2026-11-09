@@ -1,0 +1,30 @@
+name: BBMap
+slug: bbmap
+version_used: '38.94'
+edam_topics: []
+evidence_spans:
+- BBMap v.38.94 (the tool used to compute coverage statistics for the coverage filter
+- bbtools (https://jgi.doe.gov/data-and-tools/bbtools)
+- using BBMap19 and DIAMOND20, respectively
+- --useMegahit --useBbnorm --sampleName SRR9875293
+derived_from:
+- doi: 10.1093/nargab/lqac070
+  title: 'RiboTaxa: combined approaches for rRNA genes taxonomic resolution down to the species level from metagenomics data revealing novelties'
+- doi: 10.1128/mra.00107-22
+  title: 'virMine 2.0: Identifying Viral Sequences in Microbial Communities'
+- doi: 10.1080/19490976.2023.2192522
+  title: 'ViroProfiler: a containerized bioinformatics pipeline for viral metagenomic data analysis'
+- doi: 10.1038/s41467-018-05658-8
+  title: Maximal viral information recovery from sequence data using VirMAP
+source_repos:
+- https://github.com/oschakoory/RiboTaxa
+- https://github.com/putonti/virmine
+- https://github.com/deng-lab/viroprofiler
+- https://github.com/bbuchfink/diamond
+- https://github.com/cmmr/VirMAP
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/oschakoory/RiboTaxa

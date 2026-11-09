@@ -1,0 +1,17 @@
+name: WGSIM
+slug: wgsim
+version_used: null
+edam_topics: []
+evidence_spans:
+- All true local strains were used to generated 20X paired-end reads with WGSIM [28] as an input of LEMON.
+derived_from:
+- doi: 10.1186/s12859-019-3301-8
+  title: 'LEMON: a method to construct the local strains at horizontal gene transfer sites in gut metagenomics'
+source_repos:
+- https://github.com/lichen2018/LEMON
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/lichen2018/LEMON

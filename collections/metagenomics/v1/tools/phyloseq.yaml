@@ -1,0 +1,25 @@
+name: phyloseq
+slug: phyloseq
+version_used: null
+edam_topics: []
+evidence_spans:
+- using “estimate_richness” in the “phyloseq” package and “pd” function in the “picante” package.
+- we stored the all the final processed data that we used in our paper (Gu et al., 2023) in the above Data folder as ‘phyloseq’ format
+- in the above Data folder as ‘phyloseq’ format (see the file named ‘biom.Rdata’)
+- as ‘phyloseq’ format (see the file named ‘biom.Rdata’)
+- using “estimate_richness” in the “phyloseq” package
+- 'library(phyloseq) #bioconductor'
+derived_from:
+- doi: 10.1128/spectrum.05059-22
+  title: 'MiSurv: an Integrative Web Cloud Platform for User-Friendly Microbiome Data Analysis with Survival Responses'
+- doi: 10.1016/j.scib.2023.10.024
+  title: 'VTwins: inferring causative microbial features from metagenomic data of limited samples'
+source_repos:
+- https://github.com/wg99526/MiSurvGit
+- https://github.com/mengqingren/VTwins
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/wg99526/MiSurvGit

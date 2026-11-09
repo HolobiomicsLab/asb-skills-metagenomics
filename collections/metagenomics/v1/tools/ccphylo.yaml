@@ -1,0 +1,17 @@
+name: CCPhylo
+slug: ccphylo
+version_used: 0.8.3
+edam_topics: []
+evidence_spans:
+- Distances were also clustered using Dynamic Neighbor-Joining with CCPhylo 0.8.3
+derived_from:
+- doi: 10.1093/bioinformatics/btae086
+  title: ARGprofiler—a pipeline for large-scale analysis of antimicrobial resistance genes and their flanking regions in metagenomic datasets
+source_repos:
+- https://github.com/genomicepidemiology/ARGprofiler
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/genomicepidemiology/ARGprofiler

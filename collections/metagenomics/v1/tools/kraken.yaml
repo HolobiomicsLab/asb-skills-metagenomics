@@ -1,0 +1,26 @@
+name: Kraken
+slug: kraken
+version_used: '0.10'
+edam_topics: []
+evidence_spans:
+- used by Kaiju and Kraken. Only the first three columns are used.
+- Kraken (v0.10.4b) and Clark (v1.1.3) were run in their default modes using k=31 for highest precision
+- if a k-mer from a sequence has had its LCA value previously set, then the LCA of the stored value and the current sequence’s taxon is calculated and that LCA is stored for the k-mer.
+- Kraken is an ultrafast and highly accurate program for assigning taxonomic labels to metagenomic DNA sequences.
+derived_from:
+- doi: 10.1093/nargab/lqaa009
+  title: 'DeepMicrobes: taxonomic classification for metagenomics with deep learning'
+- doi: 10.1038/ncomms11257
+  title: Fast and sensitive taxonomic classification for metagenomics with Kaiju
+- doi: 10.1186/gb-2014-15-3-r46
+  title: 'Kraken: ultrafast metagenomic sequence classification using exact alignments'
+source_repos:
+- https://github.com/MicrobeLab/DeepMicrobes
+- https://github.com/bioinformatics-centre/kaiju
+- https://github.com/DerrickWood/kraken
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/MicrobeLab/DeepMicrobes

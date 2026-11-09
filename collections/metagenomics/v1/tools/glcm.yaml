@@ -1,0 +1,17 @@
+name: glcm
+slug: glcm
+version_used: null
+edam_topics: []
+evidence_spans:
+- 'Minimum required packages which need to be installed in addition are: rgeos, raster, rgdal, glcm'
+derived_from:
+- doi: 10.1038/s41467-019-12737-x
+  title: Radar vision in the mapping of forest biodiversity from space
+source_repos:
+- https://github.com/So-YeonBae/Sentinel1-Biodiversity
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/So-YeonBae/Sentinel1-Biodiversity

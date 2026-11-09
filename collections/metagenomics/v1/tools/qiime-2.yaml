@@ -1,0 +1,21 @@
+name: QIIME 2
+slug: qiime-2
+version_used: 2024.5.0
+edam_topics: []
+evidence_spans:
+- QIIME 2 version 2024.5.0 with the q2-feature-classifier sklearn naive Bayesian plugin
+- QIIME (QIIME 2) is a widely used tools to analyze 16S rRNA gene sequences using OTU binning method from microbial communities
+derived_from:
+- doi: 10.1093/bioadv/vbag166
+  title: 'DeepTaxa: a hybrid CNN-BERT framework for 16S rRNA taxonomic classification'
+- doi: 10.1186/s12859-020-03933-4
+  title: 'MegaR: an interactive R package for rapid sample classification and phenotype prediction using metagenome profiles and machine learning'
+source_repos:
+- https://github.com/systems-genomics-lab/deeptaxa
+- https://github.com/BioHPC/MegaR
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/systems-genomics-lab/deeptaxa

@@ -1,0 +1,24 @@
+name: freebayes
+slug: freebayes
+version_used: 1.0.2
+edam_topics: []
+evidence_spans:
+- 'three different variant callers were assessed: (1) freebayes14, (2) mpileup15 and (3) GATK Mutect216 (cancer only mode)'
+- SNV calls (FreeBayes on BWA-aligned Illumina; Long Ranger on 10x; assembly-based)
+derived_from:
+- doi: 10.1038/s41598-022-06625-6
+  title: Detecting SARS-CoV-2 lineages and mutational load in municipal wastewater and a use-case in the metropolitan area of Thessaloniki, Greece
+- doi: 10.1093/gigascience/giz141
+  title: Assessment of human diploid genome assembly with 10x Linked-Reads data
+- doi: 10.1093/nargab/lqac033
+  title: 'Nano2NGS-Muta: a framework for converting nanopore sequencing data to NGS-liked sequencing data for hotspot mutation detection'
+source_repos:
+- https://github.com/BiodataAnalysisGroup/lineagespot
+- https://github.com/zhanglu295/LRTK-SIM
+- https://github.com/langjidong/Nano2NGS
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/BiodataAnalysisGroup/lineagespot

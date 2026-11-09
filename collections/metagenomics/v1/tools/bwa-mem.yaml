@@ -1,0 +1,28 @@
+name: bwa mem
+slug: bwa-mem
+version_used: 0.7.17
+edam_topics: []
+evidence_spans:
+- '**bwa mem**: to align calls.fastq to the reference genome'
+- SNV calls (FreeBayes on BWA-aligned Illumina; Long Ranger on 10x; assembly-based)
+- with the bwa (mem) algorithm although other read
+derived_from:
+- doi: 10.1186/s12859-020-03586-3
+  title: Variable-order reference-free variant discovery with the Burrows-Wheeler Transform
+- doi: 10.1093/gigascience/giz141
+  title: Assessment of human diploid genome assembly with 10x Linked-Reads data
+- doi: 10.1093/nargab/lqac033
+  title: 'Nano2NGS-Muta: a framework for converting nanopore sequencing data to NGS-liked sequencing data for hotspot mutation detection'
+- doi: 10.1021/acs.est.5c03603
+  title: 'SourceApp: A Novel Metagenomic Source Tracking Tool that can Distinguish between Fecal Microbiomes Using Genome-To-Source Associations Benchmarked Against Mixed Input Spike-In Mesocosms'
+source_repos:
+- https://github.com/nicolaprezza/ebwt2InDel
+- https://github.com/zhanglu295/LRTK-SIM
+- https://github.com/langjidong/Nano2NGS
+- https://github.com/bglindner/SourceApp
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/nicolaprezza/ebwt2InDel

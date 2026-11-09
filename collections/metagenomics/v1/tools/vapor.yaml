@@ -1,0 +1,17 @@
+name: VaPoR
+slug: vapor
+version_used: null
+edam_topics: []
+evidence_spans:
+- validate assembly SV calls against PacBio CCS reads with VaPoR
+derived_from:
+- doi: 10.1093/gigascience/giz141
+  title: Assessment of human diploid genome assembly with 10x Linked-Reads data
+source_repos:
+- https://github.com/zhanglu295/LRTK-SIM
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/zhanglu295/LRTK-SIM

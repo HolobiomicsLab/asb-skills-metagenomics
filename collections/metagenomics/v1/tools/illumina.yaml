@@ -1,0 +1,22 @@
+name: Illumina
+slug: illumina
+version_used: null
+edam_topics: []
+evidence_spans:
+- Next-generation sequencing platforms, such as Illumina, are now adapted for the generation of multi-million-member sequence libraries for sample comparisons
+- we estimate this with the included quality information found in the Illumina reads
+- For each base, CASAVA provides an encoded quality score, which is the probability of the base being miscalled.
+derived_from:
+- doi: 10.1093/nar/gkr1067
+  title: Gene prediction with Glimmer for metagenomic sequences augmented by classification and clustering
+- doi: 10.1186/1471-2105-13-31
+  title: 'PANDAseq: paired-end assembler for illumina sequences'
+source_repos:
+- https://github.com/davek44/Glimmer-MG
+- https://github.com/neufeld/pandaseq
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/davek44/Glimmer-MG

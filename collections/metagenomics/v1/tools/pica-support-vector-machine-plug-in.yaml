@@ -1,0 +1,18 @@
+name: PICA support vector machine plug-in
+slug: pica-support-vector-machine-plug-in
+version_used: null
+edam_topics: []
+evidence_spans:
+- We have improved and extended PICA's support vector machine plug-in and suggest its applicability to large-scale genome databases and incomplete genome sequences.
+- We have improved and extended PICA's support vector machine plug-in
+derived_from:
+- doi: 10.1186/1471-2105-16-s14-s1
+  title: Prediction of microbial phenotypes based on comparative genomics
+source_repos:
+- https://github.com/univieCUBE/PICA
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/univieCUBE/PICA

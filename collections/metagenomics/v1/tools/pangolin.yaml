@@ -1,0 +1,19 @@
+name: Pangolin
+slug: pangolin
+version_used: null
+edam_topics: []
+evidence_spans:
+- the lineage definition (retrieved either as a Pangolin rule or through the outbreak.info definition)
+- lineagespot User Guide
+- '%\VignetteIndexEntry{lineagespot User Guide}'
+derived_from:
+- doi: 10.1038/s41598-022-06625-6
+  title: Detecting SARS-CoV-2 lineages and mutational load in municipal wastewater and a use-case in the metropolitan area of Thessaloniki, Greece
+source_repos:
+- https://github.com/BiodataAnalysisGroup/lineagespot
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/BiodataAnalysisGroup/lineagespot

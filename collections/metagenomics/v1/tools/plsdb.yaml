@@ -1,0 +1,17 @@
+name: PLSDB
+slug: plsdb
+version_used: '10.1093'
+edam_topics: []
+evidence_spans:
+- as a quick way to determine whether each assembled contig has any similar hits in [PLSDB](https://doi.org/10.1093/nar/gkab1111).
+derived_from:
+- doi: 10.1093/bioinformatics/btad409
+  title: 'Plassembler: an automated bacterial plasmid assembly tool'
+source_repos:
+- https://github.com/gbouras13/plassembler
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/gbouras13/plassembler

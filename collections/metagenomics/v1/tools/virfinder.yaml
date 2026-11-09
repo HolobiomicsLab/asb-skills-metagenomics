@@ -1,0 +1,18 @@
+name: VirFinder
+slug: virfinder
+version_used: null
+edam_topics: []
+evidence_spans:
+- '**VirFinder** (Ren et al., 2017) was the first machine learning approach tool'
+derived_from:
+- doi: 10.1128/msystems.00741-22
+  title: 'MetaPhage: an Automated Pipeline for Analyzing, Annotating, and Classifying Bacteriophages in Metagenomics Sequencing Data'
+source_repos:
+- https://github.com/jessieren/VirFinder
+- https://github.com/MattiaPandolfoVR/MetaPhage
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/jessieren/VirFinder

@@ -1,0 +1,18 @@
+name: CD-HIT-OTU-Miseq
+slug: cd-hit-otu-miseq
+version_used: null
+edam_topics: []
+evidence_spans:
+- Time benchmarking of DADA2, deblur, source CH-HIT-OUT-Miseq utilities and CDSnake on three mock community datasets and set of these datasets (All row)
+- The important feature of CD-HIT-OTU-MiSeq is that R1 reads of pairs are clustered together, separate form R2 reads
+derived_from:
+- doi: 10.1186/s12859-020-03591-6
+  title: 'CDSnake: Snakemake pipeline for retrieval of annotated OTUs from paired-end reads using CD-HIT utilities'
+source_repos:
+- https://github.com/ydkondratenko/cdsnake
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/ydkondratenko/cdsnake

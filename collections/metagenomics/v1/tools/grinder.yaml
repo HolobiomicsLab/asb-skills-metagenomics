@@ -1,0 +1,17 @@
+name: Grinder
+slug: grinder
+version_used: null
+edam_topics: []
+evidence_spans:
+- Rank-abundance plot of the low, medium and high richness in silico mock communities generated with Grinder.
+derived_from:
+- doi: 10.1186/2049-2618-2-11
+  title: 'CopyRighter: a rapid tool for improving the accuracy of microbial community profiles through lineage-specific gene copy number correction'
+source_repos:
+- https://github.com/fangly/AmpliCopyrighter
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/fangly/AmpliCopyrighter

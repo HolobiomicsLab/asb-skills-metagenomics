@@ -1,0 +1,17 @@
+name: MatrixEQTL
+slug: matrixeqtl
+version_used: null
+edam_topics: []
+evidence_spans:
+- A) linear regression analysis which uses core `MatrixeQTL` model.
+derived_from:
+- doi: 10.1093/bioinformatics/btad565
+  title: 'mbQTL: an R/Bioconductor package for microbial quantitative trait loci (QTL) estimation'
+source_repos:
+- https://github.com/Mercedeh66/mbQTL
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Mercedeh66/mbQTL

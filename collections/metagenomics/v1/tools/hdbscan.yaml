@@ -1,0 +1,17 @@
+name: HDBSCAN
+slug: hdbscan
+version_used: null
+edam_topics: []
+evidence_spans:
+- Use 0 to launch iDeLCUS + HDBSCAn to automatically find the number of clusters in fine-grained clustering.
+derived_from:
+- doi: 10.1093/bioinformatics/btad508
+  title: '<i>i</i>DeLUCS: a deep learning interactive tool for alignment-free clustering of DNA sequences'
+source_repos:
+- https://github.com/Kari-Genomics-Lab/iDeLUCS
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Kari-Genomics-Lab/iDeLUCS

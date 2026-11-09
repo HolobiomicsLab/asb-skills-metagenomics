@@ -1,0 +1,18 @@
+name: Karect
+slug: karect
+version_used: null
+edam_topics: []
+evidence_spans:
+- The default error correction tool in our pipeline is Karect [33].
+derived_from:
+- doi: 10.1186/s12859-019-2878-2
+  title: 'TAR-VIR: a pipeline for TARgeted VIRal strain reconstruction from metagenomic data'
+source_repos:
+- https://github.com/aminallam/karect
+- https://github.com/chjiao/TAR-VIR
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/aminallam/karect

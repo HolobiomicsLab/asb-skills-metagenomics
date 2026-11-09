@@ -1,0 +1,24 @@
+name: JELLYFISH
+slug: jellyfish
+version_used: null
+edam_topics: []
+evidence_spans:
+- we use the Jellyfish multithreaded k-mer counter [19] to create a database
+- the 4-byte spaces Jellyfish used to store the k-mer counts in the database file are instead used by Kraken
+derived_from:
+- doi: 10.1093/nar/gkx351
+  title: 'CAFE: aCcelerated Alignment-FrEe sequence analysis'
+- doi: 10.1093/nargab/lqaa009
+  title: 'DeepMicrobes: taxonomic classification for metagenomics with deep learning'
+- doi: 10.1186/gb-2014-15-3-r46
+  title: 'Kraken: ultrafast metagenomic sequence classification using exact alignments'
+source_repos:
+- https://github.com/younglululu/CAFE
+- https://github.com/MicrobeLab/DeepMicrobes
+- https://github.com/DerrickWood/kraken
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/younglululu/CAFE

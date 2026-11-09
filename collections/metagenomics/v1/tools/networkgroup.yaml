@@ -1,0 +1,17 @@
+name: NetworkGroup
+slug: networkgroup
+version_used: null
+edam_topics: []
+evidence_spans:
+- from micone import Network, NetworkGroup
+derived_from:
+- doi: 10.1128/msystems.00961-22
+  title: 'Inferring microbial co-occurrence networks from amplicon data: a systematic evaluation'
+source_repos:
+- https://github.com/segrelab/MiCoNE
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/segrelab/MiCoNE

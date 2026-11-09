@@ -1,0 +1,28 @@
+name: Usearch
+slug: usearch
+version_used: 11.0.667
+edam_topics: []
+evidence_spans:
+- All retrieved sequences were clustered using Usearch 11.0.667 (Edgar 2010) with the fastx_uniques algorithm to identify unique sequences
+- All retrieved sequences were clustered using Usearch 11.0.667 (Edgar 2010) with the fastx_uniques algorithm
+- SINTAX via USEARCH v11.0.667 with the Greengenes2 2024.09 FASTA formatted according to SINTAX requirements.
+derived_from:
+- doi: 10.1093/bioinformatics/btae086
+  title: ARGprofiler—a pipeline for large-scale analysis of antimicrobial resistance genes and their flanking regions in metagenomic datasets
+- doi: 10.1093/bioadv/vbag166
+  title: 'DeepTaxa: a hybrid CNN-BERT framework for 16S rRNA taxonomic classification'
+- doi: 10.1093/nargab/lqac070
+  title: 'RiboTaxa: combined approaches for rRNA genes taxonomic resolution down to the species level from metagenomics data revealing novelties'
+- doi: 10.1038/nature14486
+  title: Unusual biology across a group comprising more than 15% of domain Bacteria
+source_repos:
+- https://github.com/genomicepidemiology/ARGprofiler
+- https://github.com/systems-genomics-lab/deeptaxa
+- https://github.com/oschakoory/RiboTaxa
+- https://github.com/CK7/abawaca
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/genomicepidemiology/ARGprofiler

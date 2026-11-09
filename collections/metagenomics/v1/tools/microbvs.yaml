@@ -1,0 +1,21 @@
+name: MicroBVS
+slug: microbvs
+version_used: null
+edam_topics: []
+evidence_spans:
+- We present MicroBVS, an R package for Dirichlet-tree multinomial models with Bayesian variable selection
+- VignetteEngine{knitr::rmarkdown}
+- A Bayesian Joint Model for Mediation Effect Selection in Compositional Microbiome Data
+- 'Project name: MicroBVS Project home page: https://github.com/mkoslovsky/MicroBVS'
+- 'title: "BVSMed-vignette"'
+derived_from:
+- doi: 10.1186/s12859-020-03640-0
+  title: 'MicroBVS: Dirichlet-tree multinomial regression models with Bayesian variable selection - an R package'
+source_repos:
+- https://github.com/mkoslovsky/MicroBVS
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/mkoslovsky/MicroBVS

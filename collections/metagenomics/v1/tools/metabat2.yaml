@@ -1,0 +1,42 @@
+name: MetaBAT2
+slug: metabat2
+version_used: '2.15'
+edam_topics: []
+evidence_spans:
+- binned separately with MetaBAT2 (v2:2.15) [35] (--maxP 99 --minS 98 -m 1,500) to obtain MAGs
+- The obtained contigs were binned separately with MetaBAT2 (v2:2.15) [35] (--maxP 99 --minS 98 -m 1,500) to obtain MAGs
+- the provided contigs were binned separately with MetaBAT2 (v2:2.15) (--maxP 99 --minS 98 -m 1,500) to obtain MAGs
+- Binning is performed with MetaBAT2
+- discard contigs <500 bp, bin with Bowtie2+MetaBAT2, and assess bins with CheckM
+- binned contigs using MetaBAT2 (Kang, 2019), resulting in 155 genome bins
+- one of the main tasks in metagenomic data analysis is to reconstruct the individual genomes directly from the given mixture of metagenomic reads
+- MetaBAT2 is then used to bin the contigs into individual MAGs
+derived_from:
+- doi: 10.1093/bib/bbae680
+  title: 'kMetaShot: a fast and reliable taxonomy classifier for metagenome-assembled genomes'
+- doi: 10.1093/bioinformatics/btaf334
+  title: 'Mapler: a pipeline for assessing assembly quality in taxonomically rich metagenomes sequenced with HiFi reads'
+- doi: 10.1093/bioinformatics/btad020
+  title: Capturing variation in metagenomic assembly graphs with MetaCortex
+- doi: 10.1093/nar/gkab831
+  title: 'MetaPlatanus: a metagenome assembler that combines long-range sequence links and species-specific features'
+- doi: 10.1093/nargab/lqac007
+  title: 'nf-core/mag: a best-practice pipeline for metagenome hybrid assembly and binning'
+- doi: 10.1093/nar/gkac341
+  title: vRhyme enables binning of viral genomes from metagenomes
+- doi: 10.1016/j.compbiolchem.2022.107734
+  title: 'CH-Bin: A convex hull based approach for binning metagenomic contigs'
+source_repos:
+- https://github.com/gdefazio/kMetaShot
+- https://github.com/Nimauric/Mapler
+- https://github.com/SR-Martin/metacortex
+- https://github.com/rkajitani/MetaPlatanus
+- https://github.com/nf-core/mag
+- https://github.com/AnantharamanLab/vRhyme
+- https://github.com/kdsuneraavinash/CH-Bin
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/gdefazio/kMetaShot

@@ -1,0 +1,17 @@
+name: hmmbuild 3.1b2
+slug: hmmbuild-3-1b2
+version_used: null
+edam_topics: []
+evidence_spans:
+- '#alternative location and filename of DiSCo HMM library'
+derived_from:
+- doi: 10.1099/mgen.0.000603
+  title: 'DiSCo: a sequence-based type-specific predictor of Dsr-dependent dissimilatory sulphur metabolism in microbial data'
+source_repos:
+- https://github.com/Genome-Evolution-and-Ecology-Group-GEEG/DiSCo
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Genome-Evolution-and-Ecology-Group-GEEG/DiSCo

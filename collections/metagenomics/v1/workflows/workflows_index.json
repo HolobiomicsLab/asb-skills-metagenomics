@@ -1,0 +1,75 @@
+[
+  {
+    "slug": "assembly-mag-quality-taxonomy",
+    "name": "assembly-mag-quality-taxonomy-workflow",
+    "description": "Use when paired-end short-read metagenomes must be trimmed, assembled per sample, binned into MAGs, split by BUSCO quality, and assigned taxonomy with GTDB-Tk or the CAT/BAT fallback route.\n",
+    "techniques": [],
+    "stage_count": 5,
+    "stages": [
+      "clean_reads",
+      "assemble_contigs",
+      "bin_contigs",
+      "assess_mag_quality",
+      "classify_mags"
+    ],
+    "member_tools": [
+      "BBTools",
+      "FastQC",
+      "MultiQC",
+      "MEGAHIT",
+      "QUAST",
+      "SPAdes",
+      "hybridSPAdes",
+      "nf-test",
+      "CAMITAX",
+      "GTDBtk",
+      "MegaHIT v1.2.9",
+      "MetaBAT2",
+      "MetaBAT2 (v2:2.15)",
+      "Sickle",
+      "kMetaShot",
+      "metaSPAdes v3.15.2",
+      "BUSCO",
+      "CheckM2",
+      "GTDB-Tk",
+      "Nextflow"
+    ],
+    "coverage_gaps": [],
+    "bound_by": "perspicacite-semantic"
+  },
+  {
+    "slug": "read-taxonomic-functional-profiling",
+    "name": "read-taxonomic-functional-profiling-workflow",
+    "description": "Use when paired-end shotgun metagenomic reads require adapter trimming, host removal, a Kraken2 taxonomic profile, and a gene-length-normalized KEGG ortholog abundance profile from UniRef90 read mapping.\n",
+    "techniques": [],
+    "stage_count": 5,
+    "stages": [
+      "trim_and_qc",
+      "remove_host",
+      "build_taxonomic_profile",
+      "quantify_genes",
+      "aggregate_orthologs"
+    ],
+    "member_tools": [
+      "BBTools",
+      "FastQC",
+      "MultiQC",
+      "Bowtie 2",
+      "Conda",
+      "MetaLAFFA",
+      "CoverM",
+      "FEAST",
+      "Kraken2",
+      "Python",
+      "SourceApp",
+      "decOM",
+      "fastp",
+      "kmtricks",
+      "metaSourceTracker",
+      "DIAMOND",
+      "Snakemake"
+    ],
+    "coverage_gaps": [],
+    "bound_by": "perspicacite-semantic"
+  }
+]

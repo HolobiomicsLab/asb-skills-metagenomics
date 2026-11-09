@@ -1,0 +1,24 @@
+name: Streamlit
+slug: streamlit
+version_used: null
+edam_topics: []
+evidence_spans:
+- The interactive graphical web interface is built on the open-source framework Streamlit
+- The interactive graphical web interface is built on the open-source framework Streamlit (https://streamlit.io/).
+- Jupyter notebooks, and Streamlit web applications.
+- By default, the `streamlit_autorun` argument is set to False, but you can use it in case you want to automatically run the streamlit app.
+- Reports can be generated in various formats, including documents (PDF, HTML, DOCX, ODT), presentations (PPTX, Reveal.js), notebooks (Jupyter) or [Streamlit](streamlit) web applications.
+derived_from:
+- doi: 10.1016/j.csbj.2022.02.012
+  title: 'MOVIS: A multi-omics software solution for multi-modal time-series clustering, embedding, and visualizing tasks'
+- doi: 10.1093/bioadv/vbaf149
+  title: 'VueGen: automating the generation of scientific reports'
+source_repos:
+- https://github.com/AAnzel/MOVIS
+- https://github.com/Multiomics-Analytics-Group/vuegen
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/AAnzel/MOVIS

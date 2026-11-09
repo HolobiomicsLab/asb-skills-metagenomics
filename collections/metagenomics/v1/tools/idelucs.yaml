@@ -1,0 +1,21 @@
+name: iDeLUCS
+slug: idelucs
+version_used: null
+edam_topics: []
+evidence_spans:
+- We present an interactive Deep Learning-based software tool for Unsupervised Clustering of DNA Sequences (iDeLUCS)
+- idelucs --sequence_file=Example/Vertebrata.fas --GT_file=Example/Vertebrata_GT.tsv --n_epochs=35 --lambda=2.8 --k=6 --n_clusters=5 --n_mimics=3 --batch_sz=512
+- idelucs --sequence_file=Example/Vertebrata.fas --GT_file=Example/Vertebrata_GT.tsv --n_epochs=35 --lambda=2.8 --k=6 --n_clusters=5
+- idelucs --sequence_file=Example/Vertebrata.fas --GT_file=Example/Vertebrata_GT.tsv
+- idelucs --sequence_file=Example/Vertebrata.fas --GT_file=Example/Vertebrata_GT.tsv --n_epochs=35
+derived_from:
+- doi: 10.1093/bioinformatics/btad508
+  title: '<i>i</i>DeLUCS: a deep learning interactive tool for alignment-free clustering of DNA sequences'
+source_repos:
+- https://github.com/Kari-Genomics-Lab/iDeLUCS
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Kari-Genomics-Lab/iDeLUCS

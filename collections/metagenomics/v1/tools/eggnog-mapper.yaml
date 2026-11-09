@@ -1,0 +1,26 @@
+name: eggNOG-Mapper
+slug: eggnog-mapper
+version_used: null
+edam_topics: []
+evidence_spans:
+- the currently available version has parsers available for Roary, PPanGGOLiN, eggNOG-mapper (21), mmseqs2 (20) and anvi'o (22)
+- we recommend using EggNOG mapper (https://github.com/eggnogdb/eggnog-mapper)
+- functional gene annotations were performed using eggNOG19 mapper
+derived_from:
+- doi: 10.1016/j.csbj.2022.03.015
+  title: KEMET – A python tool for KEGG Module evaluation and microbial genome annotation expansion
+- doi: 10.1093/nargab/lqac060
+  title: 'mOTUpan: a robust Bayesian approach to leverage metagenome-assembled genomes for core-genome estimation'
+- doi: 10.1038/s41467-024-49958-8
+  title: MAGinator enables accurate profiling of de novo MAGs with strain-level phylogenies
+source_repos:
+- https://github.com/Matteopaluh/KEMET
+- https://github.com/moritzbuck/mOTUlizer
+- https://github.com/eggnogdb/eggnog-mapper
+- https://github.com/Russel88/MAGinator
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Matteopaluh/KEMET

@@ -1,0 +1,20 @@
+name: ggpicrust2
+slug: ggpicrust2
+version_used: null
+edam_topics: []
+evidence_spans:
+- ggpicrust2 is a comprehensive package designed to provide a seamless and intuitive solution for analyzing and interpreting the results of PICRUSt2 functional prediction
+- 'title: "Gene Set Enrichment Analysis with ggpicrust2"'
+- '*ggpicrust2* is a comprehensive package designed to provide a seamless and intuitive solution for analyzing and interpreting the results of PICRUSt2 functional prediction.'
+- We have developed ggpicrust2, an R package, for analyzing functional profiles derived from 16S rRNA sequencing.
+derived_from:
+- doi: 10.1093/bioinformatics/btad470
+  title: 'ggpicrust2: an R package for PICRUSt2 predicted functional profile analysis and visualization'
+source_repos:
+- https://github.com/cafferychen777/ggpicrust2
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/cafferychen777/ggpicrust2

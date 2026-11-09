@@ -1,0 +1,17 @@
+name: RK45
+slug: rk45
+version_used: null
+edam_topics: []
+evidence_spans:
+- using the Runge-Kutta 5(4) method of numerical integration as implemented in RK45 from Sci Py
+derived_from:
+- doi: 10.1016/j.cels.2020.05.006
+  title: Efficient and Accurate Inference of Mixed Microbial Population Trajectories from Longitudinal Count Data
+source_repos:
+- https://github.com/tyjo/luminate
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/tyjo/luminate

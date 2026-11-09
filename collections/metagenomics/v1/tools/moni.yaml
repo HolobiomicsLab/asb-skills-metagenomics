@@ -1,0 +1,20 @@
+name: MONI
+slug: moni
+version_used: null
+edam_topics: []
+evidence_spans:
+- using the MONI algorithm to calculate matching statistics (MSs) (Rossi et al., 2021)
+- using the MONI algorithm to calculate matching statistics (MSs)
+- SPUMONI or MONI tools in your research project
+derived_from:
+- doi: 10.1016/j.isci.2021.102696
+  title: Pan-genomic matching statistics for targeted nanopore sequencing
+source_repos:
+- https://github.com/maxrossi91/moni
+- https://github.com/oma219/spumoni
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/maxrossi91/moni

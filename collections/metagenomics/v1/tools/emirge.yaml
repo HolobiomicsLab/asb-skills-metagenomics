@@ -1,0 +1,16 @@
+name: EMIRGE
+slug: emirge
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1093/nargab/lqac070
+  title: 'RiboTaxa: combined approaches for rRNA genes taxonomic resolution down to the species level from metagenomics data revealing novelties'
+source_repos:
+- https://github.com/oschakoory/RiboTaxa
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/oschakoory/RiboTaxa

@@ -1,0 +1,20 @@
+name: minia
+slug: minia
+version_used: null
+edam_topics: []
+evidence_spans:
+- Minia is a short-read traditional assembler based on **De Bruijn graph using a single k-mer length**
+- Some assemblers still in use, such as ABySS, MetaHipmer2, minia, and VelvetOptimiser, perform relatively poorly
+derived_from:
+- doi: 10.1093/gigascience/giac122
+  title: 'LMAS: evaluating metagenomic short <i>de novo</i> assembly methods through defined communities'
+source_repos:
+- https://github.com/B-UMMI/LMAS
+- https://github.com/GATB/gatb-minia-pipeline
+- https://github.com/GATB/minia
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/B-UMMI/LMAS

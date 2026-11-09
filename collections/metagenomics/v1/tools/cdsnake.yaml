@@ -1,0 +1,20 @@
+name: CDSnake
+slug: cdsnake
+version_used: null
+edam_topics: []
+evidence_spans:
+- we created CDSnake – Snakemake pipeline utilizing CD-HIT tools for easier consecutive launch
+- CDSnake outputted less OTUs than DADA2 and deblur.
+- Time benchmarking of DADA2, deblur, source CH-HIT-OUT-Miseq utilities and CDSnake on three mock community datasets and set of these datasets (All row)
+- To solve this issue we created CDSnake – Snakemake pipeline utilizing CD-HIT tools for easier consecutive launch
+derived_from:
+- doi: 10.1186/s12859-020-03591-6
+  title: 'CDSnake: Snakemake pipeline for retrieval of annotated OTUs from paired-end reads using CD-HIT utilities'
+source_repos:
+- https://github.com/ydkondratenko/cdsnake
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/ydkondratenko/cdsnake

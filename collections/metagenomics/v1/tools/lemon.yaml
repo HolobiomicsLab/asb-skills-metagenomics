@@ -1,0 +1,23 @@
+name: LEMON
+slug: lemon
+version_used: null
+edam_topics: []
+evidence_spans:
+- The paired-end reads generated from these local strains with 10 different values (2X, 5X, 10X, 15X, 20X, 30X, 40X, 50X, 60X, and 70X) of depth were input of LEMON and LUMPY.
+- The method is implemented in a package named LEMON.
+- We use ΔRA=RALEMON−RALUMPY to measure the performance difference between LEMON and LUMPY.
+- LEMON(https://github.com/lichen2018/LEMON) takes use of existing shotgun NGS datasets
+- we apply Density-Based Spatial Clustering of Applications with Noise (DBSCAN) to find candidate HGT breakpoints
+- detect HGT breakpoints, identify the transferred segments, and reconstruct the local strain
+derived_from:
+- doi: 10.1186/s12859-019-3301-8
+  title: 'LEMON: a method to construct the local strains at horizontal gene transfer sites in gut metagenomics'
+source_repos:
+- https://github.com/lichen2018/LEMON
+- https://github.com/lichen2018/hgt-detection
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/lichen2018/LEMON

@@ -1,0 +1,29 @@
+name: ART
+slug: art
+version_used: null
+edam_topics: []
+evidence_spans:
+- Reads were simulated from the whole genome (including plasmids) using ART27.
+- All reads are simulated using ART [18], following the characteristics of the reads from the real data set
+- All reads are simulated using ART [18]
+- ART (tested with art/2016-06-05, optional, generate input for "reads" mode)
+derived_from:
+- doi: 10.1016/j.csbj.2022.07.010
+  title: 'FunOMIC: Pipeline with built-in fungal taxonomic and functional databases for human mycobiome profiling'
+- doi: 10.1038/ncomms11257
+  title: Fast and sensitive taxonomic classification for metagenomics with Kaiju
+- doi: 10.1186/s12859-019-3204-8
+  title: Deconvoluting the diversity of within-host pathogen strains in a multi-locus sequence typing framework
+- doi: 10.1093/bioinformatics/btad302
+  title: 'STEMSIM: a simulator of within-strain short-term evolutionary mutations for longitudinal metagenomic data'
+source_repos:
+- https://github.com/ManichanhLab/FunOMIC
+- https://github.com/bioinformatics-centre/kaiju
+- https://github.com/WGS-TB/MLST
+- https://github.com/BoyanZhou/STEMSim
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/ManichanhLab/FunOMIC

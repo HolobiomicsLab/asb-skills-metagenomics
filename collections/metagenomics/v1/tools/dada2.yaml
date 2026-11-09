@@ -1,0 +1,32 @@
+name: DADA2
+slug: dada2
+version_used: 81371.722149.592
+edam_topics: []
+evidence_spans:
+- QIIME2 - DADA2 and deblur
+- incorporated into popular workflow for microbiome analysis, QIIME2 - DADA2 and deblur
+- Time, secDADA2deblursource CD-HITCDSnakeHMP4614.81371.722149.592263.83
+- DADA2 iteratively divides reads into groups until each group is highly likely originates from central sequence, according to error model
+- DADA2 version 1.30 (via Bioconductor in R 4.3.3) using the assignTaxonomy function
+- DADA2 models error rate as a function of quality scores for each possible nucleotide transition
+- '| OTU assignment   | Dada2            | big_data            | "FALSE"     |'
+derived_from:
+- doi: 10.1186/s12859-020-03591-6
+  title: 'CDSnake: Snakemake pipeline for retrieval of annotated OTUs from paired-end reads using CD-HIT utilities'
+- doi: 10.1093/bioadv/vbag166
+  title: 'DeepTaxa: a hybrid CNN-BERT framework for 16S rRNA taxonomic classification'
+- doi: 10.1128/msystems.00697-21
+  title: "HashSeq: a Simple, Scalable, and Conservative\n            <i>De Novo</i>\n            Variant Caller for 16S rRNA Gene Data Sets"
+- doi: 10.1128/msystems.00961-22
+  title: 'Inferring microbial co-occurrence networks from amplicon data: a systematic evaluation'
+source_repos:
+- https://github.com/ydkondratenko/cdsnake
+- https://github.com/systems-genomics-lab/deeptaxa
+- https://github.com/FarnazFouladi/HashSeq
+- https://github.com/segrelab/MiCoNE
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/ydkondratenko/cdsnake

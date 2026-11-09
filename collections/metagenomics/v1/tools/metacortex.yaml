@@ -1,0 +1,21 @@
+name: MetaCortex
+slug: metacortex
+version_used: null
+edam_topics: []
+evidence_spans:
+- conda install -c bioconda metacortex
+- 'MetaCortex is then executed in two stages: Firstly, in parallel, to import each reads file, create a de Bruijn graph and output a CTX file.'
+- For Linux users, the easiest way to install MetaCortex is via Conda
+- make MAXK=63 metacortex
+derived_from:
+- doi: 10.1093/bioinformatics/btad020
+  title: Capturing variation in metagenomic assembly graphs with MetaCortex
+source_repos:
+- https://github.com/SR-Martin/metacortex
+- https://github.com/SR-Martin/metacortex.git
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/SR-Martin/metacortex

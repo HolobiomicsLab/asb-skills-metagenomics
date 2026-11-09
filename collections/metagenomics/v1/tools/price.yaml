@@ -1,0 +1,22 @@
+name: PRICE
+slug: price
+version_used: null
+edam_topics: []
+evidence_spans:
+- (absent — flagged as missing)
+- For metagenomes, metaSPAdes is used in-place-of SPAdes.
+- Other DBG-based metagenome assemblers include IDBA-UD [26], MetaVelvet [27], MetaVelvet-SL [28], MEGAHIT [29], MegaGTA [30], Ray Meta [31], PRICE [32], and Xander [33].
+derived_from:
+- doi: 10.1093/nargab/lqaa063
+  title: 'CasCollect: targeted assembly of CRISPR-associated operons from high-throughput sequencing data'
+- doi: 10.1186/s12859-021-04038-2
+  title: 'ContigExtender: a new approach to improving de novo sequence assembly for viral metagenomics data'
+source_repos:
+- https://github.com/sandialabs/CasCollect
+- https://github.com/dengzac/contig-extender
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/sandialabs/CasCollect

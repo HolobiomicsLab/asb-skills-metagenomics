@@ -1,0 +1,20 @@
+name: MIDAS
+slug: midas
+version_used: null
+edam_topics: []
+evidence_spans:
+- SynTracker outperformed MIDAS35 and StrainPhlAn36 and achieved a slightly better performance score than InStrain28 in terms of accuracy
+derived_from:
+- doi: 10.1038/s41587-020-00797-0
+  title: inStrain profiles population microdiversity from metagenomic data and sensitively detects shared microbial strains
+- doi: 10.1038/s41587-024-02276-2
+  title: Strain tracking in complex microbiomes using synteny analysis reveals per-species modes of evolution
+source_repos:
+- https://github.com/MrOlm/instrain
+- https://github.com/leylabmpi/SynTracker
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/MrOlm/instrain

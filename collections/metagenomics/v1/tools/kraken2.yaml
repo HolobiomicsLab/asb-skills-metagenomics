@@ -1,0 +1,53 @@
+name: Kraken2
+slug: kraken2
+version_used: 2.0.7
+edam_topics: []
+evidence_spans:
+- Bracken 2.8 (Lu et al. 2017) on Kraken2 (Wood et al. 2019) output
+- 'Taxonomic assignment of reads : done with kraken2'
+- In comparison to the established tools CLARK, Kraken2, and Kraken2+Bracken it is superior in terms of false-positive rate and quantification accuracy.
+- In comparison to the established tools CLARK, Kraken2, and Kraken2+Bracken
+- Kraken2 (v.2.0.7-beta), and Kraken2 with subsequent abundance estimation by Bracken v.2.0.0
+- Kraken2 with subsequent abundance estimation by Bracken v.2.0.0
+- Raw reads cleanup and profiling with [Kraken2](https://ccb.jhu.edu/software/kraken2/)
+- Raw reads cleanup and profiling with Kraken2
+- nf-core/mag processes short-read, long-read, and hybrid data, and not every tool is valid for every read type
+- Preprocessed short reads are classified using Kraken2 or Centrifuge
+- profiles were generated using Kraken2 with default settings for both mesocosm and fecal slurry metagenomes
+- Taxonomic profiles were generated using Kraken2 with default settings for both mesocosm and fecal slurry metagenomes.
+derived_from:
+- doi: 10.1093/bioinformatics/btae086
+  title: ARGprofiler—a pipeline for large-scale analysis of antimicrobial resistance genes and their flanking regions in metagenomic datasets
+- doi: 10.1093/bioinformatics/btaf334
+  title: 'Mapler: a pipeline for assessing assembly quality in taxonomically rich metagenomes sequenced with HiFi reads'
+- doi: 10.1186/s12859-020-3429-6
+  title: A big data approach to metagenomics for all-food-sequencing
+- doi: 10.1128/msystems.00741-22
+  title: 'MetaPhage: an Automated Pipeline for Analyzing, Annotating, and Classifying Bacteriophages in Metagenomics Sequencing Data'
+- doi: 10.1093/nargab/lqac007
+  title: 'nf-core/mag: a best-practice pipeline for metagenome hybrid assembly and binning'
+- doi: 10.1016/j.medmic.2020.100011
+  title: 'nf-rnaSeqMetagen: A nextflow metagenomics pipeline for identifying and characterizing microbial sequences from RNA-seq data'
+- doi: 10.1093/nargab/lqac070
+  title: 'RiboTaxa: combined approaches for rRNA genes taxonomic resolution down to the species level from metagenomics data revealing novelties'
+- doi: 10.1080/19490976.2023.2192522
+  title: 'ViroProfiler: a containerized bioinformatics pipeline for viral metagenomic data analysis'
+- doi: 10.1021/acs.est.5c03603
+  title: 'SourceApp: A Novel Metagenomic Source Tracking Tool that can Distinguish between Fecal Microbiomes Using Genome-To-Source Associations Benchmarked Against Mixed Input Spike-In Mesocosms'
+source_repos:
+- https://github.com/genomicepidemiology/ARGprofiler
+- https://github.com/DerrickWood/kraken2
+- https://github.com/Nimauric/Mapler
+- https://github.com/jmabuin/MetaCacheSpark
+- https://github.com/MattiaPandolfoVR/MetaPhage
+- https://github.com/nf-core/mag
+- https://github.com/phelelani/nf-rnaSeqMetagen
+- https://github.com/oschakoory/RiboTaxa
+- https://github.com/deng-lab/viroprofiler
+- https://github.com/bglindner/SourceApp
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/genomicepidemiology/ARGprofiler

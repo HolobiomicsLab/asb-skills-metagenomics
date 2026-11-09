@@ -1,0 +1,20 @@
+name: iMKT
+slug: imkt
+version_used: null
+edam_topics: []
+evidence_spans:
+- iMKT is a free resource online, open to all users without login requirement at https://imkt.uab.cat
+- Here we present iMKT (acronym for integrative McDonald and Kreitman test), a web-based service performing the four MKT types described in Appendix 1 and Figure 1.
+- Here we present iMKT (acronym for integrative McDonald and Kreitman test), a novel web-based service performing four distinct MKT types.
+derived_from:
+- doi: 10.1093/nar/gkz372
+  title: 'iMKT: the integrative McDonald and Kreitman test'
+source_repos:
+- https://github.com/BGD-UAB/iMKT
+- https://github.com/BGD-UAB/iMKTData
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/BGD-UAB/iMKT

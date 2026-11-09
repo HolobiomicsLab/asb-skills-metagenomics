@@ -1,0 +1,23 @@
+name: Flye
+slug: flye
+version_used: '2.9'
+edam_topics: []
+evidence_spans:
+- with Flye and Raven
+- '| 8       | Plassembler with Flye  | 1563                       | 531                     | 4852'
+- '* [Flye](https://github.com/fenderglass/Flye) >=2.9'
+- '`plassembler` uses Flye (Kolmogorov et al 2019) or optionally Raven (Vaser and Šikić 2021) to create an initial long-read only assembly.'
+derived_from:
+- doi: 10.1093/bioinformatics/btad409
+  title: 'Plassembler: an automated bacterial plasmid assembly tool'
+source_repos:
+- https://github.com/fenderglass/Flye
+- https://github.com/mikolmogorov/Flye
+- https://github.com/mikolomogorov/Flye
+- https://github.com/gbouras13/plassembler
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/fenderglass/Flye

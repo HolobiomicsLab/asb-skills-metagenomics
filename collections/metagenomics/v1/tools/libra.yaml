@@ -1,0 +1,20 @@
+name: Libra
+slug: libra
+version_used: null
+edam_topics: []
+evidence_spans:
+- 'Scoring Options - s : scoring algorithm. COSINESIMILARITY (default) | BRAYCURTIS | JENSENSHANNON'
+- 's : scoring algorithm. COSINESIMILARITY (default) | BRAYCURTIS | JENSENSHANNON'
+- We developed a tool called Libra that performs an all-vs-all comparison of metagenomes for precise clustering based on their k-mer content.
+- HM -o /score_dir /index_dir
+derived_from:
+- doi: 10.1093/gigascience/giy165
+  title: 'Libra: scalable <i>k-</i>mer–based tool for massive all-vs-all metagenome comparisons'
+source_repos:
+- https://github.com/iychoi/libra
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/iychoi/libra

@@ -1,0 +1,72 @@
+name: SPAdes
+slug: spades
+version_used: 3.15.5
+edam_topics: []
+evidence_spans:
+- ARGextender recursively applies KMA 1.4.12a (Clausen et al. 2018) and SPAdes 3.15.5
+- followed by a de novo assembly of the reads matching the target(s) using SPAdes
+- The assembly function employs the SPAdes assembler (23) using the subset of reads from the seed and expansion steps
+- CasCollect dependencies are ... SPAdes 3.14.1 (http://cab.spbu.ru/software/spades/)
+- the popular assembler SPAdes and its variant, metaSPAdes, specially designed for metagenomic applications
+- Once you have made your changes, run the pipeline with nf-test to test them locally.
+- de novo assembled using MEGAHIT or SPAdes
+- We used the assembler SPAdes v.3.15.3 (Nurk et al. 2013), with a K-mer size of 33
+- We used SPAdes v.3.15.3 to generate the de novo assembly, using a K-mer size of 55.
+- which implements short read assembly using SPAdes (Bankevich et al. 2012).
+- A non-exhaustive selection of state-of-the-art approaches encompasses IDBA-UD (6), SPAdes (7), Minia3 (8) and MEGAHIT (9).
+- existing assembly tools such as SPAdes [18] are employed to the virus-like reads to produce the final assembly results
+- existing assembly tools such as SPAdes [18] are employed to the virus-like reads
+- and SPAdes v.3.15.3 (5)
+- These updates include Python v.3.9, BBMap v.38.94 ... and SPAdes v.3.15.3
+- SPAdes assembled larger contigs on average (the best N50, N90 and auN
+- assemblers like Megahit and the SPAdes variants
+derived_from:
+- doi: 10.1093/bioinformatics/btae086
+  title: ARGprofiler—a pipeline for large-scale analysis of antimicrobial resistance genes and their flanking regions in metagenomic datasets
+- doi: 10.1093/nargab/lqaa063
+  title: 'CasCollect: targeted assembly of CRISPR-associated operons from high-throughput sequencing data'
+- doi: 10.1186/s12859-021-04038-2
+  title: 'ContigExtender: a new approach to improving de novo sequence assembly for viral metagenomics data'
+- doi: 10.1016/j.csbj.2022.07.010
+  title: 'FunOMIC: Pipeline with built-in fungal taxonomic and functional databases for human mycobiome profiling'
+- doi: 10.1093/nar/gkab831
+  title: 'MetaPlatanus: a metagenome assembler that combines long-range sequence links and species-specific features'
+- doi: 10.1093/nargab/lqac007
+  title: 'nf-core/mag: a best-practice pipeline for metagenome hybrid assembly and binning'
+- doi: 10.1093/gbe/evad227
+  title: 'Patchwork: Alignment-Based Retrieval and Concatenation of Phylogenetic Markers from Genomic Data'
+- doi: 10.1093/nar/gkx1321
+  title: 'PlasFlow: predicting plasmid sequences in metagenomic data using genome signatures'
+- doi: 10.1093/bioinformatics/btad409
+  title: 'Plassembler: an automated bacterial plasmid assembly tool'
+- doi: 10.1093/nar/gkac543
+  title: 'StrainXpress: strain aware metagenome assembly from short reads'
+- doi: 10.1186/s12859-019-2878-2
+  title: 'TAR-VIR: a pipeline for TARgeted VIRal strain reconstruction from metagenomic data'
+- doi: 10.1128/mra.00107-22
+  title: 'virMine 2.0: Identifying Viral Sequences in Microbial Communities'
+- doi: 10.1093/nar/gkad406
+  title: 'WebQUAST: online evaluation of genome assemblies'
+- doi: 10.1038/s41592-019-0437-4
+  title: Protein-level assembly increases protein sequence recovery from metagenomic samples manyfold
+source_repos:
+- https://github.com/genomicepidemiology/ARGprofiler
+- https://github.com/sandialabs/CasCollect
+- https://github.com/dengzac/contig-extender
+- https://github.com/ManichanhLab/FunOMIC
+- https://github.com/rkajitani/MetaPlatanus
+- https://github.com/nf-core/mag
+- https://github.com/fethalen/Patchwork
+- https://github.com/smaegol/PlasFlow
+- https://github.com/gbouras13/plassembler
+- https://github.com/HaploKit/StrainXpress
+- https://github.com/chjiao/TAR-VIR
+- https://github.com/putonti/virmine
+- https://github.com/ablab/quast
+- https://github.com/soedinglab/plass
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/genomicepidemiology/ARGprofiler

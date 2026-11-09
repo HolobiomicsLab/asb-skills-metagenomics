@@ -1,0 +1,20 @@
+name: CLARK-S
+slug: clark-s
+version_used: null
+edam_topics: []
+evidence_spans:
+- CLARK-S [5] is the new version of CLARK that uses spaced seeds1 and achieves higher sensitivity with the same high precision.
+derived_from:
+- doi: 10.1093/nargab/lqaa009
+  title: 'DeepMicrobes: taxonomic classification for metagenomics with deep learning'
+- doi: 10.1186/s12859-020-03628-w
+  title: Metagenomic analysis through the extended Burrows-Wheeler transform
+source_repos:
+- https://github.com/MicrobeLab/DeepMicrobes
+- https://github.com/veronicaguerrini/LiME
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/MicrobeLab/DeepMicrobes

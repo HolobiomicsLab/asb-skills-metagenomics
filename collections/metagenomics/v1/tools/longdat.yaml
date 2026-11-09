@@ -1,0 +1,19 @@
+name: LongDat
+slug: longdat
+version_used: null
+edam_topics: []
+evidence_spans:
+- We introduce LongDat, an R package that analyzes longitudinal multivariable (cohort) data
+- We introduce LongDat, an R package that analyzes longitudinal multivariable (cohort) data while simultaneously accounting for a potentially large number of covariates.
+- Longitudinal analysis pipeline with longdat_cont()
+derived_from:
+- doi: 10.1093/bioadv/vbad063
+  title: 'LongDat: an R package for covariate-sensitive longitudinal analysis of high-dimensional data'
+source_repos:
+- https://github.com/CCY-dev/LongDat
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/CCY-dev/LongDat

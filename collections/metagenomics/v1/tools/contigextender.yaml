@@ -1,0 +1,20 @@
+name: ContigExtender
+slug: contigextender
+version_used: null
+edam_topics: []
+evidence_spans:
+- ContigExtender employs a novel recursive Overlap Layout Candidates (r-OLC) strategy
+- This parameter is passed to PRINSEQ's DUST complexity filter, is run on the reads.
+- ContigExtender employs a novel recursive Overlap Layout Candidates (r-OLC) strategy that explores multiple extending paths to achieve longer and highly accurate contigs
+- ContigExtender, was developed to extend contigs, complementing de novo assembly
+derived_from:
+- doi: 10.1186/s12859-021-04038-2
+  title: 'ContigExtender: a new approach to improving de novo sequence assembly for viral metagenomics data'
+source_repos:
+- https://github.com/dengzac/contig-extender
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/dengzac/contig-extender

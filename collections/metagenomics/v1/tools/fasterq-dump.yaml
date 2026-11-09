@@ -1,0 +1,18 @@
+name: fasterq-dump
+slug: fasterq-dump
+version_used: null
+edam_topics: []
+evidence_spans:
+- fasterq-dump -t /dev/shm -e 4 -O /home/$USER/VirmapTest SRR9875293
+- '`fasterq-dump -t /dev/shm -e 4 -O /home/$USER/VirmapTest SRR9875293`'
+derived_from:
+- doi: 10.1038/s41467-018-05658-8
+  title: Maximal viral information recovery from sequence data using VirMAP
+source_repos:
+- https://github.com/cmmr/VirMAP
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/cmmr/VirMAP

@@ -1,0 +1,19 @@
+name: DiSCo
+slug: disco
+version_used: null
+edam_topics: []
+evidence_spans:
+- We developed DiSCo, a Dsr-dependent dissimilatory sulphur metabolism classification tool, which automatically identifies and classifies the protein type from sequence data.
+- 'perl DiSCo.pl -i example.faa  #runs DiSCo with default settings'
+- We developed DiSCo, a Dsr-dependent dissimilatory sulphur metabolism classification tool
+derived_from:
+- doi: 10.1099/mgen.0.000603
+  title: 'DiSCo: a sequence-based type-specific predictor of Dsr-dependent dissimilatory sulphur metabolism in microbial data'
+source_repos:
+- https://github.com/Genome-Evolution-and-Ecology-Group-GEEG/DiSCo
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Genome-Evolution-and-Ecology-Group-GEEG/DiSCo

@@ -1,0 +1,21 @@
+name: PICRUSt2
+slug: picrust2
+version_used: null
+edam_topics: []
+evidence_spans:
+- Among them, PICRUSt2 (Phylogenetic Investigation of Communities by Reconstruction of Unobserved States) has become one of the most popular functional profile prediction tools
+- PICRUSt2 (Phylogenetic Investigation of Communities by Reconstruction of Unobserved States) has become one of the most popular functional profile prediction tools
+derived_from:
+- doi: 10.1093/bioinformatics/btad470
+  title: 'ggpicrust2: an R package for PICRUSt2 predicted functional profile analysis and visualization'
+- doi: 10.1038/s41587-020-0548-6
+  title: PICRUSt2 for prediction of metagenome functions
+source_repos:
+- https://github.com/cafferychen777/ggpicrust2
+- https://github.com/picrust/picrust2
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/cafferychen777/ggpicrust2

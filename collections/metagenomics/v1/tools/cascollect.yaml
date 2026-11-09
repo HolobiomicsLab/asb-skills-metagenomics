@@ -1,0 +1,20 @@
+name: CasCollect
+slug: cascollect
+version_used: null
+edam_topics: []
+evidence_spans:
+- CasCollect identifies short DNA sequencing reads that match HMM profiles for cas protein genes
+- we developed CasCollect. CasCollect identifies short DNA sequencing reads that match HMM profiles for cas protein genes
+- We report a comprehensive computational pipeline, CasCollect, for the targeted assembly and annotation of cas genes and CRISPR arrays
+- CasCollect was written as a python wrapper for various selectable modules that encompass additional programs pipelined together
+derived_from:
+- doi: 10.1093/nargab/lqaa063
+  title: 'CasCollect: targeted assembly of CRISPR-associated operons from high-throughput sequencing data'
+source_repos:
+- https://github.com/sandialabs/CasCollect
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/sandialabs/CasCollect

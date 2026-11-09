@@ -1,0 +1,88 @@
+{
+  "workflows": {
+    "assembly_mag_quality_taxonomy": {
+      "workflow_id": "assembly_mag_quality_taxonomy",
+      "prefer": [
+        {
+          "stage": "clean_reads",
+          "pin": "metagenomic-read-quality-control--333f0c268bb84080",
+          "status": "resolved",
+          "resolved_slug": "metagenomic-read-quality-control--333f0c268bb84080"
+        },
+        {
+          "stage": "assemble_contigs",
+          "pin": "metagenome-de-novo-assembly",
+          "status": "resolved",
+          "resolved_slug": "metagenome-de-novo-assembly"
+        },
+        {
+          "stage": "bin_contigs",
+          "pin": "metabat2-contig-binning",
+          "status": "resolved",
+          "resolved_slug": "metabat2-contig-binning"
+        },
+        {
+          "stage": "assess_mag_quality",
+          "pin": "metagenome-binning-quality-assessment",
+          "status": "resolved",
+          "resolved_slug": "metagenome-binning-quality-assessment"
+        },
+        {
+          "stage": "classify_mags",
+          "pin": "gtdbtk-genome-taxonomy-assignment",
+          "status": "resolved",
+          "resolved_slug": "gtdbtk-genome-taxonomy-assignment"
+        }
+      ],
+      "avoid": [],
+      "summary": {
+        "prefer_total": 5,
+        "prefer_resolved": 5,
+        "avoid_total": 0,
+        "avoid_resolved": 0
+      }
+    },
+    "read_taxonomic_functional_profiling": {
+      "workflow_id": "read_taxonomic_functional_profiling",
+      "prefer": [
+        {
+          "stage": "trim_and_qc",
+          "pin": "metagenomic-read-quality-control--333f0c268bb84080",
+          "status": "resolved",
+          "resolved_slug": "metagenomic-read-quality-control--333f0c268bb84080"
+        },
+        {
+          "stage": "remove_host",
+          "pin": "host-read-filtering",
+          "status": "resolved",
+          "resolved_slug": "host-read-filtering"
+        },
+        {
+          "stage": "build_taxonomic_profile",
+          "pin": "metagenomic-taxonomic-profiling",
+          "status": "resolved",
+          "resolved_slug": "metagenomic-taxonomic-profiling"
+        },
+        {
+          "stage": "quantify_genes",
+          "pin": "metagenomic-read-gene-annotation",
+          "status": "resolved",
+          "resolved_slug": "metagenomic-read-gene-annotation"
+        },
+        {
+          "stage": "aggregate_orthologs",
+          "pin": "kegg-orthology-annotation",
+          "status": "resolved",
+          "resolved_slug": "kegg-orthology-annotation"
+        }
+      ],
+      "avoid": [],
+      "summary": {
+        "prefer_total": 5,
+        "prefer_resolved": 5,
+        "avoid_total": 0,
+        "avoid_resolved": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,16 @@
+name: APE R library
+slug: ape-r-library
+version_used: '2.8'
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1038/nbt.2676
+  title: Predictive functional profiling of microbial communities using 16S rRNA marker gene sequences
+source_repos:
+- https://github.com/picrust/picrust
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/picrust/picrust

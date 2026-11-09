@@ -1,0 +1,17 @@
+name: GCC
+slug: gcc
+version_used: null
+edam_topics: []
+evidence_spans:
+- MetaCortex can be installed by compiling the source code with GCC
+derived_from:
+- doi: 10.1093/bioinformatics/btad020
+  title: Capturing variation in metagenomic assembly graphs with MetaCortex
+source_repos:
+- https://github.com/SR-Martin/metacortex
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/SR-Martin/metacortex

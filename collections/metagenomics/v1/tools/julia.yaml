@@ -1,0 +1,24 @@
+name: Julia
+slug: julia
+version_used: 1.8.2
+edam_topics: []
+evidence_spans:
+- Patchwork v.0.5.1 was continuously run using Julia v.1.8.2 and DIAMOND v.2.0.13
+- Patchwork is implemented in Julia (Bezanson et al. 2017), a just-in-time (JIT)–compiled programming language
+- We ran the uncompiled program using Julia v.1.8.2 as well as the compiled version on each data set in order to perform runtime comparisons.
+- Patchwork v.0.5.1 was continuously run using Julia v.1.8.2
+- Patchwork is implemented in Julia (Bezanson et al. 2017)
+derived_from:
+- doi: 10.1093/gbe/evad227
+  title: 'Patchwork: Alignment-Based Retrieval and Concatenation of Phylogenetic Markers from Genomic Data'
+- doi: 10.1016/j.cels.2019.08.002
+  title: Rapid Inference of Direct Interactions in Large-Scale Ecological Networks from Heterogeneous Microbial Sequencing Data
+source_repos:
+- https://github.com/fethalen/Patchwork
+- https://github.com/meringlab/FlashWeave.jl
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/fethalen/Patchwork

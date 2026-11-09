@@ -1,0 +1,17 @@
+name: Unoise2
+slug: unoise2
+version_used: null
+edam_topics: []
+evidence_spans:
+- Unoise2 uses two parameters that are preset values and are used for filtering low-abundance sequencing
+derived_from:
+- doi: 10.1128/msystems.00697-21
+  title: "HashSeq: a Simple, Scalable, and Conservative\n            <i>De Novo</i>\n            Variant Caller for 16S rRNA Gene Data Sets"
+source_repos:
+- https://github.com/FarnazFouladi/HashSeq
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/FarnazFouladi/HashSeq

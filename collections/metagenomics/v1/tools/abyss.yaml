@@ -1,0 +1,23 @@
+name: ABySS
+slug: abyss
+version_used: '4.8'
+edam_topics: []
+evidence_spans:
+- a *de novo* sequence assembler intended for short paired-end reads and genomes of all sizes
+- Some assemblers still in use, such as ABySS, MetaHipmer2, minia, and VelvetOptimiser, perform relatively poorly
+- ABySS produced the largest (4.8 Mb versus 4.6 Mb) but also the most fragmented assembly (176 contigs versus 90–95 for Velvet, SPAdes and MEGAHIT)
+derived_from:
+- doi: 10.1093/gigascience/giac122
+  title: 'LMAS: evaluating metagenomic short <i>de novo</i> assembly methods through defined communities'
+- doi: 10.1093/nar/gkad406
+  title: 'WebQUAST: online evaluation of genome assemblies'
+source_repos:
+- https://github.com/BirolLab/abyss
+- https://github.com/B-UMMI/LMAS
+- https://github.com/ablab/quast
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/BirolLab/abyss

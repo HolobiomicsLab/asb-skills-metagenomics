@@ -1,0 +1,44 @@
+name: fastp
+slug: fastp
+version_used: 0.23.2
+edam_topics: []
+evidence_spans:
+- we decided to compare the performance of fastp 0.23.2 with the combination of FASTQC and BBduk
+- new and faster tools have appeared, such as the widely adopted tool fastp (Chen 2023)
+- quality less than `--mean_quality` (default is `15`)
+- 'fastp: an ultra-fast all-in-one FASTQ preprocessor'
+- fastp is used for adapter and quality trimming
+- '* [fastp](https://github.com/OpenGene/fastp) >=0.24.2'
+- Short-read paired-end FASTQs are filtered and trimmed using fastp (Chen et al. 2018).
+- sequencing reads were quality-controlled by fastp (version 0.20.1) (26) as a multifunctional FASTQ data preprocessing toolkit.
+- the sequences were quality checked using fastp to remove leftover adapter sequences and low-quality reads
+derived_from:
+- doi: 10.1093/bioinformatics/btae086
+  title: ARGprofiler—a pipeline for large-scale analysis of antimicrobial resistance genes and their flanking regions in metagenomic datasets
+- doi: 10.1128/msystems.00741-22
+  title: 'MetaPhage: an Automated Pipeline for Analyzing, Annotating, and Classifying Bacteriophages in Metagenomics Sequencing Data'
+- doi: 10.1093/nargab/lqac007
+  title: 'nf-core/mag: a best-practice pipeline for metagenome hybrid assembly and binning'
+- doi: 10.1093/bioinformatics/btad409
+  title: 'Plassembler: an automated bacterial plasmid assembly tool'
+- doi: 10.1093/nar/gkac543
+  title: 'StrainXpress: strain aware metagenome assembly from short reads'
+- doi: 10.1080/19490976.2023.2192522
+  title: 'ViroProfiler: a containerized bioinformatics pipeline for viral metagenomic data analysis'
+- doi: 10.1021/acs.est.5c03603
+  title: 'SourceApp: A Novel Metagenomic Source Tracking Tool that can Distinguish between Fecal Microbiomes Using Genome-To-Source Associations Benchmarked Against Mixed Input Spike-In Mesocosms'
+source_repos:
+- https://github.com/OpenGene/fastp
+- https://github.com/genomicepidemiology/ARGprofiler
+- https://github.com/MattiaPandolfoVR/MetaPhage
+- https://github.com/nf-core/mag
+- https://github.com/gbouras13/plassembler
+- https://github.com/HaploKit/StrainXpress
+- https://github.com/deng-lab/viroprofiler
+- https://github.com/bglindner/SourceApp
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/OpenGene/fastp

@@ -1,0 +1,17 @@
+name: NextPolish
+slug: nextpolish
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1093/nar/gkab831
+  title: 'MetaPlatanus: a metagenome assembler that combines long-range sequence links and species-specific features'
+source_repos:
+- https://github.com/Nextomics/NextPolish
+- https://github.com/rkajitani/MetaPlatanus
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Nextomics/NextPolish

@@ -1,0 +1,17 @@
+name: ete3
+slug: ete3
+version_used: 3.1.3
+edam_topics: []
+evidence_spans:
+- for this purpose, Python module ete3 (v 3.1.3) (Huerta-Cepas et al. 2016), is used.
+derived_from:
+- doi: 10.1093/molbev/msae057
+  title: 'scalepopgen: Bioinformatic Workflow Resources Implemented in Nextflow for Comprehensive Population Genomic Analyses'
+source_repos:
+- https://github.com/Popgen48/scalepopgen
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Popgen48/scalepopgen

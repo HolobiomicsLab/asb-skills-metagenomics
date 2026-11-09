@@ -1,0 +1,17 @@
+name: EMPANADA
+slug: empanada
+version_used: null
+edam_topics: []
+evidence_spans:
+- By default, MetaLAFFA uses EMPANADA (Manor and Borenstein 2017) when aggregating orthology groups
+derived_from:
+- doi: 10.1186/s12859-020-03815-9
+  title: 'MetaLAFFA: a flexible, end-to-end, distributed computing-compatible metagenomic functional annotation pipeline'
+source_repos:
+- https://github.com/borenstein-lab/MetaLAFFA
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/borenstein-lab/MetaLAFFA

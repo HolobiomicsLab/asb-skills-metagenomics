@@ -1,0 +1,32 @@
+name: DEseq2
+slug: deseq2
+version_used: null
+edam_topics: []
+evidence_spans:
+- DEseq2 (Love et al. 2014)
+- such as DESeq2 [20] and Seurat [21, 22] for bulk and single-cell RNA-seq analysis and visualization
+- new applications we have developed that wrap around popular analysis packages, such as DESeq2 [20]
+- the results are downloaded, aggregated into summary files, and then analyzed using R and DESeq2
+- aggregated into summary files, and then analyzed using R and DESeq2
+- R's DESeq2 package is used to test the output files for differential expression
+derived_from:
+- doi: 10.1093/bioinformatics/btad470
+  title: 'ggpicrust2: an R package for PICRUSt2 predicted functional profile analysis and visualization'
+- doi: 10.1186/s12859-020-03577-4
+  title: 'NASQAR: a web-based platform for high-throughput sequencing data analysis and visualization'
+- doi: 10.1093/nar/gkx1321
+  title: 'PlasFlow: predicting plasmid sequences in metagenomic data using genome signatures'
+- doi: 10.1186/s12859-016-1270-8
+  title: 'SAMSA: a comprehensive metatranscriptome analysis pipeline'
+source_repos:
+- https://github.com/cafferychen777/ggpicrust2
+- https://github.com/nasqar/deseq2shiny
+- https://github.com/nasqar/NASQAR
+- https://github.com/smaegol/PlasFlow
+- https://github.com/transcript/SAMSA
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/cafferychen777/ggpicrust2

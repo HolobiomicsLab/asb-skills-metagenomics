@@ -1,0 +1,57 @@
+name: BWA
+slug: bwa
+version_used: 0.7.15
+edam_topics: []
+evidence_spans:
+- We also mapped the four human and cat samples to their respective host genomes using BWA
+- we utilize BWA[20] to align reads against the references to identify the set of donors and receptors
+- Firstly, we map paired-end shotgun reads against reference genomes using Burrows Wheeler Aligner (BWA).
+- we map paired-end shotgun reads against reference genomes using Burrows Wheeler Aligner (BWA)
+- the AFS pipeline relies on applying a read alignment tool (such as BWA [7–9], Bowtie2 [10], or CUSHAW [11]) for each considered reference genome
+- Fast and accurate short read alignment with Burrows-Wheeler transform
+- alignment tools such as bwa or bowtie2
+- shotgun metagenomic sequencing reads are aligned to a database of microbial reference genomes using BWA-MEM (Li 2013)
+- the simulated reads were aligned with both Bowtie2 [25] and BWA [26]
+- the simulated reads were aligned with both Bowtie2 [25] and BWA [26].
+- bwa mem -5SP final.contigs.fa hic_read1.fastq.gz hic_read2.fastq.gz > MAP.sam
+- Read mapping was accomplished with the bwa (mem) algorithm although other read mapping algorithms were also tested.
+derived_from:
+- doi: 10.1038/ncomms11257
+  title: Fast and sensitive taxonomic classification for metagenomics with Kaiju
+- doi: 10.1186/s12859-019-3301-8
+  title: 'LEMON: a method to construct the local strains at horizontal gene transfer sites in gut metagenomics'
+- doi: 10.1186/s12859-020-3429-6
+  title: A big data approach to metagenomics for all-food-sequencing
+- doi: 10.1093/nar/gkab831
+  title: 'MetaPlatanus: a metagenome assembler that combines long-range sequence links and species-specific features'
+- doi: 10.1093/bioadv/vbae030
+  title: 'MetaQuad: shared informative variants discovery in metagenomic samples'
+- doi: 10.1093/nar/gkx1321
+  title: 'PlasFlow: predicting plasmid sequences in metagenomic data using genome signatures'
+- doi: 10.1186/s12859-019-2878-2
+  title: 'TAR-VIR: a pipeline for TARgeted VIRal strain reconstruction from metagenomic data'
+- doi: 10.1038/s41467-023-35945-y
+  title: ViralCC retrieves complete viral genomes and virus-host pairs from metagenomic Hi-C data
+- doi: 10.1093/nar/gkac341
+  title: vRhyme enables binning of viral genomes from metagenomes
+- doi: 10.1021/acs.est.5c03603
+  title: 'SourceApp: A Novel Metagenomic Source Tracking Tool that can Distinguish between Fecal Microbiomes Using Genome-To-Source Associations Benchmarked Against Mixed Input Spike-In Mesocosms'
+source_repos:
+- https://github.com/bioinformatics-centre/kaiju
+- https://github.com/lichen2018/LEMON
+- https://github.com/jmabuin/MetaCacheSpark
+- https://github.com/rkajitani/MetaPlatanus
+- https://github.com/holab-hku/MetaQuad.git
+- https://github.com/holab-hku/MetaQuad
+- https://github.com/smaegol/PlasFlow
+- https://github.com/chjiao/TAR-VIR
+- https://github.com/dyxstat/ViralCC
+- https://github.com/lh3/bwa
+- https://github.com/AnantharamanLab/vRhyme
+- https://github.com/bglindner/SourceApp
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/bioinformatics-centre/kaiju

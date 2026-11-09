@@ -1,0 +1,16 @@
+name: DeepMicrobes
+slug: deepmicrobes
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1093/nargab/lqaa009
+  title: 'DeepMicrobes: taxonomic classification for metagenomics with deep learning'
+source_repos:
+- https://github.com/MicrobeLab/DeepMicrobes
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/MicrobeLab/DeepMicrobes

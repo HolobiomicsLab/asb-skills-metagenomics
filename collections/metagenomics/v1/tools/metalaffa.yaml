@@ -1,0 +1,22 @@
+name: MetaLAFFA
+slug: metalaffa
+version_used: null
+edam_topics: []
+evidence_spans:
+- Default reference databases can be downloaded and prepared for MetaLAFFA using the `prepare_databases.py` script.
+- '`quality_filter`: 40G of RAM for Trimmomatic'
+- 'map_reads_to_genes: 220G of RAM and 22 cores for DIAMOND run with `--block_size 36` and `--index_chunks 1`'
+- Here we introduce MetaLAFFA, a functional annotation pipeline designed to take unfiltered shotgun metagenomic data as input and generate functional profiles
+- Once the hits are filtered, MetaLAFFA counts gene abundances based on the number of reads that map to each gene in the sequence database.
+- MetaLAFFA is a new end-to-end metagenomic functional annotation pipeline
+derived_from:
+- doi: 10.1186/s12859-020-03815-9
+  title: 'MetaLAFFA: a flexible, end-to-end, distributed computing-compatible metagenomic functional annotation pipeline'
+source_repos:
+- https://github.com/borenstein-lab/MetaLAFFA
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/borenstein-lab/MetaLAFFA

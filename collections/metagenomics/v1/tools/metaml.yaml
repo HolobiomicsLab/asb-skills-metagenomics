@@ -1,0 +1,17 @@
+name: MetAML
+slug: metaml
+version_used: null
+edam_topics: []
+evidence_spans:
+- We also provide benchmark results of MegaR against MetAML using the data sets provided by MetAML
+derived_from:
+- doi: 10.1186/s12859-020-03933-4
+  title: 'MegaR: an interactive R package for rapid sample classification and phenotype prediction using metagenome profiles and machine learning'
+source_repos:
+- https://github.com/BioHPC/MegaR
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/BioHPC/MegaR

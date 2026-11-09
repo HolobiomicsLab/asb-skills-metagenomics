@@ -1,0 +1,17 @@
+name: caret
+slug: caret
+version_used: null
+edam_topics: []
+evidence_spans:
+- MegaR also uses shiny, shinythemes; randomForest; stringr; caret, plyr; ggplot2; RColorBrewer, DT.
+derived_from:
+- doi: 10.1186/s12859-020-03933-4
+  title: 'MegaR: an interactive R package for rapid sample classification and phenotype prediction using metagenome profiles and machine learning'
+source_repos:
+- https://github.com/BioHPC/MegaR
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/BioHPC/MegaR

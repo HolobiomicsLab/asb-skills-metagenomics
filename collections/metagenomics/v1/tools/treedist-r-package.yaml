@@ -1,0 +1,17 @@
+name: TreeDist R package
+slug: treedist-r-package
+version_used: null
+edam_topics: []
+evidence_spans:
+- calculating the Information-based generalized RFDs using the ‘TreeDist’ R package52
+derived_from:
+- doi: 10.1038/s41587-024-02276-2
+  title: Strain tracking in complex microbiomes using synteny analysis reveals per-species modes of evolution
+source_repos:
+- https://github.com/leylabmpi/SynTracker
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/leylabmpi/SynTracker

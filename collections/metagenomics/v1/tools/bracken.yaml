@@ -1,0 +1,28 @@
+name: Bracken
+slug: bracken
+version_used: '2.8'
+edam_topics: []
+evidence_spans:
+- we tested mOTUs 3.0.3 (Ruscheweyh et al. 2022), MetaPhlAn 4.0.3 (Blanco-Míguez et al. 2023), Bracken 2.8 (Lu et al. 2017) on Kraken2 (Wood et al. 2019) output, and KMA 1.4.7
+- 'Bracken: estimating species abundance in metagenomics data'
+- Kraken & Bracken database  | 2.1 GB | VMGC_prokaryote_SGB_KrakenDB.tar.gz
+derived_from:
+- doi: 10.1093/bioinformatics/btae086
+  title: ARGprofiler—a pipeline for large-scale analysis of antimicrobial resistance genes and their flanking regions in metagenomic datasets
+- doi: 10.1186/s12859-020-3429-6
+  title: A big data approach to metagenomics for all-food-sequencing
+- doi: 10.1080/19490976.2023.2192522
+  title: 'ViroProfiler: a containerized bioinformatics pipeline for viral metagenomic data analysis'
+- doi: 10.1038/s41564-024-01751-5
+  title: A multi-kingdom collection of 33,804 reference genomes for the human vaginal microbiome
+source_repos:
+- https://github.com/genomicepidemiology/ARGprofiler
+- https://github.com/jmabuin/MetaCacheSpark
+- https://github.com/deng-lab/viroprofiler
+- https://github.com/RChGO/VMGC
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/genomicepidemiology/ARGprofiler

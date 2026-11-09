@@ -1,0 +1,21 @@
+name: SynTracker
+slug: syntracker
+version_used: null
+edam_topics: []
+evidence_spans:
+- We introduce SynTracker, a tool that compares microbial strains using genome synteny-the order of sequence blocks in homologous genomic regions-in pairs of metagenomic assemblies or genomes.
+- python syntracker.py [-h/--help] [-target target_directory_path]
+- python syntracker.py -target Sample_Data/Input_example/Target_genomes/
+- "python syntracker.py [-h/--help] [-target target_directory_path] \n                     [-ref ref_directory_path] [-out output_directory_path]"
+- 'Download SynTrakcer''s latest release from: https://github.com/leylabmpi/SynTracker/releases.'
+derived_from:
+- doi: 10.1038/s41587-024-02276-2
+  title: Strain tracking in complex microbiomes using synteny analysis reveals per-species modes of evolution
+source_repos:
+- https://github.com/leylabmpi/SynTracker
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/leylabmpi/SynTracker

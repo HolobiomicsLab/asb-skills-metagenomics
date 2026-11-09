@@ -1,0 +1,54 @@
+name: FASTQC
+slug: fastqc
+version_used: 0.11.5
+edam_topics: []
+evidence_spans:
+- Historically, FASTQC (Andrews 2010) has been used for quality checking and BBduk (Bushnell 2014) to remove adaptors
+- using graphic reports of fastqc or use other method of quality accession
+- After a quality check with FastQC [58] and trimming with Sickle [59] (-q 32 -l 50)
+- After a quality check with FastQC and trimming with Sickle
+- fastqc_report.html
+- FastQC (https://github.com/s-andrews/FastQC), used to assess read quality and generate a comprehensive report.
+- FastQC for quality control (QC) on the raw and preprocessed reads
+- FastQC ... gives general quality metrics about your sequenced reads
+- check the reads with FastQC
+- We checked the reads with FastQC and trimmed low-quality ends with Trimmomatic
+derived_from:
+- doi: 10.1093/bioinformatics/btae086
+  title: ARGprofiler—a pipeline for large-scale analysis of antimicrobial resistance genes and their flanking regions in metagenomic datasets
+- doi: 10.1093/nargab/lqaa107
+  title: 'CAMAMED: a pipeline for composition-aware mapping-based analysis of metagenomic data'
+- doi: 10.1186/s12859-020-03591-6
+  title: 'CDSnake: Snakemake pipeline for retrieval of annotated OTUs from paired-end reads using CD-HIT utilities'
+- doi: 10.1093/bib/bbae680
+  title: 'kMetaShot: a fast and reliable taxonomy classifier for metagenome-assembled genomes'
+- doi: 10.1093/bioinformatics/btaf334
+  title: 'Mapler: a pipeline for assessing assembly quality in taxonomically rich metagenomes sequenced with HiFi reads'
+- doi: 10.1093/nargab/lqac007
+  title: 'nf-core/mag: a best-practice pipeline for metagenome hybrid assembly and binning'
+- doi: 10.1093/nargab/lqac070
+  title: 'RiboTaxa: combined approaches for rRNA genes taxonomic resolution down to the species level from metagenomics data revealing novelties'
+- doi: 10.1093/molbev/msae057
+  title: 'scalepopgen: Bioinformatic Workflow Resources Implemented in Nextflow for Comprehensive Population Genomic Analyses'
+- doi: 10.1080/19490976.2023.2192522
+  title: 'ViroProfiler: a containerized bioinformatics pipeline for viral metagenomic data analysis'
+- doi: 10.1093/nar/gkad406
+  title: 'WebQUAST: online evaluation of genome assemblies'
+source_repos:
+- https://github.com/genomicepidemiology/ARGprofiler
+- https://github.com/mhnb/camamed
+- https://github.com/ydkondratenko/cdsnake
+- https://github.com/gdefazio/kMetaShot
+- https://github.com/s-andrews/FastQC
+- https://github.com/Nimauric/Mapler
+- https://github.com/nf-core/mag
+- https://github.com/oschakoory/RiboTaxa
+- https://github.com/Popgen48/scalepopgen
+- https://github.com/deng-lab/viroprofiler
+- https://github.com/ablab/quast
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/genomicepidemiology/ARGprofiler

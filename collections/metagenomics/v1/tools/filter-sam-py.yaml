@@ -1,0 +1,17 @@
+name: filter_sam.py
+slug: filter-sam-py
+version_used: null
+edam_topics: []
+evidence_spans:
+- The second script, _filter_sam.py_, filters .sam alignments based on a coverage threshhold
+derived_from:
+- doi: 10.1128/msystems.00758-22
+  title: 'Zebra: Static and Dynamic Genome Cover Thresholds with Overlapping References'
+source_repos:
+- https://github.com/biocore/zebra_filter
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/biocore/zebra_filter

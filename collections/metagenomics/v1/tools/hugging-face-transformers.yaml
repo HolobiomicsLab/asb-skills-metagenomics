@@ -1,0 +1,17 @@
+name: Hugging Face Transformers
+slug: hugging-face-transformers
+version_used: null
+edam_topics: []
+evidence_spans:
+- DeepTaxa is written in PyTorch, uses Hugging Face Transformers, and supports GPU mixed precision for training and inference.
+derived_from:
+- doi: 10.1093/bioadv/vbag166
+  title: 'DeepTaxa: a hybrid CNN-BERT framework for 16S rRNA taxonomic classification'
+source_repos:
+- https://github.com/systems-genomics-lab/deeptaxa
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/systems-genomics-lab/deeptaxa

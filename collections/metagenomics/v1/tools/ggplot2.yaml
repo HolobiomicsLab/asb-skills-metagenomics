@@ -1,0 +1,29 @@
+name: ggplot2
+slug: ggplot2
+version_used: null
+edam_topics: []
+evidence_spans:
+- Figures were made with the ggplot2 package28 in the R statistical software29.
+- library(ggplot2)
+- "mvtnorm \nggplot2\ndevtools"
+- '''readr'',''dplyr'',''ggplot2'',''ISOweek'''
+derived_from:
+- doi: 10.1038/ncomms11257
+  title: Fast and sensitive taxonomic classification for metagenomics with Kaiju
+- doi: 10.1186/s12859-019-2744-2
+  title: 'metamicrobiomeR: an R package for analysis of microbiome relative abundance data using zero-inflated beta GAMLSS and meta-analysis across studies using random effects models'
+- doi: 10.1186/s12859-020-03640-0
+  title: 'MicroBVS: Dirichlet-tree multinomial regression models with Bayesian variable selection - an R package'
+- doi: 10.1093/bioadv/vbac040
+  title: 'CATHAI: cluster analysis tool for healthcare-associated infections'
+source_repos:
+- https://github.com/bioinformatics-centre/kaiju
+- https://github.com/nhanhocu/metamicrobiomeR
+- https://github.com/mkoslovsky/MicroBVS
+- https://github.com/FordeGenomics/cathai
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/bioinformatics-centre/kaiju

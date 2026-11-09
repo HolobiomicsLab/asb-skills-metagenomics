@@ -1,0 +1,23 @@
+name: PEAR
+slug: pear
+version_used: null
+edam_topics: []
+evidence_spans:
+- 'PEAR: a fast and accurate Illumina paired-end reAd mergeR'
+- PEAR, if using paired-end data (recommended)
+- 'PEAR, if using paired-end data (recommended): https://sco.h-its.org/exelixis/web/software/pear/'
+- PEAR is a fast and efficient paired-read merger [11] that can be installed as a precompiled binary.
+derived_from:
+- doi: 10.1186/s12859-020-03591-6
+  title: 'CDSnake: Snakemake pipeline for retrieval of annotated OTUs from paired-end reads using CD-HIT utilities'
+- doi: 10.1186/s12859-018-2189-z
+  title: 'SAMSA2: a standalone metatranscriptome analysis pipeline'
+source_repos:
+- https://github.com/ydkondratenko/cdsnake
+- https://github.com/transcript/samsa2
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/ydkondratenko/cdsnake

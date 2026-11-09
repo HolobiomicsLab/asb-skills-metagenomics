@@ -1,0 +1,17 @@
+name: Simka
+slug: simka
+version_used: null
+edam_topics: []
+evidence_spans:
+- Recently, Simka [15] was developed to compute a distance matrix between metagenomes
+derived_from:
+- doi: 10.1093/gigascience/giy165
+  title: 'Libra: scalable <i>k-</i>mer–based tool for massive all-vs-all metagenome comparisons'
+source_repos:
+- https://github.com/iychoi/libra
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/iychoi/libra

@@ -1,0 +1,13 @@
+{
+  "workflow": "assembly_mag_quality_taxonomy",
+  "passes": [
+    "V1",
+    "V2",
+    "V3",
+    "V4",
+    "V5",
+    "V6"
+  ],
+  "findings": [],
+  "verdict": "pass"
+}

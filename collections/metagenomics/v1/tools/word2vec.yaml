@@ -1,0 +1,17 @@
+name: Word2Vec
+slug: word2vec
+version_used: null
+edam_topics: []
+evidence_spans:
+- One of the central algorithms is the Word2Vec algorithm [19], [20] used to embed archived FASTA files into 100-dimensional vectors.
+derived_from:
+- doi: 10.1016/j.csbj.2022.02.012
+  title: 'MOVIS: A multi-omics software solution for multi-modal time-series clustering, embedding, and visualizing tasks'
+source_repos:
+- https://github.com/AAnzel/MOVIS
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/AAnzel/MOVIS

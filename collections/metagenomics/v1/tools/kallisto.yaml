@@ -1,0 +1,17 @@
+name: Kallisto
+slug: kallisto
+version_used: null
+edam_topics: []
+evidence_spans:
+- we compared our results with the results obtained with Kallisto [20], a recent method for isoform abundance estimation
+derived_from:
+- doi: 10.1186/s12859-019-3204-8
+  title: Deconvoluting the diversity of within-host pathogen strains in a multi-locus sequence typing framework
+source_repos:
+- https://github.com/WGS-TB/MLST
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/WGS-TB/MLST

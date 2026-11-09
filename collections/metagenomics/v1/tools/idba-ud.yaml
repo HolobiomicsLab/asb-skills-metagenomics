@@ -1,0 +1,24 @@
+name: IDBA-UD
+slug: idba-ud
+version_used: '1.0'
+edam_topics: []
+evidence_spans:
+- A non-exhaustive selection of state-of-the-art approaches encompasses IDBA-UD (6), SPAdes (7), Minia3 (8) and MEGAHIT (9).
+- using IDBA-UD v1.0 with k value range 20-100
+derived_from:
+- doi: 10.1093/nar/gkab831
+  title: 'MetaPlatanus: a metagenome assembler that combines long-range sequence links and species-specific features'
+- doi: 10.1093/nar/gkac543
+  title: 'StrainXpress: strain aware metagenome assembly from short reads'
+- doi: 10.1038/s41467-020-14677-3
+  title: A comprehensive non-redundant gene catalog reveals extensive within-community intraspecies diversity in the human vagina
+source_repos:
+- https://github.com/rkajitani/MetaPlatanus
+- https://github.com/HaploKit/StrainXpress
+- https://github.com/ravel-lab/VIRGO
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/rkajitani/MetaPlatanus

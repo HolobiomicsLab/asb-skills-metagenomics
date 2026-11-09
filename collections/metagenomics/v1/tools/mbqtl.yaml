@@ -1,0 +1,19 @@
+name: mbQTL
+slug: mbqtl
+version_used: null
+edam_topics: []
+evidence_spans:
+- library(mbQTL)
+- 'package: mbQTL'
+- '`mbQTL` is a statistical package for identifying significant taxa (microbial), snp (genotype) relationships across large sample sets.'
+derived_from:
+- doi: 10.1093/bioinformatics/btad565
+  title: 'mbQTL: an R/Bioconductor package for microbial quantitative trait loci (QTL) estimation'
+source_repos:
+- https://github.com/Mercedeh66/mbQTL
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Mercedeh66/mbQTL

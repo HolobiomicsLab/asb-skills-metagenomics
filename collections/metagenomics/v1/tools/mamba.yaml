@@ -1,0 +1,22 @@
+name: mamba
+slug: mamba
+version_used: null
+edam_topics: []
+evidence_spans:
+- with the much faster [mamba](https://anaconda.org/conda-forge/mamba) drop-in replacement if you have it
+- mamba install -c bioconda -c conda-forge -c cvdelannoy baseless
+- All you need for running MAGinator is snakemake and mamba.
+derived_from:
+- doi: 10.1093/bioadv/vbad017
+  title: 'baseLess: lightweight detection of sequences in raw MinION data'
+- doi: 10.1038/s41467-024-49958-8
+  title: MAGinator enables accurate profiling of de novo MAGs with strain-level phylogenies
+source_repos:
+- https://github.com/cvdelannoy/baseLess
+- https://github.com/Russel88/MAGinator
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/cvdelannoy/baseLess

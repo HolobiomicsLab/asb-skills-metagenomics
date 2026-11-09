@@ -1,0 +1,20 @@
+name: DeepTaxa
+slug: deeptaxa
+version_used: null
+edam_topics: []
+evidence_spans:
+- DeepTaxa and the four established tools were evaluated on the same 69,335 full-length 16S rRNA test sequences
+- DeepTaxa is a DL tool that performs multi-rank taxonomic classification of 16S rRNA sequences across the seven Linnean ranks within a single model.
+- We present DeepTaxa, a hybrid CNN-BERT framework that pairs a multiscale CNN with a transformer trained from scratch on the DNABERT-2 BPE vocabulary
+- We present DeepTaxa, a hybrid CNN-BERT framework that pairs a multiscale CNN with a transformer
+derived_from:
+- doi: 10.1093/bioadv/vbag166
+  title: 'DeepTaxa: a hybrid CNN-BERT framework for 16S rRNA taxonomic classification'
+source_repos:
+- https://github.com/systems-genomics-lab/deeptaxa
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/systems-genomics-lab/deeptaxa

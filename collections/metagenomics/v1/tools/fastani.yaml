@@ -1,0 +1,22 @@
+name: fastANI
+slug: fastani
+version_used: null
+edam_topics: []
+evidence_spans:
+- needs [`fastANI`](https://github.com/ParBLiSS/FastANI) in the `PATH`
+- Genome-wide clustering of prokaryotic genomes at 95% nucleotide similarity to define 786 species-level genome bins
+derived_from:
+- doi: 10.1093/nargab/lqac060
+  title: 'mOTUpan: a robust Bayesian approach to leverage metagenome-assembled genomes for core-genome estimation'
+- doi: 10.1038/s41564-024-01751-5
+  title: A multi-kingdom collection of 33,804 reference genomes for the human vaginal microbiome
+source_repos:
+- https://github.com/ParBLiSS/FastANI
+- https://github.com/moritzbuck/mOTUlizer
+- https://github.com/RChGO/VMGC
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/ParBLiSS/FastANI

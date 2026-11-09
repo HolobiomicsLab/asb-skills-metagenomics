@@ -1,0 +1,28 @@
+name: BBTools
+slug: bbtools
+version_used: null
+edam_topics: []
+evidence_spans:
+- executing the two BBTools programs (https://jgi.doe.gov/data-and-tools/bbtools/) bbduk and bbmerge
+- Value for minimum contig length, in basepairs.
+- Adaptor sequences are removed by `bbduk` from the `BBTools` suite
+derived_from:
+- doi: 10.1093/nargab/lqaa063
+  title: 'CasCollect: targeted assembly of CRISPR-associated operons from high-throughput sequencing data'
+- doi: 10.1093/gigascience/giac122
+  title: 'LMAS: evaluating metagenomic short <i>de novo</i> assembly methods through defined communities'
+- doi: 10.1093/nargab/lqac070
+  title: 'RiboTaxa: combined approaches for rRNA genes taxonomic resolution down to the species level from metagenomics data revealing novelties'
+- doi: 10.1038/s41467-023-35945-y
+  title: ViralCC retrieves complete viral genomes and virus-host pairs from metagenomic Hi-C data
+source_repos:
+- https://github.com/sandialabs/CasCollect
+- https://github.com/B-UMMI/LMAS
+- https://github.com/oschakoory/RiboTaxa
+- https://github.com/dyxstat/ViralCC
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/sandialabs/CasCollect
