@@ -1,6 +1,6 @@
 {
   "schema": "asbb-release-gate/1.1",
-  "generated_at": "2026-11-10T15:38:59.408180+00:00",
+  "generated_at": "2026-11-10T16:44:21.554104+00:00",
   "collection_dir": "collections/metagenomics/v1",
   "corpus_path": "collections/metagenomics/v1/corpus.yaml",
   "mode": "strict",
@@ -54,7 +54,7 @@
   },
   "binding": {
     "payload": {
-      "sha256": "3f1203d25a3d472cdd6ef44b742ecb8dc1a5c273343a4761a0b13b6c11a75c66",
+      "sha256": "c86d9ddcf65f46c7e32ca2da4b28773cde7d6331c68ad00daf8bceef0b0337ef",
       "entries": [
         {
           "path": ".claude-plugin",
@@ -81,8 +81,8 @@
         },
         {
           "path": "bin/search_skills.py",
-          "bytes": 25695,
-          "sha256": "63048acfbe6a5ef80cb881dbf53350e9d1125e3e0da8a39d87499eb0cf159661"
+          "bytes": 24610,
+          "sha256": "9d5c78655c4d447338d92380b3bc98c2b573da4d6bdff0b0f8c1928441f08367"
         },
         {
           "path": "collection.yaml",
@@ -28950,5 +28950,5 @@
       "coverage": {}
     }
   ],
-  "receipt_sha256": "bd23871a591c93330e714e579ce57f072a327c5b8ae8662ceae55c9baa04376e"
+  "receipt_sha256": "761f69d7aa12200fee97e6cd08edfacb5cc11eb3c0c73315704ec4e6db886dbe"
 }
