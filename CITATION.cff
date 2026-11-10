@@ -47,5 +47,8 @@ references:
   license: Apache-2.0
 identifiers:
 - type: doi
+  value: 10.5281/zenodo.24093086
+  description: Zenodo concept DOI of the metagenomics lineage (all versions)
+- type: doi
   value: 10.5281/zenodo.24093087
   description: Zenodo version DOI of v1 (2026-11-09)
