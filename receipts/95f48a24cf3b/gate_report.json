@@ -1,6 +1,6 @@
 {
   "schema": "asbb-release-gate/1.1",
-  "generated_at": "2026-11-10T13:40:35.747930+00:00",
+  "generated_at": "2026-11-10T15:38:59.408180+00:00",
   "collection_dir": "collections/metagenomics/v1",
   "corpus_path": "collections/metagenomics/v1/corpus.yaml",
   "mode": "strict",
@@ -54,7 +54,7 @@
   },
   "binding": {
     "payload": {
-      "sha256": "ba91b2a4e88a12357a59c6921c6c29e673abace460886d47bbb29ea79a1a9899",
+      "sha256": "3f1203d25a3d472cdd6ef44b742ecb8dc1a5c273343a4761a0b13b6c11a75c66",
       "entries": [
         {
           "path": ".claude-plugin",
@@ -68,7 +68,7 @@
         {
           "path": ".zenodo.json",
           "bytes": 2560,
-          "sha256": "cf069d6a820e828ddb4e42f9ee852015ef4cbbd5f2ea167202bb7c30835f7373"
+          "sha256": "0f63e28ddc9d1a9e7dac815220415d10514b845fbe4a6fb452da2174778ed7e5"
         },
         {
           "path": "CITATION.cff",
@@ -81,13 +81,13 @@
         },
         {
           "path": "bin/search_skills.py",
-          "bytes": 23077,
-          "sha256": "040142e31018bc9b6d5997a25a2b00d7efad11440cbdb726fd28c5fb23487f26"
+          "bytes": 25695,
+          "sha256": "63048acfbe6a5ef80cb881dbf53350e9d1125e3e0da8a39d87499eb0cf159661"
         },
         {
           "path": "collection.yaml",
-          "bytes": 125767,
-          "sha256": "e434e452306502e8f18b0329749f6c4e32e9a2a3442287963a3fab762fedbf44"
+          "bytes": 125766,
+          "sha256": "d383daca27f336bf1e7f9e8d62d16e58096c837794532cfdb75a575e076eaf96"
         },
         {
           "path": "corpus.yaml",
@@ -24904,8 +24904,8 @@
         },
         {
           "path": "skills/_router/SKILL.md",
-          "bytes": 2261,
-          "sha256": "307b1ee4f105fe6b8a98a71d6b5725fb4d29ba7ccaf80a8bc0ae9aeab4b12f8b"
+          "bytes": 3053,
+          "sha256": "ae4cefae77e93c7808db450cb26ddddae0afbe0c71341ea3bd0b53b09740c5dc"
         },
         {
           "path": "skills_index.json",
@@ -28516,8 +28516,8 @@
         },
         {
           "path": "workflows/_workflow_router/SKILL.md",
-          "bytes": 3368,
-          "sha256": "3a79709f38af5942b213bd077561d657da5eff0b5316831842d0bd0cf22ea90e"
+          "bytes": 3468,
+          "sha256": "9d286d181e07c6b7ecbbb186cef22900c2b1a28b71e13285bc9af7d9576fe54e"
         },
         {
           "path": "workflows/assembly-mag-quality-taxonomy",
@@ -28950,5 +28950,5 @@
       "coverage": {}
     }
   ],
-  "receipt_sha256": "82c86ecccb420a6e63a28e001705987f0a58e9385f4799e42eb341757c64300f"
+  "receipt_sha256": "bd23871a591c93330e714e579ce57f072a327c5b8ae8662ceae55c9baa04376e"
 }
