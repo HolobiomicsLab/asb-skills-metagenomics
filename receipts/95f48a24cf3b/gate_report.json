@@ -1,11 +1,11 @@
 {
   "schema": "asbb-release-gate/1.1",
-  "generated_at": "2026-10-31T16:46:38.915655+00:00",
+  "generated_at": "2026-11-10T10:45:42.480916+00:00",
   "collection_dir": "collections/metagenomics/v1",
   "corpus_path": "collections/metagenomics/v1/corpus.yaml",
   "mode": "strict",
   "strict": true,
-  "promote_logic_source": "vendored-fallback",
+  "promote_logic_source": "agentic_science_builder.release.promote",
   "evidence_parser_source": "scripts.release_gate (gate-owned)",
   "policy": {
     "version": "asbb-content-gate/1.4",
@@ -43,12 +43,12 @@
       "10.5281/"
     ],
     "max_leaves_per_evidence_span": 10,
-    "config_sha256": "ae01e4e04fdb86270787e6803fd494e49f49ad0be8324986434b66cf5e7cd7aa",
-    "implementation_sha256": "e92c291297ed60dc568d1dc5f94a10dee43946f027713002a648e4f807c7206f"
+    "config_sha256": "b0119e2ec7c8a0fd33ce30eac249c4fb658b1fa34a5f866d5622f6bab698c190",
+    "implementation_sha256": "d0e6ced672181e093ee4f3002c7910a5a1bbb982d4e6cebea0150d37fd80562e"
   },
   "binding": {
     "payload": {
-      "sha256": "764edd09d7a9815639495a14dda584a1f6a69f688e06ceb6d755d2ed37d828e6",
+      "sha256": "ba91b2a4e88a12357a59c6921c6c29e673abace460886d47bbb29ea79a1a9899",
       "entries": [
         {
           "path": ".claude-plugin",
@@ -57,7 +57,7 @@
         {
           "path": ".claude-plugin/plugin.json",
           "bytes": 526,
-          "sha256": "3234f7cab03174c8913bed7a1664b45bcaa1f87e19922bd815be618f280d06a7"
+          "sha256": "c6465b1f40f33996e58b97ac34d6c439927bea15bfae74bc6fe568b6ca8a584c"
         },
         {
           "path": ".zenodo.json",
@@ -66,8 +66,8 @@
         },
         {
           "path": "CITATION.cff",
-          "bytes": 697,
-          "sha256": "aad10ee252b533e6effd1d081ba79e0fd5b68ed873c32d9893438ef798512af1"
+          "bytes": 865,
+          "sha256": "f3f095f736fdfa4ac65391447d18239aece616a3850bb7595ae7d8e8998e01d0"
         },
         {
           "path": "bin",
@@ -80,8 +80,8 @@
         },
         {
           "path": "collection.yaml",
-          "bytes": 126470,
-          "sha256": "fa9067f39b73a0fca715af69f5ae421ecdc19e9e5d17f625b0b7dc6f7a4038aa"
+          "bytes": 125767,
+          "sha256": "e434e452306502e8f18b0329749f6c4e32e9a2a3442287963a3fab762fedbf44"
         },
         {
           "path": "corpus.yaml",
@@ -130,8 +130,8 @@
         },
         {
           "path": "leaves/16s-amplicon-profile-correction/SKILL.md",
-          "bytes": 8625,
-          "sha256": "507650b6847420546e78f78146c718dbfc7f23b682811b8d63e7303db9bc7056"
+          "bytes": 8557,
+          "sha256": "732db28bc1b7edf4fe247dd7f81de7ee1efb0d888afbf0741685ac405395be5c"
         },
         {
           "path": "leaves/16s-amplicon-quality-filtering",
@@ -400,8 +400,8 @@
         },
         {
           "path": "leaves/abundance-ranked-taxon-matching/SKILL.md",
-          "bytes": 8207,
-          "sha256": "b7091807281dc934a3a18416ad6be070a6ff15c95130008f972bb658467005f4"
+          "bytes": 8139,
+          "sha256": "8b090f70122cca0f15605c55efc9debc4bb5afd55a67ffa41c14b73199bc065a"
         },
         {
           "path": "leaves/abundance-table-format-validation",
@@ -517,8 +517,8 @@
         },
         {
           "path": "leaves/adaptive-sum-of-powered-score-testing/SKILL.md",
-          "bytes": 7660,
-          "sha256": "7d016848fc3fe6f42425fac78b9f2896e5f24eddfbf5274679a031a4187a33a2"
+          "bytes": 7592,
+          "sha256": "368466ffd909f87b14551a34241e258da9e90a1b56cd7e46bdd028144f08ba15"
         },
         {
           "path": "leaves/additive-log-ratio-compositional-transformation",
@@ -698,7 +698,7 @@
         {
           "path": "leaves/all-vs-all-comparison-pair-count-analysis/SKILL.md",
           "bytes": 7750,
-          "sha256": "feeb835778f0c57d8706ea7847e6367661b6ebe57c8e39a8b91f35b312cf8f8f"
+          "sha256": "c6632ec7db59b51b18d64d554f65a65d9c47f8b643fd7aabd496935a0b38b498"
         },
         {
           "path": "leaves/allele-abundance-estimation",
@@ -850,8 +850,8 @@
         },
         {
           "path": "leaves/alpha-diversity-index-computation/SKILL.md",
-          "bytes": 7403,
-          "sha256": "f7f5982d4fe9ef28efcfa2d0fe951cc10477d1ebdf7a50e46fd50a9087181f95"
+          "bytes": 7335,
+          "sha256": "1f3e2ac65672985c11bc4080452dddf5253692576cbc102f0bde4e3e0b967bcb"
         },
         {
           "path": "leaves/alpha-diversity-index-meta-analysis",
@@ -994,8 +994,8 @@
         },
         {
           "path": "leaves/amplicon-metagenomic-preprocessing/SKILL.md",
-          "bytes": 8229,
-          "sha256": "112042a2fec652cc6b2e6a6fd3bb0ad68ca47464385d12ba26d2decda1531fb0"
+          "bytes": 8161,
+          "sha256": "81bdbf150a2c11ead4a8c9dc5f0e6f029587284155fd74b1d64e0ef96cce828d"
         },
         {
           "path": "leaves/amplicon-metagenomic-read-simulation",
@@ -1030,8 +1030,8 @@
         },
         {
           "path": "leaves/amplicon-otu-clustering-method-comparison/SKILL.md",
-          "bytes": 6983,
-          "sha256": "e1bee608f453d2a94eaedb95e636fbbdbd6c481087c7b5c9deaa0f8e4a7df279"
+          "bytes": 6907,
+          "sha256": "88b61f0c5a03ccd736877c00b370fcfd7350099ca49fe90d18af571d2ffbf6f3"
         },
         {
           "path": "leaves/amplicon-pipeline-combination-enumeration",
@@ -1345,8 +1345,8 @@
         },
         {
           "path": "leaves/assembler-parameter-recipe-execution/SKILL.md",
-          "bytes": 7520,
-          "sha256": "388194b1ff3f007930522d925d54dd3a35b70b8d5a51c9c8e084b2043e46a52b"
+          "bytes": 7450,
+          "sha256": "9a56bbe0ccb8ab5577bf7bbae2f2523a8ce915c9752252aec18cd2a3ab763b2e"
         },
         {
           "path": "leaves/assembler-resource-usage-extraction",
@@ -1354,8 +1354,8 @@
         },
         {
           "path": "leaves/assembler-resource-usage-extraction/SKILL.md",
-          "bytes": 8749,
-          "sha256": "6559b6ba7aa4c1322cb49574a4cac44da2003304716d15d67fa9ba8552d2dec9"
+          "bytes": 8681,
+          "sha256": "b567b58cbda416cf9f27c3c16c37565d4e212fcdb3b9d4e67eb98f987c80c024"
         },
         {
           "path": "leaves/assembler-runtime-and-contig-count-profiling",
@@ -1777,8 +1777,8 @@
         },
         {
           "path": "leaves/bacterial-trait-prediction-from-genome-sequence/SKILL.md",
-          "bytes": 7890,
-          "sha256": "05115111db26f130415ef3ecb2e7072a944fc18abd458b515ead20b4cee3dc98"
+          "bytes": 7814,
+          "sha256": "fa4f9de8315e93433e6abc3ccac12d328cd49db55fda0fa091b6968229a27fa4"
         },
         {
           "path": "leaves/balanced-accuracy-evaluation",
@@ -1939,8 +1939,8 @@
         },
         {
           "path": "leaves/benchmark-assembly-evaluation/SKILL.md",
-          "bytes": 8057,
-          "sha256": "752d80cad21aa6b31de766107364e10e35afee522b6cd5ecab2b960aa9688bb1"
+          "bytes": 7981,
+          "sha256": "362427fc47f09cfdb510a7a4bb92183a4b78e58c1eb76a8252f48dc9cf81434e"
         },
         {
           "path": "leaves/benchmark-count-table-reproduction",
@@ -2236,8 +2236,8 @@
         },
         {
           "path": "leaves/binary-presence-absence-taxon-modeling/SKILL.md",
-          "bytes": 7202,
-          "sha256": "c88640fef02a87a77ceb12ad4ce876f1c75e7ae54809d9cda744ef7f1acfc520"
+          "bytes": 7134,
+          "sha256": "9ef97bc4416671a07a40eed1a4a1c1585da37b7fdb6e63a3961b7eada125f801"
         },
         {
           "path": "leaves/binary-search-range-query",
@@ -2246,7 +2246,7 @@
         {
           "path": "leaves/binary-search-range-query/SKILL.md",
           "bytes": 6537,
-          "sha256": "2534a96c5c7d4a6d1f821cfc83966a284b043e6e96d66793a965665d094f02f7"
+          "sha256": "01beac60e665bcc832225589e01e4b4341f93f08219fc0aa3da897a627898d67"
         },
         {
           "path": "leaves/bioconda-environment-management",
@@ -2308,8 +2308,8 @@
         },
         {
           "path": "leaves/biomass-trend-significance-testing/SKILL.md",
-          "bytes": 7454,
-          "sha256": "60ff9308811979e5d86db13954c4fe55a5fb1812e667d547fd2c8a361155bd6d"
+          "bytes": 7378,
+          "sha256": "9af1b0445e82b146a9d7bc2c9d50457b02749456d7fb9c655c594ffa62a330fc"
         },
         {
           "path": "leaves/biosample-taxonomy-classification",
@@ -2515,8 +2515,8 @@
         },
         {
           "path": "leaves/blast-scored-graph-path-walking/SKILL.md",
-          "bytes": 8077,
-          "sha256": "a77fe1fd424d92e6b2b1b369f31ef2fb238d6c3a587315f1ed3445d64f921092"
+          "bytes": 8007,
+          "sha256": "4d6edcd499b291bc52f4ff1351fe8f1fdd075d917cbc46b91c53e3cd3e6f5fcb"
         },
         {
           "path": "leaves/blast-search-parameter-configuration",
@@ -2668,8 +2668,8 @@
         },
         {
           "path": "leaves/bootstrap-false-positive-rate-estimation/SKILL.md",
-          "bytes": 9617,
-          "sha256": "bb1846f5b4f084353b5b83aef5bba4f91725b7230bab5d4182b8db3bd51ebb1e"
+          "bytes": 9549,
+          "sha256": "9b2ccae595a464f1d32e77a78f59ab9f9627aca7962a6a4c1003e22408c6b61f"
         },
         {
           "path": "leaves/bootstrap-pvalue-network-filtering",
@@ -2677,8 +2677,8 @@
         },
         {
           "path": "leaves/bootstrap-pvalue-network-filtering/SKILL.md",
-          "bytes": 7671,
-          "sha256": "cc6e57a16568d84382fb4018616716044a0b30a2d8ae82c04ff0f33c10a2bfd9"
+          "bytes": 7603,
+          "sha256": "9c5baa01fc25f20185983451ee8b26eda7a4fa563d3837a5a5c2f886111a4d12"
         },
         {
           "path": "leaves/bowtie2-alignment-based-read-classification",
@@ -3019,8 +3019,8 @@
         },
         {
           "path": "leaves/ccmpred-precision-matrix-execution/SKILL.md",
-          "bytes": 7065,
-          "sha256": "2364610dd709552142bd1b426ee28ca309d52cd0fc945ac8d59ce781d1a6ad1a"
+          "bytes": 6997,
+          "sha256": "14dd9c077be895c52841f92e85a906b2d6e01a6e44950e9ada729190165dc0b3"
         },
         {
           "path": "leaves/cd-hit-nucleotide-sequence-clustering",
@@ -3109,8 +3109,8 @@
         },
         {
           "path": "leaves/censored-time-to-event-data-handling/SKILL.md",
-          "bytes": 7907,
-          "sha256": "00dd8ebcc5cb7510ca1be1913fc4ce921b1a6f8ef579e6e74dbf3133f6d6a347"
+          "bytes": 7839,
+          "sha256": "94aab5d675e249c963e3832863e671d10cdf1a905c92a30e8a677332791e9f32"
         },
         {
           "path": "leaves/cgmlst-allele-calling",
@@ -3172,8 +3172,8 @@
         },
         {
           "path": "leaves/checkm2-completeness-contamination-parsing/SKILL.md",
-          "bytes": 7811,
-          "sha256": "9967104387e3cb4c8ff460257b8fbd727c0ef1ef939749158e64ee3228ee71e4"
+          "bytes": 7741,
+          "sha256": "c5369e980177ce50cd1fb45b6c9bc8f7e4a0d1e6802503e32920d1843a5536f1"
         },
         {
           "path": "leaves/checkpoint-based-model-inference",
@@ -3263,7 +3263,7 @@
         {
           "path": "leaves/circular-scaffold-detection/SKILL.md",
           "bytes": 6657,
-          "sha256": "2fbf96cca21c168df36e798cf2e04cace58f31db78ab667c014ca827ea4044a8"
+          "sha256": "f21583871fdd7f4a934c565b439c13347c09d879e97838a09bd11583477eda0c"
         },
         {
           "path": "leaves/clade-exclusion-database-masking",
@@ -3523,8 +3523,8 @@
         },
         {
           "path": "leaves/closed-reference-otu-picking/SKILL.md",
-          "bytes": 5606,
-          "sha256": "3fd7ca3723318581742c28c9866ef611c6c579b71d0fc48d782abf64cd36b01a"
+          "bytes": 5538,
+          "sha256": "2c3b8b1e3b783f524de07089029f5dde42cccfc30dc236286c96ac2a4d4e234b"
         },
         {
           "path": "leaves/cloud-scale-metagenomic-pipeline-execution",
@@ -3956,7 +3956,7 @@
         {
           "path": "leaves/comparative-genomics-cog-profile-classification/SKILL.md",
           "bytes": 8139,
-          "sha256": "85d474b3d8fc29229f06e34a52e63ccc020b807cc545faa3184438f226fefcd3"
+          "sha256": "bcfd2f2bf742befac6e3417fe4fee5814587889fe878e9730b8401b66e8c1db9"
         },
         {
           "path": "leaves/comparative-rna-structural-alignment",
@@ -4000,8 +4000,8 @@
         },
         {
           "path": "leaves/composite-likelihood-ratio-sweep-detection/SKILL.md",
-          "bytes": 7663,
-          "sha256": "64941923c8cdd89939235973e7dc6dca59391050f5747d44a58075e462b9b27f"
+          "bytes": 7595,
+          "sha256": "7a05a3e7f5f273c252c58f27c3acd256f678e1eefc545d082a4b8517dd9483ba"
         },
         {
           "path": "leaves/compositional-correlation-network-construction",
@@ -4009,8 +4009,8 @@
         },
         {
           "path": "leaves/compositional-correlation-network-construction/SKILL.md",
-          "bytes": 10142,
-          "sha256": "70d4a796a92f1611ca184637e9d791afeeb84611d585b05f6357fc77aa0f91a8"
+          "bytes": 9998,
+          "sha256": "5f8d939a9306b006ec910809732903cdfd21ab77d4a2b076d4953ad16dd59456"
         },
         {
           "path": "leaves/compositional-count-data-tool-comparison",
@@ -4108,8 +4108,8 @@
         },
         {
           "path": "leaves/computational-performance-comparison/SKILL.md",
-          "bytes": 7706,
-          "sha256": "74c0f1597df3712870aaf291b2dd4b5d3e0408b76e1d676f9594e1995105505b"
+          "bytes": 7638,
+          "sha256": "7337434b217204d5c0288089d8d4ec7b7f03051fd7d981833168bb805251e8b0"
         },
         {
           "path": "leaves/computational-resource-profiling--2a325271dc0df816",
@@ -4162,8 +4162,8 @@
         },
         {
           "path": "leaves/confusion-matrix-metric-computation--f54439aed9468cc4/SKILL.md",
-          "bytes": 7003,
-          "sha256": "f4fd51d44aa19bc30b205d84812c7fa82f59f140a3d5e0506a4558afa02cadbb"
+          "bytes": 6935,
+          "sha256": "c586f4278001ca55cf9d5ac86dc569feaf9bc1bad2b29b8b6293f6cb05220b71"
         },
         {
           "path": "leaves/conjugate-gradient-optimization",
@@ -4315,8 +4315,8 @@
         },
         {
           "path": "leaves/contig-scaffold-path-tracing-with-median-gap-estimation/SKILL.md",
-          "bytes": 8212,
-          "sha256": "f53c2d76a21da217fba9be9dc1bdc8949ebeadde5761d813bc0fd6f6454cbd95"
+          "bytes": 8136,
+          "sha256": "59f52be8ff004413c8471d352b21bf88ed03b5ce7138df3629c0584fad3745f2"
         },
         {
           "path": "leaves/contig-statistics-calculation",
@@ -4324,8 +4324,8 @@
         },
         {
           "path": "leaves/contig-statistics-calculation/SKILL.md",
-          "bytes": 6585,
-          "sha256": "f97872f7725f26bec25d7b79d6fc1bec250c72185bcc74e72d0e05a93244b8ef"
+          "bytes": 6509,
+          "sha256": "9402630ae8a1435bb3c533f9a8e4a410f6a044f43f240db42ea9e58a126ff86e"
         },
         {
           "path": "leaves/contig-tip-truncation-detection",
@@ -4369,8 +4369,8 @@
         },
         {
           "path": "leaves/continuous-time-covariate-modeling/SKILL.md",
-          "bytes": 9804,
-          "sha256": "c55f2e57cdf7bd6293d7c305e874dafe8915218328c4caae720fd314949e5966"
+          "bytes": 9736,
+          "sha256": "8b2eab6f89725fa62d2c0524f8343a53749636b98f0ee4dfb03e18b4b0f538da"
         },
         {
           "path": "leaves/continuous-time-treatment-effect-detection",
@@ -4378,8 +4378,8 @@
         },
         {
           "path": "leaves/continuous-time-treatment-effect-detection/SKILL.md",
-          "bytes": 7671,
-          "sha256": "16986bfd39089063828f91394e60f97b2c66ba00a7fd9291bc13e97ec33d2555"
+          "bytes": 7603,
+          "sha256": "ce940c52843083d683374faf944f23f11cb7b469840b1ededa0eaea6c7e3c45c"
         },
         {
           "path": "leaves/contrastive-consistency-training-of-clustering-networks",
@@ -4432,8 +4432,8 @@
         },
         {
           "path": "leaves/cooccurrence-association-matrix-aggregation/SKILL.md",
-          "bytes": 7189,
-          "sha256": "7e27ebc516df235d5a256cb61fe9009ea43c17675f0dcc4824edff5368562d3f"
+          "bytes": 7121,
+          "sha256": "8ea616f63d93a240150d5254e03ff571d759c52f498fe458bba58f3ad081de15"
         },
         {
           "path": "leaves/coordinated-noun-phrase-expansion",
@@ -4522,8 +4522,8 @@
         },
         {
           "path": "leaves/correlation-distance-network-construction/SKILL.md",
-          "bytes": 9098,
-          "sha256": "3e6ec1510d45b1b428497694a361871b73e69065f5b52de2fb2fc0280bccc2a1"
+          "bytes": 9030,
+          "sha256": "f3b45e14537abc60a13261f49a7c44dfcbb3ee8453be30d52a1b984972121aff"
         },
         {
           "path": "leaves/correlation-matrix-trimming-and-rendering",
@@ -4594,8 +4594,8 @@
         },
         {
           "path": "leaves/count-data-randomized-control-testing/SKILL.md",
-          "bytes": 7718,
-          "sha256": "b25522c9960d6fdd7f9b7506839d6ee6ac289e1098ce8588525953510c86bcfc"
+          "bytes": 7650,
+          "sha256": "f228ca49d166b81124aa46cde1db357d4cf556dc77e27ed547f4d66f769711be"
         },
         {
           "path": "leaves/counting-bloom-filter-abundance-querying",
@@ -4639,8 +4639,8 @@
         },
         {
           "path": "leaves/covariate-adjusted-linear-regression/SKILL.md",
-          "bytes": 6792,
-          "sha256": "f662ccf41f1aedc65b681a66c9d9bd0599a1990696e1470724c4bc628f83cdee"
+          "bytes": 6724,
+          "sha256": "a20c39e0976158889e1f3750e57963fd48c126008f10e709044530efc2844813"
         },
         {
           "path": "leaves/covariate-adjusted-longitudinal-modeling",
@@ -4666,8 +4666,8 @@
         },
         {
           "path": "leaves/covariate-adjusted-regression-modeling/SKILL.md",
-          "bytes": 8645,
-          "sha256": "eef570900413c6b7aa0dbf85ee8ec75837503107515bcd4a3f80cf81028a200a"
+          "bytes": 8577,
+          "sha256": "384554069d942c9af104d3f663864f62201b2ed2ff95e9c1cf37781beab7d8af"
         },
         {
           "path": "leaves/covariate-confounding-benchmark-design",
@@ -4738,8 +4738,8 @@
         },
         {
           "path": "leaves/coverage-effect-size-edge-weighting/SKILL.md",
-          "bytes": 8084,
-          "sha256": "b2d5c62861bbab289738fe003e3e804ef1cfc4551155f79d9159f4caa96ed7bc"
+          "bytes": 8016,
+          "sha256": "d8e32d4f5b5682d02d67a79278aa34880f7142bb3795c222329e9014e991a77c"
         },
         {
           "path": "leaves/coverage-metrics-tabulation-across-assemblers",
@@ -4972,8 +4972,8 @@
         },
         {
           "path": "leaves/cross-dataset-biomarker-reproducibility-assessment/SKILL.md",
-          "bytes": 7434,
-          "sha256": "bd563f5a4c47ce6af8e4c4d275775640d0efb12e129ceba582c49538987371ab"
+          "bytes": 7366,
+          "sha256": "a62451c1627fe7b34c6ff908d37b25cdf20e67ba77e8d9af83b7d0e606356927"
         },
         {
           "path": "leaves/cross-deposit-output-comparison",
@@ -5449,8 +5449,8 @@
         },
         {
           "path": "leaves/dada2-taxonomy-assignment/SKILL.md",
-          "bytes": 8256,
-          "sha256": "a0824bd3ec668f7c84de7272f436df3d8c9c9a2f019dac54130b4c8bd36caffe"
+          "bytes": 8188,
+          "sha256": "bd52ab9c4bc13f8c8f2bda3fe81ffafc759521fcf36f7678e4c4f5bd03a66ff5"
         },
         {
           "path": "leaves/daf-divergence-table-manipulation",
@@ -5872,8 +5872,8 @@
         },
         {
           "path": "leaves/digital-normalization-of-reads/SKILL.md",
-          "bytes": 6840,
-          "sha256": "784f0bdf22961b9d536da8278f52d409d46b419f267cd6b58529bfff6d951d45"
+          "bytes": 6772,
+          "sha256": "6a56d3955193b2755bdc6d6aa7bd65402c42f80005e5efa65132b41910af6c78"
         },
         {
           "path": "leaves/diploid-genome-assembly",
@@ -5935,8 +5935,8 @@
         },
         {
           "path": "leaves/dirichlet-tree-multinomial-regression/SKILL.md",
-          "bytes": 9065,
-          "sha256": "a6519199bad5f609f3599d12460b68af6647e0a759449b70926369879fd70853"
+          "bytes": 8997,
+          "sha256": "3da0be0fedaf741a3b31f1b7bbf753c38356b69a17d5e855015329bc629b741e"
         },
         {
           "path": "leaves/discordant-read-pair-junction-selection",
@@ -6601,8 +6601,8 @@
         },
         {
           "path": "leaves/fasta-sequence-manipulation/SKILL.md",
-          "bytes": 6367,
-          "sha256": "88e79527070214869d232decb92f86e10ee1aa2facbe7783c57a48cc2cc2f168"
+          "bytes": 6291,
+          "sha256": "d8db0259eade0b1d8f268a02bfb1a93d397360ccdf78087f47e4486711321d5a"
         },
         {
           "path": "leaves/fasta-sequence-output-writing",
@@ -7294,8 +7294,8 @@
         },
         {
           "path": "leaves/gene-list-over-representation-analysis/SKILL.md",
-          "bytes": 8227,
-          "sha256": "ac4ba828d9762ef130a46ff5f0de14e625588bbb31a8435aa79c237a9b439c11"
+          "bytes": 8159,
+          "sha256": "66e7c4c4e67abe3a09ea0f559e9160a3acf1c6a65cc10800649d4ead6560d544"
         },
         {
           "path": "leaves/gene-ontology-annotation-similarity-computation",
@@ -7384,8 +7384,8 @@
         },
         {
           "path": "leaves/gene-set-enrichment-analysis--0b9c684e2f8b21fb/SKILL.md",
-          "bytes": 6894,
-          "sha256": "604b477bcd4d8ee0459c6bdd0c3afe8351f36ccb821f7c441a0f47c0d75711f7"
+          "bytes": 6826,
+          "sha256": "376bf5e0b56d5de4691e2e0e9e69751fe226bf9da9b1da293c16552d95f8bc17"
         },
         {
           "path": "leaves/gene-set-enrichment-analysis--ca662a20c20bbe5a",
@@ -7510,8 +7510,8 @@
         },
         {
           "path": "leaves/genome-completeness-categorization-checkm-prokka/SKILL.md",
-          "bytes": 7963,
-          "sha256": "b5e98f205833bdbcdee9ae157e74660f277352725824bad7f7c726a5c82b0491"
+          "bytes": 7887,
+          "sha256": "c5f09002c0980317eadb62393ef7392c9837e5977d7c965bbf36669868f7bcef"
         },
         {
           "path": "leaves/genome-completeness-contamination-estimation",
@@ -8176,8 +8176,8 @@
         },
         {
           "path": "leaves/ground-truth-precision-sensitivity-evaluation/SKILL.md",
-          "bytes": 7895,
-          "sha256": "d610e97d1afa94c4fc455b410bc20df343907e1a4b910a10e65d45491701b96b"
+          "bytes": 7827,
+          "sha256": "430ea54ff3840cd9374ade2937f35381f5110b388c9cd6ddde38918325aef893"
         },
         {
           "path": "leaves/group-diversity-comparison-visualization",
@@ -8365,8 +8365,8 @@
         },
         {
           "path": "leaves/hazard-ratio-interpretation-microbiome-survival/SKILL.md",
-          "bytes": 7688,
-          "sha256": "c71d53b9fab1e19387877b16b088bcc39da30c1b2d9b78b7f263e6ee874b65fe"
+          "bytes": 7620,
+          "sha256": "2bf817ccb9b5bf63e1903998bca66bf5267f6463b6d8070fbc67cb3041042ee7"
         },
         {
           "path": "leaves/hdf5-reference-matrix-querying",
@@ -8428,8 +8428,8 @@
         },
         {
           "path": "leaves/heterogeneity-variance-estimation-random-effects-meta-analysis/SKILL.md",
-          "bytes": 8180,
-          "sha256": "2a842db127a890ad4710a9d0e1a324a9bd5275974a411549a4823e2cb5ee5f23"
+          "bytes": 8112,
+          "sha256": "c1a260ae8ca20524b71d3b8429914d3287777202f55bedf790a1e74da3dbce34"
         },
         {
           "path": "leaves/heterogeneity-variance-estimation-sj",
@@ -8455,8 +8455,8 @@
         },
         {
           "path": "leaves/hg19-annotation-retrieval/SKILL.md",
-          "bytes": 5530,
-          "sha256": "db7067af37ed19c93bb416218f177f6d36f5fd17a3f91d67203ad20cf2db472b"
+          "bytes": 5462,
+          "sha256": "963d290052f945e59f194c52e5b33229e8320c28110f065f02d9ae821eae904c"
         },
         {
           "path": "leaves/hgt-breakpoint-detection",
@@ -8707,8 +8707,8 @@
         },
         {
           "path": "leaves/hmm-based-protein-classification/SKILL.md",
-          "bytes": 7652,
-          "sha256": "94f1fe1e034f7e535b4ee81b13e79a644d3a813566fdf31fc6d3519d6608d23b"
+          "bytes": 7584,
+          "sha256": "a773f247b679af8b6eab5cc0316fcbd741d8df088099f49d38d54dc053c70029"
         },
         {
           "path": "leaves/hmm-based-rrna-gene-identification",
@@ -9031,8 +9031,8 @@
         },
         {
           "path": "leaves/hybrid-cnn-bert-parallel-fusion-architecture/SKILL.md",
-          "bytes": 8730,
-          "sha256": "bc5454a21c0361d673d79f4ec2f4e94433d8b21bceeeabac89bf74fb77ae516b"
+          "bytes": 8662,
+          "sha256": "972064f0e57bc72a676d79e199374bd0cb058e1cf723011593af7369bc39b1eb"
         },
         {
           "path": "leaves/hybrid-cnn-bert-variant-training",
@@ -9373,8 +9373,8 @@
         },
         {
           "path": "leaves/inter-contig-3d-ratio-estimation/SKILL.md",
-          "bytes": 7166,
-          "sha256": "a27a559f0ce5b96aee3a7e77869226ac9e7d445c8ee8d53c82d4d2f69f195312"
+          "bytes": 7098,
+          "sha256": "d604849b766f313813978e4f11d04909f986abea774c6e117aa067902b51620a"
         },
         {
           "path": "leaves/interactive-html-report-rendering",
@@ -9526,8 +9526,8 @@
         },
         {
           "path": "leaves/isolate-genome-gene-prediction/SKILL.md",
-          "bytes": 7877,
-          "sha256": "c1ded33cede1253419f6dfbeff045610a89635b0bba694a10d6b402273b9fa1f"
+          "bytes": 7801,
+          "sha256": "f81d6133df1dee97718929be2dc38b742e60a1cee4a9e79f3dec106743438de6"
         },
         {
           "path": "leaves/isolate-genome-hit-parsing",
@@ -9616,8 +9616,8 @@
         },
         {
           "path": "leaves/iupac-ambiguity-code-matching/SKILL.md",
-          "bytes": 9081,
-          "sha256": "b6ac9517525b3d167051ddd29a6a829c1ff195284fd3cc62ec044de4fb9b188a"
+          "bytes": 9013,
+          "sha256": "c20ea484d1a92963004b0c63f7e9282f83d8dcfd91aa68c68033eba8185cb7c3"
         },
         {
           "path": "leaves/iupac-degenerate-primer-matching",
@@ -9886,8 +9886,8 @@
         },
         {
           "path": "leaves/kegg-reference-database-mapping/SKILL.md",
-          "bytes": 6549,
-          "sha256": "fd5a3f7c2515bcbb95e1d9f260617155e540de1cd779c1e247818db6c496ce68"
+          "bytes": 6481,
+          "sha256": "914d4c5d99cdba7c1e27c00039eaf4f70a53300a13afaaa9b8abcaea1dab18bc"
         },
         {
           "path": "leaves/kernel-density-smoothing-of-length-histograms",
@@ -10201,8 +10201,8 @@
         },
         {
           "path": "leaves/kmer-minimizer-counting/SKILL.md",
-          "bytes": 7417,
-          "sha256": "593ce2daac30129c936fb64bc84e354297b2c5870e2d2f7445fb87fd0d50d62d"
+          "bytes": 7341,
+          "sha256": "6220284a2afa0a8ab728da79067917837988f0f3e61a7bd7e874ffc97925d9c3"
         },
         {
           "path": "leaves/kmer-minimizer-selection",
@@ -10237,8 +10237,8 @@
         },
         {
           "path": "leaves/kmer-parameter-configuration/SKILL.md",
-          "bytes": 5983,
-          "sha256": "95e0186e6b979911a47d7c2c906eccaad2a0ea40cd7b9507e35beb6a63570902"
+          "bytes": 5913,
+          "sha256": "4ecf568a6052e336b1d779f3f8a409fde2d1429125fb60a1d6187e83a889492f"
         },
         {
           "path": "leaves/kmer-reference-hash-table-construction",
@@ -10804,8 +10804,8 @@
         },
         {
           "path": "leaves/logistic-regression-taxa-snp-association-testing/SKILL.md",
-          "bytes": 6530,
-          "sha256": "240218e62533508d19c0783f97bd68a23341eb24f9d978ea9e7651c86e7a07ab"
+          "bytes": 6462,
+          "sha256": "468356a13741bd746b8223304832eda41db4e37e2a92f230c7c930360d14ce6a"
         },
         {
           "path": "leaves/long-read-alignment-bam-preparation",
@@ -10975,8 +10975,8 @@
         },
         {
           "path": "leaves/longitudinal-covariate-adjustment/SKILL.md",
-          "bytes": 8425,
-          "sha256": "9f4b98002bdb9600e18277b26478d1035c938b28f9afaa304c3bf8833f6a198d"
+          "bytes": 8357,
+          "sha256": "c15c767b3b7986cb653ff956dd86641eacb9289d8c052b4367d5a4e41a2c26c2"
         },
         {
           "path": "leaves/longitudinal-glmm-null-model-testing",
@@ -10984,8 +10984,8 @@
         },
         {
           "path": "leaves/longitudinal-glmm-null-model-testing/SKILL.md",
-          "bytes": 8838,
-          "sha256": "e8676a010c3307842f6d70f1e649346465bf9ea3564746d8641ef42102fe660b"
+          "bytes": 8770,
+          "sha256": "a824b36ab9dd4224c42eded3c059d318a5dc7aef4d927d9e389a0e56547e4c0e"
         },
         {
           "path": "leaves/longitudinal-menses-abundance-change-detection",
@@ -11119,8 +11119,8 @@
         },
         {
           "path": "leaves/mag-abundance-profiling-from-shotgun-reads/SKILL.md",
-          "bytes": 10724,
-          "sha256": "626d554096be75f3e234fe205a315301da8f0eb61d3943e7e79cc2822ea5c460"
+          "bytes": 10656,
+          "sha256": "18cf805acdf3142c92f0280e6db73b595c5b7b0a18f31da7bb125265a27e8e8a"
         },
         {
           "path": "leaves/mag-abundance-quantification",
@@ -11326,8 +11326,8 @@
         },
         {
           "path": "leaves/marker-gene-tree-formatting-and-pruning/SKILL.md",
-          "bytes": 6636,
-          "sha256": "a5cc59211026258f6b7d3ed1df7c7da56a903feea6815d3e60cde928622d75f3"
+          "bytes": 6566,
+          "sha256": "03c2835f5c56e144f782d8c2dd97c1809b4b0adaa87440e523abcd6bce1f2533"
         },
         {
           "path": "leaves/marker-recovery-accuracy-evaluation",
@@ -11453,7 +11453,7 @@
         {
           "path": "leaves/matrix-pivot-transformation/SKILL.md",
           "bytes": 7754,
-          "sha256": "4aa0e79310e4153c1642fcf2d664f8dd3250928b327935d6a9eec4dcf2d2a404"
+          "sha256": "3a456fdd79671fbecd9d112c779a4a6a418eb98ee4345676240a621092b1b8ed"
         },
         {
           "path": "leaves/maximum-likelihood-model-comparison",
@@ -11470,8 +11470,8 @@
         },
         {
           "path": "leaves/maximum-likelihood-phylogenetic-inference/SKILL.md",
-          "bytes": 6565,
-          "sha256": "02c67559848bfc17fc5e05dcf68e0ecb6de7a9d531c448eb58cac26c49cfdd72"
+          "bytes": 6495,
+          "sha256": "0bb2a1b3e34e78144aec13e722d89c716e7c5dbb220fefbcc4acc5b883441e22"
         },
         {
           "path": "leaves/maximum-weight-matching-optimization",
@@ -11911,8 +11911,8 @@
         },
         {
           "path": "leaves/metagenome-wide-association-statistics/SKILL.md",
-          "bytes": 7514,
-          "sha256": "e3b8bd630ecfc772877e3775ab88f649baf87b90ea138b1ad1e1736611cbb934"
+          "bytes": 7446,
+          "sha256": "f39c39f9a0098ac7824928e470adfb5d51621bd789f2678c37d0d6b704e25575"
         },
         {
           "path": "leaves/metagenomic-abundance-aggregation",
@@ -12181,8 +12181,8 @@
         },
         {
           "path": "leaves/metagenomic-contig-binning--aa6be0a34a35d65a/SKILL.md",
-          "bytes": 7238,
-          "sha256": "f9f3c8865bd9d9b74afb14cc1fc522b78bab3fd426ccbdc6d7950232b5ee6565"
+          "bytes": 7170,
+          "sha256": "cdeb884b30482d9912c2b0c7955bcf62312110a473a884b13669430670552048"
         },
         {
           "path": "leaves/metagenomic-contig-classification",
@@ -12217,8 +12217,8 @@
         },
         {
           "path": "leaves/metagenomic-contig-extension/SKILL.md",
-          "bytes": 8842,
-          "sha256": "a917f5bb93159e509c869681805656781226c67cb896da89f4a2c039769877dd"
+          "bytes": 8774,
+          "sha256": "6ed3df25f5778da69dd3afe999b0f9da292b85ae071b25bb7e29d2a12e0de23f"
         },
         {
           "path": "leaves/metagenomic-contig-taxonomy-annotation",
@@ -12262,8 +12262,8 @@
         },
         {
           "path": "leaves/metagenomic-de-novo-assembly/SKILL.md",
-          "bytes": 6599,
-          "sha256": "eb832faa2414455b1dcd6032798cbb2de943982c68e98fb28064a3381d678ff1"
+          "bytes": 6523,
+          "sha256": "756fb8b9587ae08856f4936e5f3eb51c5be9a4acbc01079cc1aa3d726e568de4"
         },
         {
           "path": "leaves/metagenomic-differential-abundance-analysis",
@@ -12766,8 +12766,8 @@
         },
         {
           "path": "leaves/metagenomic-read-quality-trimming/SKILL.md",
-          "bytes": 5996,
-          "sha256": "63df37794eca2e50b4327f053140050d9a16cf10a1e81a2e99af42ac3ec77a38"
+          "bytes": 5928,
+          "sha256": "4920a0626a63ed51205c29113a79c024a99d2d886b2e62c9466e9c9a7f310de7"
         },
         {
           "path": "leaves/metagenomic-read-query-execution",
@@ -12982,8 +12982,8 @@
         },
         {
           "path": "leaves/metagenomic-short-read-mapping/SKILL.md",
-          "bytes": 6976,
-          "sha256": "045c72e544d656d7ae67480daae76d285a8bcfc1985f4bad1affaf07a2bd1f21"
+          "bytes": 6900,
+          "sha256": "71fc4ccb0470f06edbb08adbf778ff7bf87f7771956b69be0365ffd0804a335d"
         },
         {
           "path": "leaves/metagenomic-shotgun-read-simulation",
@@ -13054,8 +13054,8 @@
         },
         {
           "path": "leaves/metagenomic-taxonomic-profiling/SKILL.md",
-          "bytes": 8260,
-          "sha256": "12f596204278ad3d36defd399bb1a55d922e5d90fdebc92f1a63388270adb473"
+          "bytes": 8192,
+          "sha256": "ee1b6701231f98706926abcaf77e673095948696c858c7899809fab2910df539"
         },
         {
           "path": "leaves/metagenomic-taxonomy-profiling-of-rna-seq-reads",
@@ -13405,8 +13405,8 @@
         },
         {
           "path": "leaves/microbiome-alpha-diversity-marker-combination/SKILL.md",
-          "bytes": 8457,
-          "sha256": "b3574e8f3c9ef7127c509dcf1eebf4016f3bda7f57d51f6ffe1cc48df7653dd4"
+          "bytes": 8389,
+          "sha256": "7c1fa1ccfadfbb9a4e3eb30f211926aa6fc91e25c72d1d82e4ad651bddea4f92"
         },
         {
           "path": "leaves/microbiome-beta-diversity-jaccard-computation",
@@ -13522,8 +13522,8 @@
         },
         {
           "path": "leaves/microbiome-functional-profile-visualization/SKILL.md",
-          "bytes": 7182,
-          "sha256": "0739f6bd542285747efb3191b66d56cebf178f7bba72944a36bbb7116af53d07"
+          "bytes": 7106,
+          "sha256": "16fe9edac9bbe5dd459c28b0069a9c2837843fb2023e8a5fec1b8d787439dec2"
         },
         {
           "path": "leaves/microbiome-genotype-association-analysis",
@@ -13603,8 +13603,8 @@
         },
         {
           "path": "leaves/microbiome-otu-compositional-normalization/SKILL.md",
-          "bytes": 6499,
-          "sha256": "37121449903d869c4bf30f5cf94112bfceb1cbfbfa847fdb462da63b9bf45cf7"
+          "bytes": 6423,
+          "sha256": "52f67d4d765e06b5057301cd4dc20654932106a3572c02f4613b164044019b93"
         },
         {
           "path": "leaves/microbiome-otu-data-simulation",
@@ -13666,8 +13666,8 @@
         },
         {
           "path": "leaves/microbiome-relative-abundance-modeling/SKILL.md",
-          "bytes": 9320,
-          "sha256": "91b2440c22da0fbf26dd28365491e8fa54728ce015462b09b54d029559696d18"
+          "bytes": 9252,
+          "sha256": "92da8ea0b7c8508d90a3f8f7f383ec1b3f160f0812a865a1b076b000e1a35f99"
         },
         {
           "path": "leaves/microbiome-sample-metadata-extraction",
@@ -13900,8 +13900,8 @@
         },
         {
           "path": "leaves/minimum-p-value-statistic-testing/SKILL.md",
-          "bytes": 6374,
-          "sha256": "4a1ca99451f40cf09fda89f3c397b30caa2ae203f6c12cd218ef477e6099683c"
+          "bytes": 6306,
+          "sha256": "1d782dd7524243a325d324f498144313f225fd6380fc5a249736208028d6d85a"
         },
         {
           "path": "leaves/minimum-pvalue-adaptive-hypothesis-testing",
@@ -13927,8 +13927,8 @@
         },
         {
           "path": "leaves/minpath-pathway-reconstruction/SKILL.md",
-          "bytes": 5622,
-          "sha256": "d9c1bc15977e1dac2b04644cb3a90a4f44465d1fa9daadc0f8fda935b51f0592"
+          "bytes": 5554,
+          "sha256": "5ef44997442cb61da03c35076327bf128850a56baaf21796c129dfe36d02c663"
         },
         {
           "path": "leaves/misassembly-detection-from-alignment-breakpoints",
@@ -13999,8 +13999,8 @@
         },
         {
           "path": "leaves/mixed-effects-microbiome-statistics/SKILL.md",
-          "bytes": 6973,
-          "sha256": "9d3ad29b370a544eb7544a87cddf646c0b246fe8c6977487c3bd18d1623932c9"
+          "bytes": 6905,
+          "sha256": "1d96f3a7d488da0229382d9285a1e844983b4cb0a89d8e8f901c8681db010aff"
         },
         {
           "path": "leaves/mixed-effects-model-fitting-region-random-effects",
@@ -14287,8 +14287,8 @@
         },
         {
           "path": "leaves/mock-community-scaffold-completeness-evaluation/SKILL.md",
-          "bytes": 7750,
-          "sha256": "af3b45caa5018dc00d996f01dba158792c24b5d58cdd429dc1420357c8838611"
+          "bytes": 7680,
+          "sha256": "f572fade3cfab2633491d6e3ab8d25b4640f41c8fa3a39e92d48215d4603aafe"
         },
         {
           "path": "leaves/mock-community-species-benchmarking",
@@ -14566,8 +14566,8 @@
         },
         {
           "path": "leaves/multi-marker-covariance-weighted-pooling/SKILL.md",
-          "bytes": 8449,
-          "sha256": "a55d8c1f340e6009f65998cf136faa49df9089e5b2d74a153dee94eac2787ff3"
+          "bytes": 8381,
+          "sha256": "31e38e0e06137f51862bf8e8654b0e1e359aec75c91b533a0feb51ccc69a49de"
         },
         {
           "path": "leaves/multi-marker-summary-statistics-meta-analysis",
@@ -14603,7 +14603,7 @@
         {
           "path": "leaves/multi-omics-cross-tabulation-analysis/SKILL.md",
           "bytes": 7459,
-          "sha256": "3c046d311880d9a0cca6713939fbc7b22726db55545b89f2c9c27107e7efb2c7"
+          "sha256": "05556ee04f138766f68e8312fa45080f2021e37d76cd92e2bbb03b985feb35a3"
         },
         {
           "path": "leaves/multi-panel-figure-visualization",
@@ -14827,8 +14827,8 @@
         },
         {
           "path": "leaves/multiple-testing-pvalue-adjustment/SKILL.md",
-          "bytes": 7912,
-          "sha256": "5fda812f3fc6e4ca42307d88e1f3a7a78aa40b1665e8366e3d46e496c41518a5"
+          "bytes": 7844,
+          "sha256": "70b2ed302e93e2eab919496194e8fe002a3c99a98414919fdabed97d68bfcd66"
         },
         {
           "path": "leaves/multiple-testing-pvalue-correction",
@@ -14908,8 +14908,8 @@
         },
         {
           "path": "leaves/mycobacterial-drug-resistance-prediction/SKILL.md",
-          "bytes": 9178,
-          "sha256": "3f688b2cfb53de2a551037f6c8bbb0446d503b366930f9710ddf180ec0cec233"
+          "bytes": 9110,
+          "sha256": "30844e6eb4f2cea686699bdfada0a1f06300718e9387e1abba9789db19521295"
         },
         {
           "path": "leaves/mycobacterial-genome-read-simulation",
@@ -14944,8 +14944,8 @@
         },
         {
           "path": "leaves/mycobiome-clinical-variable-mapping/SKILL.md",
-          "bytes": 6893,
-          "sha256": "6d8af70bdd5e31da9789335ef8991aaad511e17fbc5f33263c4fcd8d1bb1ae42"
+          "bytes": 6825,
+          "sha256": "8088b8622718ddcdba77283c962aecfaef836fb1b751226fb3764a56351435ff"
         },
         {
           "path": "leaves/mykrobe-output-parsing",
@@ -14998,8 +14998,8 @@
         },
         {
           "path": "leaves/nanopore-adapter-trimming/SKILL.md",
-          "bytes": 6217,
-          "sha256": "44f33485f9c578932370e5b35046ba88a4733f804333ee6efa14bd353f90497e"
+          "bytes": 6149,
+          "sha256": "44fae3282f0e0e55ade1fd71274f345ff4640de02c49937ee3fd46d4333ecd20"
         },
         {
           "path": "leaves/nanopore-long-read-to-short-read-conversion",
@@ -15295,8 +15295,8 @@
         },
         {
           "path": "leaves/nf-core-module-scaffolding/SKILL.md",
-          "bytes": 6454,
-          "sha256": "80f4dc1604ccb635393add101594cd08eac0848c669f4571578de0bae4dce84e"
+          "bytes": 6378,
+          "sha256": "9068c44a07eba1d7695f134a4f2ebb72be03ba3552d6cd02d3b7ab08166e6140"
         },
         {
           "path": "leaves/ngs-read-window-decomposition",
@@ -15376,8 +15376,8 @@
         },
         {
           "path": "leaves/noncoding-region-detection-in-protein-alignments/SKILL.md",
-          "bytes": 6881,
-          "sha256": "c810885072298ac8fd637f69b9a65ca8520f0e3d3181de4134af9357d71fb3ed"
+          "bytes": 6813,
+          "sha256": "281be6fa01d8b20f6b50b1c04c2b50c2ae304a7c311242934d193db4ce3cc46f"
         },
         {
           "path": "leaves/nonparametric-effect-size-estimation",
@@ -15772,8 +15772,8 @@
         },
         {
           "path": "leaves/orf-depth-gene-abundance-quantification/SKILL.md",
-          "bytes": 7462,
-          "sha256": "83800e54e8ce18044f0b7bd6c64b65bfd736e2d9e47c577a332c4e415c394ec2"
+          "bytes": 7392,
+          "sha256": "fc962f15b955343d38ad90bdf4e5083e98bd2ff77382dfb422ee51f3dbf08044"
         },
         {
           "path": "leaves/orf-frame-branching-error-correction",
@@ -16006,8 +16006,8 @@
         },
         {
           "path": "leaves/overlap-score-threshold-filtering/SKILL.md",
-          "bytes": 7169,
-          "sha256": "480f38efb8f565dc6e499ef62fb94183c902c0471c1138410d45df18a9d927bb"
+          "bytes": 7023,
+          "sha256": "1e069e72889b6604af41225b11c51e12bb00bd52051622e407a108170f4b1171"
         },
         {
           "path": "leaves/overlap-threshold-parameter-tuning",
@@ -16088,7 +16088,7 @@
         {
           "path": "leaves/paired-end-fastq-mate-handling/SKILL.md",
           "bytes": 6969,
-          "sha256": "d386a6693d33f50d4328cef8b353317fe4dde226f8b1150f2dfe42b8389db2eb"
+          "sha256": "28dce37580de0144dc263f5019738c4a81b694e3cec4d60ae957f0580c8c6768"
         },
         {
           "path": "leaves/paired-end-fastq-mate-synchronization",
@@ -16456,8 +16456,8 @@
         },
         {
           "path": "leaves/parallel-command-line-pipeline-execution/SKILL.md",
-          "bytes": 7622,
-          "sha256": "823c7d55c32896fdd7f0e31da8cbea4c34874dd4addbe65afbbde81379fa6945"
+          "bytes": 7554,
+          "sha256": "133595900bedd31ab1bf9979bbd1e293d35684a5b47fd0fba83e8bdc205ccf73"
         },
         {
           "path": "leaves/parallel-pipeline-execution-24-core",
@@ -16817,7 +16817,7 @@
         {
           "path": "leaves/per-sample-depth-calibration/SKILL.md",
           "bytes": 7037,
-          "sha256": "2feeb1fbb2a948a17bb35af72b057fc4a905f64a33a1bc4ff2e8f9cad186649e"
+          "sha256": "1d9ad2317da08ea7804c8454f1777ab62e3c10b85233aa429048a91e001afa52"
         },
         {
           "path": "leaves/per-sample-gene-count-aggregation",
@@ -16951,8 +16951,8 @@
         },
         {
           "path": "leaves/permutation-based-pvalue-estimation/SKILL.md",
-          "bytes": 6395,
-          "sha256": "ba8986d004e1d7dfdc8ef7f9eb9b81132554606e90a83f1aee6f5d98d7f36ce9"
+          "bytes": 6327,
+          "sha256": "3293624a951439373f9e6d126790b206c4a6255f6b6e7b80e6dc5d10ffc122ed"
         },
         {
           "path": "leaves/permutation-based-threshold-testing",
@@ -17032,8 +17032,8 @@
         },
         {
           "path": "leaves/phage-lambda-control-read-removal/SKILL.md",
-          "bytes": 7127,
-          "sha256": "ede4ba4bbf8dc5115575f0f16be6cc57939200e129b67a595964fcc39e04d4a3"
+          "bytes": 7051,
+          "sha256": "bb4ce30fdb1d7e07be7f2fc2233723280a3c35cc76fc4bc12fff70bd3b4fb3b7"
         },
         {
           "path": "leaves/phage-microdiversity-visualization",
@@ -17257,8 +17257,8 @@
         },
         {
           "path": "leaves/phylogenetic-gcn-correction/SKILL.md",
-          "bytes": 8721,
-          "sha256": "4496c8983031769cbad571c384c4b411495acb74a1b0a3dc460dbd5127a6a08c"
+          "bytes": 8645,
+          "sha256": "08c0c6be29676034bd577c20512ea83b8459ab14025674cd1a79353565e4249c"
         },
         {
           "path": "leaves/phylogenetic-independent-contrasts-ancestral-state-estimation",
@@ -17653,8 +17653,8 @@
         },
         {
           "path": "leaves/population-phylogeny-inference-treemix/SKILL.md",
-          "bytes": 8860,
-          "sha256": "e3145228364b509ac2ccbcc3d8ab6ce55df54ec25f5ffe306c31a54accc4007c"
+          "bytes": 8784,
+          "sha256": "4301f20a0c57b6f3d322b09caca08ab7cb415cb216dbf0323045288c4f93f3cd"
         },
         {
           "path": "leaves/positive-control-benchmark-validation",
@@ -17770,8 +17770,8 @@
         },
         {
           "path": "leaves/prevalence-based-taxon-assignment/SKILL.md",
-          "bytes": 7646,
-          "sha256": "d4c4146e195cfd26a5b10af3a62a7ce243923c0c613d662609b56a8fb0245a8b"
+          "bytes": 7570,
+          "sha256": "ca804202ab8096e46ebabe8b6951600a467b9c208a6cb33945c3174e2b929513"
         },
         {
           "path": "leaves/primer-degeneracy-expansion",
@@ -17824,8 +17824,8 @@
         },
         {
           "path": "leaves/probabilistic-confidence-score-implementation/SKILL.md",
-          "bytes": 7755,
-          "sha256": "37e34a899bda47e9d64683dceddcafb2c69cf8d35499c32fbf8773030b4062d0"
+          "bytes": 7687,
+          "sha256": "f3e34ee89ebd5521483825a8235f607267811f2a66f330ecbc8a9fbee0873c6e"
         },
         {
           "path": "leaves/probability-threshold-classification-of-scaffolds",
@@ -17950,8 +17950,8 @@
         },
         {
           "path": "leaves/proportional-read-redistribution-across-taxonomy/SKILL.md",
-          "bytes": 7217,
-          "sha256": "16ca827852243e52c103edc533b212eebe384d1f776f76d0b8edea4901767665"
+          "bytes": 7149,
+          "sha256": "39d2214e1e264691a3ae407f6e65940a39e8fac761f18782ed46062f2479d32d"
         },
         {
           "path": "leaves/protein-accession-pathway-linking",
@@ -18112,8 +18112,8 @@
         },
         {
           "path": "leaves/protein-guided-nucleotide-alignment-execution/SKILL.md",
-          "bytes": 8274,
-          "sha256": "4792e3068f9676047de48be444526d038b53e28734b39625faa73c5773ac8050"
+          "bytes": 8206,
+          "sha256": "4755d1305f73704a2c29daa828bc1a60bbc6d37027ad6f0006d4dacc7a8b21f0"
         },
         {
           "path": "leaves/protein-kmer-family-scoring",
@@ -18382,8 +18382,8 @@
         },
         {
           "path": "leaves/pytorch-transformer-encoder-implementation/SKILL.md",
-          "bytes": 7512,
-          "sha256": "e9a70bf246797c99f4ceaed6ff10d59376b0b8a806e1b1636ac8bd71a218abe9"
+          "bytes": 7444,
+          "sha256": "8cb88109c4983ad48f927fb2cf5f8f751687430858ffca597bf67e55dafe5ceb"
         },
         {
           "path": "leaves/q-matrix-interactive-visualization",
@@ -18463,8 +18463,8 @@
         },
         {
           "path": "leaves/qpcr-total-abundance-correction/SKILL.md",
-          "bytes": 7933,
-          "sha256": "e8ee43e75b1328ac7e521044aa9b3abc410cca99de8ef43e9c2af3f90ffa81f5"
+          "bytes": 7857,
+          "sha256": "10cfb0ad85cb88e97e947e8bba9cf45f4cc9b5c209b480155317e0e559f6fa8d"
         },
         {
           "path": "leaves/qq-plot-pvalue-diagnostics-interpretation",
@@ -18706,8 +18706,8 @@
         },
         {
           "path": "leaves/r-data-frame-annotation-wrangling/SKILL.md",
-          "bytes": 7034,
-          "sha256": "6a44c257cf1bf18f9939b06f864e8be043fede09fb10490ecfc32db965d8f0a6"
+          "bytes": 6966,
+          "sha256": "8f39c65345c71d8119056e4856524895c3465bcc47d3c33528b9ce3656c5bf92"
         },
         {
           "path": "leaves/r-example-data-loading-and-manipulation",
@@ -18814,8 +18814,8 @@
         },
         {
           "path": "leaves/random-effects-meta-analysis/SKILL.md",
-          "bytes": 7398,
-          "sha256": "a3c7a7ae2314f9325e104c04e4b954b633c17680b9e9bc941cbc26cae2700da9"
+          "bytes": 7330,
+          "sha256": "9d2a0ecc4bc973b868fd43147ba08348e552ae0c4b47e7325e426eb22560fb2f"
         },
         {
           "path": "leaves/random-effects-meta-analysis-of-taxa-estimates",
@@ -18823,8 +18823,8 @@
         },
         {
           "path": "leaves/random-effects-meta-analysis-of-taxa-estimates/SKILL.md",
-          "bytes": 8176,
-          "sha256": "a88caed59496b55a370c951c369a6b157d6880fd67eba01c2144c821e549d75e"
+          "bytes": 8108,
+          "sha256": "519a52ee4b539f3a3fa7e78de190387b2f2d84f1a8e960b1a869bc8f89ffd54d"
         },
         {
           "path": "leaves/random-effects-meta-analysis-pvalue-computation",
@@ -18859,8 +18859,8 @@
         },
         {
           "path": "leaves/random-genome-subset-sampling/SKILL.md",
-          "bytes": 7157,
-          "sha256": "5b9fd0be3ff59a2f0bd50477ae9077921da24ab84d9ea0515a73bf13c9085232"
+          "bytes": 7089,
+          "sha256": "87c4c99cffca1d48c43f4b81279b1ad55c76a58918660600cc37a6144db809aa"
         },
         {
           "path": "leaves/random-survival-forest-modeling",
@@ -19660,8 +19660,8 @@
         },
         {
           "path": "leaves/ribosomal-protein-inventory-annotation/SKILL.md",
-          "bytes": 6099,
-          "sha256": "7382ea5509ca9d16326bccb8316288bbca4acb8f39c9c3f4bd88577bcf19175b"
+          "bytes": 6031,
+          "sha256": "ddbab5de21e8acd9029f73e4c1e7bb51901365e99f05777ccad7d97659ced0ed"
         },
         {
           "path": "leaves/ribosomal-rna-filtering",
@@ -19796,7 +19796,7 @@
         {
           "path": "leaves/rrna-alignment-gap-curation/SKILL.md",
           "bytes": 6997,
-          "sha256": "2bba55f22320c592f1552233406d892c9b9156327cfc69c64687fd45352a324a"
+          "sha256": "27a887e148cd195eb12a35ea9ed5a0b6409decc42299e47fbe29dcef7df2c53b"
         },
         {
           "path": "leaves/rrna-insertion-prevalence-comparison",
@@ -19813,8 +19813,8 @@
         },
         {
           "path": "leaves/rrna-insertion-sequence-removal/SKILL.md",
-          "bytes": 6636,
-          "sha256": "20a8061fa96bdf67d39a21a4864a0ec8fdcec6c124108161634509f3cbaf9632"
+          "bytes": 6566,
+          "sha256": "21e5dc75c23eb42b4ca244519eb1934bcabb57ba9f1b1cb0dffa43fdc41f77ea"
         },
         {
           "path": "leaves/rrna-mrna-abundance-comparison",
@@ -20182,8 +20182,8 @@
         },
         {
           "path": "leaves/seasonal-backscatter-statistics-derivation/SKILL.md",
-          "bytes": 8210,
-          "sha256": "55639d5823a8b9f48475ef9284ddc7f16c5f2d6a5cde55ceb56635193e1ec50b"
+          "bytes": 8140,
+          "sha256": "98a2d511f5e9c4fc4c6e792231159ece3156cd8b0f90bd0892fd46cc621f0b68"
         },
         {
           "path": "leaves/seasonal-pattern-identification-in-omics-time-series",
@@ -20668,8 +20668,8 @@
         },
         {
           "path": "leaves/sex-chromosome-hemizygosity-verification/SKILL.md",
-          "bytes": 7583,
-          "sha256": "565538f75c6139006ea735950db3e815d61a3d858a0e9a5a5b711c67422af9ba"
+          "bytes": 7513,
+          "sha256": "cabb640a3face52e0100cfd7ab19294beb2220b8ed357f3f6728289b60688b3a"
         },
         {
           "path": "leaves/shared-host-edge-threshold-optimization",
@@ -20839,8 +20839,8 @@
         },
         {
           "path": "leaves/short-read-quality-trimming--534731b241401dae/SKILL.md",
-          "bytes": 6416,
-          "sha256": "f3aed7a36499f502a67ed2ee5497484d462c98ea57eb410ba32f6136feabaec8"
+          "bytes": 6340,
+          "sha256": "c0078fbc718c23d77ec70cfc7c867a61d5c8009c5740d52555c7b6da4e73819e"
         },
         {
           "path": "leaves/short-read-quality-trimming--5349220210118df8",
@@ -20992,8 +20992,8 @@
         },
         {
           "path": "leaves/shotgun-metagenomic-pileup-processing/SKILL.md",
-          "bytes": 7237,
-          "sha256": "4145d3be6e2b5a3f743fa4bec19d43faec7e01e647eecb562f2ab683387eedb9"
+          "bytes": 7167,
+          "sha256": "b20dc84a3c048ed60cf820c2ff5bdd46b3a71be21a306496ab0800a103b416e3"
         },
         {
           "path": "leaves/shotgun-metagenomics-rrna-read-extraction",
@@ -21019,8 +21019,8 @@
         },
         {
           "path": "leaves/sign-voting-thresholding-across-networks/SKILL.md",
-          "bytes": 6841,
-          "sha256": "536ca321bcc78d88c6cb6589d0eacc89e42dfe3d7a6c1fe52ace23924e722532"
+          "bytes": 6773,
+          "sha256": "04cf8b7e56268cb4556365b32c9f7afe47bee7410ea47158f14f01fce70030bd"
         },
         {
           "path": "leaves/signal-event-z-score-normalization",
@@ -21046,8 +21046,8 @@
         },
         {
           "path": "leaves/signature-gene-multiple-sequence-alignment/SKILL.md",
-          "bytes": 9070,
-          "sha256": "b0d6718a36beb7ac2948c6f52e280bd2285d4c72a248a13f262485c2a59d1429"
+          "bytes": 8994,
+          "sha256": "eddcbc5be6dc748b1e6bc13a0b39c8f3e47feaaf9fcd946e7e6ccbc2d3cb7792"
         },
         {
           "path": "leaves/signature-gene-selection-from-gene-count-matrices",
@@ -21154,8 +21154,8 @@
         },
         {
           "path": "leaves/similarity-network-fusion-input-preparation/SKILL.md",
-          "bytes": 6115,
-          "sha256": "922745dbb4977d323de2fa58ccd2d8718744115bf4526fe682dd6c1d95e16f3e"
+          "bytes": 6047,
+          "sha256": "a7ca72183e0f5d0f9347efd36713447f05a0b0163e78db02e0ded0a63a42d1f1"
         },
         {
           "path": "leaves/similarity-network-integration",
@@ -21298,8 +21298,8 @@
         },
         {
           "path": "leaves/simulation-based-power-and-type-i-error-estimation/SKILL.md",
-          "bytes": 7149,
-          "sha256": "503f41e516e808b461051f7b5ae7d9c03e58498647b21b28a06c18f55fbbf4b1"
+          "bytes": 7081,
+          "sha256": "b730c1749a583f28b9e78f5725f2fa0977a33210e3fe4bf3972cedfa1b066327"
         },
         {
           "path": "leaves/simulation-based-type-i-error-estimation",
@@ -21703,8 +21703,8 @@
         },
         {
           "path": "leaves/sparse-inclusion-prior-configuration/SKILL.md",
-          "bytes": 7465,
-          "sha256": "9896a6760a4f40f1debac4e7f5cf735559f7e1c13721c3bab23526871efd7320"
+          "bytes": 7389,
+          "sha256": "321a92ba2e8e3eaa04ad79335bb9fc09bd1585603f3c970e4ab6ac227afdceb9"
         },
         {
           "path": "leaves/sparse-marker-gene-count-simulation",
@@ -21838,8 +21838,8 @@
         },
         {
           "path": "leaves/species-abundance-profiling/SKILL.md",
-          "bytes": 6294,
-          "sha256": "5b7e493af91cad5c17c9c3c7a35fec1380df903918ae5a67b03c9a34a1b3e4f8"
+          "bytes": 6226,
+          "sha256": "f26971620ea3e984b8725551a5e6c4b3444c786791bd62d58b5c9aa7bc7a1c17"
         },
         {
           "path": "leaves/species-abundance-variance-explained-analysis",
@@ -21983,7 +21983,7 @@
         {
           "path": "leaves/spike-in-coverage-peak-library-construction/SKILL.md",
           "bytes": 7292,
-          "sha256": "870b562716e82ab5f4717ba737575644a33f07ac1f895177740adfbe351c88a1"
+          "sha256": "2dcc0b2302a8409f2989b5f4cc73fca013687995b50cc353d092ab072a35e3d9"
         },
         {
           "path": "leaves/spike-in-ground-truth-accuracy-evaluation",
@@ -22135,8 +22135,8 @@
         },
         {
           "path": "leaves/ssu-rrna-taxonomic-classification/SKILL.md",
-          "bytes": 8857,
-          "sha256": "761fc12c379cd8f0b741b0768eb3b85ed36c1e6f7cf9e4fce4b8f20d119166c8"
+          "bytes": 8789,
+          "sha256": "04994adbde95d2bf9dc3269783a2191be7eebf5489a21ebd9a043186c388ac82"
         },
         {
           "path": "leaves/stacked-bar-trajectory-visualization",
@@ -22432,8 +22432,8 @@
         },
         {
           "path": "leaves/stratified-cohort-analysis-by-breastfeeding-duration/SKILL.md",
-          "bytes": 8823,
-          "sha256": "26067739c2af53e631ed46f23613974b3bca2f0ba2bbaf3532dd40e1e0cc375e"
+          "bytes": 8755,
+          "sha256": "e0fa1e76d0bb2643c7192096ba245e068c94077eda5365fae6fc763bcda3d415"
         },
         {
           "path": "leaves/streamlit-multi-page-app-generation",
@@ -22756,8 +22756,8 @@
         },
         {
           "path": "leaves/synthetic-microbiome-abundance-simulation/SKILL.md",
-          "bytes": 8339,
-          "sha256": "213c7fb155ad99f409f14066b1c16a127c62390b7c736162a977639fefa7ad46"
+          "bytes": 8271,
+          "sha256": "eb14b65beae74fc184f20963a109c53cae42ac4fc3fe7bd21f927e7613200ab3"
         },
         {
           "path": "leaves/synthetic-mixture-generation-from-emp-samples",
@@ -22855,8 +22855,8 @@
         },
         {
           "path": "leaves/tabular-result-summarization/SKILL.md",
-          "bytes": 6502,
-          "sha256": "3c64d7da5b23ba2f933b09e1277757208477de58ff9a9128a23a266650f7b5af"
+          "bytes": 6426,
+          "sha256": "18e02cfacc6a193fbf1b22aa6619bf24e46129d92d71163f9f50d7320949c2f1"
         },
         {
           "path": "leaves/tantan-masking-ablation-comparison",
@@ -22909,8 +22909,8 @@
         },
         {
           "path": "leaves/taxa-snp-linear-regression-qtl-mapping/SKILL.md",
-          "bytes": 7358,
-          "sha256": "cc719a0b20862778366b9b25ed4e903d6628d9fe691daacf8028cebfb20f0cc0"
+          "bytes": 7290,
+          "sha256": "d584574e2620766ef193583bcaf798f83ce71bd5a6a7574560d6b37e3c6649a0"
         },
         {
           "path": "leaves/taxa-taxa-correlation-product-analysis",
@@ -22927,8 +22927,8 @@
         },
         {
           "path": "leaves/taxon-count-vector-validation/SKILL.md",
-          "bytes": 6030,
-          "sha256": "fe41489c9c8c926440dc481f853d1aa688fc9ccdb01a19f0c9920ac0d404501b"
+          "bytes": 5962,
+          "sha256": "3072cda1e031fe4034e8d07f46779590846625253d9652b574ef07c2457ce312"
         },
         {
           "path": "leaves/taxon-level-differential-abundance-analysis",
@@ -22954,8 +22954,8 @@
         },
         {
           "path": "leaves/taxonomic-abundance-profiling--1ede441ac36160b0/SKILL.md",
-          "bytes": 7970,
-          "sha256": "fafcd0c379a81909880668376dbfbd2cdd9e5b50b49992b7daa5976b228551fe"
+          "bytes": 7902,
+          "sha256": "87a8918e202eaa6a9bf685f643fd343df44b96a09f088d98e31b277f5ad46e21"
         },
         {
           "path": "leaves/taxonomic-abundance-profiling--70913070f9b818e2",
@@ -23000,7 +23000,7 @@
         {
           "path": "leaves/taxonomic-description-text-mining/SKILL.md",
           "bytes": 8836,
-          "sha256": "f79e2c2dbf0d6edc579d25feb98ea274817609c103c0e0b5c3f22f6f745cd66f"
+          "sha256": "5c49472210faaa5641d178f4ed50427d93fee302f26e50f109316b0e170dacde"
         },
         {
           "path": "leaves/taxonomic-distribution-aggregation",
@@ -23152,8 +23152,8 @@
         },
         {
           "path": "leaves/taxonomic-rank-pruning-and-count-propagation/SKILL.md",
-          "bytes": 7379,
-          "sha256": "5b99f710c660ffac76459ae8a95dadf28a0f51b4a43d6cdc1a316b7767d37a9f"
+          "bytes": 7311,
+          "sha256": "fc57d95f370f69e78ce897175daa59ade187a538ee4cd1b22df3c07830189aa7"
         },
         {
           "path": "leaves/taxonomic-rank-tally-validation",
@@ -23269,8 +23269,8 @@
         },
         {
           "path": "leaves/tensorflow-1d-cnn-model-training/SKILL.md",
-          "bytes": 7247,
-          "sha256": "238249ed8e4b37f9a739b2dc46340f5c5dc7f061fc2a3e5fb6d6ad8f7890a2b9"
+          "bytes": 7179,
+          "sha256": "0819054f9daa93fe3ecdf0da1d6a888d311b5c91d1168097bc49789e377bf48b"
         },
         {
           "path": "leaves/term-list-based-value-extraction",
@@ -23278,8 +23278,8 @@
         },
         {
           "path": "leaves/term-list-based-value-extraction/SKILL.md",
-          "bytes": 7755,
-          "sha256": "d57bb653d7331f016df36f5cdd0c69ce9359248b4124dc6726e43d2c830c0d57"
+          "bytes": 7687,
+          "sha256": "16fdaee0c683a27de0df78f5a3708027444270049c07846517a4f98e94902258"
         },
         {
           "path": "leaves/term-list-driven-output-formatting",
@@ -23333,7 +23333,7 @@
         {
           "path": "leaves/tfidf-feature-normalization/SKILL.md",
           "bytes": 7104,
-          "sha256": "15aa686e1012dd724e6a50a0a58c35f5d598d14de39f561ca29494238d1b8285"
+          "sha256": "6cd4cc49fdcaf47357e33ed2a0abf6d5c40e3aff5a7f27b573d98ab23f6bd723"
         },
         {
           "path": "leaves/tga-codon-role-classification",
@@ -23530,8 +23530,8 @@
         },
         {
           "path": "leaves/translated-nucleotide-protein-homology-search/SKILL.md",
-          "bytes": 7576,
-          "sha256": "71a5b6d3b7dc987d8aa89714a9118cc97b30304543963b0daf7ded5becd74218"
+          "bytes": 7508,
+          "sha256": "45137803fbbf56beb6b287efdaca3aabfe91ad5d28f5fc8bdacba337892800b0"
         },
         {
           "path": "leaves/translated-nucleotide-to-protein-alignment-scoring",
@@ -23575,8 +23575,8 @@
         },
         {
           "path": "leaves/transposase-integrase-annotation-filtering/SKILL.md",
-          "bytes": 7352,
-          "sha256": "600af58a2fea3785c40c0367e6f61b696741019a03742ce7894333b60f0a4d7a"
+          "bytes": 7284,
+          "sha256": "8127afd89ed0dd53310b2bcae3e8d0da3e0e79d74a03b9b53685b81f4df1a593"
         },
         {
           "path": "leaves/treatment-group-comparison-statistics",
@@ -23683,8 +23683,8 @@
         },
         {
           "path": "leaves/u-curve-area-under-mixing-curve-calculation/SKILL.md",
-          "bytes": 7338,
-          "sha256": "f34417afbd69af1d221b48f1c5e28d1e566c774b85b53acb0906f6cc9f8fd302"
+          "bytes": 7262,
+          "sha256": "4c0af8c8aebd8b384c6f80e302975f332ae3055920f86d18666c5a242d612f59"
         },
         {
           "path": "leaves/u-curve-visualization",
@@ -23692,8 +23692,8 @@
         },
         {
           "path": "leaves/u-curve-visualization/SKILL.md",
-          "bytes": 7081,
-          "sha256": "c18f07f0faf9e3e456bd9bf9876bf0ceb07dfb4be2f5adff82074b8354e78c08"
+          "bytes": 7005,
+          "sha256": "dcfca39b854bc1b2985b83486df8cd4383e4977354e8d54a039f1ce16ffc4927"
         },
         {
           "path": "leaves/ultrafast-bootstrap-support-assessment",
@@ -23701,8 +23701,8 @@
         },
         {
           "path": "leaves/ultrafast-bootstrap-support-assessment/SKILL.md",
-          "bytes": 7320,
-          "sha256": "22daf08d74a90e98099e9590fd37837e0f759f40cf77d737b090d35b2622d44a"
+          "bytes": 7244,
+          "sha256": "fee53e111760be9e1868b3fcf31190d5882dd50c17ce903ff6ae7c895931e9db"
         },
         {
           "path": "leaves/ungapped-local-alignment-filtering",
@@ -23926,8 +23926,8 @@
         },
         {
           "path": "leaves/variant-call-validation-with-happy/SKILL.md",
-          "bytes": 7564,
-          "sha256": "6ab8902e3d9975d3fd383206290471fa629fee6620ca38719c5541049bb6f8ec"
+          "bytes": 7494,
+          "sha256": "ad0dfbac8c1f3a5e0b0eaa9169f4a4eb14433728feb4af77e1fe0f400042760b"
         },
         {
           "path": "leaves/variant-caller-benchmark-comparison--26dd927480b828a1",
@@ -23989,8 +23989,8 @@
         },
         {
           "path": "leaves/vcf-to-plink-bed-conversion/SKILL.md",
-          "bytes": 6093,
-          "sha256": "edb468e313c399b43aa88a52b4e1fbfb765b7fb7c8df7fb67a735b479832dc35"
+          "bytes": 6025,
+          "sha256": "023c06592bffaf2b171ebbdeb193272b7fa00ccb55944ad5d8cfede4001ce0e5"
         },
         {
           "path": "leaves/vcf-to-treemix-input-conversion",
@@ -24061,8 +24061,8 @@
         },
         {
           "path": "leaves/viral-contig-binning-evaluation/SKILL.md",
-          "bytes": 7371,
-          "sha256": "db201db6b7fe589dbeba2d50bbf9a6241cf47f56b2957479150a2192a7932130"
+          "bytes": 7303,
+          "sha256": "8639e14fbd4b961ea7f46b1a97cc1db697d790990bd2a606d4e62fc3f5d5da44"
         },
         {
           "path": "leaves/viral-contig-binning-hic-data",
@@ -24304,8 +24304,8 @@
         },
         {
           "path": "leaves/viral-metagenomic-read-abundance-quantification/SKILL.md",
-          "bytes": 7612,
-          "sha256": "b70831f1af52dd980186907fa7428910ea6e619bde02235ba5142db816e0309f"
+          "bytes": 7542,
+          "sha256": "30d427ffedbb88062196bc37f7946ce7411a17a581759a16252b79b7aa3f146a"
         },
         {
           "path": "leaves/viral-metagenomic-read-simulation",
@@ -24314,7 +24314,7 @@
         {
           "path": "leaves/viral-metagenomic-read-simulation/SKILL.md",
           "bytes": 6179,
-          "sha256": "53d4fce7a964dee6b02b85a4bbcb1913a45a6a71846a5fbe46186909bbd2c6b9"
+          "sha256": "b69fa52b91f367a51d6be6f3566d0ed14db64fafd3f3fc6570281051e62f8bb6"
         },
         {
           "path": "leaves/viral-metagenomic-taxonomic-profiling",
@@ -24736,8 +24736,8 @@
         },
         {
           "path": "leaves/whole-genome-alignment-variant-comparison/SKILL.md",
-          "bytes": 8173,
-          "sha256": "06dd19df653d712858975de6f02c399f72ab446b156dc670a45cc331acb7a97a"
+          "bytes": 8097,
+          "sha256": "5cf5ad1de6aa241bd15b4a249dbad3314263f9fabb5330bac43a580a0d257a52"
         },
         {
           "path": "leaves/wilcoxon-discovery-replication-differential-abundance",
@@ -24903,8 +24903,8 @@
         },
         {
           "path": "skills_index.json",
-          "bytes": 2375631,
-          "sha256": "85ac20aa61600318140435af35e5c7c68e4acccb3cddc601e099c86a30032964"
+          "bytes": 2370392,
+          "sha256": "aae7d3977f0f9656a249da395996aac58ef0479e9ab84c396754b00674c0469e"
         },
         {
           "path": "tools",
@@ -28944,5 +28944,5 @@
       "coverage": {}
     }
   ],
-  "receipt_sha256": "c7675a0272e34aa4ca3b738d3c53feab3aae03ae0b39d17f5c1b72515f4486cd"
+  "receipt_sha256": "fcf5e6f38b21b69babbc1d8f998423c940b91a537940adea9f2a4d31c27c5f45"
 }
