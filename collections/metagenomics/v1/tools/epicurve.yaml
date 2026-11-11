@@ -11,8 +11,10 @@ source_repos:
 - https://github.com/IamKDO/EpiCurve
 - https://github.com/FordeGenomics/cathai
 schema_version: 0.2.0
-license_tier: unknown
-license: null
-license_detection: null
-license_subject: null
+entry_kind: software
+license_tier: open
+license: LGPL-3.0-only
+license_detection: cran-package
+license_subject: tool
+license_evidence: https://cran.r-project.org/package=EpiCurve
 repo_url: https://github.com/IamKDO/EpiCurve

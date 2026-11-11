@@ -17,8 +17,10 @@ source_repos:
 - https://github.com/zacherydickson/HUBDesign
 - https://github.com/compmetagen/micca
 schema_version: 0.2.0
+entry_kind: software
 license_tier: unknown
 license: null
 license_detection: null
 license_subject: null
-repo_url: https://github.com/eggleader/cSupB
+license_evidence: null
+repo_url: null

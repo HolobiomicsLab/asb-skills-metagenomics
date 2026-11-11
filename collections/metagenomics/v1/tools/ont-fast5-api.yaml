@@ -10,8 +10,10 @@ derived_from:
 source_repos:
 - https://github.com/cvdelannoy/baseLess
 schema_version: 0.2.0
-license_tier: unknown
-license: null
-license_detection: null
-license_subject: null
-repo_url: https://github.com/cvdelannoy/baseLess
+entry_kind: software
+license_tier: open
+license: MPL-2.0
+license_detection: bioconda-package
+license_subject: tool
+license_evidence: https://anaconda.org/bioconda/ont-fast5-api
+repo_url: https://github.com/nanoporetech/ont_fast5_api

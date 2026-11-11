@@ -23,8 +23,10 @@ source_repos:
 - https://github.com/bbuchfink/diamond
 - https://github.com/cmmr/VirMAP
 schema_version: 0.2.0
-license_tier: unknown
-license: null
-license_detection: null
-license_subject: null
-repo_url: https://github.com/oschakoory/RiboTaxa
+entry_kind: software
+license_tier: open
+license: BSD-3-Clause-LBNL
+license_detection: reviewed-map
+license_subject: tool
+license_evidence: https://raw.githubusercontent.com/BioInfoTools/BBMap/HEAD/license.txt
+repo_url: null

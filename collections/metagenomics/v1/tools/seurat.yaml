@@ -10,8 +10,10 @@ derived_from:
 source_repos:
 - https://github.com/nasqar/NASQAR
 schema_version: 0.2.0
-license_tier: unknown
-license: null
-license_detection: null
-license_subject: null
-repo_url: https://github.com/nasqar/NASQAR
+entry_kind: software
+license_tier: open
+license: MIT
+license_detection: reviewed-map
+license_subject: tool
+license_evidence: https://raw.githubusercontent.com/satijalab/seurat/HEAD/DESCRIPTION
+repo_url: https://github.com/satijalab/seurat

@@ -12,8 +12,10 @@ source_repos:
 - https://github.com/blue-moon22/pal-MEM
 - https://github.com/blue-moon22/palidis4
 schema_version: 0.2.0
+entry_kind: software
 license_tier: unknown
 license: null
 license_detection: null
 license_subject: null
-repo_url: https://github.com/blue-moon22/pal-MEM
+license_evidence: null
+repo_url: null

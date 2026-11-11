@@ -14,8 +14,10 @@ source_repos:
 - https://github.com/cafferychen777/ggpicrust2
 - https://github.com/picrust/picrust2
 schema_version: 0.2.0
-license_tier: unknown
-license: null
-license_detection: null
-license_subject: null
-repo_url: https://github.com/cafferychen777/ggpicrust2
+entry_kind: software
+license_tier: open
+license: GPL-3.0-only
+license_detection: bioconda-package
+license_subject: tool
+license_evidence: https://anaconda.org/bioconda/picrust2
+repo_url: https://github.com/picrust/picrust2

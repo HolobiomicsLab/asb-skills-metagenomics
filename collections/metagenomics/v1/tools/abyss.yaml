@@ -16,8 +16,10 @@ source_repos:
 - https://github.com/B-UMMI/LMAS
 - https://github.com/ablab/quast
 schema_version: 0.2.0
-license_tier: unknown
-license: null
-license_detection: null
-license_subject: null
+entry_kind: software
+license_tier: open
+license: GPL-3.0-only
+license_detection: bioconda-package
+license_subject: tool
+license_evidence: https://anaconda.org/bioconda/abyss
 repo_url: https://github.com/BirolLab/abyss
