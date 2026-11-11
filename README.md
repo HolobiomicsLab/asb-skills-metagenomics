@@ -30,7 +30,7 @@ This repository holds the metagenomics skill collection of AgenticScienceBuilder
 
 | Path | Title | Skills | Tools | Released | DOI |
 |---|---|---|---|---|---|
-| `collections/metagenomics/v1` | ASB Metagenomics Skill Collection v1 | 2754 | 717 | 2026-11-09 | [10.5281/zenodo.24093087](https://doi.org/10.5281/zenodo.24093087) |
+| `collections/metagenomics/v1` | ASB Metagenomics Skill Collection v1 | 2754 | 717 | 2026-11-10 | [10.5281/zenodo.24122106](https://doi.org/10.5281/zenodo.24122106) |
 
 ## Status
 
