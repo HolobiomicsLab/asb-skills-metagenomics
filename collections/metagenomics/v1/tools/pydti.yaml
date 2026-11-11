@@ -11,8 +11,10 @@ source_repos:
 - https://github.com/stephenliu0423/PyDTI
 - https://github.com/liudan111/ILMF-VH
 schema_version: 0.2.0
+entry_kind: software
 license_tier: unknown
 license: null
 license_detection: null
 license_subject: null
-repo_url: https://github.com/stephenliu0423/PyDTI
+license_evidence: null
+repo_url: null

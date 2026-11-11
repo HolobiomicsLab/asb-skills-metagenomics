@@ -10,8 +10,10 @@ derived_from:
 source_repos:
 - https://github.com/Multiomics-Analytics-Group/vuegen
 schema_version: 0.2.0
-license_tier: unknown
-license: null
-license_detection: null
-license_subject: null
-repo_url: https://github.com/Multiomics-Analytics-Group/vuegen
+entry_kind: software
+license_tier: open
+license: MIT
+license_detection: pypi-package
+license_subject: tool
+license_evidence: https://pypi.org/project/quarto-cli/
+repo_url: https://www.github.com/quarto-dev/quarto-cli

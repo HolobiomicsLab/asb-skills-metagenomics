@@ -17,8 +17,10 @@ source_repos:
 - https://github.com/fethalen/Patchwork
 - https://github.com/meringlab/FlashWeave.jl
 schema_version: 0.2.0
-license_tier: unknown
-license: null
-license_detection: null
-license_subject: null
-repo_url: https://github.com/fethalen/Patchwork
+entry_kind: software
+license_tier: open
+license: MIT
+license_detection: reviewed-map
+license_subject: tool
+license_evidence: https://raw.githubusercontent.com/JuliaLang/julia/HEAD/LICENSE.md
+repo_url: https://github.com/JuliaLang/julia

@@ -23,8 +23,10 @@ source_repos:
 - https://github.com/ablab/quast
 - https://github.com/RChGO/VMGC
 schema_version: 0.2.0
-license_tier: unknown
-license: null
-license_detection: null
-license_subject: null
-repo_url: https://github.com/ManichanhLab/FunOMIC
+entry_kind: software
+license_tier: open
+license: MIT
+license_detection: bioconda-package
+license_subject: tool
+license_evidence: https://anaconda.org/bioconda/busco
+repo_url: https://gitlab.com/ezlab/busco

@@ -10,8 +10,10 @@ source_repos:
 - https://github.com/hms-dbmi/UpSetR
 - https://github.com/phelelani/nf-rnaSeqMetagen
 schema_version: 0.2.0
-license_tier: unknown
-license: null
-license_detection: null
-license_subject: null
+entry_kind: software
+license_tier: open
+license: MIT
+license_detection: cran-package
+license_subject: tool
+license_evidence: https://cran.r-project.org/package=UpSetR
 repo_url: https://github.com/hms-dbmi/UpSetR

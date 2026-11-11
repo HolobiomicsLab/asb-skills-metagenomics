@@ -14,8 +14,10 @@ source_repos:
 - https://github.com/Russel88/MAGinator
 - https://github.com/leylabmpi/SynTracker
 schema_version: 0.2.0
+entry_kind: software
 license_tier: unknown
 license: null
 license_detection: null
 license_subject: null
-repo_url: https://github.com/Russel88/MAGinator
+license_evidence: null
+repo_url: null

@@ -22,8 +22,10 @@ source_repos:
 - https://github.com/hzi-bifo/traitar
 - https://github.com/MrOlm/instrain
 schema_version: 0.2.0
-license_tier: unknown
-license: null
-license_detection: null
-license_subject: null
-repo_url: https://github.com/Nimauric/Mapler
+entry_kind: software
+license_tier: open
+license: LicenseRef-Matplotlib
+license_detection: reviewed-map
+license_subject: tool
+license_evidence: https://raw.githubusercontent.com/matplotlib/matplotlib/HEAD/LICENSE/LICENSE
+repo_url: https://github.com/matplotlib/matplotlib

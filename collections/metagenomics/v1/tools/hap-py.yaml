@@ -12,8 +12,10 @@ source_repos:
 - https://github.com/Illumina/hap.py
 - https://github.com/nicolaprezza/ebwt2InDel
 schema_version: 0.2.0
-license_tier: unknown
-license: null
-license_detection: null
-license_subject: null
+entry_kind: software
+license_tier: open
+license: BSD-2-Clause
+license_detection: bioconda-package
+license_subject: tool
+license_evidence: https://anaconda.org/bioconda/hap.py
 repo_url: https://github.com/Illumina/hap.py

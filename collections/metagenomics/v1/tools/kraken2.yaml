@@ -46,8 +46,10 @@ source_repos:
 - https://github.com/deng-lab/viroprofiler
 - https://github.com/bglindner/SourceApp
 schema_version: 0.2.0
-license_tier: unknown
-license: null
-license_detection: null
-license_subject: null
-repo_url: https://github.com/genomicepidemiology/ARGprofiler
+entry_kind: software
+license_tier: open
+license: MIT
+license_detection: reviewed-map
+license_subject: tool
+license_evidence: https://raw.githubusercontent.com/DerrickWood/kraken2/HEAD/LICENSE
+repo_url: https://github.com/DerrickWood/kraken2

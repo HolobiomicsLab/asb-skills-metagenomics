@@ -13,8 +13,10 @@ source_repos:
 - https://github.com/Russel88/MAGinator
 - https://github.com/Russel88/MAGinator.git
 schema_version: 0.2.0
-license_tier: unknown
-license: null
-license_detection: null
-license_subject: null
+entry_kind: software
+license_tier: open
+license: MIT
+license_detection: pypi-package
+license_subject: tool
+license_evidence: https://pypi.org/project/maginator/
 repo_url: https://github.com/Russel88/MAGinator
