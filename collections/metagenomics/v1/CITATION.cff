@@ -3,8 +3,8 @@ message: If you use this collection, please cite it as below.
 title: ASB Metagenomics Skill Collection v1
 abstract: 'ASB Metagenomics: 2754 evidence-grounded skills collected from a consolidated literature cut with local retrieval.'
 version: '1'
-doi: 10.5281/zenodo.24122106
-date-released: '2026-11-10'
+doi: 10.5281/zenodo.24224628
+date-released: '2026-11-14'
 license: CC-BY-4.0
 url: https://github.com/HolobiomicsLab/asb-skills-metagenomics
 type: dataset
@@ -18,6 +18,9 @@ keywords:
 - metagenomics
 - scientific skills
 identifiers:
+- type: doi
+  value: 10.5281/zenodo.24224628
+  description: Zenodo version DOI of v1.1.0 (2026-11-14)
 - type: doi
   value: 10.5281/zenodo.24122106
   description: Zenodo version DOI of v1.0.1 (2026-11-10)
