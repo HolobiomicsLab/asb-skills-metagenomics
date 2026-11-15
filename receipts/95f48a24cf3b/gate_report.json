@@ -1,6 +1,6 @@
 {
   "schema": "asbb-release-gate/1.1",
-  "generated_at": "2026-11-14T21:14:13.874682+00:00",
+  "generated_at": "2026-11-15T16:48:58.895038+00:00",
   "collection_dir": "collections/metagenomics/v1",
   "corpus_path": "collections/metagenomics/v1/corpus.yaml",
   "mode": "strict",
@@ -54,7 +54,7 @@
   },
   "binding": {
     "payload": {
-      "sha256": "329cc48986b4cac8cb3ad52f6670657df6c557bb4f9f73039363f7f351127cb9",
+      "sha256": "9e22665f4a0fa14111ecacf79aa03d5e507500cb3c1022b47759c8c8325883e9",
       "entries": [
         {
           "path": ".claude-plugin",
@@ -67,8 +67,8 @@
         },
         {
           "path": ".zenodo.json",
-          "bytes": 2571,
-          "sha256": "71b30789425e43cf77ca877e48c27085feb3c9281d87e713329961dd4ba200c8"
+          "bytes": 2723,
+          "sha256": "36b8a26b29159790d4d711546e7b361d1256427c75a82d07f2b13b3e48bd2c1e"
         },
         {
           "path": "CITATION.cff",
@@ -81,8 +81,8 @@
         },
         {
           "path": "bin/report_issue.py",
-          "bytes": 44558,
-          "sha256": "91a8606109067b015cd6d1af497b12f82149cc2b4aa9fcdabb67984201eee197"
+          "bytes": 44518,
+          "sha256": "fc5f56dc586aa6bb28d4930ce4170204633cdcc0f70ade2221b3c1db79ae5d4d"
         },
         {
           "path": "bin/search_skills.py",
@@ -24909,8 +24909,8 @@
         },
         {
           "path": "skills/_router/SKILL.md",
-          "bytes": 4304,
-          "sha256": "ac767895754fe78994f41656b5123c5da5e11cbc6886654789d3b3aca2ea64e5"
+          "bytes": 4296,
+          "sha256": "66ff6c7920dbb70a9eaf657f26e3a33425be9097f550a3b56fdefc218a18b2cc"
         },
         {
           "path": "skills_index.json",
@@ -28526,8 +28526,8 @@
         },
         {
           "path": "workflows/_workflow_router/SKILL.md",
-          "bytes": 4719,
-          "sha256": "5463a8b98d7e727a467c9f0f3cb7cf6849064d3707377a06464045d1f86e6af3"
+          "bytes": 4711,
+          "sha256": "3b0e657425ea06952054619e0021759ff07d5a92e46beb2d701cae1886d92f7c"
         },
         {
           "path": "workflows/assembly-mag-quality-taxonomy",
@@ -28960,5 +28960,5 @@
       "coverage": {}
     }
   ],
-  "receipt_sha256": "fd0d82cc392af8c805b784d102cb23aa28c688d981ad8830a0580636ed60fa85"
+  "receipt_sha256": "d9d6671ce7623961e46873b399ff22b6635b2e3781b1e12f89fa9bc62f55220a"
 }
